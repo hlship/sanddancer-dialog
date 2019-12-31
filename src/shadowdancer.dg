@@ -1,0 +1,88 @@
+(story title)   Shadowdancer
+(story author)  Howard M. Lewis Ship, Aaron Reed
+(story ifid)    30CF2E4C-2C18-11EA-B63C-5B1952E6E634
+
+(current player #knock)
+
+%% Regions
+
+(room *(around the tower $))
+(room *(office interior $))
+
+(tower vicinity $Room)
+    (around the tower $Room) (or)
+    (office interior $Roo)m
+
+
+%% Initial layout of the map:
+
+%% around the tower region:
+
+#middle-of-nowhere
+(around the tower *)
+(name *) Middle of Nowhere
+(#knock is #in *)
+(from * go #north to #crumbling-concrete)
+(from * go #south to #backtracking)
+%% (link * #north to #crumbling-concrete)
+%% (link * #south to #backtracking)
+
+#crumbling-concrete
+(around the tower *)
+(name *) Crumbling Concrete
+(from * go #south to #middle-of-nowhere)
+(from * go #north to #base-of-tower)
+(from * go #east to #weed-strewn-rust)
+(from * go #in to #staging-area)
+%% (link * #north to #base-of-tower)
+%% (link * #east to #weed-strewn-rust)
+
+#base-of-tower
+(around the tower *)
+(name *) Base of the Tower
+(from * go #south to #crumbling-concrete)
+(from * go #southeast to #weed-strewn-rust)
+%% (link * #southeast to #weed-strewn-rust)
+
+#backtracking
+(around the tower *)
+(name *) Backtracking
+(from * go #north to #middle-of-nowhere)
+
+#weed-strewn-rust
+(around the tower *)
+(name *) Weed Strewn Rust
+
+(from * go #west to #crumbling-concrete)
+(from * go #northwest to #base-of-tower)
+
+%% office interior region
+
+#staging-area
+(office interior *)
+(name *) Staging Area
+(from * go #out to #crumbling-concrete)
+(from * go #north to #foremans-office)
+(from * go #east to #break-room)
+
+#foremans-office
+(office interior *)
+(name *) Foreman's Office
+(from * go #south to #staging-area)
+
+#break-room
+(office interior *)
+(name *) Break Room
+(from * go #west to #staging-area)
+(from * go #north to #storage-room)
+
+#storage-room
+(office interior *)
+(name *) Storage Room
+(from * go #south to #break-room)
+(from * go #up to #roof)
+
+#roof
+(room *) %% Not in a region!
+(name *) Roof
+(from * go #down to #storage-room)

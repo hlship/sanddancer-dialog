@@ -1,0 +1,3 @@
+{:story-sources ["src/shadowdancer.dg"]
+ :library-sources ["lib/room-connections.dg"
+                   "/usr/local/share/dialog-if/stdlib.dg"]}
