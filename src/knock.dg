@@ -1,0 +1,16 @@
+(current player #knock)
+
+#cigarettes
+(item *)
+(name *) pack of cigarettes
+(* is #heldby #knock)
+
+#lighter
+(item *)
+(name *) lighter
+(* is #heldby #knock)
+
+#jacket
+(wearable *)
+(name *) denim jacket
+(* is #wornby #knock)

@@ -1,0 +1,20 @@
+(story title)   Sand-dancer
+(story author)  Aaron Reed and Howard M. Lewis Ship
+(story ifid)    30CF2E4C-2C18-11EA-B63C-5B1952E6E634
+
+%% Temporary hack
+
+((item $) is handled) %% Force all objects to be listed by Dialog
+
+%% Regions
+
+(room *(office interior $))
+
+(room *(around the tower $))
+
+(tower vicinity $Room)
+    (around the tower $Room) (or)
+    (office interior $Roo)m
+
+
+

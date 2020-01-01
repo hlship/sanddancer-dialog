@@ -1,0 +1,61 @@
+
+%% around the tower region
+
+#middle-of-nowhere
+(around the tower *)
+(name *) Middle of Nowhere
+(#knock is #in *)
+(link * #south to #backtracking)
+(link * #north to #crumbling-concrete)
+(link * #south to #backtracking)
+
+#crumbling-concrete
+(around the tower *)
+(name *) Crumbling Concrete
+(link * #in to #staging-area)
+(link * #north to #base-of-tower)
+(link * #east to #weed-strewn-rust)
+
+#base-of-tower
+(around the tower *)
+(name *) Base of the Tower
+(link * #southeast to #weed-strewn-rust)
+
+#backtracking
+(around the tower *)
+(name *) Backtracking
+
+#weed-strewn-rust
+(around the tower *)
+(name *) Weed Strewn Rust
+
+
+#tumbleweed
+(scenery *)
+(name *) tumbleweed
+(dict *) tumble weed
+(* is handled) %% Force it to be listed, temporary
+(* is #in #base-of-tower)
+
+#rusty-can
+(item *)
+(name *) rusty tin can
+(* is handled) %% Force it to be listed, temporary
+(* is #in #base-of-tower)
+
+#saguro
+(scenery *)
+(name *) tall saguro
+(dict *) cactus
+(* is #in #middle-of-nowhere)
+
+#weeds
+(scenery *)
+(name *) some yellowing weeds
+(* is hidden)
+(* is #in #weed-strewn-rust)
+
+#tower
+(scenery *)
+(name *) huge electrical tower
+(* is #in #base-of-tower)

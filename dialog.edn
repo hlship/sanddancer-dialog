@@ -1,3 +1,7 @@
-{:story-sources ["src/shadowdancer.dg"]
+{:story-sources ["src/sand-dancer.dg"
+                 "src/knock.dg"
+                 "src/tower.dg"
+                 "src/office.dg"]
  :library-sources ["lib/room-connections.dg"
+                   "lib/scenery.dg"
                    "/usr/local/share/dialog-if/stdlib.dg"]}

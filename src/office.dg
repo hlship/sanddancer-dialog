@@ -1,0 +1,55 @@
+
+%% office interior region
+
+#staging-area
+(office interior *)
+(name *) Staging Area
+(link * #north to #foremans-office)
+(link * #east to #break-room)
+
+#foremans-office
+(office interior *)
+(name *) Foreman's Office
+
+#break-room
+(office interior *)
+(name *) Break Room
+(link * #north to #storage-room)
+
+#storage-room
+(office interior *)
+(name *) Storage Room
+(link * #up to #roof)
+
+#roof
+(room *) %% Not in a region!
+(name *) Roof
+
+%% Objects
+
+#desk
+(item *)
+(supporter *)
+(name *) half-collapsed desk
+(* is #in #foremans-office)
+
+#key
+(item *)
+(name *) rusted key
+(* is #on #desk)
+
+%% TODO: items in/on other items are invisible, should be listed
+
+#cage
+(item *)
+(name *) wire mesh cage
+(container *)
+(openable *)
+(fine where it is *)
+(* is closed)
+(* is #in #break-room)
+
+#blanket
+(item *)
+(name *) emergency blanket
+(* is #in #cage)
