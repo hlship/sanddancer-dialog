@@ -31,6 +31,14 @@
 (item *)
 (supporter *)
 (name *) half-collapsed desk
+(fine where it is *)
+(* is #in #foremans-office)
+
+#newspapers
+(item *)
+(name *) scattered newspapers
+(dict *) news paper
+(plural *)
 (* is #in #foremans-office)
 
 #key
@@ -53,3 +61,12 @@
 (item *)
 (name *) emergency blanket
 (* is #in #cage)
+
+#wastepaper-basket
+(item *)
+(container *)
+(name *) wastepaper basket
+(* is open) 
+(fine where it is *)
+(* is #in #foremans-office)
+

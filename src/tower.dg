@@ -1,6 +1,18 @@
 
 %% around the tower region
 
+%% First, a bit about plants.
+
+%% Temporary: plants are items so that they appear in room descriptions.
+
+(item *(plant $))
+%% Plants are generally alive, unless specifically dead
+@($ is alive)    ~($ is dead)
+
+%% Plants are scenery-like, and aren't to be moved.
+(fine where it is (plant $))
+
+
 #middle-of-nowhere
 (around the tower *)
 (name *) Middle of Nowhere
@@ -29,9 +41,15 @@
 (around the tower *)
 (name *) Weed Strewn Rust
 
+#withered-cactus
+(plant *)
+(* is dead)
+(name *) withered cactus
+(* is #in #backtracking)
 
 #tumbleweed
-(scenery *)
+(plant *)
+(* is dead)
 (name *) tumbleweed
 (dict *) tumble weed
 (* is handled) %% Force it to be listed, temporary
@@ -43,14 +61,15 @@
 (* is handled) %% Force it to be listed, temporary
 (* is #in #base-of-tower)
 
-#saguro
-(scenery *)
-(name *) tall saguro
+#saguaro
+(plant *)
+(name *) tall Saguaro
 (dict *) cactus
 (* is #in #middle-of-nowhere)
 
 #weeds
-(scenery *)
+(plant *)
+(* is dead)
 (name *) some yellowing weeds
 (* is hidden)
 (* is #in #weed-strewn-rust)
