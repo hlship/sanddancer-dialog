@@ -12,18 +12,13 @@
 (name *) Foreman's Office
 (look *)
     This must have been the foreman's office for whatever this building was about.
-    A half collapsed desk sits against a wall
-    (if) (#newspapers is pristine)
-    (then)
-        , and some faded newspapers are scattered on the floor
-    (endif)
-    .
+    A half collapsed desk sits against a wall.
     (if) (#flashlight is pristine)
     (then)
         Mixed among the chaos is an old flashlight.
     (endif)
     %% TODO: list anything visible on the desk
-(#desk/#newspapers/#flashlight is #in *)
+(#desk/#flashlight is #in *)
 
 #break-room
 (office interior *)
@@ -49,12 +44,6 @@
 #desk
 (supporter *)
 (name *) half-collapsed desk
-
-#newspapers
-(item *)
-(name *) scattered newspapers
-(dict *) news paper
-(plural *)
 
 #key
 (item *)

@@ -12,5 +12,14 @@
     (around the tower $Room) (or)
     (office interior $Room)
 
+%% Utilities
 
+%% (is-are $) is passed a list and outputs 'is' or 'are'
+%% this is used, for example, when describing the contents of
+%% a container or supporter.
 
+(is-are [$Item])
+    is 
+
+(is-are $List)
+    are
