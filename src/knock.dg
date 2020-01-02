@@ -18,10 +18,12 @@
         Now that you've got your bearings a little, a smoke does sound nice.
     (endif)
 (* is #heldby #knock)
+(your *)
 
 #jacket
 (wearable *)
 (name *) denim jacket
+(your *)
 (* is #wornby #knock)
 
 %% Knock has memories
