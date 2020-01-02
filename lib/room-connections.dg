@@ -1,10 +1,52 @@
+%% Lots of sugar to make it easier to link rooms together symmetrically.
 
-%% Use (link $Room1 $Direction to $Room2) to supply
-%% (from ...) predicates in both directions.
+%% See discussion here: https://intfiction.org/t/linking-rooms/43836/7
 
-(from $R1 go $Direction to $R2)
-    *(link $R1 $Direction to $R2) 
-    (or)
-    *(link $R2 $Return to $R1)
-    (opposite of $Direction is $Return)
 
+@(place $R1 north of $R2)
+    (from $R2 go #north to $R1)
+    (from $R1 go #south to $R2)
+
+@(place $R1 northeast of $R2)
+    (from $R2 go #northeast to $R1)
+    (from $R1 go #southwest to $R2)
+
+@(place $R1 east of $R2)
+    (from $R2 go #east to $R1)
+    (from $R1 go #west to $R2)
+
+@(place $R1 southeast of $R2)
+    (from $R2 go #southeast to $R1)
+    (from $R1 go #northwest to $R2)
+
+@(place $R1 south of $R2)
+    (from $R2 go #south to $R1)
+    (from $R1 go #north to $R2)
+
+@(place $R1 southwest of $R2)
+    (from $R2 go #southwest to $R1)
+    (from $R1 go #northeast to $R2)
+
+@(place $R1 west of $R2)
+    (from $R2 go #west to $R1)
+    (from $R1 go #east to $R2)
+
+@(place $R1 northwest of $R2)
+    (from $R2 go #northwest to $R1)
+    (from $R1 go #southeast to $R2)
+
+@(place $R1 up from $R2)
+    (from $R2 go #up to $R1)
+    (from $R1 go #down to $R2)
+
+@(place $R1 down from $R2)
+    (from $R2 go #down to $R1)
+    (from $R1 go #up to $R2)
+
+@(place $R1 in from $R2)
+    (from $R2 go #in to $R1)
+    (from $R1 go #out to $R2)
+
+@(place $R1 out from $R2)
+    (from $R2 go #out to $R1)
+    (from $R1 go #in to $R2)

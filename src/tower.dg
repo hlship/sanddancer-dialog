@@ -26,8 +26,8 @@
     Your poor old pickup truck ticks and groans, smashed gracelessly against 
     a tall Saguaro; wiffs of evaporating gasoline linger in the chill air.
 (#knock/#pickup-truck/#wiffs-of-gasoline/#saguaro is #in *)
-(link * #south to #backtracking)
-(link * #north to #crumbling-concrete)
+(place #backtracking south of *)
+(place #crumbling-concrete north of *)
 
 #crumbling-concrete
 (around the tower *)
@@ -52,11 +52,9 @@
     (endif)
     interior; you could also walk around to the east or head south back to your truck.
 (#fragments-of-glass is #in *)
-
-%% (from * go #south to #middle-of-nowhere)
-(link * #in to #staging-area)
-(link * #north to #base-of-tower)
-(link * #east to #weed-strewn-rust)
+(place #staging-area in from *)
+(place #base-of-tower north of *)
+(place #weed-strewn-rust east of *)
 
 #base-of-tower
 (around the tower *)
@@ -87,9 +85,9 @@
     (then)
             glow of the
     (endif)
-    building.    
-(link * #southeast to #weed-strewn-rust)
-(link * #north to #against-the-fence)
+    building.
+(place #weed-strewn-rust southeast of *)
+(place #against-the-fence north of *)
 (#tumbleweed/#rusty-can/#girder/#scrawny-weeds/#bits-of-trash/#red-warning-light is #in *)
 
 #backtracking

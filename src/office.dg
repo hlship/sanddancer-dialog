@@ -4,8 +4,8 @@
 #staging-area
 (office interior *)
 (name *) Staging Area
-(link * #north to #foremans-office)
-(link * #east to #break-room)
+(place #foremans-office north of *)
+(place #break-room east of *)
 
 #foremans-office
 (office interior *)
@@ -23,7 +23,7 @@
 #break-room
 (office interior *)
 (name *) Break Room
-(link * #north to #storage-room)
+(place #storage-room north of *)
 
 #storage-room
 (office interior *)
@@ -32,7 +32,7 @@
     A storage room adjacent to the break room to the south.
     Steps lead up to the building's roof.
     A bulky box is attached to one wall; this seems to be the emergency lighting system.
-(link * #up to #roof)
+(place #roof up from *)
 (#emergency-lights is #in *)
 
 #roof
