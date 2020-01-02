@@ -25,6 +25,15 @@
     (par)
     Your poor old pickup truck ticks and groans, smashed gracelessly against 
     a tall Saguaro; wiffs of evaporating gasoline linger in the chill air.
+    (collect $Obj)
+        *($Obj is #in #pickup-truck)
+    (into $Items)
+    (if) ~(empty $Items)
+    (then)
+        On the dash you can see (a $Items).
+    (endif)
+
+
 (#knock/#pickup-truck/#wiffs-of-gasoline/#saguaro is #in *)
 (place #backtracking south of *)
 (place #crumbling-concrete north of *)
@@ -241,6 +250,7 @@
 
 #pickup-truck
 (name *) pickup truck
+(actor container *)
 
 #headlights
 (name *) headlights

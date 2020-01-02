@@ -8,6 +8,15 @@
 #lighter
 (item *)
 (name *) lighter
+(descr *)
+    (if) *(adjacent room $Room)
+         ~($Room is visited)
+    (then)
+        You'll want a smoke before long, but for now you're itching to
+        see what else is around.
+    (else)
+        Now that you've got your bearings a little, a smoke does sound nice.
+    (endif)
 (* is #heldby #knock)
 
 #jacket

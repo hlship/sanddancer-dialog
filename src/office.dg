@@ -4,6 +4,21 @@
 #staging-area
 (office interior *)
 (name *) Staging Area
+(look *)
+    In a pane of cracked glass you catch a momentary reflection of
+    (collect $Obj)
+        *($Obj is #in *)
+        (item $Obj)
+    (into $Items)
+    (if) (empty $Items)
+    (then)
+        yourself
+    (else)
+        (randomly select $Item from $Items)
+        (a $Item)
+    (endif)
+    .
+
 (place #foremans-office north of *)
 (place #break-room east of *)
 

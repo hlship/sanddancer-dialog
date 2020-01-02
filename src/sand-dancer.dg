@@ -23,3 +23,9 @@
 
 (is-are $List)
     are
+
+
+%% Identify rooms that are adjacent to the current room
+(adjacent room $Neighbor)
+    (current room $Room)
+    *(from $Room go $ to $Neighbor)
