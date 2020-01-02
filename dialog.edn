@@ -1,7 +1,17 @@
 {:story-sources ["src/sand-dancer.dg"
-                 "src/knock.dg"
                  "src/tower.dg"
-                 "src/office.dg"
-                 "src/light.dg"]
+                 "src/middle-of-nowhere.dg"
+                 "src/crumbling-concrete.dg"
+                 "src/weed-strewn-rust.dg"
+                 "src/base-of-tower.dg"
+                 "src/against-the-fence.dg"
+                 "src/knock.dg"
+                 "src/staging-area.dg"
+                 "src/foremans-office.dg"
+                 "src/storage-room.dg"
+                 "src/break-room.dg"
+                 "src/roof.dg"
+                 "src/light.dg"
+                 "src/windows.dg"]
  :library-sources ["lib/room-connections.dg"
                    "/usr/local/share/dialog-if/stdlib.dg"]}

@@ -1,0 +1,5 @@
+%% All windows are openable, but start closed.
+%% This has to come *after* the above, to ensure that
+%% individual windows can override it, like the tiny frosted window.
+
+(openable *(window $))

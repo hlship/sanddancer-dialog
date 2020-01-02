@@ -1,0 +1,24 @@
+#break-room
+(office interior *)
+(name *) Break Room
+(look *)
+    There's a wire mesh cage here.
+(place #storage-room north of *)
+(#cage/#tiny-frosted-window is #in *)
+
+#cage
+(name *) wire mesh cage
+(container *)
+(openable *)
+(* is closed)
+
+#blanket
+(item *)
+(name *) emergency blanket
+(* is #in #cage)
+
+#tiny-frosted-window
+(window *)
+(* is open)
+~(openable *)
+(name *) tiny frosted window

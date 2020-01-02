@@ -1,0 +1,66 @@
+#middle-of-nowhere
+(around the tower *)
+(name *) Middle of Nowhere
+(look *)
+    The tire tracks from the south stop abruptly here, but where the hell
+    are you? The desert sand and clumps of pale sagebrush are all 
+    (if) (lit by headlights *)
+    (then)
+        your dimming headlights pick out before barely reaching
+    (elseif) (lit by flashlight *)
+    (then)
+        your flashlight picks out, other than
+    (else)
+        you can see in the glow of
+    (endif)
+    the concrete building to the north.
+    (par)
+    Your poor old pickup truck ticks and groans, smashed gracelessly against 
+    a tall Saguaro; wiffs of evaporating gasoline linger in the chill air.
+    (collect $Obj)
+        *($Obj is #in #pickup-truck)
+    (into $Items)
+    (if) ~(empty $Items)
+    (then)
+        On the dash you can see (a $Items).
+    (endif)
+(#knock/#pickup-truck/#wiffs-of-gasoline/#saguaro is #in *)
+(place #backtracking south of *)
+(place #crumbling-concrete north of *)
+    
+#pickup-truck
+(name *) pickup truck
+(actor container *)
+    
+#headlights
+(name *) headlights
+(dict *) light head
+(plural *)
+(switchable *)
+(* is #partof #pickup-truck)
+
+#wiffs-of-gasoline
+(name *) wiffs of gasoline
+(dict *) gas wiff
+(plural *)
+
+#saguaro
+(plant *)
+(name *) tall Saguaro
+(dict *) cactus
+
+%% Bonus room
+
+#backtracking
+(around the tower *)
+(name *) Backtracking
+(look *)
+    It's quieter and darker over here, the black desert night bleed in.
+    Your tire track are hardly visible in the desert sand, and you can barely make
+    out the way north back to your truck.
+(#withered-cactus is #in *)
+
+#withered-cactus
+(plant *)
+(* is dead)
+(name *) withered cactus

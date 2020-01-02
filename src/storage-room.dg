@@ -1,0 +1,13 @@
+#storage-room
+(office interior *)
+(name *) Storage Room
+(look *)
+    A storage room adjacent to the break room to the south.
+    Steps lead up to the building's roof.
+    A bulky box is attached to one wall; this seems to be the emergency lighting system.
+(place #roof up from *)
+(#emergency-lights is #in *)
+
+#emergency-lights
+(name *) emergency lights
+(switchable *)

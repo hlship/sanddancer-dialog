@@ -1,7 +1,5 @@
 %% Lighting rules
 
-%% Convention is that static properties (words... #object) and dynamic are
-%% (#object is words ...)
 (in range of headlights #middle-of-nowhere/#backtracking/#crumbling-concrete/#base-of-tower)
 
 (brightly lit $Room)

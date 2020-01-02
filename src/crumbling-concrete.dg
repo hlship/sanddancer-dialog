@@ -1,0 +1,31 @@
+#crumbling-concrete
+(around the tower *)
+(name *) Crumbling Concrete
+(look *)
+    This building must've been some sort of utility structure for the huge electrical tower
+    to the north, now abandoned
+    (if) (lit by headlights *)
+    (then)
+        : fragments of glass sparkle faintly in the beam of your headlights
+    (elseif) (lit by flashlight *)
+    (then)
+        : it seems dead and alone in the dusty beam of your flashlight
+    (endif)
+    .
+    Tendrils of sand spill through the empty doorframe leading in to a
+    (if) (brightly lit *)
+    (then)
+        brightly lit
+    (else)
+        dark
+    (endif)
+    interior; you could also walk around to the east or head south back to your truck.
+(#fragments-of-glass is #in *)
+(place #staging-area in from *)
+(place #base-of-tower north of *)
+(place #weed-strewn-rust east of *)
+
+#fragments-of-glass
+(name *) fragments of glass
+(plural *)
+
