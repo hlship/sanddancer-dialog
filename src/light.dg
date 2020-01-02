@@ -1,0 +1,22 @@
+%% Lighting rules
+
+%% Convention is that static properties (words... #object) and dynamic are
+%% (#object is words ...)
+(in range of headlights #middle-of-nowhere/#backtracking/#crumbling-concrete/#base-of-tower)
+
+(brightly lit $Room)
+    (#emergency-lights is on)
+    (tower vicinity $Room)
+
+(lit by headlights $Room)
+    (#headlights is on)
+    (in range of headlights $Room)
+    ~(brightly lit $Room)
+
+(lit by flashlight $Room)
+    (#flashlight is on)
+    %% A slight simplification because the flashlight could be on, but
+    %% inside a closed opaque container.
+    (#flashlight is in room $Room)
+    ~(brightly lit $Room)
+    ~(lit by headlights $Room)

@@ -3,27 +3,57 @@
 
 %% First, a bit about plants.
 
-%% Temporary: plants are items so that they appear in room descriptions.
-
-(item *(plant $))
 %% Plants are generally alive, unless specifically dead
 @($ is alive)    ~($ is dead)
-
-%% Plants are scenery-like, and aren't to be moved.
-(fine where it is (plant $))
-
 
 #middle-of-nowhere
 (around the tower *)
 (name *) Middle of Nowhere
-(#knock is #in *)
+(look *)
+    The tire tracks from the south stop abruptly here, but where the hell
+    are you? The desert sand and clumps of pale sagebrush are all 
+    (if) (lit by headlights *)
+    (then)
+        your dimming headlights pick out before barely reaching
+    (elseif) (lit by flashlight *)
+    (then)
+        your flashlight picks out, other than
+    (else)
+        you can see in the glow of
+    (endif)
+    the concrete building to the north.
+    (par)
+    Your poor old pickup truck ticks and groans, smashed gracelessly against 
+    a tall Saguaro; wiffs of evaporating gasoline linger in the chill air.
+(#knock/#pickup-truck/#wiffs-of-gasoline/#saguaro is #in *)
 (link * #south to #backtracking)
 (link * #north to #crumbling-concrete)
-(link * #south to #backtracking)
 
 #crumbling-concrete
 (around the tower *)
 (name *) Crumbling Concrete
+(look *)
+    This building must've been some sort of utility structure for the huge electrical tower
+    to the north, now abandoned
+    (if) (lit by headlights *)
+    (then)
+        : fragments of glass sparkle faintly in the beam of your headlights
+    (elseif) (lit by flashlight *)
+    (then)
+        : it seems dead and alone in the dusty beam of your flashlight
+    (endif)
+    .
+    Tendrils of sand spill through the empty doorframe leading in to a
+    (if) (brightly lit *)
+    (then)
+        brightly lit
+    (else)
+        dark
+    (endif)
+    interior; you could also walk around to the east or head south back to your truck.
+(#fragments-of-glass is #in *)
+
+%% (from * go #south to #middle-of-nowhere)
 (link * #in to #staging-area)
 (link * #north to #base-of-tower)
 (link * #east to #weed-strewn-rust)
@@ -31,50 +61,149 @@
 #base-of-tower
 (around the tower *)
 (name *) Base of the Tower
+(look *)
+    Behind the concrete building a steel girder rises from the sand
+    (if) (lit by flashlight *)
+    (then)
+        ; you shine your flashlight up towards the tower looming above you
+    (elseif) (lit by headlights *)
+    (then)
+        , on of three legs of the huge electrical tower looming like
+        some gargantuan spider into blackness above you
+    (else)
+        ; far above you, a red warning light blinks on and off.
+    (endif)
+    A tumbleweed drifts lazily against the rusted metal among scrawny weeds 
+    bits of trash.
+    (if) (#rusty-can is pristine)
+    (then)
+        Someone left a tin can here years ago: ridged ripples run down
+        its rusty side.
+    (endif)
+
+    (par)
+    The desert stretches in all directions except back south towards the 
+    (if) (brightly lit *)
+    (then)
+            glow of the
+    (endif)
+    building.    
 (link * #southeast to #weed-strewn-rust)
+(link * #north to #against-the-fence)
+(#tumbleweed/#rusty-can/#girder/#scrawny-weeds/#bits-of-trash/#red-warning-light is #in *)
 
 #backtracking
 (around the tower *)
 (name *) Backtracking
+(look *)
+    It's quieter and darker over here, the black desert night bleed in.
+    Your tire track are hardly visible in the desert sand, and you can barely make
+    out the way north back to your truck.
+(#withered-cactus is #in *)
 
 #weed-strewn-rust
 (around the tower *)
 (name *) Weed Strewn Rust
 
+#against-the-fence
+(around the tower *)
+(name *) Against the Fence
+(look *)
+    You've come as far north as you're able, stopped by a bent, but sturdy, fence topped with
+    rusty barbed wire. The huge tower looms to the south.
+(#fence is #in *)
+
+%% Item and scenery for the above rooms:
+
+#fence
+(name *) rusty fence
+(descr *)
+    The fence emerges from the gloom of the open desert slicing the world in two: this side,
+    and all that lies beyond.
+
 #withered-cactus
 (plant *)
 (* is dead)
 (name *) withered cactus
-(* is #in #backtracking)
 
 #tumbleweed
 (plant *)
 (* is dead)
 (name *) tumbleweed
 (dict *) tumble weed
-(* is handled) %% Force it to be listed, temporary
-(* is #in #base-of-tower)
 
 #rusty-can
 (item *)
 (name *) rusty tin can
-(* is handled) %% Force it to be listed, temporary
-(* is #in #base-of-tower)
+
+#girder
+(name *) steel girder
+
+#scrawny-weeds
+(name *) scrawny weeds
+(plural *)
+
+#bits-of-trash
+(name *) bits of trash
+(some *)
+(descr *)
+    Bits of dirty paper and cardboard, tiny scraps of wire, broken bits of plastic, and other indistinguishable and useless things.
+
+#red-warning-light
+(name *) red warning light
 
 #saguaro
 (plant *)
 (name *) tall Saguaro
 (dict *) cactus
-(* is #in #middle-of-nowhere)
+
+#wiffs-of-gasoline
+(name *) wiffs of gasoline
+(dict *) gas wiff
+(plural *)
 
 #weeds
 (plant *)
+(name *) yellowing weeds
+(plural *)
 (* is dead)
-(name *) some yellowing weeds
-(* is hidden)
 (* is #in #weed-strewn-rust)
 
+#fragments-of-glass
+(name *) fragments of glass
+(plural *)
+
+%% Now some backdrop objects
+
+#tire-tracks 
+(name *) tire tracks
+(plural *)
+(#middle-of-nowhere/#backtracking attracts *)
+
+#desert-sand
+(name *) desert sand
+
+#sagebrush
+(name *) sagebrush
+(dict *) sage brush
+(some *)
+
+#concrete-building
+(name *) concrete building
+
 #tower
-(scenery *)
 (name *) huge electrical tower
-(* is #in #base-of-tower)
+
+((around the tower $) attracts #desert-sand/#sagebrush/#tower)
+
+%% The pickup truck and its parts
+
+#pickup-truck
+(name *) pickup truck
+
+#headlights
+(name *) headlights
+(dict *) light head
+(plural *)
+(switchable *)
+(* is #partof #pickup-truck)

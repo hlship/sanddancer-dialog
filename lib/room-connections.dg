@@ -3,8 +3,8 @@
 %% (from ...) predicates in both directions.
 
 (from $R1 go $Direction to $R2)
-    (link $R1 $Direction to $R2) (or)
-    { 
-        (opposite of $Direction is $Return)
-        (link $R2 $Return to $R1)
-    }
+    *(link $R1 $Direction to $R2) 
+    (or)
+    *(link $R2 $Return to $R1)
+    (opposite of $Direction is $Return)
+

@@ -10,6 +10,20 @@
 #foremans-office
 (office interior *)
 (name *) Foreman's Office
+(look *)
+    This must have been the foreman's office for whatever this building was about.
+    A half collapsed desk sits against a wall
+    (if) (#newspapers is pristine)
+    (then)
+        , and some faded newspapers are scattered on the floor
+    (endif)
+    .
+    (if) (#flashlight is pristine)
+    (then)
+        Mixed among the chaos is an old flashlight.
+    (endif)
+    %% TODO: list anything visible on the desk
+(#desk/#newspapers/#flashlight is #in *)
 
 #break-room
 (office interior *)
@@ -19,34 +33,51 @@
 #storage-room
 (office interior *)
 (name *) Storage Room
+(look *)
+    A storage room adjacent to the break room to the south.
+    Steps lead up to the building's roof.
+    A bulky box is attached to one wall; this seems to be the emergency lighting system.
 (link * #up to #roof)
+(#emergency-lights is #in *)
 
 #roof
-(room *) %% Not in a region!
+(around the tower *)
 (name *) Roof
 
 %% Objects
 
 #desk
-(item *)
 (supporter *)
 (name *) half-collapsed desk
-(fine where it is *)
-(* is #in #foremans-office)
 
 #newspapers
 (item *)
 (name *) scattered newspapers
 (dict *) news paper
 (plural *)
-(* is #in #foremans-office)
 
 #key
 (item *)
 (name *) rusted key
 (* is #on #desk)
 
-%% TODO: items in/on other items are invisible, should be listed
+#flashlight
+(item *)
+(name *) flashlight
+(dict *) light
+(switchable *)
+(descr *)
+    Sturdy and heavy
+    (if) (* is on)
+    (then)
+        , currently turned on
+    (endif)
+    .
+
+#emergency-lights
+(name *) emergency lights
+(switchable *)
+
 
 #cage
 (item *)
@@ -70,3 +101,28 @@
 (fine where it is *)
 (* is #in #foremans-office)
 
+%% Windows
+
+#pane-of-cracked-glass
+(window *)
+(name *) pane of cracked glass
+(dict *) window
+(* is #in #staging-area)
+
+#dust-covered-window
+(window *)
+(name *) dust covered window
+(* is #in #foremans-office)
+
+#tiny-frosted-window
+(window *)
+(* is open)
+~(openable *)
+(name *) tiny frosted window
+(* is #in #break-room)
+
+%% All windows are openable, but start closed.
+%% This has to come *after* the above, to ensure that
+%% individual windows can override it, like the tiny frosted window.
+
+(openable *(window $))
