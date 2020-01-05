@@ -17,32 +17,57 @@
     (par)
     Your poor old pickup truck ticks and groans, smashed gracelessly against 
     a tall Saguaro; wiffs of evaporating gasoline linger in the chill air.
+    (descr truck dash)
+(#knock/
+    #pickup-truck/
+    #wiffs-of-gasoline/
+    #saguaro 
+    is #in *)
+(place #backtracking south of *)
+(place #crumbling-concrete north of *)
+
+(descr truck dash)
     (collect $Obj)
         *($Obj is #in #pickup-truck)
+        %% You can examine the truck from the inside, but don't want to list Knock
+        (item $Obj)
     (into $Items)
     (if) ~(empty $Items)
     (then)
-        On the dash you can see (a $Items).
+    On the dash you can see (a $Items).
     (endif)
-(#knock/#pickup-truck/#wiffs-of-gasoline/#saguaro is #in *)
-(place #backtracking south of *)
-(place #crumbling-concrete north of *)
-    
+
 #pickup-truck
 (name *) pickup truck
+(openable *)
 (actor container *)
+(before [enter/leave *])
+    (* is closed)
+    (try [open *])
+(narrate opening *)
+    You work the rusty truck door open.
+(perform [examine *])
+    Your truck is (open or closed *).  (descr truck dash)
+%% This prevents a redundant list of items in the truck, when Knock looks while also in the truck:
+(appearance $ #in *)
+    (just) (fail)
     
 #headlights
 (name *) headlights
 (dict *) light head
 (plural *)
 (switchable *)
+(* is on)
 (* is #partof #pickup-truck)
 
 #wiffs-of-gasoline
 (name *) wiffs of gasoline
 (dict *) gas wiff
 (plural *)
+(prevent [$Verb *])
+    ~($Verb is one of [smell take])
+    Fading away in the chill night air, but enough to tell you something
+    on your truck's busted bad.
 
 #saguaro
 (plant *)

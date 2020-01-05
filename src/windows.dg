@@ -3,3 +3,6 @@
 %% individual windows can override it, like the tiny frosted window.
 
 (openable *(window $))
+
+(prevent [open/close (window $)])
+    It looks like these windows have been rusted shut for years.

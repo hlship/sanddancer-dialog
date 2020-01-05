@@ -1,0 +1,8 @@
+%% Backdrops for the office interior region
+
+#layers-of-sand
+(name *) layers of sand
+(some *)
+
+((office interior $) attracts #layers-of-sand)
+

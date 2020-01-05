@@ -2,6 +2,18 @@
 (office interior *)
 (name *) Staging Area
 (look *)
+    (if) ~(lit by flashlight *) ~(brightly lit *)
+    (then)
+        Fant shafts of light from your dimming headlights seep through
+        a boarded-up pane of cracked glass, but you can barely make out
+        anything of the interior.
+    (else)
+        It's obvious this place has been abandoned for years.
+        Cold night air breathes through holes in the roof
+        and everything is strewn with sand and patches of mold.
+        Other rooms lie north and east.
+    (endif)
+    (par)
     In a pane of cracked glass you catch a momentary reflection of
     (collect $Obj)
         *($Obj is #in *)
@@ -15,8 +27,13 @@
         (a $Item)
     (endif)
     .
-(place #foremans-office north of *)
+(place #office north of *)
 (place #break-room east of *)
+(#pane-of-cracked-glass/
+    #shafts-of-light/
+    #holes-in-roof/
+    #patches-of-mold
+    is #in *)
 
 #pane-of-cracked-glass
 (window *)
@@ -24,3 +41,14 @@
 (dict *) window
 (* is #in #staging-area)
 
+#shafts-of-light
+(name *) shafts of light
+(plural *)
+
+#holes-in-roof
+(name *) holes in roof
+(plural *)
+
+#patches-of-mold
+(name *) patches of mold
+(plural *)

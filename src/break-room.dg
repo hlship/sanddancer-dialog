@@ -2,9 +2,25 @@
 (office interior *)
 (name *) Break Room
 (look *)
-    There's a wire mesh cage here.
+    Shadows and grime linger in dark corners of this dismal room with just one tiny frosted window. 
+    Some rotting picnic tables strewn with layers of sand and crumbling trash are pushed against one wall, 
+    and an (open or closed #cage) wire cage
+    (collect $Item)
+        *($Item is #in #cage)
+    (into $Items)
+    (if) ~(empty $Items)
+    (then)
+        , in which (is-are $Items) (a $Items)
+    (endif)
+    .
+    (par)
+    Open doorways lead west and north.
 (place #storage-room north of *)
-(#cage/#tiny-frosted-window is #in *)
+(#cage/
+    #tiny-frosted-window/
+    #tables/
+    #crumbling-trash 
+    is #in *)
 
 #cage
 (name *) wire mesh cage
@@ -22,3 +38,11 @@
 (* is open)
 ~(openable *)
 (name *) tiny frosted window
+
+#tables
+(name *) rotted picnic tables
+(plural *)
+
+#crumbling-trash
+(name *) crumbling trash
+(some *)

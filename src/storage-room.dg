@@ -2,12 +2,34 @@
 (office interior *)
 (name *) Storage Room
 (look *)
-    A storage room adjacent to the break room to the south.
-    Steps lead up to the building's roof.
+%% “The walls are lined with [bare metal shelves], [if location is lit by flashlight]casting strange patterns of shadow as you sweep your flashlight beam around[otherwise]rusting away[end if]. The break room lies back to the south and a [utility ladder] climbs through [a broken skylight] to the roof.”
+    The walls are lined with bare metal shelves,
+    (if) (lit by flashlight *)
+    (then)
+        casting strange patterns of shadow as you sweep your flashlight bean around
+    (else)
+            rusting away.
+    (endif)
+    The break room lies back to the south and a utility ladder climbs through a
+    broken skylight to the roof.
     A bulky box is attached to one wall; this seems to be the emergency lighting system.
 (place #roof up from *)
-(#emergency-lights is #in *)
+(#emergency-lights/
+    #shelves/
+    #ladder/
+    #skylight 
+    is #in *)
 
 #emergency-lights
 (name *) emergency lights
 (switchable *)
+
+#shelves
+(name *) bare metal shelves
+
+#ladder
+(name *) utility ladder
+
+#skylight
+(name *) broken skylight
+(out of reach *)
