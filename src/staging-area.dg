@@ -14,7 +14,7 @@
         Other rooms lie north and east.
     (endif)
     The floor has half-collapsed near one corner
-    (if) (#duct-tape is in #hole)
+    (if) (#duct-tape is #in #hole)
     (then)
         , revealing a hole criss-crossed with cobwebs
     (endif)
