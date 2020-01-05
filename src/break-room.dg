@@ -5,9 +5,7 @@
     Shadows and grime linger in dark corners of this dismal room with just one tiny frosted window. 
     Some rotting picnic tables strewn with layers of sand and crumbling trash are pushed against one wall, 
     and an (open or closed #cage) wire cage
-    (collect $Item)
-        *($Item is #in #cage)
-    (into $Items)
+    (collect items in #cage to $Items)
     (if) ~(empty $Items)
     (then)
         , in which (is-are $Items) (a $Items)

@@ -4,7 +4,7 @@
 (look *)
     (if) ~(lit by flashlight *) ~(brightly lit *)
     (then)
-        Fant shafts of light from your dimming headlights seep through
+        Faint shafts of light from your dimming headlights seep through
         a boarded-up pane of cracked glass, but you can barely make out
         anything of the interior.
     (else)
@@ -13,12 +13,15 @@
         and everything is strewn with sand and patches of mold.
         Other rooms lie north and east.
     (endif)
+    The floor has half-collapsed near one corner
+    (if) (#duct-tape is in #hole)
+    (then)
+        , revealing a hole criss-crossed with cobwebs
+    (endif)
+    .
     (par)
     In a pane of cracked glass you catch a momentary reflection of
-    (collect $Obj)
-        *($Obj is #in *)
-        (item $Obj)
-    (into $Items)
+    (collect items in * to $Items)
     (if) (empty $Items)
     (then)
         yourself
@@ -32,7 +35,9 @@
 (#pane-of-cracked-glass/
     #shafts-of-light/
     #holes-in-roof/
-    #patches-of-mold
+    #patches-of-mold/
+    #hole/
+    #cobwebs
     is #in *)
 
 #pane-of-cracked-glass
@@ -52,3 +57,53 @@
 #patches-of-mold
 (name *) patches of mold
 (plural *)
+
+#hole
+(name *) hole
+(container *)
+(#cobwebs/#duct-tape is #in *)
+(descr *)
+    (collect items in * to $Items)
+    (if) (empty $Items)
+    (then)
+        The hole is empty
+        (if) (#cobwebs is #in *)
+        (then)
+            , save for cobwebs
+        (endif)
+        .
+    (else)
+        Through a mass of cobwebs, you can see (a $Items) down in the whole.
+    (endif)
+
+(instead of [take $Item])
+    ($Item is #in *)
+    ~(knock holds #courage)
+    (select)
+        You reach your hand towards the hole, then pull back with a start as you brush cobwebs.
+        Nightmare visions of fat black spiders shudder through your brain.
+        No way are you reaching in there.
+    (or)
+        Yeah, sorry but you're not putting your hand in there.
+    (stopping)
+
+(prevent [put $Obj #in *])
+    Sounds like a good way to lose something forever.
+
+#cobwebs
+(name *) cobwebs
+(plural *)
+(dict *) web
+(fine where it is *)
+
+#duct-tape
+(item *)
+(name *) roll of duct-tape
+(dict *) duct tape
+(narrate taking *)
+    ~(courage demonstrated)
+    You reach down into the hole, brushing cobwebs away impatiently, and pull out the duct tape.
+    (now) (courage demonstrated)
+    (now) (#cobwebs is nowhere)
+
+

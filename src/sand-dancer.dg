@@ -29,3 +29,10 @@
 (adjacent room $Neighbor)
     (current room $Room)
     *(from $Room go $ to $Neighbor)
+
+(collect items in $Container to $Items)
+    (collect $Obj)
+        *($Obj is #in $Container)
+        %% Exclude non-items, including #knock (in the pickup truck)
+        (item $Obj)
+    (into $Items)

@@ -1,5 +1,10 @@
 (current player #knock)
 
+%% A little utility
+
+@(knock holds $Object)
+    ($Object is #heldby #knock)
+
 #cigarettes
 (item *)
 (name *) pack of cigarettes

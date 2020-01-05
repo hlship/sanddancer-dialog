@@ -27,14 +27,10 @@
 (place #crumbling-concrete north of *)
 
 (descr truck dash)
-    (collect $Obj)
-        *($Obj is #in #pickup-truck)
-        %% You can examine the truck from the inside, but don't want to list Knock
-        (item $Obj)
-    (into $Items)
+    (collect items in #pickup-truck to $Items)
     (if) ~(empty $Items)
     (then)
-    On the dash you can see (a $Items).
+        On the dash you can see (a $Items).
     (endif)
 
 #pickup-truck

@@ -1,0 +1,23 @@
+%% Talents are pseudo-items with real limitations
+
+#strength
+(name *) strength
+
+#courage
+(name *) courage
+
+#luck
+(name *) luck
+
+#scent
+(name *) scent
+
+#honor
+(name *) honor
+
+#spirit
+(name *) spirit
+
+#freedom
+(name *) freedom
+

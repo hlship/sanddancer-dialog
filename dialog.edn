@@ -1,4 +1,5 @@
 {:story-sources ["src/sand-dancer.dg"
+                 "src/talents.dg"
                  "src/tower.dg"
                  "src/office-interior.dg"
                  "src/middle-of-nowhere.dg"
