@@ -1,0 +1,8 @@
+%% Overrides of standard rules
+
+%% See https://intfiction.org/t/bug-switchable-and-plural/43882/2
+%% to be fixed in next release.
+
+(prevent [switch on $Obj])
+	($Obj is on)
+	(The $Obj is) already on.

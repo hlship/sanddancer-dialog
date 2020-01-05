@@ -55,6 +55,20 @@
 (switchable *)
 (* is on)
 (* is #partof #pickup-truck)
+(narrate switching on *)
+    The desert springs into existence around you.
+(narrate switching off *)
+    You click the headlights off
+    (if) (#emergency-lights is off) (#flashlight is off)
+    (then)
+        and blackness swalls you up
+    (elseif) (#emergency-lights is off) 
+             (#flashlight is on)
+             (player can see #flashlight)
+    (then)
+        leaving only the ghostly beam of your flashlight
+    (endif)
+    .
 
 #wiffs-of-gasoline
 (name *) wiffs of gasoline

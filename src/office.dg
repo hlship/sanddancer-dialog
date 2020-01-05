@@ -52,6 +52,8 @@
         , currently turned on
     (endif)
     .
+(* provides light)
+    (* is on)
 
 #wastepaper-basket
 (item *)

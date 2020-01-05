@@ -16,4 +16,5 @@
                  "src/light.dg"
                  "src/windows.dg"]
  :library-sources ["lib/room-connections.dg"
+                   "lib/stdlib-overrides.dg"
                    "/usr/local/share/dialog-if/stdlib.dg"]}

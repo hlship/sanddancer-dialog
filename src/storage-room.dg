@@ -2,17 +2,25 @@
 (office interior *)
 (name *) Storage Room
 (look *)
-%% “The walls are lined with [bare metal shelves], [if location is lit by flashlight]casting strange patterns of shadow as you sweep your flashlight beam around[otherwise]rusting away[end if]. The break room lies back to the south and a [utility ladder] climbs through [a broken skylight] to the roof.”
     The walls are lined with bare metal shelves,
     (if) (lit by flashlight *)
     (then)
-        casting strange patterns of shadow as you sweep your flashlight bean around
+        casting strange patterns of shadow as you sweep your flashlight beam around
     (else)
-            rusting away.
+            rusting away
     (endif)
+    .
+    Mounted to the wall is a control panel for the building's emergency lights.
+    They are switched
+    (if) (#emergency-lights is on)
+    (then)
+        on
+    (else)
+        off
+    (endif).
     The break room lies back to the south and a utility ladder climbs through a
     broken skylight to the roof.
-    A bulky box is attached to one wall; this seems to be the emergency lighting system.
+
 (place #roof up from *)
 (#emergency-lights/
     #shelves/
@@ -22,7 +30,13 @@
 
 #emergency-lights
 (name *) emergency lights
+(plural *)
 (switchable *)
+(narrate switching on *)
+    With a sharp buzz, a wiff of static, and an electrical groan,
+    bare light bulbs flicker on throughout the building.
+(narrate switching off *)
+    The lights flicker and die out.
 
 #shelves
 (name *) bare metal shelves

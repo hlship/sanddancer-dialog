@@ -2,6 +2,27 @@
 
 (in range of headlights #middle-of-nowhere/#backtracking/#crumbling-concrete/#base-of-tower)
 
+%% We're going against the grain, a bit, in terms of whats dark.
+%% We want the entire area to be lit by the emergency lights if they are on,
+%% then headlights, if on, then the flashlight (as a normal light source).
+%% Got a lot of "dynamic predicate depends on another dynamic predicate" errors.
+
+(inherently dark (tower vicinity $))
+
+%% Here's my solution; when the emergency lights are on, or the headlights are on,
+%% then the Knock provides light!
+
+(#knock provides light)
+    (#emergency-lights is on)
+    (or)
+    {
+        (#headlights is on)
+        (in range of headlights $Room)
+    }
+
+%% Several room descriptions adjust based on the light available in the room;
+%% these predicates help.
+
 (brightly lit $Room)
     (#emergency-lights is on)
     (tower vicinity $Room)

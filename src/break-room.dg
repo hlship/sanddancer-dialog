@@ -3,8 +3,14 @@
 (name *) Break Room
 (look *)
     Shadows and grime linger in dark corners of this dismal room with just one tiny frosted window. 
-    Some rotting picnic tables strewn with layers of sand and crumbling trash are pushed against one wall, 
-    and an (open or closed #cage) wire cage
+    Some rotting picnic tables strewn with layers of sand and crumbling trash are pushed against one wall, and 
+    (if) (#cage is open)
+    (then)
+        an open
+    (else)
+        a closed
+    (endif)
+    wire cage
     (collect items in #cage to $Items)
     (if) ~(empty $Items)
     (then)
@@ -23,12 +29,52 @@
 #cage
 (name *) wire mesh cage
 (container *)
+(lockable *)
+(* is transparent)
 (openable *)
+(* is locked)
 (* is closed)
+(descr *)
+    (collect items in * to $Items)
+    (if) (empty $Items)
+    (then)
+        The cage is (open or closed *), and empty.
+    (else)
+        (if) (* is open)
+        (then)
+            Inside the cage
+        (else)
+            Through the wire mesh of the cage
+        (endif)
+        , you see (a $Items).
+    (endif)
+(instead of [unlock * with #key])
+    You sling the key into the lock, but as you turn it, the rusted metal snaps off inside. 
+    The crumbling fragments fall to the ground as you slam your fist against the wire mesh in frustration. 
+    This is not your day.
+    (now) (#key is nowhere)
+(instead of [attack *])
+    (* is closed)
+    (knock holds #strength)
+    You grip the mesh in one hand and pull, and realize it's so rusted you can easily peel it back.
+    The door rips free and you drop it to the floor.
+    (now) (* is open)
+    (now) (* is unlocked)
+
+(instead of [attack *])
+    (* is closed)
+    You try to get a grip on the mesh to rip it open, but you're just not strong enough.
+
+(instead of [attack *])
+    You've already ripped it open. No point in going mental.
+
+(instead of [close *])
+    There's not enough of the door left for you to close the cage.
 
 #blanket
 (item *)
 (name *) emergency blanket
+(an *)
 (* is #in #cage)
 
 #tiny-frosted-window

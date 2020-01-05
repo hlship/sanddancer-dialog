@@ -9,8 +9,9 @@
 (room *(around the tower $))
 
 (tower vicinity $Room)
-    (around the tower $Room) (or)
-    (office interior $Room)
+    *(around the tower $Room) 
+    (or)
+    *(office interior $Room)  
 
 %% Utilities
 
