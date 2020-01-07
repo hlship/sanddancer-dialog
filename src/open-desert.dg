@@ -1,0 +1,43 @@
+#open-desert
+(room *)
+%% Here's where one-directional room links really work
+(from #base-of-tower go #west/#north/#east to *)
+(from #crumbling-concrete go #west to *)
+(from #middle-of-nowhere go #east/#west to *)
+(from #backtracking go #west/#south/#east to *)
+(from #weed-strewn-rust go #north/#east/#south to *)
+
+(prevent [leave $Room $Direction])
+    (from $Room go $Direction to room *)
+    (prevent enter desert from $Room)
+
+(prevent enter desert from $Room)
+    (lit by headlights $Room)
+    ~(flashlight ready)
+    Outside the wavering glow of your headlights, it's black. Pitch.
+    Storm must have rolled in; there's no stars above, no anything but blackness around. 
+    Only the smell of the desert tells you it's still out there.
+
+(prevent enter desert from $Room)
+    (#emergency-lights is off)
+    (flashlight ready)
+    You heft your flashlight nervously, licking your lips, but decide not to head out
+    into the desert just yet.
+    (if) (#headlights is on)
+    (then)
+        Your truck lights are already starting to dim, and with
+    (else)
+        With
+    (endif)
+    how dark it is, you're not sure you could find your way back.
+
+(prevent enter desert from $Room)
+    ~(flashlight ready)
+    Without a light, on a night this freakishly dark, that's insane.
+
+(flashlight ready)
+    (knock holds #flashlight)
+    (#flashlight is on)
+
+
+

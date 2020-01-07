@@ -29,7 +29,6 @@
     (endif)
     building. A tall fence is visible to the north.
 (place #weed-strewn-rust southeast of *)
-(place #against-the-fence north of *)
 (#tumbleweed/
     #rusty-can/
     #girder/
