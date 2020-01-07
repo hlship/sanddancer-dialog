@@ -2,7 +2,7 @@
 (office interior *)
 (name *) Staging Area
 (look *)
-    (if) ~(lit by flashlight *) ~(brightly lit *)
+    (if) (* is dim)
     (then)
         Faint shafts of light from your dimming headlights seep through
         a boarded-up pane of cracked glass, but you can barely make out
@@ -11,25 +11,27 @@
         It's obvious this place has been abandoned for years.
         Cold night air breathes through holes in the roof
         and everything is strewn with sand and patches of mold.
+        An imposing metal desk extends out from one wall.
+        The floor has half-collapsed near one corner
+        (if) (#duct-tape is #in #hole)
+        (then)
+            , revealing a hole criss-crossed with cobwebs
+        (endif)
+        .
+        (par)
+        In a pane of cracked glass you catch a momentary reflection of
+        (collect items in * to $Items)
+        (if) (empty $Items)
+        (then)
+            yourself
+        (else)
+            (randomly select $Item from $Items)
+            (a $Item)
+        (endif)
+        .
+        (par)
         Other rooms lie north and east.
     (endif)
-    The floor has half-collapsed near one corner
-    (if) (#duct-tape is #in #hole)
-    (then)
-        , revealing a hole criss-crossed with cobwebs
-    (endif)
-    .
-    (par)
-    In a pane of cracked glass you catch a momentary reflection of
-    (collect items in * to $Items)
-    (if) (empty $Items)
-    (then)
-        yourself
-    (else)
-        (randomly select $Item from $Items)
-        (a $Item)
-    (endif)
-    .
 (place #office north of *)
 (place #break-room east of *)
 (#pane-of-cracked-glass/
@@ -37,8 +39,45 @@
     #holes-in-roof/
     #patches-of-mold/
     #hole/
-    #cobwebs
+    #metal-desk
     is #in *)
+(* is dim)
+    (lit by headlights *)
+    ~(lit by flashlight *)
+%% TODO: You can interact too much with the items here while it is still dim
+%% and those items are as yet undescribed.
+
+%% With only the headlights for light, it's too dark to see everything. Any attempt to 
+%% move to another office interior room (or failure to move from #staging-area) triggers
+%% a hint about the metal desk.  On the other hand, #out to #crumbling-concrete just works.
+(prevent [leave * $Direction])
+    (lit by headlights *)
+    ~{
+        (from * go $Direction to room $TargetRoom)
+        ~(office interior $TargetRoom)
+      }
+    You take a step and crack your shin against what feels like a metal desk.
+
+(instead of [examine $])
+    (current room *)
+    (* is dim)
+    You can hardly see anything in here; touch is about the only way
+    you could navigate.
+
+(instead of [feel #metal-desk])
+    (* is dim)
+    You feel around the edge of the desk, and find that it has
+    a drawer.
+
+(narrate opening #drawer)
+    (* is dim)
+    (#flashlight is #in #drawer)
+    You slide the drawer open by feel in the darkness.
+    Something large and lumpy rolls around inside -- a flashlight?
+
+(instead of [open #metal-desk])
+    (try [open #drawer])
+
 
 #pane-of-cracked-glass
 (window *)
@@ -106,4 +145,46 @@
     (now) (courage demonstrated)
     (now) (#cobwebs is nowhere)
 
+#metal-desk
+(name *) metal desk
+(#drawer is #partof *)
 
+#drawer
+(name *) drawer
+(openable *)
+(#flashlight is #in *)
+
+#flashlight
+(item *)
+(name *) flashlight
+(dict *) light
+(switchable *)
+(descr *)
+    Sturdy and heavy
+    (if) (* is on)
+    (then)
+        , currently turned on
+    (endif)
+    .
+(* provides light)
+    (* is on)
+
+(narrate taking *)
+    (current room #staging-area)
+    (lit by headlights #staging-area)
+    Yeah, it's a flashlight all right. 
+    You grip it in sudden relief, turning it in your hands until your fingers find the switch.
+
+(narrate switching on *)
+    %% TODO: This may not be accurate in a brightly lit room.
+    Your surroundings spring into brightness around you.
+
+(after [switch on *])
+    (current room $Room)
+    ~(brightly lit $Room)
+    (try [look])
+
+
+
+
+    

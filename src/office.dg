@@ -12,26 +12,21 @@
     probably once where the boss sat under a dust covered window.
     A half collapsed desk sits against a wall.
     (collect $Item)
-        *($Item is #on #desk)
+        *($Item is #on #foremans-desk)
     (into $Items)
     (if) ~(empty $Items)
     (then)
         On the desk (is-are $Items) (a $Items).
     (endif)
-    (if) (#flashlight is pristine)
-    (then)
-        Mixed among the chaos is an old flashlight.
-    (endif)
     (par)
     The only exit is to the south.
     %% TODO: list anything visible on the desk
-(#desk/
-    #flashlight/
+(#formemans-desk/
     #wastepaper-basket/
     #dust-covered-window 
     is #in *)
 
-#desk
+#foremans-desk
 (supporter *)
 (name *) half-collapsed desk
 
@@ -39,21 +34,6 @@
 (item *)
 (name *) rusted key
 (* is #on #desk)
-
-#flashlight
-(item *)
-(name *) flashlight
-(dict *) light
-(switchable *)
-(descr *)
-    Sturdy and heavy
-    (if) (* is on)
-    (then)
-        , currently turned on
-    (endif)
-    .
-(* provides light)
-    (* is on)
 
 #wastepaper-basket
 (item *)
