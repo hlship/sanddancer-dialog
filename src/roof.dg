@@ -1,3 +1,93 @@
 #roof
 (around the tower *)
 (name *) Roof
+(look *)
+    From the roof of the building, you can see the huge electrical tower rising up in front of you.
+    Some metal rungs once led to a control room higher up the tower, but
+    the lowest ones are well above your head.
+    You'd have to jump out into space to grab the bottom rung.
+    A huge metal barrel stands upright and intact nearby,
+    (if) (#huge-barrel is placed)
+    (then)
+        directly underneath the the bottom rungs
+    (else)
+        large enough that you could climb up on it
+    (endif)
+    .
+    At your feet is the way back down.
+(#rungs/
+    #huge-barrel
+    is #in *)
+(place #control-center up from *)
+
+(prevent [leave * $Direction])
+    ~(from * go $Direction to room $)
+    It's a drop off on all sides.
+
+(refuse [leave * #up])
+    ~(knock holds #courage)
+    ~(#huge-barrel is placed)
+    The metal rungs have rusted away and crumbled; the lowest are well above your head.
+    You don't have the courage to make the jump.
+
+(narrate leaving * #up)
+    (knock holds #courage)
+    (select)
+        You gather your courage and leap off the edge of the roof.
+        Your hands grasp the metal of the bottommost rung, scraping and sliding,
+        but holding.
+    (or)
+        You pull yourself up the rungs into the control center.
+        Hey, it wasn't that hard after all.
+    (stopping)
+
+(narrate leaving * #up)
+    (#huge-barrel is placed)
+    You climb the barrel, reach, grab the bottom rungs, and pull yourself up.
+
+(instead of $Action)
+    (current room *)
+    ($Action is one of [[jump]
+                        [climb #rungs]
+                        [enter #rungs]])
+    (try [go #up])
+
+#rungs
+(name *) metal rungs
+(plural *)
+
+#huge-barrel
+(name *) huge metal barrel
+(refuse [push *])
+    ~(knock holds #strength)
+    You push against the side, but you're not strong enough to move the barrel.
+
+(refuse [push *])
+    (* is placed)
+    Push it any more and it'll fall off the roof.
+    Keep it here and you can get to the rungs.
+
+(instead of [push *])
+    ~(* is placed)
+    (now) (* is placed)
+    Heaving, you push against the barrel, and with a horrible grating noise, it slides
+    across the roof till it rests under the metal rungs.
+
+(instead of [enter *])
+    (* is placed)
+    (try [go #up])
+(instead of [climb *])
+    (* is placed)
+    (try [go #up])
+(instead of $Action)
+    (current room #roof)
+    ~(* is placed)
+    ($Action is one of [[enter *]
+                        [climb *]])
+    Yeah, you could get on top of it, but while it's over here, you couldn't reach a whole lot.
+
+%% TODO: Move to own file
+
+#control-center
+(office interior *)
+(name *) Control Center
