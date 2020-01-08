@@ -24,7 +24,7 @@
     ~(from * go $Direction to room $)
     It's a drop off on all sides.
 
-(refuse [leave * #up])
+(prevent [leave * #up])
     ~(knock holds #courage)
     ~(#huge-barrel is placed)
     The metal rungs have rusted away and crumbled; the lowest are well above your head.
@@ -58,11 +58,11 @@
 
 #huge-barrel
 (name *) huge metal barrel
-(refuse [push *])
+(prevent [push *])
     ~(knock holds #strength)
     You push against the side, but you're not strong enough to move the barrel.
 
-(refuse [push *])
+(prevent [push *])
     (* is placed)
     Push it any more and it'll fall off the roof.
     Keep it here and you can get to the rungs.
