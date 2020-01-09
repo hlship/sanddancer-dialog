@@ -51,6 +51,7 @@
 %% move to another office interior room (or failure to move from #staging-area) triggers
 %% a hint about the metal desk.  On the other hand, #out to #crumbling-concrete just works.
 (prevent [leave * $Direction])
+    ~(lit by flashlight *)
     (lit by headlights *)
     ~{
         (from * go $Direction to room $TargetRoom)
