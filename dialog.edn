@@ -1,6 +1,7 @@
 {:story-sources ["src/sand-dancer.dg"
                  "src/base-of-tower.dg"
                  "src/break-room.dg"
+                 "src/control-center.dg"
                  "src/crumbling-concrete.dg"
                  "src/knock.dg"
                  "src/light.dg"
