@@ -1,0 +1,4 @@
+(trace $Action)
+    (trace on)
+    (stoppable) { (try $Action ) }
+    (trace off)
