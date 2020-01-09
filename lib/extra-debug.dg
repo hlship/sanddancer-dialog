@@ -2,3 +2,8 @@
     (trace on)
     (stoppable) { (try $Action ) }
     (trace off)
+
+(trace instead $Action)
+    (trace on)
+    (stoppable) { (instead of $Action) }
+    (trace off)
