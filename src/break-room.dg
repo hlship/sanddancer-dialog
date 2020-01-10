@@ -76,6 +76,10 @@
 (name *) emergency blanket
 (an *)
 (* is #in #cage)
+(after [take *])
+    (#first-aid-kit is nowhere)
+    As you pick up the blanket, you find an old first aid kit underneath it.
+    (now) (#first-aid-kit is #in #break-room)
 
 #tiny-frosted-window
 (window *)
@@ -90,3 +94,20 @@
 #crumbling-trash
 (name *) crumbling trash
 (some *)
+
+#first-aid-kit
+(name *) first aid kit
+(item *)
+(openable *)
+(container *)
+(* is handled)
+(#bandages is #in *)
+(prevent [put $ #in *])
+    It's not the best place to store stuff.
+
+#bandages
+(name *) moth-eaten bandages
+(plural *)
+(prevent [wear *])
+    You don't need them.
+
