@@ -1,0 +1,93 @@
+%% Basic smoking verb
+
+(understand [smoke | $Words] as [smoke $Obj])
+    (understand $Words as object $Obj preferably held)
+
+(rewrite [light up | $Words] into [smoke | $Words])
+
+(before [smoke $Obj])
+    (ensure $Obj is held)
+
+(before [smoke $])
+    (current room $Room) 
+    (#lighter is in room $Room)
+    (ensure #lighter is held)
+
+(prevent [smoke $Obj])
+    (when $Obj isn't directly held)
+
+(prevent [smoke $])
+    ~(knock holds #lighter)
+    You pat your pockets, but can't seem to find your lighter.
+
+(prevent [smoke $Obj])
+    ~($Obj = #cigarettes)
+    Sounds like something your high school buddies would try.
+
+(perform [smoke $])
+    (exhaust) *(narrate smoking)
+
+%% The order here is important.
+
+(narrate smoking)
+    You pull out a cigarette and flick it into life.
+    Thoughts tumble through your head.
+    (par)
+    Well, you're stuck here.
+
+(narrate smoking)
+    (current room $Room)
+    (if) (brightly lit $Room)
+    (then)
+        You've finally lit the place up a little
+    (elseif) (lit by headlights $Room)
+    (then)
+        It's dark outside the beam of your headlights
+    (elseif) (lit by flashlight $Room)
+    (then)
+        It's pitch black outside the beam of your flashlight
+    (else)
+        It's darker than you can remember it ever being
+    (endif)
+    .
+
+(narrate smoking)
+    (collect $Talent)
+        *(knock holds $Talent)
+        (talent $Talent)
+    (into $Talents)
+    ~(empty $Talents)
+    (par)
+    Some wierd shit went down in the desert, but you
+    do feel like you have more
+    %% Talents are proper named, so the `the` is not printed,
+    %% e.g. "courage and luck".
+    (the $Talents).
+
+(narrate smoking)
+    (handled plan items $Items)
+    ~(empty $Items)
+    (par)
+    You've found (the $Items), but
+    (in progress plans $Plans)
+    (length of $Plans into $Count)
+    %% This logic is copied from Inform version, but is a bit dodgy
+    %% if we ever introduce a third plan.
+    (if) ($Count = 2)
+    (then)
+        you can't see how they're going to be helpful together
+    (else)
+        you still need something else if you plan on
+        ([$Plan] = $Plans)
+        (name $Plan)
+    (endif)
+    .
+
+
+
+%% Last rule:
+
+(narrate smoking)
+    (par)
+    And you still haven't quit smoking.
+    You crush the butt under your heel and wonder what to do next.

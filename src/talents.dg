@@ -1,23 +1,32 @@
 %% Talents are pseudo-items with real limitations
 
+(proper (talent $))
+
 #strength
+(talent *)
 (name *) strength
 
 #courage
+(talent *)
 (name *) courage
 
 #luck
+(talent *)
 (name *) luck
 
 #scent
+(talent *)
 (name *) scent
 
 #honor
+(talent *)
 (name *) honor
 
 #spirit
+(talent *)
 (name *) spirit
 
 #freedom
+(talent *)
 (name *) freedom
 

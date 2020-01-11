@@ -1,4 +1,5 @@
 (current player #knock)
+(#cigarettes/#lighter is #heldby #knock)
 
 %% A little utility
 
@@ -8,7 +9,6 @@
 #cigarettes
 (item *)
 (name *) pack of cigarettes
-(* is #heldby #knock)
 
 #lighter
 (item *)
@@ -22,7 +22,6 @@
     (else)
         Now that you've got your bearings a little, a smoke does sound nice.
     (endif)
-(* is #heldby #knock)
 (your *)
 
 #jacket
@@ -46,14 +45,28 @@
 %% Knock has plans
 
 #staying-the-night
+(plan *)
 (name *) staying the night
 (* requires #emergency-blanket/#canned-oranges)
 
 #fixing-the-truck
+(plan *)
 (name *) fixing the truck
 (* requires #duct-tape/#gas-can)
 
 %% The beauty/danger of Dialog is that the required objects now exist, waiting to be
 %% fully fleshed out later.
 
+(handled plan items $Items)
+    (collect $Item)
+        *(plan $Plan)
+        *($Plan requires $Item)
+        ($Item is handled)
+    (into $Items)
 
+(in progress plans $Plans)
+    (collect $Plan)
+        *(plan $Plan)
+        *($Plan requires $Item)
+        ($Item is handled)
+    (into $Plans)
