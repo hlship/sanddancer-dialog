@@ -1,3 +1,12 @@
 #control-center
 (office interior *)
 (name *) Control Center
+(#can-opener is #in *)
+
+#can-opener
+(name *) can opener
+(item *)
+~(dict *)
+(parse object name [can opener] as * $ $)
+        (* is in scope)
+
