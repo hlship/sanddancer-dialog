@@ -18,6 +18,7 @@
     (else)
         off
     (endif).
+    Rows of crumbling shelving support hundreds of cans of food, the labels long since aged away.
     The break room lies back to the south and a utility ladder climbs through a
     broken skylight to the roof.
 
@@ -39,7 +40,10 @@
     The lights flicker and die out.
 
 #shelves
-(name *) bare metal shelves
+(name *) rows of crumbling shelving
+(dict *) shelves
+(supporter *)
+(#cans-of-food is #on *)
 
 #ladder
 (name *) utility ladder
@@ -47,3 +51,57 @@
 #skylight
 (name *) broken skylight
 (out of reach *)
+
+#cans-of-food
+(item *)
+(name *) cans of food
+(dict *) hundreds can
+(prevent [take *])
+    (#canned-oranges is handled)
+    You won't be hungry again till morning.
+(instead of [take *])
+    ~(#canned-oranges is handled)
+    (knock holds #can-opener)
+    (knock holds #luck)
+    You run your fingers along the cans, waiting until one feels right.
+    There's nothing, nothing, but then... yeah.
+    That's the one.
+    You snag it down, twist it open, and boom: mandarin oranges, unspoiled and delicious.
+    You scarf them down, picking them out segment by segment with your chilly fingers.
+    By the time you've polished them off you're a lot less hungry. 
+    You grab the next can down for later.
+    (now) (knock holds #canned-oranges)
+    %% We're responsible for this; normally the responsibility of [take $] action:
+    (now) (#canned-oranges is handled)
+(prevent [take *])
+    (knock holds #can-opener)
+    You pull down a can from the shelf, grip it with the rusty can opener, and peel open the lid.
+    Yuck:
+    (select)
+        moldy peas
+    (or)
+        rotten condensed milk
+    (or)
+        black and mold-covered mushrooms
+    (or)
+        something nasty-smelling and green
+    (at random) %% Dialog doesn't have "as decreasingly likely outcomes"
+    .
+    (select)
+        Just your luck.
+    (or)
+        Not your lucky day.
+    (or)
+        Some these should still be good, right?
+    (at random)
+(prevent [take *])
+    You grab one and turn it over and over in your hand, but water has soaked and crumbled away the label,
+    and you don't have any way to get it open.
+    Your stomach growls a little as you put it back on the shelf.
+(instead of [open/eat *])
+    (try [take *])
+
+#canned-oranges
+(item *)
+(name *) canned oranges
+(proper *)

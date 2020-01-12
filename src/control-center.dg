@@ -2,9 +2,16 @@
 (office interior *)
 (name *) Control Center
 (#can-opener is #in *)
+(look *)
+        <Control Center Description>
+        (if) (#can-opener is pristine)
+        (then)
+            (par)
+            But hey, on one pile here's a perfectly good can opener.
+        (endif)
 
 #can-opener
-(name *) can opener
+(name *) rusty can opener
 (item *)
 ~(dict *)
 (parse object name [can opener] as * $ $)
