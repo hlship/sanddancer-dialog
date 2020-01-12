@@ -1,0 +1,296 @@
+
+
+Sand-dancer
+An interactive fiction by Aaron Reed and Howard M. Lewis Ship.
+Release 1. Serial number DEBUG.
+Dialog Interactive Debugger (dgdebug) version 0i/01. Library version 0.33.
+Debugging extension 1.1.
+
+Middle of Nowhere
+The tire tracks from the south stop abruptly here, but where the hell are you?
+The desert sand and clumps of pale sagebrush are all your dimming headlights
+pick out before barely reaching the concrete building to the north.
+
+Your poor old pickup truck ticks and groans, smashed gracelessly against a tall
+Saguaro; wiffs of evaporating gasoline linger in the chill air.
+
+> l
+Middle of Nowhere
+The tire tracks from the south stop abruptly here, but where the hell are you?
+The desert sand and clumps of pale sagebrush are all your dimming headlights
+pick out before barely reaching the concrete building to the north.
+
+Your poor old pickup truck ticks and groans, smashed gracelessly against a tall
+Saguaro; wiffs of evaporating gasoline linger in the chill air.
+
+> e
+Outside the wavering glow of your headlights, it's black. Pitch. Storm must have
+rolled in; there's no stars above, no anything but blackness around. Only the
+smell of the desert tells you it's still out there.
+
+>  s
+You walk south.
+
+Backtracking
+It's quieter and darker over here, the black desert night bleed in. Your tire
+track are hardly visible in the desert sand, and you can barely make out the way
+north back to your truck.
+
+> s
+You stare back down the pickup's path uneasily. The tracks are swallowed by
+darkness, quickly melding, blending, and vanishing into a maze of ATV tracks,
+coyote trails, rocky outcrops, and shadows. You squint at the horizon. There's
+no distant sweep of headlights, no sound of trucks shifting through lonely
+gears. Nothing. Nothing at all. You're way off the road, and there's no chance
+at all of finding it again in this demon dark.
+
+> n
+You walk north.
+
+Middle of Nowhere
+The tire tracks from the south stop abruptly here, but where the hell are you?
+The desert sand and clumps of pale sagebrush are all your dimming headlights
+pick out before barely reaching the concrete building to the north.
+
+Your poor old pickup truck ticks and groans, smashed gracelessly against a tall
+Saguaro; wiffs of evaporating gasoline linger in the chill air.
+
+> n
+You walk north.
+
+Crumbling Concrete
+This building must've been some sort of utility structure for the huge
+electrical tower to the north, now abandoned: fragments of glass sparkle faintly
+in the beam of your headlights. Tendrils of sand spill through the empty
+doorframe leading in to a dark interior; you could also walk around to the east
+or head south back to your truck.
+
+> n
+You walk north.
+
+Base of the Tower
+Behind the concrete building a steel girder rises from the sand, on of three
+legs of the huge electrical tower looming like some gargantuan spider into
+blackness above you A tumbleweed drifts lazily against the rusted metal among
+scrawny weeds bits of trash. Someone left a tin can here years ago: ridged
+ripples run down its rusty side.
+
+The desert stretches in all directions except back south towards the building.
+
+> n
+Outside the wavering glow of your headlights, it's black. Pitch. Storm must have
+rolled in; there's no stars above, no anything but blackness around. Only the
+smell of the desert tells you it's still out there.
+
+> se
+You walk southeast.
+
+Weed Strewn Rust
+Behind the rather small building is nothing but a scraggly patch of yellowing
+weeds and dirt near a leaking pipe, littered by a collection of rusted barrels
+and some scattered newspapers. Atop one overturned barrel is a weathered
+guidebook.
+
+Desert stretches in all directions; back west is the front of the building.
+
+> x guidebook
+Most of the pages are faded or worn away, but flipping through, it looks like a
+guide to local animal life. You could try looking up various animals in it.
+
+> w
+You walk west.
+
+Crumbling Concrete
+This building must've been some sort of utility structure for the huge
+electrical tower to the north, now abandoned: fragments of glass sparkle faintly
+in the beam of your headlights. Tendrils of sand spill through the empty
+doorframe leading in to a dark interior; you could also walk around to the east
+or head south back to your truck.
+
+> in
+You walk in.
+
+Staging Area
+Faint shafts of light from your dimming headlights seep through a boarded-up
+pane of cracked glass, but you can barely make out anything of the interior.
+
+> n
+You take a step and crack your shin against what feels like a metal desk.
+
+> s
+You take a step and crack your shin against what feels like a metal desk.
+
+> feel desk
+You feel around the edge of the desk, and find that it has a drawer.
+
+> open it
+You slide the drawer open by feel in the darkness. Something large and lumpy
+rolls around inside--a flashlight?
+
+> take light
+Yeah, it's a flashlight all right. You grip it in sudden relief, turning it in
+your hands until your fingers find the switch.
+
+> turn light on
+Your surroundings spring into brightness around you.
+Staging Area
+It's obvious this place has been abandoned for years. Cold night air breathes
+through holes in the roof and everything is strewn with sand and patches of
+mold. An imposing metal desk extends out from one wall. The floor has half-
+collapsed near one corner, revealing a hole criss-crossed with cobwebs.
+
+In a pane of cracked glass you catch a momentary reflection of yourself.
+
+Other rooms lie north and east.
+
+> x hole
+Through a mass of cobwebs, you can see a roll of duct-tape down in the whole.
+
+> take tape
+You reach your hand towards the hole, then pull back with a start as you brush
+cobwebs. Nightmare visions of fat black spiders shudder through your brain. No
+way are you reaching in there.
+
+> n
+You walk north.
+
+Foreman's Office
+You sweep the beam of your flashlight around this tiny office, probably once
+where the boss sat under a dust covered window. A half collapsed desk sits
+against a wall.
+
+The only exit is to the south.
+
+> x desk
+(I only understood you as far as wanting to examine something.)
+
+> s
+You walk south.
+
+Staging Area
+It's obvious this place has been abandoned for years. Cold night air breathes
+through holes in the roof and everything is strewn with sand and patches of
+mold. An imposing metal desk extends out from one wall. The floor has half-
+collapsed near one corner, revealing a hole criss-crossed with cobwebs.
+
+In a pane of cracked glass you catch a momentary reflection of yourself.
+
+Other rooms lie north and east.
+
+> e
+You walk east.
+
+Break Room
+Shadows and grime linger in dark corners of this dismal room with just one tiny
+frosted window. Some rotting picnic tables strewn with layers of sand and
+crumbling trash are pushed against one wall, and a closed wire cage, in which is
+an emergency blanket.
+
+Open doorways lead west and north.
+
+> open cage
+The wire mesh cage is locked.
+
+> n
+You walk north.
+
+Storage Room
+The walls are lined with bare metal shelves, casting strange patterns of shadow
+as you sweep your flashlight beam around. Mounted to the wall is a control panel
+for the building's emergency lights. They are switched off. The break room lies
+back to the south and a utility ladder climbs through a broken skylight to the
+roof.
+
+> turn on lights
+With a sharp buzz, a wiff of static, and an electrical groan, bare light bulbs
+flicker on throughout the building.
+
+> l
+Storage Room
+The walls are lined with bare metal shelves, rusting away. Mounted to the wall
+is a control panel for the building's emergency lights. They are switched on.
+The break room lies back to the south and a utility ladder climbs through a
+broken skylight to the roof.
+
+> u
+You climb up.
+
+Roof
+From the roof of the building, you can see the huge electrical tower rising up
+in front of you. Some metal rungs once led to a control room higher up the
+tower, but the lowest ones are well above your head. You'd have to jump out into
+space to grab the bottom rung. A huge metal barrel stands upright and intact
+nearby, large enough that you could climb up on it. At your feet is the way back
+down.
+
+> n
+It's a drop off on all sides.
+
+> climb barrel
+Yeah, you could get on top of it, but while it's over here, you couldn't reach a
+whole lot.
+
+> u
+The metal rungs have rusted away and crumbled; the lowest are well above your
+head. You don't have the courage to make the jump.
+
+> d
+You climb down.
+
+Storage Room
+The walls are lined with bare metal shelves, rusting away. Mounted to the wall
+is a control panel for the building's emergency lights. They are switched on.
+The break room lies back to the south and a utility ladder climbs through a
+broken skylight to the roof.
+
+> s
+You walk south.
+
+Break Room
+Shadows and grime linger in dark corners of this dismal room with just one tiny
+frosted window. Some rotting picnic tables strewn with layers of sand and
+crumbling trash are pushed against one wall, and a closed wire cage, in which is
+an emergency blanket.
+
+Open doorways lead west and north.
+
+> w
+You walk west.
+
+Staging Area
+It's obvious this place has been abandoned for years. Cold night air breathes
+through holes in the roof and everything is strewn with sand and patches of
+mold. An imposing metal desk extends out from one wall. The floor has half-
+collapsed near one corner, revealing a hole criss-crossed with cobwebs.
+
+In a pane of cracked glass you catch a momentary reflection of yourself.
+
+Other rooms lie north and east.
+
+> out
+You walk out.
+
+Crumbling Concrete
+This building must've been some sort of utility structure for the huge
+electrical tower to the north, now abandoned. Tendrils of sand spill through the
+empty doorframe leading in to a brightly lit interior; you could also walk
+around to the east or head south back to your truck.
+
+> s
+You walk south.
+
+Middle of Nowhere
+The tire tracks from the south stop abruptly here, but where the hell are you?
+The desert sand and clumps of pale sagebrush are all you can see in the glow of
+the concrete building to the north.
+
+Your poor old pickup truck ticks and groans, smashed gracelessly against a tall
+Saguaro; wiffs of evaporating gasoline linger in the chill air.
+
+> x truck
+Your truck is closed.
+
+> smell gasoline
+The wiffs of gasoline smell as expected.
+
+> 
