@@ -114,3 +114,9 @@
 (plant *)
 (* is dead)
 (name *) withered cactus
+
+%% This is very limited compared to Inform's "understand ... as a mistake".
+
+(parse action [drive pickup/truck])
+    Your truck's not going anywhere in this condition.
+    (stop)
