@@ -29,32 +29,3 @@
 (name *) denim jacket
 (your *)
 (* is #wornby #knock)
-
-%% Knock has plans
-
-#staying-the-night
-(plan *)
-(name *) staying the night
-(* requires #emergency-blanket/#canned-oranges)
-
-#fixing-the-truck
-(plan *)
-(name *) fixing the truck
-(* requires #duct-tape/#gas-can)
-
-%% The beauty/danger of Dialog is that the required objects now exist, waiting to be
-%% fully fleshed out later.
-
-(handled plan items $Items)
-    (collect $Item)
-        *(plan $Plan)
-        *($Plan requires $Item)
-        ($Item is handled)
-    (into $Items)
-
-(in progress plans $Plans)
-    (collect $Plan)
-        *(plan $Plan)
-        *($Plan requires $Item)
-        ($Item is handled)
-    (into $Plans)

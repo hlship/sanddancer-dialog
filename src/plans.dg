@@ -1,0 +1,30 @@
+%% Plans require Knock to acquire certain objects.
+
+#staying-the-night
+(plan *)
+(name *) staying the night
+(* requires #emergency-blanket/#canned-oranges)
+
+#fixing-the-truck
+(plan *)
+(name *) fixing the truck
+(* requires #duct-tape/#gas-can)
+
+%% What items that are required by any plan have been handled
+%% (used when narrating the smoke action).
+
+(handled plan items $Items)
+    (collect $Item)
+        *(plan $Plan)
+        *($Plan requires $Item)
+        ($Item is handled)
+    (into $Items)
+
+%% Likewise, which plans are in progress because Knock has handled
+%% one or more items required by the plan?
+(in progress plans $Plans)
+    (collect $Plan)
+        *(plan $Plan)
+        *($Plan requires $Item)
+        ($Item is handled)
+    (into $Plans)
