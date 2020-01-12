@@ -11,17 +11,10 @@
     this tiny office,
     probably once where the boss sat under a dust covered window.
     A half collapsed desk sits against a wall.
-    (collect $Item)
-        *($Item is #on #foremans-desk)
-    (into $Items)
-    (if) ~(empty $Items)
-    (then)
-        On the desk (is-are $Items) (a $Items).
-    (endif)
+    (list objects #on #foremans-desk)
     (par)
     The only exit is to the south.
-    %% TODO: list anything visible on the desk
-(#formemans-desk/
+(#foremans-desk/
     #wastepaper-basket/
     #dust-covered-window 
     is #in *)
@@ -30,10 +23,10 @@
 (supporter *)
 (name *) half-collapsed desk
 
-#key
+#rusted-key
 (item *)
 (name *) rusted key
-(* is #on #desk)
+(* is #on #foremans-desk)
 
 #wastepaper-basket
 (item *)

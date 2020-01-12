@@ -48,11 +48,11 @@
         (endif)
         , you see (a $Items).
     (endif)
-(instead of [unlock * with #key])
+(instead of [unlock * with #rusted-key])
     You sling the key into the lock, but as you turn it, the rusted metal snaps off inside. 
     The crumbling fragments fall to the ground as you slam your fist against the wire mesh in frustration. 
     This is not your day.
-    (now) (#key is nowhere)
+    (now) (#rusted-key is nowhere)
 (instead of [attack *])
     (* is closed)
     (knock holds #strength)
