@@ -27,14 +27,14 @@
     (then)
             glow of the
     (endif)
-    building. A tall fence is visible to the north.
+    building.
 (place #weed-strewn-rust southeast of *)
 (#tumbleweed/
     #rusty-can/
     #girder/
     #scrawny-weeds/
     #bits-of-trash/
-    #red-warning-lsight 
+    #red-warning-light 
     is #in *)
 
 #tumbleweed
