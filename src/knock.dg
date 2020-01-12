@@ -30,18 +30,6 @@
 (your *)
 (* is #wornby #knock)
 
-%% Knock has memories
-
-%% Memories start buried but may be retrieved
-
-@($ is buried) ~($ is retrieved)
-
-%% Objects and items may suggest a memory
-
-#last-day-of-high-school
-(name *) last day of high school
-(#tumbleweed suggests *)
-
 %% Knock has plans
 
 #staying-the-night

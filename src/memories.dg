@@ -1,0 +1,89 @@
+%% Memories start buried but may be retrieved
+
+@($ is buried) ~($ is retrieved)
+
+#emotional-baggage
+(item *)
+(name *) emotional baggage
+(descr *)
+    Your guidance counselor used to say you're always carrying it with you.
+    You imagine it's kind of ugly, lump, and green, and definitely has a stuck zipper.
+(container *)
+(* is open)
+(* is #heldby #knock)
+(your *)
+(prevent [$Verb | $Objects])
+    ~($Verb = @examine)
+    (* is one of $Objects)
+    It's not real, bro.
+
+%% Memories exist as almost-items, but you can't really do anything with them
+(unlikely $Action)
+    *($Obj is one of $Action)
+    (memory $Obj)
+
+%% Objects and items may suggest a memory
+
+#last-day-of-high-school
+(memory *)
+(name *) last day of high school
+(#tumbleweed suggests *)
+(descr *)
+    You didn't expect it was going to be your last day.
+    But that morning you got called in to the principal's office and fat bald Mr. Cox
+    and pissy old Mrs. Burke were there, and they looked kind of like strong
+    animals stalking weak animals, and you knew something bad was up.
+    (par)
+    Cox said I have here, Mr. Morales \(a bad start since you hate that name\)
+    a test you took last week in Mrs. Burke's sophmore English class.
+    Questions have been raised \(he looked up at Mrs. Burke
+    like he was trying to pass the buck\) questions have been raised about the quality
+    of your essay, and whether a stund with your academic and behavioral record
+    \(he scratch his bloated nose meaningfully\)
+    could have plausibly produced such as essay, and you get the idea.
+    They though you cheated.
+    (par)
+    No. They knew you cheated, deep in their smug empty hearts.
+    The wanted you to admit it, say you were a cheater and a liar.
+    But you weren't.
+    You wrote the essay, every god damn word, because you really liked the book for once
+    and wanted to show Mrs. Burke that maybe if they gave people better books to read kids would
+    actually learn something. 
+    But they wanted a confession.
+    They wanted a thieving example they could parade in front of the school.
+    Someone of your academic and behavioral and economic and racial background and yeah,
+    screw this shit.
+    So you got up and left and never came back.
+    Drop out, hell.
+    You walked out and you'd do it again.
+
+%% Brood verb to access memories:
+
+(rewrite [brood about/on/over | $Words] into [brood | $Words])
+(rewrite [think about | $Words] into [brood | $Words])
+
+(understand [brood | $Words] as [brood $Obj])
+    *(understand $Words as single object $Obj preferably { (memory $_) })
+
+(describe action [brood $Obj])
+    brood about (the $Obj)
+
+(prevent [brood $Obj])
+    ~(memory $Obj)
+    Eh. You couldn't really get into a good brood about that when it's this damn cold.
+
+(prevent [$Verb | $Nouns])
+    ~($Verb = @brood)
+    *($Noun is one of $Nouns)
+    (memory $Noun)
+    As if. All you can really do is BROOD ABOUT it.
+
+(perform [brood $Obj])
+    (narrate brooding about $Obj)
+    (now) ($Obj is retrieved)
+
+(narrate brooding about $Obj)
+    (descr $Obj)
+
+(perform [think])
+    Most of the thinking you do nowadays comes from either smoking or brooding.
