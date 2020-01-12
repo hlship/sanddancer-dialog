@@ -67,7 +67,7 @@
     Push it any more and it'll fall off the roof.
     Keep it here and you can get to the rungs.
 
-(instead of [push *])
+(perform [push *])
     ~(* is placed)
     (now) (* is placed)
     Heaving, you push against the barrel, and with a horrible grating noise, it slides
