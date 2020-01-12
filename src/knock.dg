@@ -1,5 +1,8 @@
 (current player #knock)
-(#cigarettes/#lighter is #heldby #knock)
+(#cigarettes/
+ #lighter/
+ #wallet
+ is #heldby #knock)
 
 %% A little utility
 
@@ -29,3 +32,18 @@
 (name *) denim jacket
 (your *)
 (* is #wornby #knock)
+
+#wallet
+(item *)
+(name *) wallet
+(openable *)
+(#license/#receipt is #in *)
+
+#license
+(item *)
+(name *) driver's license
+(your *)
+
+#receipt
+(item *)
+(name *) receipt from Big Jimmy's

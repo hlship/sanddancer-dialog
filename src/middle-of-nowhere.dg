@@ -37,6 +37,7 @@
 (name *) pickup truck
 (openable *)
 (actor container *)
+(#jade is #in *)
 (before [enter/leave *])
     (* is closed)
     (try [open *])
@@ -83,6 +84,9 @@
 (plant *)
 (name *) tall Saguaro
 (dict *) cactus
+
+#jade
+(name *) piece of jade
 
 %% Bonus room
 

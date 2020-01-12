@@ -57,6 +57,80 @@
     Drop out, hell.
     You walked out and you'd do it again.
 
+#your-shit-job
+(memory *)
+(name *) your shit job
+(#receipt suggests *)
+(descr *)
+    Juza straddles the 371 like a drunk at last call, smelly and without a plan for the future.
+    Shiny cars whiz by at ninety once in a while, only stopping for gas or directions
+    \(hint: not this way\).
+    No one ever stops for the stalls selling food and jewelry and blankets and cheap t-shirts that
+    cluster around the dirt turn-off onto the rez.
+    At least, no one buying anything.
+    (par)
+    Big Jimmy shooks his head when he heard you lived in Oro Oeste.
+    Hell of a drive, kid, he said, popping up his Lumberjacks cap to scratch the straw pate underneath.
+    You should get a place in Hoo-zuh.
+    Little Jimmy'll set you up in that trailer cross the road for almost nothin'.
+    (par)
+    Almost nothing. Yeah, exactly what you'd turn into on the cold day in hell you move to Juza.
+    But on the other hand, that was before you met Ocean.
+    Now the road back to Oro Oeste seems longer and longer every night.
+
+#grandmas-stories
+(memory *)
+(name *) gradma's stories
+(#jade suggests *)
+(descr *)
+    There are dark spirits who roam the earth, little Knock.
+    Grandma used to say that, holding you tight and stroking your hair.
+    There are dark spirits who roam the earth, but you're not alone.
+    Oh, no.
+    I'm here.
+    \(She'd kiss your head and you'd squeeze her back.\)
+    But others are watching out for you too.
+    You have three animal guardians, hmm?
+    Spirits who are always watching over you.
+    Oh, you can't always trust them to know what's best.
+    Remember that, Knock.
+    But when you need help, they'll come, and protect you from the worser things in the world.
+    (par)
+    Mom would yell at Grandma a lot for filling your head with that new-age bullshit.
+    Grandma grew up white and midwestern and Baptist, but had started wearing things with feathers
+    and playing the pan flute by the time your were born.
+    She seemd to really like have a son-in-law who was Native American or American Indian
+    or Indigenous People or whatever she'd decided the term was that week,
+    and she was pretty pissed when mom left him.
+    Anyway.
+    Her stories were mostly BS, you guess, but some of the stuck with you.
+    When it's dark you still wonder if your spirit animals are out there, somewhere, and
+    what the hell is taking them so long to find you.
+
+#meeting-ocean
+(memory *)
+(name *) meeting Ocean
+(#rusted-key suggests *)
+(descr *)
+    She was buying a Fresca at Big Jimmy's when you got off your shift, shoving work keys in your pocket,
+    and you stodd behind her waiting to get some cigs, almost too tired to notice how cute she was but still noticing,
+    yeah, still noticing.
+    (par)
+    She turned around and caught you noticing and you were pretty embarrassed and covered in sweat and grease
+    from the garage, so you stepped up and bought some Camels and were pretty surprised that she was still there
+    when you turned around.
+    (par)
+    She told you her name was Ocean Running Deer and she lived on the rez and you told her your name
+    was Nakaibito Morales and you lived in Oro Oeste.
+    She said isn't Nakaibito the nae of a town off west and you told her your mom had picked it off a map
+    because it sounded like a good Indian name.
+    You never tell anyone that story but for some reason you told her.
+    She laughed, sweetly though, and said maybe the two of you should go there sometime and see
+    what is was like.
+    Somehow two weeks later you were dating although you never ended up going to Nakaibito.
+    (par)
+    And now... no, you can't think about that yet.
+
 %% Brood verb to access memories:
 
 (rewrite [brood about/on/over | $Words] into [brood | $Words])
