@@ -87,6 +87,7 @@
 
 #jade
 (name *) piece of jade
+(item *)
 
 %% Bonus room
 
