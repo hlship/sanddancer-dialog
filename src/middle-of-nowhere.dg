@@ -48,6 +48,35 @@
 %% This prevents a redundant list of items in the truck, when Knock looks while also in the truck:
 (appearance $ #in *)
     (just) (fail)
+
+%% Players really want to just drive the truck away.
+
+(understand [drive/shift/steer/brake/start] as [drive])
+
+(understand [drive/start | $Words] as [drive])
+    *(understand $Words as single object *)
+
+(understand [turn on | $Words] as [drive])
+    *(understand $Words as single object *)
+
+(understand [turn key] as [drive])
+    (player can see *)
+    %% TODO: Watch out for if knock has rusty key
+
+(prevent [drive])
+    ~(player can see *)
+    You don't see any kind of vehicle here.
+
+(prevent [drive])
+    ~(#knock is #in *)
+    It's generally safer to drive from inside the vehicle, but in this case
+    it doesn't matter -- your pickup truck is in no shape to go anywhere.
+
+(prevent [drive])
+    Your pickup truck is in no shape to go anywhere until you fix
+    that leaking gas line. Even then you'd be lucky to get it moving or find
+    the highway.
+
     
 #headlights
 (name *) headlights
@@ -56,13 +85,16 @@
 (switchable *)
 (* is on)
 (* is #partof #pickup-truck)
+(prevent [switch on/off *])
+    ~(#knock is #in #pickup-truck)
+    You can't operate the headlights from outside your pickup truck.
 (narrate switching on *)
     The desert springs into existence around you.
 (narrate switching off *)
     You click the headlights off
     (if) (#emergency-lights is off) (#flashlight is off)
     (then)
-        and blackness swalls you up
+        and blackness swallows you up
     (elseif) (#emergency-lights is off) 
              (#flashlight is on)
              (player can see #flashlight)
@@ -119,9 +151,3 @@
 (plant *)
 (* is dead)
 (name *) withered cactus
-
-%% This is very limited compared to Inform's "understand ... as a mistake".
-
-(parse action [drive pickup/truck])
-    Your truck's not going anywhere in this condition.
-    (stop)
