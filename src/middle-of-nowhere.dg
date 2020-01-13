@@ -35,6 +35,7 @@
 
 #pickup-truck
 (name *) pickup truck
+(dict *) car door dash old poor
 (openable *)
 (actor container *)
 (#jade is #in *)
@@ -80,7 +81,7 @@
     
 #headlights
 (name *) headlights
-(dict *) light head
+(dict *) light head headlight 
 (plural *)
 (switchable *)
 (* is on)

@@ -34,7 +34,8 @@
     #girder/
     #scrawny-weeds/
     #bits-of-trash/
-    #red-warning-light 
+    #red-warning-light/
+    #electrical-tower
     is #in *)
 
 #tumbleweed
@@ -62,3 +63,7 @@
 
 #red-warning-light
 (name *) red warning light
+
+#electrical-tower
+(name *) electrical tower
+(dict *) rusted metal

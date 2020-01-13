@@ -54,6 +54,7 @@
 
 #rungs
 (name *) metal rungs
+(dict *) ladder rung
 (plural *)
 
 #huge-barrel

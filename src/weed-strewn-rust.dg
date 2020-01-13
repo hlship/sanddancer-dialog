@@ -33,6 +33,7 @@
 #weeds
 (plant *)
 (name *) yellowing weeds
+(dict *) weed
 (plural *)
 (* is dead)
 
@@ -44,7 +45,7 @@
 #guidebook
 (item *)
 (name *) weathered guidebook
-(dict *) guide book
+(dict *) guide book pages page
 (consultable *)
 (descr *)
     Most of the pages are faded or worn away, but flipping through, it looks

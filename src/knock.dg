@@ -12,7 +12,7 @@
 #cigarettes
 (item *)
 (name *) pack of cigarettes
-(dict *) cig cigarette
+(dict *) cig cigarette cigs smokes
 
 #lighter
 (item *)

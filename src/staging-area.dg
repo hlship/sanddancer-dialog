@@ -133,7 +133,7 @@
 #cobwebs
 (name *) cobwebs
 (plural *)
-(dict *) web
+(dict *) web spiderweb spiderwebs cobweb spider spiders webs
 (fine where it is *)
 
 #duct-tape
