@@ -74,6 +74,7 @@
     (now) (knock holds #canned-oranges)
     %% We're responsible for this; normally the responsibility of [take $] action:
     (now) (#canned-oranges is handled)
+    (now) (#orange-smell is #in #storage-room )
 (prevent [take *])
     (knock holds #can-opener)
     You pull down a can from the shelf, grip it with the rusty can opener, and peel open the lid.
@@ -106,3 +107,6 @@
 (item *)
 (name *) canned oranges
 (proper *)
+
+#orange-smell
+(name *) lingering smell of orange

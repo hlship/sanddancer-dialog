@@ -131,6 +131,25 @@
     (par)
     And now... no, you can't think about that yet.
 
+#oceans-perfume
+(memory *)
+(#orange-smell suggests *)
+(descr *)
+    You used to like it. 
+    The perfume. 
+    But you like how Ocean smells without it better, but she doesn't believe you.
+    She says girls are supposed to smell sweet, like oranges and rose petals.
+    But you've always liked bitter fruits. 
+    Tamarind and lemon.
+    (par)
+    And sometimes, maybe after a fight or something, you'll drive off and that's all you can smell is her orange perfume. 
+    And even after smoking three cigarettes with the windows of your pickup rolled down you can still smell it, and it's still too sweet, and you wonder if this is working out. 
+    Because it's such a little pointless thing but it drives you crazy. 
+    And if a little thing like perfume is driving you this crazy maybe the whole thing is doomed.
+    Maybe Ocean would be better off with some guy who likes orange perfume.
+    (par)
+    You don't know what's going to happen now.
+
 %% Brood verb to access memories:
 
 (rewrite [brood about/on/over | $Words] into [brood | $Words])
