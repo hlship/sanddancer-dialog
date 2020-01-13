@@ -1,14 +1,39 @@
 #control-center
 (office interior *)
 (name *) Control Center
-(#can-opener is #in *)
+(#can-opener/
+ #piles-of-trash/
+ #smell-of-gasoline/
+ #metal-sheet
+ is #in *)
 (look *)
-        <Control Center Description>
-        (if) (#can-opener is pristine)
+    Some kind of electrical control stuff must have happened here once, but it's totally trashed now. 
+    Like, piles of trash, broken equipment, and junk are everywhere.
+    (if) (#can-opener is pristine)
+    (then)
+        (par)
+        But hey, on one pile there's a perfectly good can opener.
+    (endif)
+    (if) (#gas-can is #in *) (#gas-can is pristine)
+    (then)
+        Admist the piles of trash is a can of gasoline.
+    (endif)
+    (par)
+    (if) (#smell-of-gas is #in *)
+    (then)
+        (if) (knock holds #scent)
         (then)
-            (par)
-            But hey, on one pile here's a perfectly good can opener.
+            You can clearly smell gasoline coming from under that
+            sheet of corrugate metal
+        (else)
+            You catch a faint whiff of gasoline coming from somewhere
         (endif)
+        .
+    (endif)
+    (par)
+    Back down is the only place to go.
+(instead of [smell *])
+    (try [smell #smell-of-gasoline])
 
 #can-opener
 (name *) rusty can opener
@@ -16,4 +41,44 @@
 ~(dict *)
 (parse object name [can opener] as * $ $)
         (* is in scope)
+
+#piles-of-trash
+(name *) piles of trash
+(dict *) broken equipment junk
+(instead of [look #under *])
+    (knock holds #scent)
+    Your sense of smell leads you straight to a sheet of corrugated metal.
+    You lift it
+    (if) (knock holds #scent) (then) effortlessly (endif)
+    and throw it aside, revealing a gas can.
+    (now) (#smell-of-gas is nowhere)
+    (now) (#gas-can is #in #control-center)
+(instead of [search */#metal-sheet])
+    (try [look #under *])
+(instead of [take */#metal-sheet])
+    (try [look #under *])
+(instead of [look #under *])
+    You root around the trash hopelessly, but there's a lot of it.
+    You don't turn up anything useful.
+
+%% The smell of gasoline is fixed in place in Control Center. “[if player holds scent]You can clearly smell gasoline coming from under that [sheet of corrugated metal][otherwise]You catch a faint whiff of gasoline coming from somewhere[end if].” Understand “faint/whiff” as smell of gasoline. Understand “gas” as smell of gasoline when gas can is not visible. Instead of doing anything to smell of gasoline, say “[if player holds scent]It's coming from beneath that [sheet of corrugated metal][else]You can't tell where the smell is coming from[end if].” Instead of smelling Control Center, try smelling smell of gasoline.
+
+#smell-of-gasoline
+(name *) smell of gasoline
+(dict *) faint whiff gas
+
+#metal-sheet
+(name *) corrugated metal sheet
+(instead of [look #under *])
+    (try [look #under #piles-of-trash])
+
+#gas-can
+(item *)
+(name *) gas can
+(dict *) gasoline
+(openable *)
+(descr *)
+    It's full of gas.
+(instead of [open *])
+    You don't want to spill it.
 
