@@ -4,5 +4,56 @@
 
 (openable *(window $))
 
+%% Every window is a door
+(door *(window $))
+
+(dict (window $))   window
+
+(prevent [open (window $Window)])
+    ($Window is open)
+    It's already busted open.
+
+(prevent [close (window $Window)])
+    ($Window is open)
+    There's nothing of (the $Window) left to close.
+
 (prevent [open/close (window $)])
     It looks like these windows have been rusted shut for years.
+
+(prevent [throw $Missile at (window $Window)])
+    ($Window is open)
+    You already busted it open.
+
+(perform [throw $Missile at (window $Window)])
+    (current room $Here)
+    *(from $Here go $ through $Window to $There)
+    (now) ($Missile is #in $There)
+    (now) ($Window is open)
+    (The $Missile) passes through (the $Window), shattering it.
+
+(prevent [attack (window $Window)])
+    ($Window is closed)
+    Nice thought, but the last thing you need is a sliced open hand.
+    Perhaps you could get a little distance.
+
+(prevent [attack (window $Window)])
+    ($Window is open)
+    Not much left there to attack.
+
+(descr (window $Window))
+    (if) ($Window is closed)
+    (then)
+        The glass is too filthy to see anything on the other side.
+    (else)
+        (current room $Here)
+        (from $Here go $ through $Window to $There)
+        (The $Window) is open, and through it you can see
+        (if) ($There is visited)
+        (then)
+            (the $There)
+        (else)
+            someplace unfamiliar
+        (endif)
+        .
+    (endif)
+

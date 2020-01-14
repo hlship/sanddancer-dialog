@@ -12,18 +12,37 @@
         : it seems dead and alone in the dusty beam of your flashlight
     (endif)
     .
-    Tendrils of sand spill through the empty doorframe leading in to a
-    (if) (brightly lit *)
-    (then)
-        brightly lit
-    (else)
-        dark
-    (endif)
-    interior; you could also walk around to the east or head south back to your truck.
-(#fragments-of-glass is #in *)
-(place #staging-area in from *)
+    Tendrils of desert sand drift against a boarded-up door to the northeast leading inside; 
+    you could also walk around to the east or head south back to your truck.
+(#fragments-of-glass/#boarded-up-door is #in *)
 (place #base-of-tower north of *)
 (place #weed-strewn-rust east of *)
+
+#pane-of-cracked-glass
+(window *)
+(name *) pane of cracked glass
+(dict *) quiver
+(from #crumbling-concrete go #in through * to #staging-area)
+(from #staging-area go #out through * to #crumbling-concrete)
+
+#boarded-up-door
+(name *) boarded up door
+(dict *) board
+(prevent [attack *])
+    (door is closed)
+(prevent [open *])
+    (door is closed)
+(prevent [enter *])
+    (door is closed)
+
+(door is closed)
+    The door won't budge.
+    You slam your hands against the boards in frustration
+    (if) (#pane-of-cracked-glass is closed)
+    (then)
+        , causing the nearby window to quiver in the reflected light
+    (endif)
+    .
 
 #fragments-of-glass
 (name *) fragments of glass

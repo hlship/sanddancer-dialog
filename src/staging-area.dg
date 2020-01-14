@@ -5,8 +5,13 @@
     (if) (* is dim)
     (then)
         Faint shafts of light from your dimming headlights seep through
-        a boarded-up pane of cracked glass, but you can barely make out
-        anything of the interior.
+        (if) (#pane-of-cracked-glass is open)
+        (then)
+            the broken window leading outside
+        (else)
+            a boarded-up pane of cracked glass
+        (endif)
+        , but you can barely make out anything of the interior.
     (else)
         It's obvious this place has been abandoned for years.
         Cold night air breathes through holes in the roof
@@ -19,23 +24,20 @@
         (endif)
         .
         (par)
-        In a pane of cracked glass you catch a momentary reflection of
-        (collect items in * to $Items)
-        (if) (empty $Items)
+        (if) ~(* is dim)
         (then)
-            yourself
-        (else)
-            (randomly select $Item from $Items)
-            (a $Item)
+            (if) (#pane-of-cracked-glass is open)
+            (then)
+                You can squeeze through the broken window to the outside.
+            (else)
+                A pane of cracked glass, opaque with dirt, is on the outside wall.
+            (endif)
         (endif)
-        .
-        (par)
         Other rooms lie north and east.
     (endif)
 (place #office north of *)
 (place #break-room east of *)
-(#pane-of-cracked-glass/
-    #shafts-of-light/
+(#shafts-of-light/
     #holes-in-roof/
     #patches-of-mold/
     #hole/
@@ -78,13 +80,6 @@
 
 (instead of [open #metal-desk])
     (try [open #drawer])
-
-
-#pane-of-cracked-glass
-(window *)
-(name *) pane of cracked glass
-(dict *) window
-(* is #in #staging-area)
 
 #shafts-of-light
 (name *) shafts of light
@@ -141,9 +136,8 @@
 (name *) roll of duct-tape
 (dict *) duct tape
 (narrate taking *)
-    ~(courage demonstrated)
+    (* is #in #hole)
     You reach down into the hole, brushing cobwebs away impatiently, and pull out the duct tape.
-    (now) (courage demonstrated)
     (now) (#cobwebs is nowhere)
 
 #metal-desk

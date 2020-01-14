@@ -1,0 +1,139 @@
+
+
+Sand-dancer
+An interactive fiction by Aaron Reed and Howard M. Lewis Ship.
+Release 1. Serial number DEBUG.
+Dialog Interactive Debugger (dgdebug) version 0i/01. Library version 0.33.
+Debugging extension 1.1.
+
+Middle of Nowhere
+The tire tracks from the south stop abruptly here, but where the hell are you?
+The desert sand and clumps of pale sagebrush are all your dimming headlights
+pick out before barely reaching the concrete building to the north.
+
+Your poor old pickup truck ticks and groans, smashed gracelessly against a tall
+Saguaro; wiffs of evaporating gasoline linger in the chill air. On the dash you
+can see a piece of jade.
+
+> n
+You walk north.
+
+Crumbling Concrete
+This building must've been some sort of utility structure for the huge
+electrical tower to the north, now abandoned: fragments of glass sparkle faintly
+in the beam of your headlights. Tendrils of desert sand drift against a boarded-
+up door to the northeast leading inside; you could also walk around to the east
+or head south back to your truck.
+
+> in
+(first attempting to open the pane of cracked glass inside)
+It looks like these windows have been rusted shut for years.
+
+> attack door
+The door won't budge. You slam your hands against the boards in frustration,
+causing the nearby window to quiver in the reflected light.
+
+> enter door
+The door won't budge. You slam your hands against the boards in frustration,
+causing the nearby window to quiver in the reflected light.
+
+> attack window
+Nice thought, but the last thing you need is a sliced open hand. Perhaps you
+could get a little distance.
+
+> open window
+It looks like these windows have been rusted shut for years.
+
+> x window
+The glass is too filthy to see anything on the other side.
+
+> throw wallet at window
+The wallet passes through the pane of cracked glass, shattering it.
+
+> open window
+It's already busted open.
+
+> close window
+There's nothing of the pane of cracked glass left to close.
+
+> x window
+The pane of cracked glass is open, and through it you can see someplace
+unfamiliar.
+
+> in
+You walk in through the pane of cracked glass.
+
+Staging Area
+Faint shafts of light from your dimming headlights seep through the broken
+window leading outside, but you can barely make out anything of the interior.
+
+> out
+You walk out through the pane of cracked glass.
+
+Crumbling Concrete
+This building must've been some sort of utility structure for the huge
+electrical tower to the north, now abandoned: fragments of glass sparkle faintly
+in the beam of your headlights. Tendrils of desert sand drift against a boarded-
+up door to the northeast leading inside; you could also walk around to the east
+or head south back to your truck.
+
+> in
+You walk in through the pane of cracked glass.
+
+Staging Area
+Faint shafts of light from your dimming headlights seep through the broken
+window leading outside, but you can barely make out anything of the interior.
+
+> s
+You take a step and crack your shin against what feels like a metal desk.
+
+> n
+You take a step and crack your shin against what feels like a metal desk.
+
+> feel desk
+You feel around the edge of the desk, and find that it has a drawer.
+
+> open drawer
+You slide the drawer open by feel in the darkness. Something large and lumpy
+rolls around inside--a flashlight?
+
+> take flashlight
+Yeah, it's a flashlight all right. You grip it in sudden relief, turning it in
+your hands until your fingers find the switch.
+
+> turn it on
+Your surroundings spring into brightness around you.
+Staging Area
+It's obvious this place has been abandoned for years. Cold night air breathes
+through holes in the roof and everything is strewn with sand and patches of
+mold. An imposing metal desk extends out from one wall. The floor has half-
+collapsed near one corner, revealing a hole criss-crossed with cobwebs.
+
+You can squeeze through the broken window to the outside. Other rooms lie north
+and east.
+
+> (now) (#headlights is off)
+> l
+Query succeeded: (get input [l])
+Staging Area
+It's obvious this place has been abandoned for years. Cold night air breathes
+through holes in the roof and everything is strewn with sand and patches of
+mold. An imposing metal desk extends out from one wall. The floor has half-
+collapsed near one corner, revealing a hole criss-crossed with cobwebs.
+
+You can squeeze through the broken window to the outside. Other rooms lie north
+and east.
+
+> (now) (#emergency-lights is on)
+> l
+Query succeeded: (get input [l])
+Staging Area
+It's obvious this place has been abandoned for years. Cold night air breathes
+through holes in the roof and everything is strewn with sand and patches of
+mold. An imposing metal desk extends out from one wall. The floor has half-
+collapsed near one corner, revealing a hole criss-crossed with cobwebs.
+
+You can squeeze through the broken window to the outside. Other rooms lie north
+and east.
+
+> 
