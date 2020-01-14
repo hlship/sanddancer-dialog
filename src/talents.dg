@@ -30,3 +30,12 @@
 (talent *)
 (name *) freedom
 
+%% This works with many items but is mostly intended for talents.
+%% The closure is evaluated if Knock holds the object
+(if $Obj $Closure)
+  (if) (knock holds $Obj)
+  (then)
+    (query $Closure)
+  (endif)
+
+

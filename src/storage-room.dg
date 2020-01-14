@@ -38,7 +38,20 @@
     With a sharp buzz, a wiff of static, and an electrical groan,
     bare light bulbs flicker on throughout the building.
 (narrate switching off *)
-    The lights flicker and die out.
+    (if) (#headlights is on)
+    (then)
+        The lights flicker and die out.
+    (elseif) (player can see #flashlight)
+             (#flashlight is on)
+    (then)
+        The lights die out, leaving only the beam of your flashlight.
+    (else)
+        The lights flicker and die out
+        (if #courage { but you are not afraid })
+        .
+    (endif)
+    (line)
+    The generator whines as it powers off, slowly falling silent.
 
 #shelves
 (name *) rows of crumbling shelving
