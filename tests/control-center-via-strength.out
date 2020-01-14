@@ -1,0 +1,96 @@
+
+
+Sand-dancer
+An interactive fiction by Aaron Reed and Howard M. Lewis Ship.
+Release 1. Serial number DEBUG.
+Dialog Interactive Debugger (dgdebug) version 0i/01. Library version 0.33.
+Debugging extension 1.1.
+
+Middle of Nowhere
+The tire tracks from the south stop abruptly here, but where the hell are you?
+The desert sand and clumps of pale sagebrush are all your dimming headlights
+pick out before barely reaching the concrete building to the north.
+
+Your poor old pickup truck ticks and groans, smashed gracelessly against a tall
+Saguaro; wiffs of evaporating gasoline linger in the chill air. On the dash you
+can see a piece of jade.
+
+> teleport roof
+
+Roof
+From the roof of the building, you can see the huge electrical tower rising up
+in front of you. Some metal rungs once led to a control room higher up the
+tower, but the lowest ones are well above your head. You'd have to jump out into
+space to grab the bottom rung. A huge metal barrel stands upright and intact
+nearby, large enough that you could climb up on it. At your feet is the way back
+down.
+
+> n
+It's a drop off on all sides.
+
+> u
+The metal rungs have rusted away and crumbled; the lowest are well above your
+head. You don't have the courage to make the jump.
+
+> climb barrel
+Yeah, you could get on top of it, but while it's over here, you couldn't reach a
+whole lot.
+
+> push barrel
+You push against the side, but you're not strong enough to move the barrel.
+
+> (now) (knock holds #strength)
+> push barrel
+Query succeeded: (get input [push barrel])
+Heaving, you push against the barrel, and with a horrible grating noise, it
+slides across the roof till it rests under the metal rungs.
+
+> l
+Roof
+From the roof of the building, you can see the huge electrical tower rising up
+in front of you. Some metal rungs once led to a control room higher up the
+tower, but the lowest ones are well above your head. You'd have to jump out into
+space to grab the bottom rung. A huge metal barrel stands upright and intact
+nearby, directly underneath the the bottom rungs. At your feet is the way back
+down.
+
+> push barrel
+Push it any more and it'll fall off the roof. Keep it here and you can get to
+the rungs.
+
+> climb barrel
+You climb the barrel, reach, grab the bottom rungs, and pull yourself up.
+
+Control Center
+Some kind of electrical control stuff must have happened here once, but it's
+totally trashed now. Like, piles of trash, broken equipment, and junk are
+everywhere.
+
+But hey, on one pile there's a perfectly good can opener.
+
+Back down is the only place to go.
+
+> d
+You climb down.
+
+Roof
+From the roof of the building, you can see the huge electrical tower rising up
+in front of you. Some metal rungs once led to a control room higher up the
+tower, but the lowest ones are well above your head. You'd have to jump out into
+space to grab the bottom rung. A huge metal barrel stands upright and intact
+nearby, directly underneath the the bottom rungs. At your feet is the way back
+down.
+
+> u
+You climb the barrel, reach, grab the bottom rungs, and pull yourself up.
+
+Control Center
+Some kind of electrical control stuff must have happened here once, but it's
+totally trashed now. Like, piles of trash, broken equipment, and junk are
+everywhere.
+
+But hey, on one pile there's a perfectly good can opener.
+
+Back down is the only place to go.
+
+> 

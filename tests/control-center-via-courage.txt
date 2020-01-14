@@ -1,0 +1,8 @@
+%% Roof to control center via courage
+teleport roof
+u
+(now) (knock holds #courage)
+u
+d
+u
+

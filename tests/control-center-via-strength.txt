@@ -1,0 +1,13 @@
+%% Test roof to control center using strength
+teleport roof
+n
+u
+climb barrel
+push barrel
+(now) (knock holds #strength)
+push barrel
+l
+push barrel
+climb barrel
+d
+u
