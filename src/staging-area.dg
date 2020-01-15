@@ -46,6 +46,11 @@
 (* is dim)
     (lit by headlights *)
     ~(lit by flashlight *)
+(appearance $ #in *)
+    (#emergency-lights is off)
+    (#flashlight is off)
+    (just) (fail)
+
 %% TODO: You can interact too much with the items here while it is still dim
 %% and those items are as yet undescribed.
 

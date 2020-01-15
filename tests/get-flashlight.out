@@ -106,6 +106,8 @@ collapsed near one corner, revealing a hole criss-crossed with cobwebs.
 You can squeeze through the broken window to the outside. Other rooms lie north
 and east.
 
+You see a wallet here.
+
 > (now) (#headlights is off)
 > l
 Query succeeded: (get input [l])
@@ -118,6 +120,8 @@ collapsed near one corner, revealing a hole criss-crossed with cobwebs.
 You can squeeze through the broken window to the outside. Other rooms lie north
 and east.
 
+You see a wallet here.
+
 > (now) (#emergency-lights is on)
 > l
 Query succeeded: (get input [l])
@@ -129,5 +133,7 @@ collapsed near one corner, revealing a hole criss-crossed with cobwebs.
 
 You can squeeze through the broken window to the outside. Other rooms lie north
 and east.
+
+You see a wallet here.
 
 > 

@@ -14,7 +14,7 @@
     (collect items in #cage to $Items)
     (if) ~(empty $Items)
     (then)
-        , in which (is-are $Items) (a $Items)
+        , in which (is $Items) (a $Items)
     (endif)
     .
     (par)

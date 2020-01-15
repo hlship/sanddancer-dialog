@@ -12,7 +12,7 @@
     (then)
         The top of the overturned barrel is stained with rust.
     (else)
-        Atop one overturned barrel (is-are $Items) (a $Items).
+        Atop one overturned barrel (is $Items) (a $Items).
     (endif)
     (par)
     Desert stretches in all directions; back west is the front of the building.

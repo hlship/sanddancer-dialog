@@ -2,6 +2,14 @@
 (story author)  Aaron Reed and Howard M. Lewis Ship
 (story ifid)    30CF2E4C-2C18-11EA-B63C-5B1952E6E634
 
+(intro)
+    (exhaust) {
+        *($Item is #heldby #knock)
+        (now) ($Item is handled)
+    }
+    (banner)
+    (try [look])
+
 %% Regions
 
 (room *(office interior $))
@@ -14,17 +22,6 @@
     *(office interior $Room)  
 
 %% Utilities
-
-%% (is-are $) is passed a list and outputs 'is' or 'are'
-%% this is used, for example, when describing the contents of
-%% a container or supporter.
-
-(is-are [$Item])
-    is 
-
-(is-are $List)
-    are
-
 
 %% Identify rooms that are adjacent to the current room
 (adjacent room $Neighbor)
