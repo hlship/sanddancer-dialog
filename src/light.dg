@@ -10,7 +10,7 @@
 (inherently dark (tower vicinity $))
 
 %% Here's my solution; when the emergency lights are on, or the headlights are on,
-%% then the Knock provides light!
+%% then Knock provides light!
 
 (#knock provides light)
     (#emergency-lights is on)
@@ -31,9 +31,7 @@
 
 (lit by flashlight $Room)
     (#flashlight is on)
-    %% Possibly insufficient because the flashlight could be on, but
-    %% inside a closed opaque container.
-    (#flashlight is in room $Room)
+    (player can see #flashlight)
     ~(brightly lit $Room)
 
 (lit by headlights $Room)
