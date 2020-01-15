@@ -3,6 +3,7 @@
  #lighter/
  #wallet
  is #heldby #knock)
+(#knock is #in #pickup-truck)
 
 %% A little utility
 

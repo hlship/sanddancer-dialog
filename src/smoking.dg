@@ -51,6 +51,8 @@
     (endif)
     .
 
+%% TODO: Smoking not working inside pickup?
+
 (narrate smoking)
     (collect $Talent)
         *(knock holds $Talent)
@@ -83,7 +85,8 @@
     (endif)
     .
 
-
+(narrate smoking)
+    (hint)
 
 %% Last rule:
 
