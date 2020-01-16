@@ -12,7 +12,7 @@
 
 (hint)
     (#flashlight is pristine)
-     Maybe you could try exploring the building by feel, even though it's so dark.
+    Maybe you could try exploring the building by feel, even though it's so dark.
 
 (hint)
     (#storage-room is unvisited)
@@ -20,7 +20,7 @@
 
 (hint)
     (#emergency-lights is off)
-     Maybe you should switch on those emergency lights in the storage room so you can get a better look at things.
+    Maybe you should switch on those emergency lights in the storage room so you can get a better look at things.
 
 (hint)
     (#open-desert is unvisited)
@@ -34,7 +34,7 @@
 (hint)
     (knock holds #courage)
     (#duct-tape is pristine)
-    Bet you're brave enough to reach for that duct-tape in the hold in the floor now.
+    Bet you're brave enough to reach for that duct-tape in the hole in the floor now.
 
 (hint)
     (#duct-tape is pristine)
@@ -43,7 +43,7 @@
 (hint)
     (knock holds #luck)
     (#canned-oranges is pristine)
-    Could be you're lucky enough to find something to eat in the Storage room.
+    Could be you're lucky enough to find something to eat in the storage room.
 
 (hint)
     (knock holds #scent)

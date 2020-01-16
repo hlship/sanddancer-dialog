@@ -37,6 +37,7 @@
 (name *) pickup truck
 (dict *) car door dash old poor
 (openable *)
+(* is transparent) %% Can see through the window, lets light in too.
 (actor container *)
 (#jade is #in *)
 (before [enter/leave *])
