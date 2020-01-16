@@ -45,6 +45,8 @@
     (try [open *])
 (narrate opening *)
     You work the rusty truck door open.
+(narrate closing *)
+    You swing the truck door shut with a squeal of rusty hinges.
 (perform [examine *])
     Your truck is (open or closed *).  (descr truck dash)
 %% This prevents a redundant list of items in the truck, when Knock looks while also in the truck:
