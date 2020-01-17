@@ -1,11 +1,98 @@
 #open-desert
 (room *)
+(name *) Open Desert
+(look *)
+    (select)
+        Clouds of dust swirl through the air
+    (or)
+        The dust storm rages around you
+    (or)
+        Your tracks are swallowed up in moments by the billowing sand
+    (or)
+        The desert stretches around you in all directions
+    (at random)
+    , and
+    (select)
+        you shiver in the chill night air
+    (or)
+        you plod wearily through the sand
+    (or)
+        you wish you could see more than twenty feet in front of you
+    (or)
+        god damn it's dark
+    (or)
+        every inch of sand looks just like every other
+    (at random)
+    .
+    (par)
+    (* flotsam is $Flotsam)
+    (select)
+        All you can make out in the darkness
+        (is $Flotsam) (a $Flotsam)
+    (or)
+        You can sort of see (a $Flotsam)
+    (or)
+        Nearby: (a $Flotsam).
+        Nothing to write home about
+    (or)
+        Half-lost in the shadows, you see
+        (a $Flotsam)
+        and that's about it
+    (at random)
+    .
+
+%% As Knock enters a "new" desert location, we put a few pieces of scenery in place.
+(narrate entering *)
+    (collect $Flotsam)
+        *(desert flotsam $Flotsam)
+        (now) ($Flotsam is nowhere)
+    (into $List)
+    (shuffle list $List to $Shuffled)
+    (take 3 from $Shuffled into $Final)
+    (exhaust) {
+        *($F is one of $Final)
+        (now) ($F is #in *)
+    }
+    (now) (* flotsam is $Final)
+    (try [look])
+
 %% Here's where one-directional room links really work
 (from #base-of-tower go #west/#north/#east to *)
 (from #crumbling-concrete go #west to *)
 (from #middle-of-nowhere go #east/#west to *)
 (from #backtracking go #west/#south/#east to *)
 (from #weed-strewn-rust go #north/#east/#south to *)
+(from * go 
+    #north/
+    #northeast/
+    #east/
+    #southeast/
+    #south/
+    #southwest/
+    #west/
+    #northwest to *)
+(narrate leaving $From $Dir)
+    (* is unvisited)
+    (from $From go $Dir to $Room)
+    ($Room = *)
+    (select random item in #emotional-baggage to $Memory)
+    You walk for a long time, thoughts turning over like the sand under your sneakers. 
+    You think about (a $Memory).
+    You think about Ocean and how pissed she's gonna be that you're not home. 
+    Like you tell her not to wait up for you but she always does anyway. 
+    (par)
+    Some wind kicks up and chucks sand in your face. 
+    You blink it out and kinda realize while you're doing it that you haven't really been paying
+    attention to where you've been going. 
+    Another gust whines through the sagebrush and you realize with a kind of heavy feeling that
+    with all the dust this wind is kicking up you can't see a damn thing. 
+    You can't see your pickup, you can't see the electrical tower. 
+    Not even your damn footprints.
+    You're lost. Well, shit.
+
+(prevent [drop $])
+    (current room *)
+    Sounds like a good way to lose something forever.
 
 (prevent [leave $Room $Direction])
     (from $Room go $Direction to room *)
@@ -38,6 +125,41 @@
 (flashlight ready)
     (knock holds #flashlight)
     (#flashlight is on)
+
+
+#looming-cactus
+(desert flotsam *)
+(name *) looming cactus
+
+#boulder
+(desert flotsam *)
+(name *) dull grey boulder
+
+#dead-cow
+(desert flotsam *)
+(name *) dead cow
+
+#low-bluff
+(desert flotsam *)
+(name *) low bluff
+
+#dry-bones
+(desert flotsam *)
+(name *) dry bones
+(plural *)
+
+#clumps-of-sagebrush
+(desert flotsam *)
+(name *) clumps of sagebrush
+(plural *)
+
+#dry-streambed
+(desert flotsam *)
+(name *) dry streambed
+
+#stand-of-cactus
+(desert flotsam *)
+(name *) stand of cactus
 
 
 

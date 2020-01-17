@@ -80,7 +80,7 @@
 
 #grandmas-stories
 (memory *)
-(name *) gradma's stories
+(name *) grandma's stories
 (#jade suggests *)
 (descr *)
     There are dark spirits who roam the earth, little Knock.
@@ -133,6 +133,7 @@
 
 #oceans-perfume
 (memory *)
+(name *) Ocean's perfume
 (#orange-smell suggests *)
 (descr *)
     You used to like it. 
