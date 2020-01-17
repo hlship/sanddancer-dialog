@@ -76,7 +76,7 @@
     (from $From go $Dir to $Room)
     ($Room = *)
     (select random item in #emotional-baggage to $Memory)
-    You walk for a long time, thoughts turning over like the sand under your sneakers. 
+    You walk (name $Dir) for a long time, thoughts turning over like the sand under your sneakers. 
     You think about (a $Memory).
     You think about Ocean and how pissed she's gonna be that you're not home. 
     Like you tell her not to wait up for you but she always does anyway. 

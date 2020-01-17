@@ -1,0 +1,69 @@
+
+
+Middle of Nowhere (in the pickup truck)
+The tire tracks from the south stop abruptly here, but where the hell are you?
+The desert sand and clumps of pale sagebrush are all your dimming headlights
+pick out before barely reaching the concrete building to the north.
+
+Your poor old pickup truck ticks and groans, smashed gracelessly against a tall
+Saguaro; wiffs of evaporating gasoline linger in the chill air. On the dash you
+can see a piece of jade. The glove compartment is closed.
+
+> exit
+You work the rusty truck door open. You get out of the pickup truck.
+
+> e
+Outside the wavering glow of your headlights, it's black. Pitch. Storm must have
+rolled in; there's no stars above, no anything but blackness around. Only the
+smell of the desert tells you it's still out there.
+
+> purloin flashlight
+
+> turn it on
+Your surroundings spring into brightness around you.
+Middle of Nowhere
+The tire tracks from the south stop abruptly here, but where the hell are you?
+The desert sand and clumps of pale sagebrush are all your dimming headlights
+pick out before barely reaching the concrete building to the north.
+
+Your poor old pickup truck ticks and groans, smashed gracelessly against a tall
+Saguaro; wiffs of evaporating gasoline linger in the chill air. On the dash you
+can see a piece of jade.
+
+> e
+You heft your flashlight nervously, licking your lips, but decide not to head
+out into the desert just yet. Your truck lights are already starting to dim, and
+with how dark it is, you're not sure you could find your way back.
+
+> (now) (#emergency-lights is on)
+> (now) (#your-shit-job is #in #emotional-baggage)
+> e
+Query succeeded: (get input [e])
+Query succeeded: (get input [e])
+You walk east for a long time, thoughts turning over like the sand under your
+sneakers. You think about a your shit job. You think about Ocean and how pissed
+she's gonna be that you're not home. Like you tell her not to wait up for you
+but she always does anyway.
+
+Some wind kicks up and chucks sand in your face. You blink it out and kinda
+realize while you're doing it that you haven't really been paying attention to
+where you've been going. Another gust whines through the sagebrush and you
+realize with a kind of heavy feeling that with all the dust this wind is kicking
+up you can't see a damn thing. You can't see your pickup, you can't see the
+electrical tower. Not even your damn footprints. You're lost. Well, shit.
+Open Desert
+Clouds of dust swirl through the air, and every inch of sand looks just like
+every other.
+
+Nearby: a looming cactus, a dead cow, and a low bluff. Nothing to write home
+about.
+
+> s
+You walk south.
+Open Desert
+The desert stretches around you in all directions, and you wish you could see
+more than twenty feet in front of you.
+
+You can sort of see a dull grey boulder, a dead cow, and some dry bones.
+
+> 
