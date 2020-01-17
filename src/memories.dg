@@ -7,7 +7,7 @@
 (name *) emotional baggage
 (descr *)
     Your guidance counselor used to say you're always carrying it with you.
-    You imagine it's kind of ugly, lump, and green, and definitely has a stuck zipper.
+    You imagine it's kind of ugly, lumpy, and green, and definitely has a stuck zipper.
 (container *)
 (* is open)
 (* is #heldby #knock)
