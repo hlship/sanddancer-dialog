@@ -10,10 +10,22 @@
 @(knock holds $Object)
     ($Object is #heldby #knock)
 
+(global variable (remaining cigarettes 6))
+
 #cigarettes
 (item *)
 (name *) pack of cigarettes
 (dict *) cig cigarette cigs smokes
+(descr *)
+    (remaining cigarettes $Count)
+    Your pack of cigarettes
+    (if) ($Count = 0)
+    (then)
+        , now empty
+    (else)
+        \( (spell out $Count) remaining \)
+    (endif)
+    .
 
 #lighter
 (item *)

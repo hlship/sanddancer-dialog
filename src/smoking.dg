@@ -24,7 +24,15 @@
     ~($Obj = #cigarettes)
     Sounds like something your high school buddies would try.
 
+(prevent [smoke $])
+    (remaining cigarettes $Count)
+    ($Count = 0)
+    Your pack of cigarettes is empty.
+
 (perform [smoke $])
+    (remaining cigarettes $Count)
+    ($Count minus 1 into $NewCount)
+    (now) (remaining cigarettes $NewCount)
     (exhaust) *(narrate smoking)
 
 %% The order here is important.
@@ -92,5 +100,11 @@
 
 (narrate smoking)
     (par)
-    And you still haven't quit smoking.
+    (remaining cigarettes $Count)
+    (if) ($Count = 0)
+    (then) 
+        And that was your last cigarette.
+    (else)
+        And you still haven't quit smoking.
+    (endif)
     You crush the butt under your heel and wonder what to do next.
