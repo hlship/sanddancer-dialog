@@ -18,6 +18,10 @@
     Your poor old pickup truck ticks and groans, smashed gracelessly against 
     a tall Saguaro; wiffs of evaporating gasoline linger in the chill air.
     (descr truck dash)
+    (if) (#knock is #in #pickup-truck)
+    (then)
+        The glove compartment is (open or closed #glove-compartment).
+    (endif)
 (#knock/
     #pickup-truck/
     #wiffs-of-gasoline/
@@ -48,11 +52,11 @@
 (narrate closing *)
     You swing the truck door shut with a squeal of rusty hinges.
 (perform [examine *])
-    Your truck is (open or closed *).  (descr truck dash)
+    Your truck is (open or closed *).
+    (descr truck dash)
 %% This prevents a redundant list of items in the truck, when Knock looks while also in the truck:
-(appearance $ #in *)
-    (just) (fail)
-
+~(appearance $ $ *)
+    
 %% Players really want to just drive the truck away.
 
 (understand [drive/shift/steer/brake/start] as [drive])
@@ -81,7 +85,42 @@
     that leaking gas line. Even then you'd be lucky to get it moving or find
     the highway.
 
-    
+#glove-compartment
+(container *)
+(name *) glove compartment
+(dict *) glovebox box
+(openable *)
+(descr *)
+    (if) (* is closed)
+    (then)
+        The glove compartment is closed.
+    (elseif) ($ is #in *)
+    (then)
+        (list objects #in *)
+    (else)
+        The glove compartment is open and empty.
+    (endif)
+~(appearance $ $ *)
+(* is #partof #pickup-truck)
+
+(global variable (remaining cigarettes 6))
+
+#cigarettes
+(item *)
+(name *) pack of cigarettes
+(dict *) cig cigarette cigs smokes
+(descr *)
+    (remaining cigarettes $Count)
+    Your pack of cigarettes
+    (if) ($Count = 0)
+    (then)
+        , now empty
+    (else)
+        \( (spell out $Count) remaining \)
+    (endif)
+    .
+(* is #in #glove-compartment)
+
 #headlights
 (name *) headlights
 (dict *) light head headlight 
