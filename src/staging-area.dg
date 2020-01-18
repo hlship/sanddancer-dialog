@@ -180,6 +180,7 @@
 (narrate switching on *)
     %% TODO: This may not be accurate in a brightly lit room.
     Your surroundings spring into brightness around you.
+    (par)
 
 (after [switch on *])
     (current room $Room)
