@@ -201,13 +201,8 @@
     ($Memory is nowhere)
     %% For now, object <-> memory is 1:1
     ($Obj suggests $Memory)
+    ~($Obj is hidden)    
     (player can see $Obj)
-    %% Extra checks, see https://intfiction.org/t/bug-in-visibility/44008/2
-    ~{
-        ($Obj is #in $Parent)
-        ($Parent is closed)
-        ($Parent is opaque)
-    }
     (par)
     Something about (the $Obj) makes you want to brood about (the $Memory).
     (now) ($Memory is #in #emotional-baggage)
