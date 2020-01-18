@@ -80,6 +80,7 @@
 (narrate opening #drawer)
     (* is dim)
     (#flashlight is #in #drawer)
+    (notice #flashlight)
     You slide the drawer open by feel in the darkness.
     Something large and lumpy rolls around inside -- a flashlight?
 
@@ -113,7 +114,7 @@
         (endif)
         .
     (else)
-        Through a mass of cobwebs, you can see (a $Items) down in the whole.
+        Through a mass of cobwebs, you can see (a $Items) down in the hole.
     (endif)
 
 (instead of [take $Item])
@@ -140,6 +141,7 @@
 (item *)
 (name *) roll of duct-tape
 (dict *) duct tape
+(* is hidden)
 (narrate taking *)
     (* is #in #hole)
     You reach down into the hole, brushing cobwebs away impatiently, and pull out the duct tape.

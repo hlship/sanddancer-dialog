@@ -28,3 +28,17 @@
         *($Plan requires $Item)
         ($Item is handled)
     (into $Plans)
+
+%% When we first see an item related to a plan, not that.
+
+(on every tick)
+    (identify items useful to plans)
+
+(identify items useful to plans)
+    *(plan $Plan)
+    *($Plan requires $Obj)
+    ~($Obj is noted useful)
+    (player can see $Obj)
+    ~($Obj is hidden)
+    (now) ($Obj is noted useful)
+    Hey, that (name $Obj) might be useful if you decide on (name $Plan).

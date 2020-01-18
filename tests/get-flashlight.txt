@@ -23,4 +23,5 @@ turn it on
 l
 (now) (#emergency-lights is on)
 l
+x hole
 
