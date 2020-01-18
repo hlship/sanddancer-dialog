@@ -18,6 +18,10 @@
     (* is one of $Objects)
     It's not real, bro.
 
+(after [inventory])
+    (par)
+    (list objects #in *)
+
 %% Memories exist as almost-items, but you can't really do anything with them
 (unlikely $Action)
     *($Obj is one of $Action)
@@ -60,7 +64,7 @@
 
 #your-shit-job
 (memory *)
-(name *) your shit job
+(name *) shit job
 (your *)
 (#receipt suggests *)
 (descr *)
@@ -71,7 +75,7 @@
     cluster around the dirt turn-off onto the rez.
     At least, no one buying anything.
     (par)
-    Big Jimmy shooks his head when he heard you lived in Oro Oeste.
+    Big Jimmy shook his head when he heard you lived in Oro Oeste.
     Hell of a drive, kid, he said, popping up his Lumberjacks cap to scratch the straw pate underneath.
     You should get a place in Hoo-zuh.
     Little Jimmy'll set you up in that trailer cross the road for almost nothin'.
@@ -190,13 +194,21 @@
 %% move it to emotional baggage.
 
 (on every tick)
-    (current room $Room)
-    *($Obj has ancestor $Room)
-    ($Obj suggests $Memory)
+    (identify recalled memories)
+
+(identify recalled memories)
+    *(memory $Memory)
     ($Memory is nowhere)
+    %% For now, object <-> memory is 1:1
+    ($Obj suggests $Memory)
+    (player can see $Obj)
+    %% Extra checks, see https://intfiction.org/t/bug-in-visibility/44008/2
+    ~{
+        ($Obj is #in $Parent)
+        ($Parent is closed)
+        ($Parent is opaque)
+    }
     (par)
     Something about (the $Obj) makes you want to brood about (the $Memory).
     (now) ($Memory is #in #emotional-baggage)
 
-(on every tick)
-    (log) { next on every tick }

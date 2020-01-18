@@ -13,6 +13,9 @@ can see a piece of jade. The glove compartment is closed.
 (first attempting to get out of the pickup truck)
 You work the rusty truck door open. You get out of the pickup truck.
 
+Something about the piece of jade makes you want to brood about your grandma's
+stories.
+
 You walk north.
 
 Crumbling Concrete
@@ -45,7 +48,7 @@ It looks like these windows have been rusted shut for years.
 The glass is too filthy to see anything on the other side.
 
 > throw wallet at window
-The wallet passes through the pane of cracked glass, shattering it.
+Your wallet passes through the pane of cracked glass, shattering it.
 
 > open window
 It's already busted open.
@@ -109,7 +112,7 @@ collapsed near one corner, revealing a hole criss-crossed with cobwebs.
 You can squeeze through the broken window to the outside. Other rooms lie north
 and east.
 
-You see a wallet here.
+You see your wallet here.
 
 > (now) (#headlights is off)
 > l
@@ -123,7 +126,7 @@ collapsed near one corner, revealing a hole criss-crossed with cobwebs.
 You can squeeze through the broken window to the outside. Other rooms lie north
 and east.
 
-You see a wallet here.
+You see your wallet here.
 
 > (now) (#emergency-lights is on)
 > l
@@ -137,6 +140,6 @@ collapsed near one corner, revealing a hole criss-crossed with cobwebs.
 You can squeeze through the broken window to the outside. Other rooms lie north
 and east.
 
-You see a wallet here.
+You see your wallet here.
 
 > 

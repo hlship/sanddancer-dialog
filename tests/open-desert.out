@@ -12,6 +12,9 @@ can see a piece of jade. The glove compartment is closed.
 > exit
 You work the rusty truck door open. You get out of the pickup truck.
 
+Something about the piece of jade makes you want to brood about your grandma's
+stories.
+
 > e
 Outside the wavering glow of your headlights, it's black. Pitch. Storm must have
 rolled in; there's no stars above, no anything but blackness around. Only the
@@ -41,7 +44,7 @@ with how dark it is, you're not sure you could find your way back.
 Query succeeded: (get input [e])
 Query succeeded: (get input [e])
 You walk east for a long time, thoughts turning over like the sand under your
-sneakers. You think about a your shit job. You think about Ocean and how pissed
+sneakers. You think about your shit job. You think about Ocean and how pissed
 she's gonna be that you're not home. Like you tell her not to wait up for you
 but she always does anyway.
 

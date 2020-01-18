@@ -33,6 +33,9 @@
 #wallet
 (item *)
 (name *) wallet
+(your *)
+(descr *) Your beat-up wallet. It is (open or closed *). (list objects #in *)
+(container *)
 (openable *)
 (#license/#receipt is #in *)
 
