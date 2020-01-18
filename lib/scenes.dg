@@ -1,0 +1,70 @@
+%% Approximation of Inform scenes; scenes can be in progress or not; scenes can repeat.
+%% Scenes are triggered by an initial condition, and end with another condition.
+%% Scenes can be linked such that one scene starts when another begins.
+
+%% Scenes have the (scene $) trait.
+
+%% Scenes supply the (start $) predicate, which succeeds when the scene beings;
+%% the predicate should also perform any state updates and provide any narration pertaining
+%% to the start of the scene.
+
+%% Started scenes will receive the flag ($ is happening).
+
+%% Scenes must supply the (complete $) predicate; when this succeeds, the counterpart
+%% to (start $).  Completed scenes receive the flag ($ is complete) and the flag
+%% ($ just completed).
+
+%% On each tick, scenes complete before new scenes start; this allows scenes to start triggered
+%% by other scenes being just completed.
+
+%% By default, scenes do not repeat, unless they have the (repeatable $) trait.
+
+(scene $) (fail)
+($ just completed) (fail)
+($ is happening) (fail)
+
+%% Each scene that is happening at the start of the tick and not completed during the tick
+%% is notified via this predicate.  It doesn't matter whether this predicate succeeds or fails.
+(on every tick for scene $) (fail)
+
+(on every tick)
+    %% Let the 'just completed' flag last until the tick following the scene actually completing.
+    (clear just completed flag)
+    (identify completed scenes)
+    (tick scenes)
+    (identify starting scenes)
+
+(clear just completed flag)
+    (exhaust) {
+        *(scene $Scene)
+        ($Scene just completed)
+        (now) ~($Scene just completed)
+    }
+     
+(identify completed scenes)
+    (exhaust) {
+        *(scene $Scene)
+        ($Scene is happening)
+        (complete $Scene)
+        (log) { $Scene - just completed }
+        (now) ($Scene just completed)
+        (now) ~($Scene is happening)
+    }
+
+(tick scenes)
+    (exhaust) {
+        *(scene $Scene)
+        ($Scene is happening)
+        (log) { $Scene is happening }
+        (on every tick for scene $Scene)
+    }
+
+(identify starting scenes)
+    (exhaust) {
+        *(scene $Scene)
+        ~($Scene is happening)
+        { ~($Scene is complete) (or) (repeatable $Scene) }
+        (start $Scene)
+        (log) { $Scene - just started }
+        (now) ($Scene is happening)
+    }

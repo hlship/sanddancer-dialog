@@ -23,5 +23,6 @@
  :debug-sources ["lib/extra-debug.dg"
                  "/usr/local/share/dialog-if/stddebug.dg"]
  :library-sources ["lib/room-connections.dg"
+                   "lib/scenes.dg"
                    "lib/stdlib-overrides.dg"
                    "/usr/local/share/dialog-if/stdlib.dg"]}
