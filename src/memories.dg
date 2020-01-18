@@ -8,6 +8,7 @@
 (descr *)
     Your guidance counselor used to say you're always carrying it with you.
     You imagine it's kind of ugly, lumpy, and green, and definitely has a stuck zipper.
+    (list objects #in *)
 (container *)
 (* is open)
 (* is #heldby #knock)
@@ -60,6 +61,7 @@
 #your-shit-job
 (memory *)
 (name *) your shit job
+(your *)
 (#receipt suggests *)
 (descr *)
     Juza straddles the 371 like a drunk at last call, smelly and without a plan for the future.
@@ -81,6 +83,8 @@
 #grandmas-stories
 (memory *)
 (name *) grandma's stories
+(dict *) grandma story
+(your *)
 (#jade suggests *)
 (descr *)
     There are dark spirits who roam the earth, little Knock.
@@ -99,9 +103,9 @@
     Mom would yell at Grandma a lot for filling your head with that new-age bullshit.
     Grandma grew up white and midwestern and Baptist, but had started wearing things with feathers
     and playing the pan flute by the time your were born.
-    She seemd to really like have a son-in-law who was Native American or American Indian
+    She seemed to really like having a son-in-law who was Native American or American Indian
     or Indigenous People or whatever she'd decided the term was that week,
-    and she was pretty pissed when mom left him.
+    and she was pretty pissed when Mom left him.
     Anyway.
     Her stories were mostly BS, you guess, but some of the stuck with you.
     When it's dark you still wonder if your spirit animals are out there, somewhere, and
@@ -181,3 +185,18 @@
 
 (perform [think])
     Most of the thinking you do nowadays comes from either smoking or brooding.
+
+%% Every turn when we see something that is linked to a memory, note it, and
+%% move it to emotional baggage.
+
+(on every tick)
+    (current room $Room)
+    *($Obj has ancestor $Room)
+    ($Obj suggests $Memory)
+    ($Memory is nowhere)
+    (par)
+    Something about (the $Obj) makes you want to brood about (the $Memory).
+    (now) ($Memory is #in #emotional-baggage)
+
+(on every tick)
+    (log) { next on every tick }
