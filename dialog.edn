@@ -14,6 +14,8 @@
                  "src/plans.dg"
                  "src/roof.dg"
                  "src/smoking.dg"
+                 "src/scenes/rabbits-offer.dg"
+                 "src/scenes/rainstorm.dg"
                  "src/staging-area.dg"
                  "src/storage-room.dg"
                  "src/talents.dg"

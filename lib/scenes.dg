@@ -8,11 +8,11 @@
 %% the predicate should also perform any state updates and provide any narration pertaining
 %% to the start of the scene.
 
-%% Started scenes will receive the flag ($ is happening).
+%% Started scenes will receive the flag ($ is happening) and ($ has started).
 
-%% Scenes must supply the (complete $) predicate; when this succeeds, the counterpart
-%% to (start $).  Completed scenes receive the flag ($ is complete) and the flag
-%% ($ just completed).
+%% Scenes must supply the (complete $) predicate, the counterpart to (start $); 
+%% when this succeeds, the ($ is happening) flag is cleared, and ($ is complete) and
+%% ($ has completed) are cleared.
 
 %% On each tick, scenes complete before new scenes start; this allows scenes to start triggered
 %% by other scenes being just completed.
@@ -20,38 +20,35 @@
 %% By default, scenes do not repeat, unless they have the (repeatable $) trait.
 
 (scene $) (fail)
-($ just completed) (fail)
 ($ is happening) (fail)
+($ has started) (fail)
+(complete $) (fail)
+($ is complete) (fail)
+($ has completed) (fail)
+(repeatable $) (fail)
 
 %% Each scene that is happening at the start of the tick and not completed during the tick
 %% is notified via this predicate.  It doesn't matter whether this predicate succeeds or fails.
 (on every tick for scene $) (fail)
 
 (on every tick)
-    %% Let the 'just completed' flag last until the tick following the scene actually completing.
-    (clear just completed flag)
     (identify completed scenes)
-    (tick scenes)
+    (tick happening scenes)
     (identify starting scenes)
-
-(clear just completed flag)
-    (exhaust) {
-        *(scene $Scene)
-        ($Scene just completed)
-        (now) ~($Scene just completed)
-    }
      
 (identify completed scenes)
     (exhaust) {
         *(scene $Scene)
         ($Scene is happening)
         (complete $Scene)
-        (log) { $Scene - just completed }
-        (now) ($Scene just completed)
+        (log) { $Scene - completed }
         (now) ~($Scene is happening)
+        %% The scene has completed, at least once.
+        %% Important for repeatable scenes.
+        (now) ($Scene is complete)
     }
 
-(tick scenes)
+(tick happening scenes)
     (exhaust) {
         *(scene $Scene)
         ($Scene is happening)
@@ -67,4 +64,7 @@
         (start $Scene)
         (log) { $Scene - just started }
         (now) ($Scene is happening)
+        %% The scene has started, at least once.
+        %% Important for repeatable scenes.
+        (now) ($Scene has started)
     }

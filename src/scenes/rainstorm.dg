@@ -1,0 +1,12 @@
+#rainstorm
+(scene *)
+(descr *)
+    Rain batters down on the desert.
+(start *)
+    (#rabbits-offer just completed)
+    The skies open up like nobodies business.
+    
+#rain
+($Room attracts *)
+    (#rainstorm is happening)
+    (around the tower $Room)
