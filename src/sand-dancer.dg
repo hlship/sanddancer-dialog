@@ -21,36 +21,3 @@
     *(around the tower $Room) 
     (or)
     *(office interior $Room)  
-
-%% Utilities
-
-%% Identify rooms that are adjacent to the current room
-(adjacent room $Neighbor)
-    (current room $Room)
-    *(from $Room go $ to $Neighbor)
-
-(collect items in $Container to $Items)
-    (collect $Obj)
-        *($Obj is #in $Container)
-        %% Exclude non-items, including #knock (in the pickup truck)
-        (item $Obj)
-    (into $Items)
-
-(select random item in $Container to $Object)
-    (collect $Obj)
-        *($Obj is #in $Container)
-    (into $List)
-    (randomly select $Object from $List)
-
-
-(shuffle list [] to [])
-
-(shuffle list [$Elem | $More] to $Shuffled)
-    (shuffle list $More to $MoreShuffled)
-    (random from 1 to 2 into $Flip)
-    (if) ($Flip = 1)
-    (then)
-        ($Shuffled = [$Elem | $MoreShuffled])
-    (else)
-        (append $MoreShuffled [$Elem] $Shuffled)
-    (endif)

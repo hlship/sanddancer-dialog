@@ -1,0 +1,113 @@
+(global variable (pursuit duration $))
+
+#pursuit
+(scene *)
+(recurring *)
+(start *)
+    (knock holds #flashlight)
+    (#emergency-lights is on)
+    (ready for shadow to appear)
+    %% Setup
+    (current room $Room)
+    (collect $Dir)
+         *(from $Room go $Dir to #open-desert)
+    (into $Dirs)
+    (randomly select $Dir from $Dirs)
+    (now) (#darting-shadow is #in $Room)
+    (now) (#darting-shadow is going $Dir)
+    (now) (pursuit duration 0)
+    (select)
+        Out of the corner of your eye you spot a glimpse of something moving in the darkness, off in the desert to the
+        (name $Dir)
+    (or)
+        You see that weird movement again, out in the shadows to the (name $Dir)
+    (stopping)
+    .
+
+(complete *)
+    (#darting-shadow is nowhere)
+    %% Narration for this (either not following the shadow, or pursuing until entering
+    %% the burrow) will already have taken place.
+(on every tick during *)
+    (#darting-shadow is going $Dir)
+    (select)
+        Hey, there it is again
+    (or)
+        Yeah, you're sure you saw it
+    (or)
+        It's gone now... no, wait
+    (at random)
+    --
+    (select)
+        something's moving
+    (or)
+        a darting shadow
+    (at random)
+    to the (name $Dir).
+(before [leave $Room $Dir])
+    (* is happening)
+    (if) (#darting-shadow is going $Dir)
+    (then)
+        (from $Room go $Dir to $NewRoom)
+        (pursuit duration $X)
+        ($X plus 1 into $Y)
+        (now) (pursuit duration $Y)
+        (now) (#darting-shadow is #in $NewRoom)
+    (else)
+        (now) (#darting-shadow is nowhere)
+        (now) (pursuit duration 0)
+        You lose sight of whatever it was.
+    (endif)
+(instead of [leave $Room $Dir])
+    (* is happening)
+    (player can see #darting-shadow)
+    (pursuit duration 4)
+    Dodging after the fleeing, skittering shadow, you're almost caught up to it when your foot trips on a rock and you stumble to the ground.
+    But the ground doesn't stop your fall, it collapses, and you're tumbling in a shower of dirt clods down a hole, rolling down some crazy underground tunnel clutching at mud and roots, 
+    till finally you slide into some damp, fetid place, and come up a stop against something soft, huge, warm. And furry.
+    (now) (#darting-shadow is nowhere)
+    (par)
+    (enter #burrow)
+(narrate leaving $ $Dir)
+    (* is happening)
+    (pursuit duration $X)
+    (narrate pursuit $X)
+    (par)
+    (random cardinal direction $NewDir)
+    (now) (#darting-shadow is going $NewDir)
+
+(narrate pursuit 1)
+    You head off in the direction of movement, scanning with your flashlight over the skittering shadows.
+
+(narrate pursuit 2)
+    You chase after the shadow, faster and faster, breath misting in the cold air.
+
+(narrate pursuit 3)
+    Some crazy thrill comes over you.
+    You feel like a hunter.
+    You can almost smell the thing you're chasing in the air.
+    You (italic) can (unstyle) smell it, fur and terror.
+    You race after it.
+
+(ready for shadow to appear)
+    (current room #open-desert)
+    (turns in current room $Turns)
+    ($Turns >= 6)
+    (random chance of 1 in 4)
+
+(ready for shadow to appear)
+    (current room #roof)
+    (just) (fail)
+
+(ready for shadow to appear)
+    (current room $Room)
+    (around the tower $Room)
+    (random chance of 1 in 3)
+
+
+#darting-shadow
+(name *) darting shadow
+(dict *) movement moving something
+
+(random cardinal direction $Dir)
+    (randomly select $Dir from [#north #northeast #east #southeast #south #southwest #west #northwest])

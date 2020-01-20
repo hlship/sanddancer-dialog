@@ -4,20 +4,22 @@
 
 %% Scenes have the (scene $) trait.
 
-%% Scenes supply the (start $) predicate, which succeeds when the scene beings;
+%% Scenes supply the (start $) predicate, which succeeds when the scene begins;
 %% the predicate should also perform any state updates and provide any narration pertaining
 %% to the start of the scene.
 
 %% Started scenes will receive the flag ($ is happening) and ($ has started).
 
 %% Scenes must supply the (complete $) predicate, the counterpart to (start $); 
-%% when this succeeds, the ($ is happening) flag is cleared, and ($ is complete) and
-%% ($ has completed) are cleared.
+%% when this succeeds, the ($ is happening) flag is cleared, and the ($ is complete) flag
+%% is set.
 
 %% On each tick, scenes complete before new scenes start; this allows scenes to start triggered
 %% by other scenes being just completed.
 
-%% By default, scenes do not repeat, unless they have the (repeatable $) trait.
+%% By default, scenes execute once (once a scene has completed, no further checks
+%% to see if it should start).
+%% Scenes with the (recurring $) trait can start again even once completed.
 
 (scene $) (fail)
 ($ is happening) (fail)
@@ -25,11 +27,11 @@
 (complete $) (fail)
 ($ is complete) (fail)
 ($ has completed) (fail)
-(repeatable $) (fail)
+(recurring $) (fail)
 
 %% Each scene that is happening at the start of the tick and not completed during the tick
 %% is notified via this predicate.  It doesn't matter whether this predicate succeeds or fails.
-(on every tick for scene $) (fail)
+(on every tick during scene $) (fail)
 
 (on every tick)
     (identify completed scenes)
@@ -41,10 +43,10 @@
         *(scene $Scene)
         ($Scene is happening)
         (complete $Scene)
-        (log) { $Scene - completed }
+        %% (log) { scene $Scene completed }
         (now) ~($Scene is happening)
         %% The scene has completed, at least once.
-        %% Important for repeatable scenes.
+        %% Important for recurring scenes.
         (now) ($Scene is complete)
     }
 
@@ -52,19 +54,23 @@
     (exhaust) {
         *(scene $Scene)
         ($Scene is happening)
-        (log) { $Scene is happening }
-        (on every tick for scene $Scene)
+        %% (log) { scene $Scene is happening }
+        (on every tick during $Scene)
     }
 
 (identify starting scenes)
     (exhaust) {
         *(scene $Scene)
-        ~($Scene is happening)
-        { ~($Scene is complete) (or) (repeatable $Scene) }
+        (ready to start scene $Scene)
+        %% (log) { checking start for scene $Scene }
         (start $Scene)
-        (log) { $Scene - just started }
+        %% (log) { scene $Scene is now happening }
         (now) ($Scene is happening)
         %% The scene has started, at least once.
-        %% Important for repeatable scenes.
+        %% Important for recurring scenes.
         (now) ($Scene has started)
     }
+
+(ready to start scene $Scene)
+    ~($Scene is happening)
+    { ~($Scene has completed) (or) (recurring $Scene) }

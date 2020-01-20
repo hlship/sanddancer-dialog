@@ -32,6 +32,7 @@
 #last-day-of-high-school
 (memory *)
 (name *) last day of high school
+(your *)
 (#tumbleweed suggests *)
 (descr *)
     You didn't expect it was going to be your last day.

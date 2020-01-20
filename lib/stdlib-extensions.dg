@@ -1,0 +1,41 @@
+%% Things that don't exist in stdlib, but should.
+
+
+%% Identify rooms that are adjacent to the current room
+(adjacent room $Neighbor)
+    (current room $Room)
+    *(from $Room go $ to $Neighbor)
+
+(collect items in $Container to $Items)
+    (collect $Obj)
+        *($Obj is #in $Container)
+        %% Exclude non-items, including #knock (in the pickup truck)
+        (item $Obj)
+    (into $Items)
+
+(select random item in $Container to $Object)
+    (collect $Obj)
+        *($Obj is #in $Container)
+    (into $List)
+    (randomly select $Object from $List)
+
+(shuffle list [] to [])
+
+(shuffle list [$X] to [$X])
+
+(shuffle list $List to $Shuffled)
+    (randomly select $Elem from $List)
+    %% Side-effect (unwanted): makes elements distinct
+    (remove from $List matching [$Elem] into $More)
+    (shuffle list $More to $MoreShuffled)
+    ($Shuffled = [$Elem | $MoreShuffled])
+
+($X <= $Y)
+    ($X < $Y) (or) ($X = $Y)
+
+($X >= $Y)
+    ($X > $Y) (or) ($X = $Y)
+
+(random chance of $Y in $X)
+    (random from 1 to $X into $Z)
+    ($Z <= $Y)

@@ -73,6 +73,9 @@
     #northwest to *)
 (narrate leaving $From $Dir)
     (* is unvisited)
+    %% May need to revisit this logic; this is a lot of color text that we'll never
+    %% see if the first visit to the open desert is due to pursuit.
+    ~(#pursuit is happening)
     (from $From go $Dir to $Room)
     ($Room = *)
     (select random item in #emotional-baggage to $Memory)

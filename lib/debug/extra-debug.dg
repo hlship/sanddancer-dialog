@@ -39,3 +39,10 @@
         (tree $Child $ChildIndent)
     }
 
+%% Setup for tests
+
+(setup pursuit)
+    (now) (#emergency-lights is on)
+    (now) (knock holds #flashlight)
+    (now) (#flashlight is on)
+    Pursuit should occur soon.
