@@ -21,6 +21,8 @@
 %% to see if it should start).
 %% Scenes with the (recurring $) trait can start again even once completed.
 
+%% The predicate (scene debugging enabled) will enable debug output as scenes are started, completed, or 'ticked'.
+
 (scene $) (fail)
 ($ is happening) (fail)
 ($ has started) (fail)
@@ -28,6 +30,9 @@
 ($ is complete) (fail)
 ($ has completed) (fail)
 (recurring $) (fail)
+
+(scene debugging enabled)
+    (fail)
 
 %% Each scene that is happening at the start of the tick and not completed during the tick
 %% is notified via this predicate.  It doesn't matter whether this predicate succeeds or fails.
@@ -43,7 +48,10 @@
         *(scene $Scene)
         ($Scene is happening)
         (complete $Scene)
-        %% (log) { scene $Scene completed }
+        (if) (scene debugging enabled)
+        (then)
+            (log) { scene $Scene completed }
+        (endif)
         (now) ~($Scene is happening)
         %% The scene has completed, at least once.
         %% Important for recurring scenes.
@@ -54,7 +62,10 @@
     (exhaust) {
         *(scene $Scene)
         ($Scene is happening)
-        %% (log) { scene $Scene is happening }
+        (if) (scene debugging enabled)
+        (then)
+             (log) { scene $Scene is happening }
+        (endif)
         (on every tick during $Scene)
     }
 
@@ -62,8 +73,11 @@
     (exhaust) {
         *(scene $Scene)
         (ready to start scene $Scene)
-        %% (log) { checking start for scene $Scene }
         (start $Scene)
+        (if) (scene debugging enabled)
+        (then)
+          (log) { scene $Scene started }
+        (endif)
         %% (log) { scene $Scene is now happening }
         (now) ($Scene is happening)
         %% The scene has started, at least once.
@@ -73,4 +87,16 @@
 
 (ready to start scene $Scene)
     ~($Scene is happening)
-    { ~($Scene has completed) (or) (recurring $Scene) }
+    { ~($Scene is complete) (or) (recurring $Scene) }
+
+(scenes)
+    (exhaust) {
+        *(scene $Scene)
+        $Scene
+
+        (describe [{ (recurring $Scene) recurring}
+                   { ($Scene has started) started }
+                   { ($Scene is happening) happening }
+                   { ($Scene is complete) complete }])
+        (line)
+    }

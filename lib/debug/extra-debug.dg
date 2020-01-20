@@ -1,43 +1,8 @@
-(trace $Action)
-    (trace on)
-    (stoppable) { (try $Action ) }
-    (trace off)
-
-(trace instead $Action)
-    (trace on)
-    (stoppable) { (instead of $Action) }
-    (trace off)
 
 %% Turn off the banner as that makes tests a bit more fragile
 %% (don't want to break all tests just because we changed versions of stdlib).
 (banner)
     (just)
-
-%% Like @tree, but rooted in current room, and shows relations and other details
-(tree)
-    (current room $Room)
-    (log) {
-        $Room 
-        (if) (inherently dark $Room) (then) \(dark\) (endif)
-        (line)
-        (exhaust) {
-            *($Obj has parent $Room)
-            (tree $Obj 4)
-        }
-    }
-
-(tree $Obj $Indent)
-    ($Obj has relation $Rel)
-    (space $Indent)
-    $Obj $Rel
-    (if) ($Obj is handled) (then) \(handled\) (endif)
-    (if) ($Obj provides light) (then) \(lit\) (endif)
-    (line)
-    ($Indent plus 4 into $ChildIndent)
-    (exhaust) {
-        *($Child has parent $Obj)
-        (tree $Child $ChildIndent)
-    }
 
 %% Setup for tests
 

@@ -1,6 +1,5 @@
 %% Things that don't exist in stdlib, but should.
 
-
 %% Identify rooms that are adjacent to the current room
 (adjacent room $Neighbor)
     (current room $Room)
@@ -38,4 +37,74 @@
 
 (random chance of $Y in $X)
     (random from 1 to $X into $Z)
-    ($Z <= $Y)
+
+
+%% Debbuging output utility.  Invokes a series of closures, which may succeed or fail, but should
+%% produce output on success.  Outputs a comma separated list, in parens, of the succeding closures,
+%% or outputs nothing at all if all closures fail.
+%% NOTE: Inefficient; invokes succesful closures a second time.
+
+(describe $Closures)
+    (describe $Closures 1)
+
+%% Impl for (describe $List)
+
+(describe [$Closure | $More] $First)
+    (collect words) (query $Closure) (into $Words)
+    (if) (empty $Words)
+    (then)
+        (describe $More $First)
+    (else)
+        (if) ($First = 1)
+        (then) \(
+        (else) ,
+        (endif)
+        (query $Closure)
+        (describe $More 0)
+    (endif)
+
+(describe [] 0)
+    \)
+
+(describe [] $)
+
+%% Like @tree, but rooted in current room, and shows relations and other details
+%% about the room and items.
+(tree)
+    (current room $Room)
+    (log) {
+        $Room 
+        (describe [{ (inherently dark $Room) dark }
+                   { (office interior $Room) office interior }
+                   { (around the tower $Room) around the tower } 
+                   { (in range of headlights $Room) in range of headlights }])
+        (line)
+        (exhaust) {
+            *($Obj has parent $Room)
+            (tree $Obj 4)
+        }
+    }
+
+(tree $Obj $Indent)
+    ($Obj has relation $Rel)
+    (space $Indent)
+    $Obj $Rel
+    (describe [{ ($Obj is handled) handled }
+               { ($Obj is hidden) hidden }
+               { ($Obj provides light) lit}])
+    (line)
+    ($Indent plus 4 into $ChildIndent)
+    (exhaust) {
+        *($Child has parent $Obj)
+        (tree $Child $ChildIndent)
+    }
+
+(trace $Action)
+    (trace on)
+    (stoppable) { (try $Action ) }
+    (trace off)
+
+(trace instead $Action)
+    (trace on)
+    (stoppable) { (instead of $Action) }
+    (trace off)
