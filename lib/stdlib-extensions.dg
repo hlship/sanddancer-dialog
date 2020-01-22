@@ -37,6 +37,7 @@
 
 (random chance of $Y in $X)
     (random from 1 to $X into $Z)
+    ($Z <= $Y)
 
 
 %% Debbuging output utility.  Invokes a series of closures, which may succeed or fail, but should

@@ -1,12 +1,31 @@
 #rainstorm
 (scene *)
-(descr *)
-    Rain batters down on the desert.
 (start *)
-    (#rabbits-offer just completed)
-    The skies open up like nobodies business.
-    
+    (#rabbits-offer is complete)
+    Rain starts to come down, pattering on the desert sand. 
+    Soon it's gonna be a muddy deathtrap out here.
+(complete *)
+    (#control-center is visited)
+    (current room $Room)
+    ~($Room = #roof)
+    (random chance of 1 in 4)
+    *(in progress plans $)
+    The rain's dying down, the sounds of the storm fading, water sinking into the thirsty sand
+    leaving only the smell of safe behind.
+    (now) (#rain is nowhere)
+(on every tick during *)
+    Rain batters down on the desert.
+
+(instead of [listen])
+    (* is happening)
+    You can't hear anything above the pounding noise of water slapping sand.
+
 #rain
+(name *) rain
+(dict *) storm rainstorm
+(descr *)
+    The frigid rain washes down on you.
+
 ($Room attracts *)
     (#rainstorm is happening)
     (around the tower $Room)
