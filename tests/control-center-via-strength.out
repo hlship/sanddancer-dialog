@@ -35,7 +35,6 @@ You push against the side, but you're not strong enough to move the barrel.
 
 > (now) (knock holds #strength)
 > push barrel
-Query succeeded: (get input [push barrel])
 Heaving, you push against the barrel, and with a horrible grating noise, it
 slides across the roof till it rests under the metal rungs.
 

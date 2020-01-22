@@ -117,7 +117,6 @@ You see your wallet here.
 
 > (now) (#headlights is off)
 > l
-Query succeeded: (get input [l])
 Staging Area
 It's obvious this place has been abandoned for years. Cold night air breathes
 through holes in the roof and everything is strewn with sand and patches of
@@ -131,7 +130,6 @@ You see your wallet here.
 
 > (now) (#emergency-lights is on)
 > l
-Query succeeded: (get input [l])
 Staging Area
 It's obvious this place has been abandoned for years. Cold night air breathes
 through holes in the roof and everything is strewn with sand and patches of
