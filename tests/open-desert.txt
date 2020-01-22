@@ -4,6 +4,6 @@ purloin flashlight
 turn it on
 e
 (now) (#emergency-lights is on)
-(now) (#your-shit-job is #in #emotional-baggage)
+open wallet
 e
 s

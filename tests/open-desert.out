@@ -40,7 +40,13 @@ out into the desert just yet. Your truck lights are already starting to dim, and
 with how dark it is, you're not sure you could find your way back.
 
 > (now) (#emergency-lights is on)
-> (now) (#your-shit-job is #in #emotional-baggage)
+> open wallet
+You open your wallet, revealing your driver's license and a receipt from Big
+Jimmy's.
+
+Something about the receipt from Big Jimmy's makes you want to brood about your
+shit job.
+
 > e
 You walk east for a long time, thoughts turning over like the sand under your
 sneakers. You think about your shit job. You think about Ocean and how pissed
@@ -54,19 +60,19 @@ realize with a kind of heavy feeling that with all the dust this wind is kicking
 up you can't see a damn thing. You can't see your pickup, you can't see the
 electrical tower. Not even your damn footprints. You're lost. Well, shit.
 Open Desert
-Your tracks are swallowed up in moments by the billowing sand, and god damn it's
-dark.
+Clouds of dust swirl through the air, and every inch of sand looks just like
+every other.
 
-All you can make out in the darkness are a looming cactus, some dry bones, and a
-dry streambed.
+Nearby: a stand of cactus, a dead cow, and some clumps of sagebrush. Nothing to
+write home about.
 
 > s
 You walk south.
 Open Desert
-Clouds of dust swirl through the air, and every inch of sand looks just like
-every other.
+The desert stretches around you in all directions, and you plod wearily through
+the sand.
 
-Half-lost in the shadows, you see a dry streambed, a looming cactus, and a low
-bluff and that's about it.
+All you can make out in the darkness are a dull grey boulder, a looming cactus,
+and a stand of cactus.
 
 > 
