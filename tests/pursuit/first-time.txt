@@ -1,0 +1,9 @@
+exit
+(setup pursuit)
+n
+n
+s
+w
+ne
+n
+n
