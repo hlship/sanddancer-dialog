@@ -57,6 +57,7 @@
         (now) (#darting-shadow is nowhere)
         (now) (pursuit duration 0)
         You lose sight of whatever it was.
+        (par)
     (endif)
 (instead of [leave $Room $Dir])
     (* is happening)

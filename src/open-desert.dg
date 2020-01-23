@@ -54,6 +54,7 @@
         (now) ($F is #in *)
     }
     (now) (* flotsam is $Final)
+    (par)
     (try [look])
 
 %% Here's where one-directional room links really work

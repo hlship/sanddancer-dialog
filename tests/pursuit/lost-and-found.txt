@@ -1,0 +1,19 @@
+exit
+(setup pursuit)
+s
+n
+n
+w
+s
+s
+s
+s
+s
+s
+s
+s
+s
+nw
+sw
+nw
+nw
