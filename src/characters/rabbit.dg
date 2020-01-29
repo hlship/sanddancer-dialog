@@ -1,0 +1,9 @@
+(comment *) (fail)
+
+#rabbit
+(man *)
+(name *) Rabbit
+(descr *)
+    The closer you look the weirder it gets, like it doesn't start or end in any one place or
+    something all new-agey like that.
+(* is #in #burrow)

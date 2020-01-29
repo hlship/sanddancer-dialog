@@ -1,8 +1,13 @@
-(current player #knock)
+#knock
+(current player *)
 (#lighter/
  #wallet
- is #heldby #knock)
-(#knock is #in #pickup-truck)
+ is #heldby *)
+(* is #in #pickup-truck)
+(descr *)
+    You don't want to think about what you look like right now, especially
+    when there's a totally legit likeness on the driver's license in your
+    wallet.
 
 %% A little utility
 
