@@ -65,6 +65,7 @@
         ~(office interior $TargetRoom)
       }
     You take a step and crack your shin against what feels like a metal desk.
+    Ouch.
 
 (instead of [examine $])
     (current room *)
