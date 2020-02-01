@@ -1,7 +1,7 @@
 exit
 (setup pursuit)
-s
 n
+s
 n
 w
 s
@@ -13,7 +13,10 @@ s
 s
 s
 s
-nw
+s
+s
+s
+n
 sw
-nw
-nw
+ne
+sw

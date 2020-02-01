@@ -5,5 +5,6 @@ n
 s
 w
 ne
-n
-n
+e
+nw
+

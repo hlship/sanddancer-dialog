@@ -69,13 +69,23 @@
     (now) (#darting-shadow is nowhere)
     (par)
     (enter #burrow)
-(narrate leaving $ $Dir)
+(narrate leaving $From $Dir)
     (* is happening)
     (pursuit duration $X)
     (narrate pursuit $X)
     (par)
     (random cardinal direction $NewDir)
     (now) (#darting-shadow is going $NewDir)
+    %% We have that lovely bit of text for the first entry to open
+    %% desert that should follow this logic.
+    (if) ~($From = #open-desert)
+        (from $From go $Dir to $To)
+        ($To = #open-desert)
+        ($To is unvisited)
+    (then)
+        %% This lets that text happen too.
+        (fail)
+    (endif)
 
 (narrate pursuit 1)
     You head off in the direction of movement, scanning with your flashlight over the skittering shadows.
