@@ -24,6 +24,14 @@
 (dict *) quiver
 (from #crumbling-concrete go #in through * to #staging-area)
 (from #staging-area go #out through * to #crumbling-concrete)
+(narrate leaving $Room $Dir)
+    (from $Room go $Dir through * to $)
+    You
+    (select)
+        brush away remants of broken glass and
+    (or)
+    (stopping)
+    wriggle through the window.
 
 #boarded-up-door
 (name *) boarded up door

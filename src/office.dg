@@ -18,6 +18,9 @@
     #wastepaper-basket/
     #dust-covered-window 
     is #in *)
+(from * go #out through #dust-covered-window to #base-of-tower)
+(from #base-of-tower go #in through #dust-covered-window to *)
+
 
 #foremans-desk
 (supporter *)
@@ -39,3 +42,6 @@
 #dust-covered-window
 (window *)
 (name *) dust covered window
+(prevent [leave $Room $Dir])
+    (from $Room go $Dir through * to $)
+    It's too high for you to pull yourself up.

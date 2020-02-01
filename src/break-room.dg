@@ -25,6 +25,8 @@
     #tables/
     #crumbling-trash 
     is #in *)
+(from * go #out through #tiny-frosted-window to #weed-strewn-rust)
+(from #weed-strewn-rust go #in through #tiny-frosted-window to *)
 
 #cage
 (name *) wire mesh cage
@@ -83,9 +85,11 @@
 
 #tiny-frosted-window
 (window *)
-(* is open)
-~(openable *)
 (name *) tiny frosted window
+(tiny *)
+(prevent [leave $Room $Dir])
+    (from $Room go $Dir through * to $)
+    It's too small to wiggle through.
 
 #tables
 (name *) rotted picnic tables
