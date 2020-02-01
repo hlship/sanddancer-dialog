@@ -4,10 +4,9 @@
  :debug-sources ["lib/debug/*.dg"
                  "/usr/local/share/dialog-if/stddebug.dg"]
  :library-sources ["lib/*.dg"
-                   ;; No WiFi:
-                   "../threaded-conversation/lib/threaded-converstation.dg"
+                   "../threaded-conversation/lib/*.dg"
                    #_
                      {:github "hlship/threaded-conversation"
-                      :version "v1.0"
+                      :version "v0.1"
                       :path "lib/threaded-conversation.dg"}
                    "/usr/local/share/dialog-if/stdlib.dg"]}
