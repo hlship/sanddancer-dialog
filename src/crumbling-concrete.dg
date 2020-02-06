@@ -6,7 +6,7 @@
     to the north, now abandoned
     (if) (lit by headlights *)
     (then)
-        : fragments of glass sparkle faintly in the beam of your headlights
+        : a pane of cracked glass sparkles faintly in the beam of your headlights
     (elseif) (lit by flashlight *)
     (then)
         : it seems dead and alone in the dusty beam of your flashlight
@@ -37,13 +37,17 @@
 (name *) boarded up door
 (dict *) board
 (prevent [attack *])
-    (door is closed)
+    (door wont budge)
 (prevent [open *])
-    (door is closed)
+    (door wont budge)
 (prevent [enter *])
-    (door is closed)
+    (door wont budge)
+(refuse [go #in])
+    (current room #crumbling-concrete)
+    (#pane-of-cracked-glass is closed)
+    (door wont budge)
 
-(door is closed)
+(door wont budge)
     The door won't budge.
     You slam your hands against the boards in frustration
     (if) (#pane-of-cracked-glass is closed)

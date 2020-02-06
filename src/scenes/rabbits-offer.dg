@@ -1,2 +1,243 @@
 #rabbits-offer
 (scene *)
+(start *)
+    (current room #burrow)
+    (now) (conversation partner #rabbit)
+    (queue #rabbit-introduction for #rabbit)
+(complete *)
+    { (knock holds #courage) (or) (knock holds #strength) }
+    (now) (#easter-basket is nowhere)
+    (exhaust) {
+        *($Obj is #in #burrow)
+        (talent $Obj) 
+        (now) ($Obj is nowhere)
+    }
+    (log) { #rabbits-offer complete }
+
+
+
+#rabbit-introduction
+(reply *)
+    The rabbit breaths and stares.
+    You wonder if it's going to start talking like in some crap disney movie and then
+    jesus christ it does...
+    (par)
+    "So, what'd you expect from an animal guardian?" it says, but like not with its lips,
+    somewhere in your head instead.
+    "Were you thinking big, nasty, sharp, pointy teeth? Waistcoat and pocket watch?
+    Nah. Tricks are for kids.
+    What's up Knock?"
+    Its whiskers twitch.
+
+#go-insane
+(performative quip *)
+(name *) just, you know, go insane
+(* directly follows #rabbit-introduction)
+(comment *)
+    I know, right?  Looks like it's too late though.
+(reply *)
+
+#who-rabbit-is
+(questioning quip *)
+(name *) who the rabbit is
+(* follows #rabbit-introduction)
+(comment *)
+    "Who, uh, what are you?" you ask.
+(reply *)
+    "Oh come on, pal, you know me," he says with this kind of stupid cheerful tone,
+    and suddenly he looks more like Buster from Arthur, scrawny and poorly animated.
+    "I've been keeping an eye on you from the TV all these years.
+    Your grandma asked me to, remember?"
+    He grins, buck teeth protruding.
+
+#grandma
+(questioning quip *)
+(name *) about grandma's stories
+(* directly follows #who-rabbit-is)
+(comment *)
+    "So how much of my grandma's bullshit was for real?" you ask.
+(reply *)
+    "She was wrong about lots of stuff," Buster says, scratching himself
+    with a hind paw thoughtfully, "buy right about lots too. Oh lots."
+    (queue #rabbits-judgement)
+
+#rabbit-not-real
+(informative quip *)
+(name *) the rabbit he's not real
+(action verb *) tell
+(* directly follows #who-rabbit-is)
+(comment *)
+    "But, you're not, like, real."
+(reply *)
+    "Oh, don't say that!" the rabbit says, animated yees going round like saucers.
+    "Then it'd be just you here all alone, and wouldn't that be boring.
+    It's much more interesting if I'm really around."
+    (queue #rabbits-judgement)
+
+#rabbits-judgement
+(reply *)
+    (if) (knock has smoked)
+    (then)
+        "Yo, you started smokin' again?" Buster asks, sniffing
+        disdainfully, except he's not Buster any more, more like Eminem.
+        "I though you quit that shit, dawg.  It's cool, I won't tell your grandma,
+        but it makes Thumber cry a little, you know what I'm sayin'?"
+    (elseif)
+        (collect $Window)
+            *(window $Window)
+            ($Window is open)
+        (into $OpenWindows)
+        (length of $OpenWindows into $Count)
+        ($Count >= 2)
+    (then)
+        "Yo, nice work breakin' all those windows," Buster says,
+        except he's not Buster any more, more like Eminem.
+        "Way to stick it to the man. You hella bad, dawg.
+        Maybe you can tag some shit when you get back to town too."
+    (else)
+        "Hey, yo, you been hella good about keepin' off those cancer sticks,"
+        Buster says, except he's not Buster any more, more like Eminem.
+        "Don't think I ain't watchin' ya."
+    (endif)
+        \(Oh hey, Rabbit Smith, you get it.\)
+
+#knows-everything
+(questioning quip *)
+(name *) how he knows so much about everything
+(* follows #rabbits-judgement)
+(comment *)
+    "I don't understand," you ask "how you know so much about me. Grandma. Everything."
+(reply *)
+    "Hey, back off man," he says, "it's my \*\*\*n' job."
+    And there's actually like a bleep, too, and now that you think of it you only ever saw 8 Mile on TV.
+    (queue #down-to-business for #rabbit)
+
+#down-to-business
+(reply *)
+    "Anyway, look, man, we both know you're in trouble.
+    I just gotta ask you one question."
+    And he changes again into like a giant silhouette, and it's the Playboy Bunny, ears and bow tie and all.
+    "Do you love her?"
+    (now) (#bow-tie is #in #burrow)
+
+#yes-to-rabbit
+(performative quip *)
+(name *) answer yes
+(* directly follows #down-to-business)
+(comment *)
+    "Well, yes, she's, well, she's Ocean." you say.
+(reply *)
+    "Then you probably should get home and tell her,"
+    the bunny says.
+    "Patch up that truck and fly down the highway before she gets away."
+    It winks.
+    (queue #rabbits-choices)
+
+#no-to-rabbit
+(performative quip *)
+(* directly follows #down-to-business)
+(name *) answer no
+(comment *)
+    "I tell her I love her," you begin, "because I know she needs me to say it.
+    But really, deep down, I know it shouldn't be because of her.
+    It should be because of me, and that's just not there. Not yet. Maybe not ever."
+(reply *)
+    "Then what are you still doing with her?" the bunny says.
+    "Get out while the gettings good. You think either of you will be happier if you put that off?
+    There's fish in other oceans kid.
+    You've got your whole life to swim."
+    It winks.
+    (queue #rabbits-choices)
+
+#dont-know
+(informative quip *)
+(* directly follows #down-to-business)
+(name *) him that you don't know
+(action verb *) tell
+(comment *)
+    "I tell her I love her," you begin, "I tell her I do and I wanna believe it.
+    But I don't know. I should believe, I should know, but I don't. 
+    So maybe I do and maybe I don't."
+(reply *)
+    "Yeah," the bunny says, "well this is the night to figure it out.
+    Whether you decide to go home to her tonight or take care of yourself
+    tonight might have consequences on a night with a storm like the one
+    that's coming. Just sayin'."
+    It winks.
+    (queue #rabbits-choices)
+
+#rabbits-choices
+(reply *)
+    (now) (#bow-tie is nowhere)
+    (now) (#easter-basket is #in #burrow)
+    (now) (#strength is #in #burrow)
+    (now) (#courage is #in #burrow)
+    "Look," he says, and now he's big and fluffy and smells like springtime and peeps.
+    "I can help you make your decisions.
+    I'll trade you for one of these talents."
+    He holds out an easter basket filled with plastic green easter grass; in it
+    are two glowing orbs.
+    (par)
+    "Strength," hey says, pointing to the first one, "and courage.
+    Pick whichever one you think will be most useful, but you have to give me
+    something back.
+    Something real, something I can work with."
+
+#about-strength
+(questioning quip *)
+(name *) about strength
+(* supplies #rabbit)
+(* follows #rabbits-choices)
+(comment *)
+    "How can strength help me?" you ask.
+(reply *)
+    "Might be useful for surviving through the night," he says, "if that's what you are planning."
+
+#about-courage
+(questioning quip *)
+(* supplies #rabbit)
+(name *) about courage
+(* follows #rabbits-choices)
+(comment *)
+    "I can hack it," you say, "do I really need courage?"
+(reply *)
+    "Tough in some way, little-one. But you're going to need courage to get home to
+    Ocean," he says, "if that's what you want."
+
+#about-trading
+(questioning quip *)
+(name *) about trading
+(dict *) trade
+(* supplies #rabbit)
+(* follows #rabbits-choices)
+(comment *) 
+    "What is this about trading?" you ask. "What could I have that you need?"
+(reply *)
+    "You won't lose what you trade entirely," he says, twitching his whiskers,
+    "but it will change, transverse, be resurrected as something else. Reborn."
+
+#dont-want-to-trade
+(informative quip *)
+(name *) him you don't want to trade
+(dict *) i %% as in "i don't want to trade"
+(action verb *) tell
+(* follows #rabbits-choices)
+(comment *)
+    "Right. Indians, trading. Not a fan." you say.
+(reply *)
+    "I came all this way to help you," the rabbit says, 
+    "I'm even missing the big parade," and it wiggles its tail with a smell of sugar and frosting.
+    "I think we'd better make a trade."
+
+(narrate only trade memories)
+    (conversation partner #rabbit)
+    "No, no, I don't want that," says the rabbit, twiching its nose indignantly.
+    "For a talent like this, you out to put up something real.
+    Something you care about."
+
+
+
+
+
+
+

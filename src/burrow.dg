@@ -12,13 +12,19 @@
         terror against the wall. It's… well.
         (par)
         It's a rabbit.
+        (notice #rabbit)
     (or)
         The rabbit stares at you, whispers twitching, and it's freaking you out.
     (stopping)
+    (if) (#easter-basket is #in *)
+    (then)
+        The rabbit is holding an easter basket; in the basket are two glowing orbs.
+        The talents, the things he says you need to survive the night.
+    (endif)
 
 (#roots is #in *)
 
 #roots
 (name *) roots
-(some *)
+(plural *)
  

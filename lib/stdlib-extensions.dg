@@ -109,3 +109,9 @@
     (trace on)
     (stoppable) { (instead of $Action) }
     (trace off)
+
+($X incremented into $Z)
+    ($X plus 1 into $Z)
+
+($X decremented into $Z)
+    ($X minus 1 into $Z)

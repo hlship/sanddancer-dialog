@@ -1,5 +1,3 @@
-(comment *) (fail)
-
 #rabbit
 (man *)
 (name *) Rabbit
@@ -7,3 +5,19 @@
     The closer you look the weirder it gets, like it doesn't start or end in any one place or
     something all new-agey like that.
 (* is #in #burrow)
+(* price 1)
+
+#bow-tie
+(name *) bunny's bow tie
+%% Starts off-stage
+(instead of $Action)
+    (* is one of $Action)
+    It's just a few lines on a silouette.
+
+#easter-basket
+(name *) Easter Basket
+(an *)
+(prevet $Action)
+    (* is one of $Action)
+    You aren't sure you believe in it enough for that.
+

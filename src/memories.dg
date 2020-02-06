@@ -44,10 +44,10 @@
     a test you took last week in Mrs. Burke's sophmore English class.
     Questions have been raised \(he looked up at Mrs. Burke
     like he was trying to pass the buck\) questions have been raised about the quality
-    of your essay, and whether a stund with your academic and behavioral record
-    \(he scratch his bloated nose meaningfully\)
+    of your essay, and whether a student with your academic and behavioral record
+    \(he scratched his bloated nose meaningfully\)
     could have plausibly produced such as essay, and you get the idea.
-    They though you cheated.
+    They thought you cheated.
     (par)
     No. They knew you cheated, deep in their smug empty hearts.
     The wanted you to admit it, say you were a cheater and a liar.
@@ -112,7 +112,7 @@
     or Indigenous People or whatever she'd decided the term was that week,
     and she was pretty pissed when Mom left him.
     Anyway.
-    Her stories were mostly BS, you guess, but some of the stuck with you.
+    Her stories were mostly BS, you guess, but some of them stuck with you.
     When it's dark you still wonder if your spirit animals are out there, somewhere, and
     what the hell is taking them so long to find you.
 
@@ -160,6 +160,21 @@
     (par)
     You don't know what's going to happen now.
 
+#graduation-night
+(memory *)
+(name *) her graduation night
+(dict *) oceans ocean's
+(#bow-tie suggests *)
+(proper *)
+(descr *)
+    She grinned when you picked her up, and you drove on in to Mike's and the lot was filled with trucks and Mike's was filled with Indian guys and Indian girls and she was still the most beautiful,
+    and you danced a lot and drank some and left early to go lie down under the stars and count the shooting ones.
+    (par)
+    And that was maybe you think the first time she said she loved you, and you said it back cause it felt all right and shit,
+    but you didn't really know if you meant it, or if she did, or what it even really means. I mean you like Ocean a lot, really a lot, 
+    but then you also aren't really sure you even know her, anything about her that's important or real or meaningful.
+    She could be anyone, really, on the inside. So could you.
+
 %% Brood verb to access memories:
 
 (rewrite [brood about/on/over | $Words] into [brood | $Words])
@@ -176,7 +191,7 @@
     Eh. You couldn't really get into a good brood about that when it's this damn cold.
 
 (prevent [$Verb | $Nouns])
-    ~($Verb = @brood)
+    ~($Verb is one of [brood trade])
     *($Noun is one of $Nouns)
     (memory $Noun)
     As if. All you can really do is BROOD ABOUT it.

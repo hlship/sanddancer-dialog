@@ -38,4 +38,9 @@
     (query $Closure)
   (endif)
 
+(prevent [$Verb | $Rest])
+  ~($Verb = @trade)
+  *($Obj is one of $Rest)
+  (talent $Obj)
+  It's just potential, or something.
 

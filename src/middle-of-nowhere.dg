@@ -56,6 +56,13 @@
     (descr truck dash)
 %% This prevents a redundant list of items in the truck, when Knock looks while also in the truck:
 ~(appearance $ $ *)
+(prevent [take $Obj])
+    ($Obj is #in *)
+    ~(#knock is #in *)
+    You can't reach (the $Obj) from outside the truck.
+(prevent [put $Obj #in * ])
+    ~(#knock is #in *)
+    You need to be inside the truck to do that.
     
 %% Players really want to just drive the truck away.
 
@@ -102,6 +109,9 @@
     (endif)
 ~(appearance $ $ *)
 (* is #partof #pickup-truck)
+(prevent [open/close *])
+    ~(#knock is #in #pickup-truck)
+    You can't reach the glove compartment from outside the truck.
 
 (global variable (remaining cigarettes 6))
 
@@ -145,6 +155,10 @@
         leaving only the ghostly beam of your flashlight
     (endif)
     .
+%% Allow Knock to turn the headlights back on "by feel"; otherwise
+%% you can turn them off and not get them back on again.
+(add * to scope)
+    (#knock is #in #pickup-truck)
 
 #wiffs-of-gasoline
 (name *) wiffs of gasoline
@@ -163,6 +177,10 @@
 #jade
 (name *) piece of jade
 (item *)
+(descr *)
+    Grandma said it will bring you luck, which hasn't really been working out.
+    You can't remember now how it ended up in your pickup truck.
+    Maybe someday you'll see someone lucky and you can throw it at him.
 
 %% Bonus room
 

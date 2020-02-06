@@ -1,0 +1,70 @@
+%% Trading memories for talents
+
+(understand [trade/exchange | $Words] as [trade $Memory for $Talent])
+    *(split $Words by [for] into $Give and $Receive)
+    (understand $Give as object $Memory preferably { (memory $_) })
+    (understand $Receive as object $Talent preferably { (talent $_) })
+
+(describe action [trade $Give for $Receive])
+    trade (the $Give) for (the $Receive)
+
+(refuse [trade ~(memory $) for $])
+    (narrate only trade memories)
+
+(narrate only trade memories)
+    (conversation partner $NPC)
+    "I'm only interested in trading memories," (the $NPC) says.
+
+(refuse [trade $ for ~(talent $)])
+    (conversation partner $NPC)
+    (current room $Room)
+    (collect $Obj)
+        *(talent $Obj)
+        ($Obj is #in $Room)
+    (into $Talents)
+    "I only have talents to offer you," says (the $NPC),
+    "(no space) (the $Talents)."
+
+(refuse [trade $ for (talent $Talent)])
+    (knock holds $Talent)
+    You need to trade for something new; you already have (the $Talent).
+
+%% This may not be necessary, you can't get this far unless Knock is in
+%% conversation with a spirit animal, and there's new talents to obtain.
+(refuse [trade $ for $])
+    ~(conversation partner $)
+    There's no one here to trade with.
+
+(perform [trade $Memory for $Talent])
+    (now) ($Memory is nowhere)
+    (conversation partner $NPC)
+    ($NPC accepts memory)
+    (if) ($NPC is ready to trade for $Talent)
+    (then)
+        (now) (knock holds $Talent)
+        (narrate traded $NPC $Memory for $Talent)
+    (else)
+        (narrate trade incomplete $NPC $Memory for $Talent)
+    (endif)
+
+($NPC accepts memory)
+    ($NPC price $Price)
+    ($Price decremented into $NewPrice)
+    (now) ($NPC price $NewPrice)
+
+%% Standard rule; but Sand-dancer trading for freedom is different.
+($NPC is ready to trade for $)
+    ($NPC price $Price)
+    ($Price = 0)
+
+%% Placeholders for now:
+
+(narrate traded $NPC $Memory for $Talent)
+    (The $NPC) nods.
+    "Yes," he says, "a fair trade."
+    And something happens inside you as he says it.
+    The memory of (the $Memory) shifts and wriggles and fades away and it's still there, but now it's shifted, become something else.
+    And, yeah, it kinda does feel like you could call it (the $Talent).  Cool.
+
+(narrate trade incomplete $NPC $Memory for $Talent)
+    (The $NPC) accepts (the $Memory) but needs more before you can get (the $Talent).

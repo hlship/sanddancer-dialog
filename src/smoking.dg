@@ -108,3 +108,6 @@
         And you still haven't quit smoking.
     (endif)
     You crush the butt under your heel and wonder what to do next.
+
+(knock has smoked)
+    ~(remaining cigarettes 6) %% start with six
