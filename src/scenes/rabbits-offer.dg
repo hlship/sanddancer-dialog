@@ -12,7 +12,6 @@
         (talent $Obj) 
         (now) ($Obj is nowhere)
     }
-    (log) { #rabbits-offer complete }
 
 
 
@@ -58,7 +57,7 @@
     "So how much of my grandma's bullshit was for real?" you ask.
 (reply *)
     "She was wrong about lots of stuff," Buster says, scratching himself
-    with a hind paw thoughtfully, "buy right about lots too. Oh lots."
+    with a hind paw thoughtfully, "but right about lots too. Oh lots."
     (queue #rabbits-judgement)
 
 #rabbit-not-real
@@ -69,7 +68,7 @@
 (comment *)
     "But, you're not, like, real."
 (reply *)
-    "Oh, don't say that!" the rabbit says, animated yees going round like saucers.
+    "Oh, don't say that!" the rabbit says, animated eyes going round like saucers.
     "Then it'd be just you here all alone, and wouldn't that be boring.
     It's much more interesting if I'm really around."
     (queue #rabbits-judgement)
@@ -81,7 +80,7 @@
         "Yo, you started smokin' again?" Buster asks, sniffing
         disdainfully, except he's not Buster any more, more like Eminem.
         "I though you quit that shit, dawg.  It's cool, I won't tell your grandma,
-        but it makes Thumber cry a little, you know what I'm sayin'?"
+        but it makes Thumper cry a little, you know what I'm sayin'?"
     (elseif)
         (collect $Window)
             *(window $Window)
