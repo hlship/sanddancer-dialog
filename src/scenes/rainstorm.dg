@@ -2,6 +2,8 @@
 (scene *)
 (start *)
     (#rabbits-offer is complete)
+    %% Wait until after "look up" ...
+    ~(current room #burrow)
     Rain starts to come down, pattering on the desert sand. 
     Soon it's gonna be a muddy deathtrap out here.
 (complete *)

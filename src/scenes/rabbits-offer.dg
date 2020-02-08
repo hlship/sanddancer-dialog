@@ -12,8 +12,23 @@
         (talent $Obj) 
         (now) ($Obj is nowhere)
     }
+    (now) ~(conversation partner $)
+    (par)
+    "The others are coming," he says, "they'll be here soon," and now he looks like Frank from Donnie Darko and his face is
+    behind that freaky metal mask and his voice is distorted and makes your skin crawl.
+    (par)
+    "Watch out for them," he says. "We all want to help, but... the others are wilier than me. Look up."
+    (par)
+    "Look up, Naki," he says again.
 
-
+(instead of [look #up])
+    (current room #burrow)
+    (#rabbits-offer has completed)
+    Stupidly, you tilt your head back and stare up at the dirt ceiling, and all you can see is blackness.
+    (par)
+    No wait... there's patterns, slowly shifting, barely visible in the darkness, and miles away. Like clouds.
+    And then a drop of water falls on your face, and then another, and you realize suddenly you're outside, and it's starting to rain...
+    (enter #backtracking)
 
 #rabbit-introduction
 (reply *)
