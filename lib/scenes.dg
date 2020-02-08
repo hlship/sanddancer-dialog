@@ -53,8 +53,9 @@
             (log) { scene $Scene completed }
         (endif)
         (now) ~($Scene is happening)
-        %% The scene has completed, at least once.
-        %% Important for recurring scenes.
+        %% The scene has completed, at least once
+        (now) ($Scene has completed)
+        %% Important for recurring scenes
         (now) ($Scene is complete)
     }
 
