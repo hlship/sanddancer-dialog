@@ -196,12 +196,12 @@
     (memory $Noun)
     As if. All you can really do is BROOD ABOUT it.
 
-(perform [brood $Obj])
-    (narrate brooding about $Obj)
-    (now) ($Obj is retrieved)
+(perform [brood $Memory])
+    (narrate brooding about $Memory)
+    (now) ($Memory is retrieved)
 
-(narrate brooding about $Obj)
-    (descr $Obj)
+(narrate brooding about $Memory)
+    (descr $Memory)
 
 (perform [think])
     Most of the thinking you do nowadays comes from either smoking or brooding.
@@ -215,9 +215,12 @@
 (identify recalled memories)
     *(memory $Memory)
     ($Memory is nowhere)
+    %% Extra check so that you don't get reminded to brood about memories
+    %% you've traded for talents
+    ~($Memory is retrieved)
     %% For now, object <-> memory is 1:1
     ($Obj suggests $Memory)
-    ~($Obj is hidden)    
+    ~($Obj is hidden)
     (player can see $Obj)
     (par)
     Something about (the $Obj) makes you want to brood about (the $Memory).
