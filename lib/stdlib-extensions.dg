@@ -1,5 +1,10 @@
 %% Things that don't exist in stdlib, but should.
 
+(understand [throw/toss | $Words] as [throw $A at $B])
+	*(split $Words by [through] into $Left and $Right)
+	*(understand $Left as object $A preferably held)
+	*(understand $Right as single object $B preferably { (window $_) })
+    
 %% Identify rooms that are adjacent to the current room
 (adjacent room $Neighbor)
     (current room $Room)
