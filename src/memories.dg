@@ -175,6 +175,29 @@
     but then you also aren't really sure you even know her, anything about her that's important or real or meaningful.
     She could be anyone, really, on the inside. So could you.
 
+#heard-the-news
+(memory *)
+(name *) when you heard the news
+(#ultrasound suggests *)
+(proper *)
+(descr *)
+    Four weeks ago now, a little colder and a little darker. On a night just like this one except you didn't drive off the road and crash into a cactus,
+    you got off work and drove the state highway in the dark and crossed over the edge of the res to Ocean's dad's trailer, 
+    and she told you that night while you were dead exhausted, Knock, I'm pregnant.
+    (par)
+    And all you could think was how totally not real it seemed, after an hour of blackness and New Mexican night streaming by, bugs exploding in tiny tragedies on your windshield, 
+    you just felt like driving on, like this thing was some podunk town you could breeze by, no services, ranch exit only. And you thought of every movie they ever made you watch in
+    school and every lecture and every living example, the drunken uncles and snaggle-toothed coworkers who knocked up their high school sweethearts and started families on minimum 
+    wage and no prospects and never went anywhere and never did anything and what did you do? How could this happen? Why were you both so stupid?
+    (par)
+    Ocean's aunt is paying for the baby but it's been made clear the money stops when the baby's born. Ocean wants to keep it, she's always wanted to be a mommy. But you never thought you'd be a daddy. And
+    when she pushed this into your hand last night she told you, Knock, it's time to decide.
+    If you aren't with me on this, if you don't want this as much as I do, then this can't go on anymore and you should go. 
+    Fly. Head west. Find Nakaibito. She smiled just a little and traced your ear.
+    (par)
+    But decide soon, Knock. Decide soon.
+
+
 %% Brood verb to access memories:
 
 (rewrite [brood about/on/over | $Words] into [brood | $Words])
