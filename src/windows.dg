@@ -9,6 +9,11 @@
 
 (dict (window $))   window
 
+%% Most items are hefty and can shatter a window, but not flyweight.
+@(hefty $Item) ~(flyweight $Item)
+
+(flyweight #license/#receipt/#cigarettes/#photo)
+
 (prevent [open (window $Window)])
     ($Window is open)
     It's already busted open.
@@ -23,6 +28,9 @@
 (prevent [throw $Missile at (window $Window)])
     ($Window is open)
     You already busted it open.
+
+(prevent [throw (flyweight $Item) at (window $Window)])
+    (The $Item) is too light to break (the $Window).
 
 (perform [throw $Missile at (window $Window)])
     (current room $Here)

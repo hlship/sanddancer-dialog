@@ -43,6 +43,8 @@
 (container *)
 (openable *)
 (#license/#receipt is #in *)
+(prevent [put (hefty $Item) #in *])
+    (The $Item) won't fit in your wallet.
 
 #license
 (item *)
