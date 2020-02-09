@@ -226,3 +226,9 @@
     Something about (the $Obj) makes you want to brood about (the $Memory).
     (now) ($Memory is #in #emotional-baggage)
 
+%% Count up the number of retrieved memories
+(count of memories into $Count)
+    (collect $Memory)
+        *($Memory is #in #emotional-baggage)
+    (into $Memories)
+    (length of $Memories into $Count)

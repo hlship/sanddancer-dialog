@@ -39,10 +39,17 @@
 (item *)
 (name *) wallet
 (your *)
-(descr *) Your beat-up wallet. It is (open or closed *). (list objects #in *)
+(descr *)
+    Your beat-up wallet. 
+    (if) (* is closed)
+    (then)
+        It is closed.
+    (else)
+        (list objects #in *)
+    (endif)
 (container *)
 (openable *)
-(#license/#receipt is #in *)
+(#license/#receipt/#photo is #in *)
 (prevent [put (hefty $Item) #in *])
     (The $Item) won't fit in your wallet.
 
@@ -57,3 +64,44 @@
 %% This is just to keep the memory suggestion from triggering too early.
 %% Related to https://intfiction.org/t/bug-in-visibility/44008/2
 (* is hidden)
+
+#photo
+(item *)
+(name *) photo
+(dict *) photograph pic picture folded unfolded
+(openable *)
+(#ultrasound is #in #photo)
+(descr *)
+    (* is closed)
+    You can't deal with that right now.
+    Maybe after you've spent more time brooding.
+(descr *)
+    It's an ultrasound of Ocean's baby.
+(understand [fold | $Words] as [close *])
+    *(understand $Words as single object *)
+(understand [unfold | $Words] as [open *])
+    *(understand $Words as single object *)
+(a *)
+    a
+    (if) (* is closed) (then) folded  (endif)
+    photo
+(instead of [open *])
+    (count of memories into $Count)
+    ($Count < 4)
+    (try [examine *])
+(narrate opening *)
+    You've brooded enough. You unfold the photo revealing the ultrasound of Ocean's baby. Your baby.
+(narrate closing *)
+    You fold the photo.
+(prevent [take $Item])
+    ($Item is #in *)
+    It's just a photo.
+ 
+#ultrasound
+(name *) ultrasound
+(dict *) baby ultra sound
+(an *)
+(item *)
+(descr *)
+    Your baby too.
+
