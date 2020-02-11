@@ -12,11 +12,13 @@
     probably once where the boss sat under a dust covered window.
     A half collapsed desk sits against a wall.
     (list objects #on #foremans-desk)
+    Tacked to the wall is a peeling safety poster.
     (par)
     The only exit is to the south.
 (#foremans-desk/
     #wastepaper-basket/
-    #dust-covered-window 
+    #dust-covered-window/
+    #poster
     is #in *)
 (from * go #out through #dust-covered-window to #base-of-tower)
 (from #base-of-tower go #in through #dust-covered-window to *)
@@ -45,3 +47,14 @@
 (prevent [leave $Room $Dir])
     (from $Room go $Dir through * to $)
     It's too high for you to pull yourself up.
+
+#poster
+(item *)
+(name *) faded safety poster
+(dict *) peeling text section emergency radio frequency
+(descr *)
+    The poster is peeling and faded, but you can make out a safety section that identifies
+    the emergency radio frequency as 133.2khz.
+    (now) (knock knows emergency frequency)
+(prevent [take *])
+    It would disintigrate if you tried to remove it from the wall.
