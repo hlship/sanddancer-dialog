@@ -22,10 +22,21 @@
     (then)
         The glove compartment is (open or closed #glove-compartment).
     (endif)
+    (if) (#lizard is #in *)
+    (then)
+        (par)
+        (if) (#knock is #in #pickup-truck)
+        (then)
+            Through the windshield, you see a little lizard clinging frantically to the Saguaro.
+        (else)
+            A brown-colored lizard clings to the cactus.
+        (endif)
+    (endif)
 (#knock/
     #pickup-truck/
     #wiffs-of-gasoline/
-    #saguaro 
+    #saguaro/
+    #lizard
     is #in *)
 (place #backtracking south of *)
 (place #crumbling-concrete north of *)
@@ -187,6 +198,28 @@
     You can't remember now how it ended up in your pickup truck.
     Maybe someday you'll see someone lucky and you can throw it at him.
 
+#lizard
+(name *) brown lizard
+(descr *)
+    (select)
+        He looks pretty pissed that you crashed into his cactus.
+        What did grandma used to call those little dudes?
+        You can't remember any more.
+    (or)
+        Oh yeah, you remember, she called them sand-dancers.
+        This little sand-dancer still looks pissed.
+    (or)
+        The little sand-dancer lizard stares at you with one slitted eye.
+    (stopping)
+(instead of [give $Obj to *])
+    You dangle (the $Obj) in front of it, but it just flicks it tongue in and out a little
+    faster, staying put.
+(instead of [$Verb | $Words])
+    ($Verb is one of [attack take push touch])
+    (* is one of $Words)
+    You reach out to grab it, but in a flash, it scurries around to the other size of the cactus and disappears.
+    (now) (* is nowhere)
+
 %% Bonus room
 
 #backtracking
@@ -218,3 +251,4 @@
 (plant *)
 (* is dead)
 (name *) withered cactus
+
