@@ -16,7 +16,14 @@
     the concrete building to the north.
     (par)
     Your poor old pickup truck ticks and groans, smashed gracelessly against 
-    a tall Saguaro; wiffs of evaporating gasoline linger in the chill air.
+    a tall Saguaro; 
+    (if) (knock holds #scent)
+    (then)
+        the overpowering stench of gasoline permeates the air
+    (else)
+        wiffs of evaporating gasoline linger in the chill air
+    (endif)
+    .
     (descr truck dash)
     (if) (#knock is #in #pickup-truck)
     (then)

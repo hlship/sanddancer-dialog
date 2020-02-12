@@ -14,6 +14,13 @@
 @(knock holds $Object)
     ($Object is #heldby #knock)
 
+%% Compact conditional for holding items, talents, etc.
+(if $Obj $Closure)
+  (if) (knock holds $Obj)
+  (then)
+    (query $Closure)
+  (endif)
+
 
 #lighter
 (item *)
