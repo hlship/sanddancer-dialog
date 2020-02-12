@@ -1,0 +1,32 @@
+
+#backtracking
+(around the tower *)
+(name *) Backtracking
+(look *)
+    It's quieter and darker over here, the black desert night bleed in.
+    Your tire track are hardly visible in the desert sand, and you can barely make
+    out the way north back to your truck.
+(#withered-cactus is #in *)
+(prevent [leave * #south])
+    %% Don't break the pursuit scene because game randomly chose south from here for the chase
+    ~(#pursuit is happening)
+    (select)
+        You stare back down the pickup's path uneasily.
+        The tracks are swallowed by darkness, quickly melding, blending,
+        and vanishing into a maze of ATV tracks, coyote trails,
+        rocky outcrops, and shadows.
+        You squint at the horizon.
+        There's no distant sweep of headlights, no sound of trucks shifting
+        through lonely gears.
+        Nothing. Nothing at all. 
+    (or)
+    (stopping)
+    You're way off the road, and there's no chance at all of finding it again in
+    this demon dark.
+        
+
+#withered-cactus
+(plant *)
+(* is dead)
+(name *) withered cactus
+
