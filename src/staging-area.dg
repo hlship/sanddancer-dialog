@@ -5,13 +5,7 @@
     (if) (* is dim)
     (then)
         Faint shafts of light from your dimming headlights seep through
-        (if) (#pane-of-cracked-glass is open)
-        (then)
-            the broken window leading outside
-        (else)
-            a boarded-up pane of cracked glass
-        (endif)
-        , but you can barely make out anything of the interior.
+        the empty window frame leading outside, but you can barely make out anything of the interior.
     (else)
         It's obvious this place has been abandoned for years.
         Cold night air breathes through holes in the roof
@@ -24,16 +18,8 @@
         (endif)
         .
         (par)
-        (if) ~(* is dim)
-        (then)
-            (if) (#pane-of-cracked-glass is open)
-            (then)
-                You can squeeze through the broken window to the outside.
-            (else)
-                A pane of cracked glass, opaque with dirt, is on the outside wall.
-            (endif)
-        (endif)
-        Other rooms lie north and east.
+        The boarded-up door is southwest, alongside the empty window frame leading outside;
+        other rooms lie north and east.
     (endif)
 (place #office north of *)
 (place #break-room east of *)
