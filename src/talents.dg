@@ -30,3 +30,16 @@
 (talent *)
 (name *) freedom
 
+(instead of [drop (talent $)])
+    You can't imagine being without it, now.
+
+(instead of [put (talent $Talent) $ $])
+    (try [drop $Talent])
+
+(descr (talent $Talent))
+    (if) (knock holds $Talent)
+    (then)
+        It's just kind of part of you now.
+    (else)
+        It glimmers and sparkles.
+    (endif)

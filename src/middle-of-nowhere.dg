@@ -198,7 +198,7 @@
 (dict *) cactus
 
 #jade
-(name *) piece of jade
+(name *) (if #luck { lucky }) piece of jade
 (item *)
 (descr *)
     Grandma said it will bring you luck, which hasn't really been working out.

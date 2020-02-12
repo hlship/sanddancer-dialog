@@ -101,7 +101,7 @@
         (endif)
         .
     (else)
-        Through a mass of cobwebs, you can see (a $Items) down in the hole.
+        Through a mass of (name #cobwebs), you can see (a $Items) down in the hole.
     (endif)
 
 (instead of [take $Item])
@@ -119,7 +119,7 @@
     Sounds like a good way to lose something forever.
 
 #cobwebs
-(name *) cobwebs
+(name *) (if #courage { hardly noticeable }) cobwebs
 (plural *)
 (dict *) web spiderweb spiderwebs cobweb spider spiders webs
 (fine where it is *)

@@ -81,7 +81,7 @@
     (The $NPC) accepts (the $Memory) but needs more before you can get (the $Talent).
 
 (prevent [$Verb | $Rest])
-  ~($Verb = @trade)
+  ~($Verb is one of [examine trade])
   *($Obj is one of $Rest)
   (talent $Obj)
   It's just potential, or something.

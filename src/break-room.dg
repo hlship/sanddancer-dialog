@@ -36,7 +36,7 @@
 (from #weed-strewn-rust go #in through #tiny-frosted-window to *)
 
 #cage
-(name *) wire mesh cage
+(name *) (if #strength { flimsy-looking }) wire mesh cage
 (container *)
 (lockable *)
 (* is transparent)
