@@ -215,7 +215,7 @@
 (comment *)
     "I can hack it," you say, "do I really need courage?"
 (reply *)
-    "Tough in some way, little-one. But you're going to need courage to get home to
+    "Tough in some ways, little-one. But you're going to need courage to get home to
     Ocean," he says, "if that's what you want."
 
 #about-trading
@@ -246,7 +246,7 @@
 (narrate only trade memories)
     (conversation partner #rabbit)
     "No, no, I don't want that," says the rabbit, twiching its nose indignantly.
-    "For a talent like this, you out to put up something real.
+    "For a talent like this, you ought to put up something real.
     Something you care about."
 
 

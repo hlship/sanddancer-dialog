@@ -1,0 +1,106 @@
+#radio-voice
+(scene *)
+(start *)
+    (current room #break-room)
+    (radio is tuned)
+    (par)
+    Not like you think anything's going to happen, but what the hell.
+    You grab the dusty old mike, press the call button, and 
+    ask "Is there anybody out there?"
+    (now) (conversation partner #voice)
+    (queue #voice-hello)
+(complete *)
+    ~(conversation partner $)
+
+#voice
+(male *)
+(name *) voice on the radio
+%% (add $ to scope)
+%%     (#radio-voice is happening)
+
+#voice-hello
+(reply *)
+    The speaker blurts and holy crap, someone's responding, and they
+    say "Roger, roger, tower station nineteen, read you now loud and clear,
+    what's your forty?" and the voice is staticky and whirled through
+    with weird rythmic distortions but you can hear it just fine and 
+    now what?
+
+#never-mind
+(informative quip *)
+(name *) never mind
+(* directly follows #voice-hello)
+(comment *)
+    You mutter something about how you think you've made a mistake and you have to go.
+(reply *)
+    The voice interrupts: "Hang on, hang on, son, there shouldn't be anybody out there. 
+    Not at all, especially not this late.
+    Why don't you tell me what's going on?" 
+
+#what-does-40-mean
+(questioning quip *)
+(name *) what ten forty means
+(* directly follows #voice-hello)
+(comment *)
+    "Man, I haven't got forty of anything right now" you say, trying to make a joke.
+(reply *)
+    The voice cuts you off.
+    "Ten forty means situation report, son. Obviously you're not on duty. 
+    Ain't nobody on duty out there anymore, specially not this time of night. What's going on?"
+
+#being-lost
+(informative quip *)
+(name *) that you are lost
+(dict *) I'm you're your %% grammar, but!
+(* directly follows #voice-hello)
+(comment *)
+    Feeling a little stupid, you come clean and tell the voice that you drove off the road and aren't 
+    sure really exactly where you are.
+(reply *)
+    "Copy that," the voice says briskly after a moment.
+    "You're at tower station nineteen, son, about thirty-two miles southwest of Oro Oeste,
+    fifteen miles or so from the state highway."
+    And if the mike wasn't attached to the radio you'd drop it on the floor. 
+    Fifteen miles? How in the (italic)hell(roman) could you have driven fifteen miles off the road and
+    not remember? How is that even possible?
+    (par)
+    "Hello?" the radio says.
+    "Hello son, do you copy?"
+
+#yes-to-voice
+(performative quip *)
+(name *) answer yes
+(* directly follows #being-lost)
+(comment *)
+    You jabber something positive and sit back, still shaken.
+(reply *)
+    (voice explains choices)
+
+#switch-off-the-radio
+(performative quip *)
+(name *) turn off the radio
+(* follows #being-lost)
+(comment *)
+    You reach for the switch, but hesitate, hand hovering above it as the static whirls and roars.
+(reply *)
+    (voice explains choices)
+
+(unlikely [switch off #radio])
+    (#radio-voice is happening)
+
+(voice explains choices)
+    "Look, son," the voice says, "I don't know how you got out there but that's not important right now.
+    Weather report's coming in and there's a cold front the size of Texas coming your way. 
+    I don't want to scare you but if you don't find a way home, or figure out some food and shelter for the night,
+    you could freeze to death. You hear me? Now on account of the cutbacks I don't have anyone to send out
+    there until morning. But there may be parts around that old tower you can use to patch up your truck and
+    make it back to the highway. Or, there may be emergency supplies that would get you through the night.
+    This storm's gonna blow out all our communication, so you're gonna be on your own. 
+    It's up to you. Over and out."
+    (par)
+    You rub your face tiredly. 
+    Ocean was expecting you tonight after your shift, like usual.
+    If you don't make it she'll be worried sick.
+    Then on the other hand maybe you should worry about yourself first for a change.
+    You feel like you need a cigarette and then you remember you quit. Hell, can't anything be easy?
+    (now) ~(conversation partner $)

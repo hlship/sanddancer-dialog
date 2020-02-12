@@ -4,8 +4,6 @@
 (scene *)
 (recurring *)
 (start *)
-    (knock holds #flashlight)
-    (#emergency-lights is on)
     (ready for shadow to appear)
     %% Setup
     (current room $Room)
@@ -111,6 +109,9 @@
     (just) (fail)
 
 (ready for shadow to appear)
+    (#radio-voice has completed)
+    (knock holds #flashlight)
+    (#emergency-lights is on)
     (current room $Room)
     (around the tower $Room)
     (random chance of 1 in 3)

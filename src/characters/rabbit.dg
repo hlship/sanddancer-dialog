@@ -16,8 +16,9 @@
 
 #easter-basket
 (name *) Easter Basket
+(dict *) egg eggs plastic grass
 (an *)
-(prevet $Action)
+(prevent $Action)
     (* is one of $Action)
     You aren't sure you believe in it enough for that.
 
