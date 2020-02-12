@@ -90,6 +90,13 @@
     (#first-aid-kit is nowhere)
     As you pick up the blanket, you find an old first aid kit underneath it.
     (now) (#first-aid-kit is #in #break-room)
+~(refuse [feel *])
+(feel *)
+    (* is pristine)
+    (#cage is closed)
+    You can touch the warm wool through the mesh, but you can't get it out.
+(feel *)
+    The wool of the blanket is warm and comforting on this frigid night.
 
 #tiny-frosted-window
 (window *)
