@@ -2,8 +2,8 @@
 
 (understand [trade/exchange | $Words] as [trade $Memory for $Talent])
     *(split $Words by [for] into $Give and $Receive)
-    (understand $Give as object $Memory preferably { (memory $_) })
-    (understand $Receive as object $Talent preferably { (talent $_) })
+    (understand $Give as single object $Memory preferably { (memory $_) })
+    (understand $Receive as single object $Talent preferably { (talent $_) })
 
 (describe action [trade $Give for $Receive])
     trade (the $Give) for (the $Receive)
