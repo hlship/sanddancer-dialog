@@ -61,6 +61,8 @@
 
 #ladder
 (name *) utility ladder
+(instead of [enter #ladder])
+    (try [go #up])
 
 #skylight
 (name *) broken skylight
@@ -70,7 +72,7 @@
 (item *)
 (name *) cans of food
 (dict *) hundreds can
-(prevent [take *])
+(instead of [take *])
     (#canned-oranges is handled)
     You won't be hungry again till morning.
 (instead of [take *])
@@ -88,7 +90,7 @@
     %% We're responsible for this; normally the responsibility of [take $] action:
     (now) (#canned-oranges is handled)
     (now) (#orange-smell is #in #storage-room )
-(prevent [take *])
+(instead of [take *])
     (knock holds #can-opener)
     You pull down a can from the shelf, grip it with the rusty can opener, and peel open the lid.
     Yuck:
@@ -109,7 +111,7 @@
     (or)
         Some these should still be good, right?
     (at random)
-(prevent [take *])
+(instead of [take *])
     You grab one and turn it over and over in your hand, but water has soaked and crumbled away the label,
     and you don't have any way to get it open.
     Your stomach growls a little as you put it back on the shelf.
@@ -119,7 +121,7 @@
 #canned-oranges
 (item *)
 (name *) canned oranges
-(proper *)
+(plural *)
 
 #orange-smell
 (name *) lingering smell of orange

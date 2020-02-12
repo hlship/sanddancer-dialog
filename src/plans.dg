@@ -1,13 +1,13 @@
 %% Plans require Knock to acquire certain objects.
 
-#staying-the-night
+#spending-the-night
 (plan *)
-(name *) staying the night
-(* requires #emergency-blanket/#canned-oranges)
+(name *) spending the night here
+(* requires #blanket/#canned-oranges)
 
 #fixing-the-truck
 (plan *)
-(name *) fixing the truck
+(name *) fixing the truck and getting out of here
 (* requires #duct-tape/#gas-can)
 
 %% What items that are required by any plan have been handled
@@ -41,4 +41,5 @@
     (player can see $Obj)
     ~($Obj is hidden)
     (now) ($Obj is noted useful)
-    Hey, that (name $Obj) might be useful if you decide on (name $Plan).
+    (par)
+    Hey, (that $Obj) (name $Obj) might be useful if you decide on (name $Plan).
