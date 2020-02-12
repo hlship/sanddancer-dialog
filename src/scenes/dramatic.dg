@@ -5,5 +5,6 @@
 
 (instead of [smoke $])
     *(scene $Scene)
+    ($Scene is happening)
     (dramatic $Scene)
     This isn't really the best time for that, man.
