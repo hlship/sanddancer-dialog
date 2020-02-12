@@ -15,7 +15,18 @@
     (conversation partner $NPC)
     "I'm only interested in trading memories," (the $NPC) says.
 
-(refuse [trade $ for ~(talent $)])
+(prevent [give $Item to $NPC])
+    (conversation partner $NPC)
+    "No, not like that," (the $NPC) says.
+    "You have to TRADE it for something."
+
+(prevent [take (talent $Talent)])
+    ~(knock holds $Talent)
+    (conversation partner $NPC)
+    "You can't just have it," (the $NPC) says.
+    "That's not how it works. You have to TRADE something for it."
+
+(prevent [trade $ for ~(talent $)])
     (conversation partner $NPC)
     (current room $Room)
     (collect $Obj)
@@ -68,3 +79,9 @@
 
 (narrate trade incomplete $NPC $Memory for $Talent)
     (The $NPC) accepts (the $Memory) but needs more before you can get (the $Talent).
+
+(prevent [$Verb | $Rest])
+  ~($Verb = @trade)
+  *($Obj is one of $Rest)
+  (talent $Obj)
+  It's just potential, or something.
