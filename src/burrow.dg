@@ -21,8 +21,10 @@
         The rabbit is holding an easter basket; in the basket are two glowing orbs.
         The talents, the things he says you need to survive the night.
     (endif)
-
 (#roots is #in *)
+(prevent [drop $])
+    (current room *)
+    Anything dropped here would be lost in the roots, dirt, and darkness.
 
 #roots
 (name *) roots
