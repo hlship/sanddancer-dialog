@@ -1,0 +1,5 @@
+%% Customizations of threaded conversation
+
+(instead of [go $])
+    (conversation partner $NPC)
+    Talking with (the $NPC) isn't something you should walk away from.

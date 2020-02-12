@@ -1,5 +1,6 @@
 #rabbits-offer
 (scene *)
+(dramatic *)
 (start *)
     (current room #burrow)
     (now) (conversation partner #rabbit)

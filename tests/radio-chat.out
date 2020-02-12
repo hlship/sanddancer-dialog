@@ -1,0 +1,171 @@
+
+
+Middle of Nowhere (in the pickup truck)
+The tire tracks from the south stop abruptly here, but where the hell are you?
+The desert sand and clumps of pale sagebrush are all your dimming headlights
+pick out before barely reaching the concrete building to the north.
+
+Your poor old pickup truck ticks and groans, smashed gracelessly against a tall
+Saguaro; wiffs of evaporating gasoline linger in the chill air. On the dash you
+can see a piece of jade. The glove compartment is closed.
+
+Through the windshield, you see a little lizard clinging frantically to the
+Saguaro.
+
+> (setup radio chat)
+
+Foreman's Office
+The stark emergency lights illume this tiny office, probably once where the boss
+sat under a dust covered window. A half collapsed desk sits against a wall. On
+the half-collapsed desk is a rusted key. Tacked to the wall is a peeling safety
+poster.
+
+The only exit is to the south.
+
+Query succeeded: (setup radio chat)
+> s
+You walk south.
+
+Staging Area
+It's obvious this place has been abandoned for years. Cold night air breathes
+through holes in the roof and everything is strewn with sand and patches of
+mold. An imposing metal desk extends out from one wall. The floor has half-
+collapsed near one corner, revealing a hole criss-crossed with cobwebs.
+
+A pane of cracked glass, opaque with dirt, is on the outside wall. Other rooms
+lie north and east.
+
+> e
+You walk east.
+
+Break Room
+Shadows and grime linger in dark corners of this dismal room with just one tiny
+frosted window. Some rotting picnic tables strewn with layers of sand and
+crumbling trash are pushed against one wall. On the opposite wall is a closed
+wire cage, in which is an emergency blanket. A clunky old-fashioned emergency
+radio sits on a table.
+
+Open doorways lead west and north.
+
+> turn on radio
+With a hiss and a crackle, the old radio comes to life.
+
+> tune it
+You spin the dial randomly for a bit, but all you hear is hissing and static.
+
+> w
+You walk west.
+
+Staging Area
+It's obvious this place has been abandoned for years. Cold night air breathes
+through holes in the roof and everything is strewn with sand and patches of
+mold. An imposing metal desk extends out from one wall. The floor has half-
+collapsed near one corner, revealing a hole criss-crossed with cobwebs.
+
+A pane of cracked glass, opaque with dirt, is on the outside wall. Other rooms
+lie north and east.
+
+> n
+You walk north.
+
+Foreman's Office
+The stark emergency lights illume this tiny office, probably once where the boss
+sat under a dust covered window. A half collapsed desk sits against a wall. On
+the half-collapsed desk is a rusted key. Tacked to the wall is a peeling safety
+poster.
+
+The only exit is to the south.
+
+Something about the rusted key makes you want to brood about the meeting Ocean.
+
+> x poster
+The poster is peeling and faded, but you can make out a safety section that
+identifies the emergency radio frequency as 133.2khz.
+
+> s
+You walk south.
+
+Staging Area
+It's obvious this place has been abandoned for years. Cold night air breathes
+through holes in the roof and everything is strewn with sand and patches of
+mold. An imposing metal desk extends out from one wall. The floor has half-
+collapsed near one corner, revealing a hole criss-crossed with cobwebs.
+
+A pane of cracked glass, opaque with dirt, is on the outside wall. Other rooms
+lie north and east.
+
+> e
+You walk east.
+
+Break Room
+Shadows and grime linger in dark corners of this dismal room with just one tiny
+frosted window. Some rotting picnic tables strewn with layers of sand and
+crumbling trash are pushed against one wall. On the opposite wall is a closed
+wire cage, in which is an emergency blanket. A clunky old-fashioned emergency
+radio hums and crackles on a table.
+
+Open doorways lead west and north.
+
+> tune radio
+You tune the radio to that emergency frequency listed on the poster, 133.2khz.
+But what are the odds that anyone's listening?
+
+Not like you think anything's going to happen, but what the hell. You grab the
+dusty old mike, press the call button, and ask "Is there anybody out there?"
+
+The speaker blurts and holy crap, someone's responding, and they say "Roger,
+roger, tower station nineteen, read you now loud and clear, what's your forty?"
+and the voice is staticky and whirled through with weird rythmic distortions but
+you can hear it just fine and now what?
+
+You could ask what ten forty means, say never mind, or say that you are lost.
+
+> n
+Talking with the voice on the radio isn't something you should walk away from.
+
+You could ask what ten forty means, say never mind, or say that you are lost.
+
+> lost
+Feeling a little stupid, you come clean and tell the voice that you drove off
+the road and aren't sure really exactly where you are.
+
+"Copy that," the voice says briskly after a moment. "You're at tower station
+nineteen, son, about thirty-two miles southwest of Oro Oeste, fifteen miles or
+so from the state highway." And if the mike wasn't attached to the radio you'd
+drop it on the floor. Fifteen miles? How in the hell could you have driven
+fifteen miles off the road and not remember? How is that even possible?
+
+"Hello?" the radio says. "Hello son, do you copy?"
+
+You could answer yes or turn off the radio.
+
+> yes
+You jabber something positive and sit back, still shaken.
+
+"Look, son," the voice says, "I don't know how you got out there but that's not
+important right now. Weather report's coming in and there's a cold front the
+size of Texas coming your way. I don't want to scare you but if you don't find a
+way home, or figure out some food and shelter for the night, you could freeze to
+death. You hear me? Now on account of the cutbacks I don't have anyone to send
+out there until morning. But there may be parts around that old tower you can
+use to patch up your truck and make it back to the highway. Or, there may be
+emergency supplies that would get you through the night. This storm's gonna blow
+out all our communication, so you're gonna be on your own. It's up to you. Over
+and out."
+
+You rub your face tiredly. Ocean was expecting you tonight after your shift,
+like usual. If you don't make it she'll be worried sick. Then on the other hand
+maybe you should worry about yourself first for a change. You feel like you need
+a cigarette and then you remember you quit. Hell, can't anything be easy?
+
+> n
+You walk north.
+
+Storage Room
+The walls are lined with bare metal shelves, rusting away. Mounted to the wall
+is a control panel for the building's emergency lights. They are switched on.
+Rows of crumbling shelving support hundreds of cans of food, the labels long
+since aged away. The break room lies back to the south and a utility ladder
+climbs through a broken skylight to the roof.
+
+> 

@@ -12,3 +12,9 @@
     (now) (#flashlight is on)
     (now) (#radio-voice has completed)
     Pursuit should occur soon.
+
+(setup radio chat)
+    (now) (#emergency-lights is on)
+    (now) (knock holds #flashlight)
+    (now) (#flashlight is on)
+    (enter #office)

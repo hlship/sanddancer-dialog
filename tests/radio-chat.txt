@@ -1,0 +1,15 @@
+(setup radio chat)
+s
+e
+turn on radio
+tune it
+w
+n
+x poster
+s
+e
+tune radio
+n
+lost
+yes
+n

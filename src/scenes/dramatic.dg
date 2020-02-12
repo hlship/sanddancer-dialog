@@ -1,0 +1,9 @@
+%% Dramatic scenes
+
+%% A scene may be dramatic
+(dramatic $) (fail)
+
+(instead of [smoke $])
+    *(scene $Scene)
+    (dramatic $Scene)
+    This isn't really the best time for that, man.
