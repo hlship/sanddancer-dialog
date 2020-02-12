@@ -49,7 +49,7 @@
 (place #crumbling-concrete north of *)
 
 (descr truck dash)
-    (collect items in #pickup-truck to $Items)
+    (collect items in #pickup-truck into $Items)
     (if) ~(empty $Items)
     (then)
         On the dash you can see (a $Items).

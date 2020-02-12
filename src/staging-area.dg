@@ -91,7 +91,7 @@
 (container *)
 (#cobwebs/#duct-tape is #in *)
 (descr *)
-    (collect items in * to $Items)
+    (collect items in * into $Items)
     (if) (empty $Items)
     (then)
         The hole is empty

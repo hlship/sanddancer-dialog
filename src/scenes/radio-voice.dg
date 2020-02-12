@@ -15,8 +15,6 @@
 #voice
 (male *)
 (name *) voice on the radio
-%% (add $ to scope)
-%%     (#radio-voice is happening)
 
 #voice-hello
 (reply *)

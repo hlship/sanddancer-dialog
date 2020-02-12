@@ -11,8 +11,8 @@
     (else)
         a closed
     (endif)
-    wire cage
-    (collect items in #cage to $Items)
+    (name #cage)
+    (collect items in #cage into $Items)
     (if) ~(empty $Items)
     (then)
         , in which (is $Items) (a $Items)
@@ -44,7 +44,7 @@
 (* is locked)
 (* is closed)
 (descr *)
-    (collect items in * to $Items)
+    (collect items in * into $Items)
     (if) (empty $Items)
     (then)
         The cage is (open or closed *), and empty.

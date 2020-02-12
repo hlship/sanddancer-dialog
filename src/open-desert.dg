@@ -47,7 +47,7 @@
         *(desert flotsam $Flotsam)
         (now) ($Flotsam is nowhere)
     (into $List)
-    (shuffle list $List to $Shuffled)
+    (shuffle list $List into $Shuffled)
     (take 3 from $Shuffled into $Final)
     (exhaust) {
         *($F is one of $Final)
@@ -75,7 +75,7 @@
 (narrate leaving $From $Dir)
     (* is unvisited)
     (from $From go $Dir to *)
-    (select random item in #emotional-baggage to $Memory)
+    (select random item in #emotional-baggage into $Memory)
     You walk (name $Dir) for a long time, thoughts turning over like the sand under your sneakers. 
     You think about (a $Memory).
     You think about Ocean and how pissed she's gonna be that you're not home. 
