@@ -81,11 +81,6 @@
 (prevent [put $ #in * ])
     ~(#knock is #in *)
     You need to be inside the truck to do that.
-%% Possible bug: https://intfiction.org/t/bug-in-reachability/44254
-($Obj is reachable by player)
-    ($Obj is #in *)
-    (#knock is #in *)
-    (just)
     
 %% Players really want to just drive the truck away.
 

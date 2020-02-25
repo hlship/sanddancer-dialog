@@ -75,9 +75,6 @@
 #receipt
 (item *)
 (name *) receipt from Big Jimmy's
-%% This is just to keep the memory suggestion from triggering too early.
-%% Related to https://intfiction.org/t/bug-in-visibility/44008/2
-(* is hidden)
 
 #photo
 (item *)
