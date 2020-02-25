@@ -1,4 +1,5 @@
 %% Roof to control center via courage
+(setup flashlight)
 teleport roof
 u
 (now) (knock holds #courage)

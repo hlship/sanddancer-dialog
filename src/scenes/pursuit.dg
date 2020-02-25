@@ -57,7 +57,7 @@
         You lose sight of whatever it was.
         (par)
     (endif)
-(instead of [leave $Room $Dir])
+(instead of [leave $ $])
     (* is happening)
     (player can see #darting-shadow)
     (pursuit duration 4)

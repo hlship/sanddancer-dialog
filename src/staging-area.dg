@@ -115,7 +115,7 @@
         Yeah, sorry but you're not putting your hand in there.
     (stopping)
 
-(prevent [put $Obj #in *])
+(prevent [put $ #in *])
     Sounds like a good way to lose something forever.
 
 #cobwebs

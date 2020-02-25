@@ -8,8 +8,10 @@
         *($Item is #heldby #knock)
         (now) ($Item is handled)
     }
+    %% Temporary, from update to 0h01: See https://intfiction.org/t/dialog-0j-01-current-room-not-set-the-same-as-previous/44408/2
+    (now) (current room #middle-of-nowhere) (update environment around player)
     (banner)
-    (try [look])
+     (try [look])
 
 %% Regions
 

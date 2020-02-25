@@ -1,4 +1,5 @@
 %% Test roof to control center using strength
+(setup flashlight)
 teleport roof
 n
 u
@@ -11,3 +12,4 @@ push barrel
 climb barrel
 d
 u
+

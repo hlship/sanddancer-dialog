@@ -1,3 +1,4 @@
+(setup flashlight)
 take jade
 brood stories
 teleport burrow

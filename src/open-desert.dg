@@ -105,7 +105,7 @@
     Storm must have rolled in; there's no stars above, no anything but blackness around. 
     Only the smell of the desert tells you it's still out there.
 
-(prevent enter desert from $Room)
+(prevent enter desert from $)
     (#emergency-lights is off)
     (flashlight ready)
     You heft your flashlight nervously, licking your lips, but decide not to head out
@@ -118,7 +118,7 @@
     (endif)
     how dark it is, you're not sure you could find your way back.
 
-(prevent enter desert from $Room)
+(prevent enter desert from $)
     ~(flashlight ready)
     Without a light, on a night this freakishly dark, that's insane.
 

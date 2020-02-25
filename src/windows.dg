@@ -25,7 +25,7 @@
 (prevent [open/close (window $)])
     It looks like these windows have been rusted shut for years.
 
-(prevent [throw $Missile at (window $Window)])
+(prevent [throw $ at (window $Window)])
     ($Window is open)
     You already busted it open.
 

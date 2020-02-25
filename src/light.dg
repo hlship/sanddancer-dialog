@@ -17,6 +17,7 @@
     (or)
     {
         (#headlights is on)
+        (current room $Room)
         (in range of headlights $Room)
     }
 

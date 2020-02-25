@@ -15,7 +15,7 @@
     (conversation partner $NPC)
     "I'm only interested in trading memories," (the $NPC) says.
 
-(prevent [give $Item to $NPC])
+(prevent [give $ to $NPC])
     (conversation partner $NPC)
     "No, not like that," (the $NPC) says.
     "You have to TRADE it for something."

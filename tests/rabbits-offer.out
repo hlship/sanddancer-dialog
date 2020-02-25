@@ -12,6 +12,8 @@ can see a piece of jade. The glove compartment is closed.
 Through the windshield, you see a little lizard clinging frantically to the
 Saguaro.
 
+> (setup flashlight)
+Query succeeded: (setup flashlight)
 > take jade
 You take the piece of jade.
 
@@ -155,8 +157,8 @@ wilier than me. Look up."
 "Look up, Naki," he says again.
 
 > i
-You have strength, a piece of jade, your lighter, your wallet, and your
-emotional baggage. You're wearing your denim jacket.
+You have strength, a piece of jade, a flashlight, your lighter, your wallet, and
+your emotional baggage. You're wearing your denim jacket.
 
 In your emotional baggage is her graduation night.
 
