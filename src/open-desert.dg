@@ -1,3 +1,5 @@
+(global variable (visible flotsam $))
+
 #open-desert
 (room *)
 (name *) Open Desert
@@ -25,7 +27,7 @@
     (at random)
     .
     (par)
-    (* flotsam is $Flotsam)
+    (visible flotsam $Flotsam)
     (select)
         All you can make out in the darkness
         (is $Flotsam) (a $Flotsam)
@@ -53,7 +55,7 @@
         *($F is one of $Final)
         (now) ($F is #in *)
     }
-    (now) (* flotsam is $Final)
+    (now) (visible flotsam $Final)
     (par)
     (try [look])
 
