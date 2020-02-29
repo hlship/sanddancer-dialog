@@ -23,6 +23,7 @@
 
 %% The predicate (scene debugging enabled) will enable debug output as scenes are started, completed, or 'ticked'.
 
+(start $) (fail)
 (scene $) (fail)
 ($ is happening) (fail)
 ($ has started) (fail)

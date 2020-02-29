@@ -1,0 +1,261 @@
+
+
+Middle of Nowhere (in the pickup truck)
+The tire tracks from the south stop abruptly here, but where the hell are you?
+The desert sand and clumps of pale sagebrush are all your dimming headlights
+pick out before barely reaching the concrete building to the north.
+
+Your poor old pickup truck ticks and groans, smashed gracelessly against a tall
+Saguaro; wiffs of evaporating gasoline linger in the chill air. On the dash you
+can see a piece of jade. The glove compartment is closed.
+
+Through the windshield, you see a little lizard clinging frantically to the
+Saguaro.
+
+> (setup flashlight)
+Query succeeded: (setup flashlight)
+> (now) (#emergency-lights is on)
+> take jade
+You take the piece of jade.
+
+Something about the piece of jade makes you want to brood about your grandma's
+stories.
+
+> brood stories
+There are dark spirits who roam the earth, little Knock. Grandma used to say
+that, holding you tight and stroking your hair. There are dark spirits who roam
+the earth, but you're not alone. Oh, no. I'm here. (She'd kiss your head and
+you'd squeeze her back.) But others are watching out for you too. You have three
+animal guardians, hmm? Spirits who are always watching over you. Oh, you can't
+always trust them to know what's best. Remember that, Knock. But when you need
+help, they'll come, and protect you from the worser things in the world.
+
+Mom would yell at Grandma a lot for filling your head with that new-age
+bullshit. Grandma grew up white and midwestern and Baptist, but had started
+wearing things with feathers and playing the pan flute by the time your were
+born. She seemed to really like having a son-in-law who was Native American or
+American Indian or Indigenous People or whatever she'd decided the term was that
+week, and she was pretty pissed when Mom left him. Anyway. Her stories were
+mostly BS, you guess, but some of them stuck with you. When it's dark you still
+wonder if your spirit animals are out there, somewhere, and what the hell is
+taking them so long to find you.
+
+> teleport burrow
+
+Burrow
+Roots push through the earthen roof, casting weird shadows in the beam of your
+flashlight. It's round and small and underground in here and filled with hot
+sweat and animal stench. But mostly filled with something big and alive.
+
+It's huge, covered in sweaty fur stained with mud, and a huge eye stares out you
+above long black whiskers. You can feel its breath on your face and its
+heartbeat thudding through the floor and you cringe back in terror against the
+wall. It's… well.
+
+It's a rabbit.
+
+> x rabbit
+The closer you look the weirder it gets, like it doesn't start or end in any one
+place or something all new-agey like that.
+
+The rabbit breaths and stares. You wonder if it's going to start talking like in
+some crap disney movie and then jesus christ it does...
+
+"So, what'd you expect from an animal guardian?" it says, but like not with its
+lips, somewhere in your head instead. "Were you thinking big, nasty, sharp,
+pointy teeth? Waistcoat and pocket watch? Nah. Tricks are for kids. What's up
+Knock?" Its whiskers twitch.
+
+You could ask who the rabbit is or just, you know, go insane.
+
+> go insane
+I know, right? Looks like it's too late though.
+
+You could ask who the rabbit is.
+
+> ask who
+"Who, uh, what are you?" you ask.
+
+"Oh come on, pal, you know me," he says with this kind of stupid cheerful tone,
+and suddenly he looks more like Buster from Arthur, scrawny and poorly animated.
+"I've been keeping an eye on you from the TV all these years. Your grandma asked
+me to, remember?" He grins, buck teeth protruding.
+
+You could ask about grandma's stories or tell the rabbit he's not real.
+
+> ask real
+(I only understood you as far as wanting to ask someone something.)
+
+> tell real
+"But, you're not, like, real."
+
+"Oh, don't say that!" the rabbit says, animated eyes going round like saucers.
+"Then it'd be just you here all alone, and wouldn't that be boring. It's much
+more interesting if I'm really around."
+
+A moment passes.
+
+"Hey, yo, you been hella good about keepin' off those cancer sticks," Buster
+says, except he's not Buster any more, more like Eminem. "Don't think I ain't
+watchin' ya." (Oh hey, Rabbit Smith, you get it.)
+
+You could ask how he knows so much about everything.
+
+> ask much
+"I don't understand," you ask "how you know so much about me. Grandma.
+Everything."
+
+"Hey, back off man," he says, "it's my ***n' job." And there's actually like a
+bleep, too, and now that you think of it you only ever saw 8 Mile on TV.
+
+A moment passes.
+
+"Anyway, look, man, we both know you're in trouble. I just gotta ask you one
+question." And he changes again into like a giant silhouette, and it's the
+Playboy Bunny, ears and bow tie and all. "Do you love her?"
+
+You could tell him that you don't know, answer yes, or answer no.
+
+> no
+"I tell her I love her," you begin, "because I know she needs me to say it. But
+really, deep down, I know it shouldn't be because of her. It should be because
+of me, and that's just not there. Not yet. Maybe not ever."
+
+Something about the bunny's bow tie makes you want to brood about her graduation
+night.
+
+"Then what are you still doing with her?" the bunny says. "Get out while the
+gettings good. You think either of you will be happier if you put that off?
+There's fish in other oceans kid. You've got your whole life to swim." It winks.
+
+A moment passes.
+
+"Look," he says, and now he's big and fluffy and smells like springtime and
+peeps. "I can help you make your decisions. I'll trade you for one of these
+talents." He holds out an easter basket filled with plastic green easter grass;
+in it are two glowing orbs.
+
+"Strength," hey says, pointing to the first one, "and courage. Pick whichever
+one you think will be most useful, but you have to give me something back.
+Something real, something I can work with."
+
+You could ask about strength, ask about courage, ask about trading, or tell him
+you don't want to trade.
+
+> trade stories for strength
+The Rabbit nods. "Yes," he says, "a fair trade." And something happens inside
+you as he says it. The memory of your grandma's stories shifts and wriggles and
+fades away and it's still there, but now it's shifted, become something else.
+And, yeah, it kinda does feel like you could call it strength. Cool.
+
+"The others are coming," he says, "they'll be here soon," and now he looks like
+Frank from Donnie Darko and his face is behind that freaky metal mask and his
+voice is distorted and makes your skin crawl.
+
+"Watch out for them," he says. "We all want to help, but... the others are
+wilier than me. Look up."
+
+"Look up, Naki," he says again.
+
+> i
+You have strength, a piece of jade, a flashlight, your lighter, your wallet, and
+your emotional baggage. You're wearing your denim jacket.
+
+In your emotional baggage is her graduation night.
+
+> look up
+Stupidly, you tilt your head back and stare up at the dirt ceiling, and all you
+can see is blackness.
+
+No wait... there's patterns, slowly shifting, barely visible in the darkness,
+and miles away. Like clouds. And then a drop of water falls on your face, and
+then another, and you realize suddenly you're outside, and it's starting to
+rain...
+
+Backtracking
+It's quieter and darker over here, the black desert night bleed in. Your tire
+track are hardly visible in the desert sand, and you can barely make out the way
+north back to your truck.
+
+Rain starts to come down, pattering on the desert sand. Soon it's gonna be a
+muddy deathtrap out here.
+
+> teleport break room
+
+Break Room
+Shadows and grime linger in dark corners of this dismal room with just one tiny
+frosted window. Some rotting picnic tables strewn with layers of sand and
+crumbling trash are pushed against one wall. On the opposite wall is a closed
+flimsy-looking wire mesh cage, in which is an emergency blanket. A clunky old-
+fashioned emergency radio sits on a table.
+
+Open doorways lead west and north.
+
+> attack cage
+You grip the mesh in one hand and pull, and realize it's so rusted you can
+easily peel it back. The door rips free and you drop it to the floor.
+
+Hey, that emergency blanket might be useful if you decide on spending the night
+here. Rain batters down on the desert.
+
+> take blanket
+You take the emergency blanket out of the flimsy-looking wire mesh cage. As you
+pick up the blanket, you find an old first aid kit underneath it. Rain batters
+down on the desert.
+
+> teleport control center
+
+Control Center
+Some kind of electrical control stuff must have happened here once, but it's
+totally trashed now. Like, piles of trash, broken equipment, and junk are
+everywhere.
+
+But hey, on one pile there's a perfectly good can opener.
+
+Back down is the only place to go.
+
+> teleport crumbling concrete
+
+Crumbling Concrete
+This building must've been some sort of utility structure for the huge
+electrical tower to the north, now abandoned. Tendrils of desert sand drift
+against a boarded-up door to the northeast leading inside; you could also walk
+around to the east or head south back to your truck.
+
+> z
+A moment slips away. Rain batters down on the desert.
+
+> z
+A moment slips away. Rain batters down on the desert.
+
+> z
+A moment slips away.
+
+The rain's dying down, the sounds of the storm fading, water sinking into the
+thirsty sand leaving only the smell of sage behind.
+
+You stop in mid-stride as your eyes flick to the horizon. Way out in the desert,
+silhouetted on a rise, a distant figure stands. As you watch he raises a hande
+and waves.
+
+> w
+You walk west for a long time, thoughts turning over like the sand under your
+sneakers. You think about her graduation night. You think about Ocean and how
+pissed she's gonna be that you're not home. Like you tell her not to wait up for
+you but she always does anyway.
+
+Some wind kicks up and chucks sand in your face. You blink it out and kinda
+realize while you're doing it that you haven't really been paying attention to
+where you've been going. Another gust whines through the sagebrush and you
+realize with a kind of heavy feeling that with all the dust this wind is kicking
+up you can't see a damn thing. You can't see your pickup, you can't see the
+electrical tower. Not even your damn footprints. You're lost. Well, shit.
+
+Open Desert
+Your tracks are swallowed up in moments by the billowing sand, and you shiver in
+the chill night air.
+
+Nearby: a dull grey boulder, a dry streambed, and some clumps of sagebrush.
+Nothing to write home about.
+
+> 

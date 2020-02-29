@@ -8,10 +8,10 @@
     Soon it's gonna be a muddy deathtrap out here.
 (complete *)
     (#control-center is visited)
-    (current room $Room)
-    ~($Room = #roof)
+    ~(current room #roof)
     (random chance of 1 in 4)
     *(in progress plans $)
+    (par)
     The rain's dying down, the sounds of the storm fading, water sinking into the thirsty sand
     leaving only the smell of sage behind.
     (now) (#rain is nowhere)

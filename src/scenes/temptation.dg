@@ -1,0 +1,30 @@
+#temptation
+(scene *)
+(start *)
+    (#rainstorm has completed)
+    (current room $Room)
+    ~(office interior $Room)
+    ~($Room is one of [#roof #control-center])
+    (par)
+    You stop in mid-stride as your eyes flick to the horizon.
+    Way out in the desert, silhouetted on a rise, a distant figure
+    stands.  As you watch he raises a hande and waves.
+(on every during scene *)
+    (random chance of 1 in 4)
+    (current room $Room)
+    ~(office interior $Room)
+    The distant figure waves again, out in the deep desert.
+(complete *)
+    (current room #open-desert)
+    (now) (#distant-figure is nowhere)
+
+#distant-figure
+(male *)
+($Room attracts *)
+    (#temptation is happening)
+    (around the tower $Room)
+(instead of [wave])
+    The figure waves back, then seems to beckon you forward.
+(instead of [$ | $Stuff])
+    (* is one of $Stuff)
+    He's too far away. You can barely see him.
