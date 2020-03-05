@@ -1,0 +1,17 @@
+(setup chase)
+(now) (knock holds #courage)
+take jade
+n
+w
+(now) (#chase has completed)
+z
+n
+z
+z
+z
+z
+z
+%% That removes the coyotes, one more tick to end the scene:
+z
+
+

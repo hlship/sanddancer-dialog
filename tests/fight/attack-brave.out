@@ -1,0 +1,75 @@
+
+
+Middle of Nowhere (in the pickup truck)
+The tire tracks from the south stop abruptly here, but where the hell are you?
+The desert sand and clumps of pale sagebrush are all your dimming headlights
+pick out before barely reaching the concrete building to the north.
+
+Your poor old pickup truck ticks and groans, smashed gracelessly against a tall
+Saguaro; wiffs of evaporating gasoline linger in the chill air. On the dash you
+can see a piece of jade. The glove compartment is closed.
+
+Through the windshield, you see a little lizard clinging frantically to the
+Saguaro.
+
+> (setup chase)
+Query succeeded: (setup chase)
+> (now) (knock holds #courage)
+> take jade
+You take the piece of jade.
+
+Something about the piece of jade makes you want to brood about your grandma's
+stories.
+
+> n
+(first attempting to get out of the pickup truck)
+You work the rusty truck door open. You get out of the pickup truck.
+
+You walk north.
+
+Crumbling Concrete
+This building must've been some sort of utility structure for the huge
+electrical tower to the north, now abandoned. Tendrils of desert sand drift
+against a boarded-up door to the northeast leading inside; you could also walk
+around to the east or head south back to your truck.
+
+> w
+You walk west for a long time, thoughts turning over like the sand under your
+sneakers. You think about your grandma's stories. You think about Ocean and how
+pissed she's gonna be that you're not home. Like you tell her not to wait up for
+you but she always does anyway.
+
+Some wind kicks up and chucks sand in your face. You blink it out and kinda
+realize while you're doing it that you haven't really been paying attention to
+where you've been going. Another gust whines through the sagebrush and you
+realize with a kind of heavy feeling that with all the dust this wind is kicking
+up you can't see a damn thing. You can't see your pickup, you can't see the
+electrical tower. Not even your damn footprints. You're lost. Well, shit.
+
+Open Desert
+The dust storm rages around you, and you wish you could see more than twenty
+feet in front of you.
+
+You can sort of see some clumps of sagebrush, a looming cactus, and a dry
+streambed.
+
+> (now) (#chase has completed)
+> z
+A moment slips away.
+
+It's over. They've caught you. They surround you, circling, growling, looking
+for weakness, moving in for the kill.
+
+> attack coyotes
+It's over. The coyotes dive in for the kill, jaws snapping, and suddenly this
+bolt of courage runs through you and without even thinking about it you leap
+towards the biggest coyote with a terrible scream.
+
+It flinches back, suddenly unsure, and you charge at it full speed, still
+screaming, arms outstretched, until it turns tail and bolts away. The other
+coyotes circle uncertainly, but you turn your snarling furious rage on them too
+and then they're all scattering, mangy shadows slinking away into the desert.
+Except for one last coyote who stands his ground.
+#fight completed
+
+> 

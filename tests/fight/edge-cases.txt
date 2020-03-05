@@ -1,0 +1,10 @@
+(setup chase)
+take jade
+n
+w
+(now) (#chase has completed)
+z
+brood stories
+x coyotes
+s
+throw jade at coyotes

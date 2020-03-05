@@ -19,3 +19,7 @@
 (setup radio chat)
     (setup lighting)
     (enter #office)
+
+(setup chase)
+    (setup lighting)
+    (now) (#burrow is visited)

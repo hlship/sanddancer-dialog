@@ -1,0 +1,8 @@
+(setup chase)
+(now) (knock holds #strength)
+take jade
+n
+w
+(now) (#chase has completed)
+z
+attack coyotes

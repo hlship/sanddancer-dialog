@@ -8,8 +8,7 @@
     Something snarls off in the distance, a warning growl.
 (complete *)
     (turns in current room 6)
-    (now) (#snarling shadows is nowhere)
-    (par) CHASE COMPLETE %% Temporary
+    (now) (#snarling-shadows is nowhere)
 (on every tick during *)
     (par)
     (select)

@@ -1,0 +1,84 @@
+(global variable (fight duration $))
+
+#fight
+(scene *) 
+(dramatic *)
+(start *)
+    (#chase has completed)
+    (par)
+    It's over.
+    They've caught you.
+    They surround you, circling, growling, looking for weakness, moving in for the kill.
+    (now) (#coyotes is #in #open-desert)
+    (now) (fight duration 0)
+(complete *)
+    %% Note: timing for this is slightly off when ending cowardly; to be handled with coyote's offery
+    (#coyotes is nowhere)
+    (log) { * completed }
+(on every tick during *)
+    (fight duration $X)
+    ($X incremented into $Y)
+    (now) (fight duration $Y)
+(instead of [brood $])
+    (* is happening)
+    No time for that now.
+(instead of [leave $ $])
+    (* is happening)
+    You try to flee and instantly teeth and claws block your path; you pull back to
+    the center of the circle, terrified.
+(instead of [throw $ at #coyotes])
+    (* is happening)
+    Maybe you could just attack them directly.
+
+#coyotes
+(name *) circle of snarling coyotes
+(dict *) coyote
+(descr *)
+    They're all around you, teeth and fur and sweat and muscles, angry, closing.
+(on every tick)
+    (player can see *)
+    (par)
+    (select)
+        A coyote snaps his teeth, lunging foward, then fading back into the pack.
+    (or)
+        The circle of snarling coyotes tightens.
+    (or)
+        The coyotes growl, pulling closer, snapping at your heels.
+    (at random)
+(instead of [attack *])
+    It's over.
+    The coyotes dive in for the kill, jaws snapping,
+    (if #strength {
+        and without hardly realizing what you're doing you make a fist and slam it into the
+        one that's closest.
+        (par)
+        The coyote squeals, flung sideways by the strength of your punch, blood dripping from its nose,
+        and the rest of the pack pulls back in sudden caution.
+        Another coyote makes to lunge and you whirl towards it in fury, pulling back for
+        another blow, but the pack breaks in some collective decision and scatters
+    })
+    (if #courage {
+        and suddenly this bolt of courage runs through you and without even thinking about it
+        you leap towards the biggest coyote with a terrible scream.
+        (par)
+        It flinches back, suddenly unsure, and you charge at it full speed, still screaming, 
+        arms outstretched, until it turns tail and bolts away.
+        The other coyotes circle uncertainly, but you turn your snarling furious rage on them too
+        and then they're all scattering
+    })
+    , mangy shadows slinking away into the desert.
+    Except for one last coyote who stands his ground.
+    (now) (#coyotes is nowhere)
+(on every tick)
+    (#fight is happening)
+    (fight duration 6)
+    (par)
+    It's over.
+    The coyotes dive in for the kill, jaws snapping, and you cower in fear.
+    (par)
+    But then one of them flicks his head and bares his teeth, and the others pull back.
+    He's not bigger or stronger or anything, but there's something about him that's different.
+    He takes the littlest step forward and the others scatter, mangy shadows slinking away into
+    the desert and then you're left alone with the leader, the alpha coyote.
+    (now) (#coyotes is nowhere)
+
