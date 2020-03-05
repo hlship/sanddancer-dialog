@@ -10,7 +10,7 @@
     You stop in mid-stride as your eyes flick to the horizon.
     Way out in the desert, silhouetted on a rise, a distant figure
     stands.  As you watch he raises a hande and waves.
-(on every during scene *)
+(on every tick during scene *)
     (random chance of 1 in 4)
     (current room $Room)
     ~(office interior $Room)

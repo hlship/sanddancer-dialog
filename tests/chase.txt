@@ -1,0 +1,15 @@
+take jade
+brood stories
+(setup lighting)
+(now) (#pursuit has completed)
+(now) (#rainstorm has completed)
+%% Prevent pursuit from triggering:
+(now) (#burrow is visited)
+e
+n
+n
+n
+x shadows
+n
+s
+s

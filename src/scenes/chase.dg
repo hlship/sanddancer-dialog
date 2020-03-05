@@ -5,15 +5,14 @@
     (#temptation has completed)
     %% Can only occur in open desert
     (now) (#snarling-shadows is #in #open-desert)
+    Something snarls off in the distance, a warning growl.
 (complete *)
     (turns in current room 6)
-    (now) (#snarling shadows are nowhere)
+    (now) (#snarling shadows is nowhere)
     (par) CHASE COMPLETE %% Temporary
 (on every tick during *)
     (par)
     (select)
-        Something snarls off in the distance, a warning growl.
-    (or)
         A howl from behind you, and an answer from somewhere ahead.
         Coyotes. Hungry, sounds like.
     (or)
@@ -26,7 +25,17 @@
     (or)
         Snarls and teeth and mangy fur on every side.
     (stopping)
-
+(narrate leaving $ $)
+    (* is happening)
+    (select)
+        You move nervously forward.
+    (or)
+        You jog forward, eyes snapping left and right at the moving shadows around you.
+    (or)
+        You're running now, jumping over sagebrush and stumbling on rocks, as snarling animal forms close in around you.
+    (or)
+        You run.
+    (stopping)
 
 #snarling-shadows
 (name *) snarling shadows

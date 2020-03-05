@@ -4,6 +4,7 @@
 (scene *)
 (recurring *)
 (start *)
+    (#burrow is unvisited)
     (ready for shadow to appear)
     %% Setup
     (current room $Room)
