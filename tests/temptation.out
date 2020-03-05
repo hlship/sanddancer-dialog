@@ -12,8 +12,8 @@ can see a piece of jade. The glove compartment is closed.
 Through the windshield, you see a little lizard clinging frantically to the
 Saguaro.
 
-> (setup flashlight)
-Query succeeded: (setup flashlight)
+> (setup lighting)
+Query succeeded: (setup lighting)
 > (now) (#emergency-lights is on)
 > take jade
 You take the piece of jade.
@@ -238,6 +238,12 @@ You stop in mid-stride as your eyes flick to the horizon. Way out in the desert,
 silhouetted on a rise, a distant figure stands. As you watch he raises a hande
 and waves.
 
+> wave
+The figure waves back, then seems to beckon you forward.
+
+> attack figure
+He's too far away. You can barely see him.
+
 > w
 You walk west for a long time, thoughts turning over like the sand under your
 sneakers. You think about her graduation night. You think about Ocean and how
@@ -257,5 +263,10 @@ the chill night air.
 
 Nearby: a dull grey boulder, a dry streambed, and some clumps of sagebrush.
 Nothing to write home about.
+
+> z
+A moment slips away.
+
+Something snarls off in the distance, a warning growl.
 
 > 

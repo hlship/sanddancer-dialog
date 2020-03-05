@@ -12,8 +12,8 @@ can see a piece of jade. The glove compartment is closed.
 Through the windshield, you see a little lizard clinging frantically to the
 Saguaro.
 
-> (setup flashlight)
-Query succeeded: (setup flashlight)
+> (setup lighting)
+Query succeeded: (setup lighting)
 > take jade
 You take the piece of jade.
 

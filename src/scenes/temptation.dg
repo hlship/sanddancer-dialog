@@ -5,6 +5,7 @@
     (current room $Room)
     ~(office interior $Room)
     ~($Room is one of [#roof #control-center])
+    (now) (#distant-figure is #in $Room)
     (par)
     You stop in mid-stride as your eyes flick to the horizon.
     Way out in the desert, silhouetted on a rise, a distant figure
@@ -20,8 +21,10 @@
 
 #distant-figure
 (male *)
+(name *) distant figure
 ($Room attracts *)
     (#temptation is happening)
+    (current room $Room)
     (around the tower $Room)
 (instead of [wave])
     The figure waves back, then seems to beckon you forward.
