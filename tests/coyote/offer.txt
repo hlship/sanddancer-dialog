@@ -1,0 +1,10 @@
+(setup coyotes offer)
+(now) (#chase has completed)
+teleport open desert
+z
+attack coyotes
+l
+x coyote
+turn flashlight on
+
+

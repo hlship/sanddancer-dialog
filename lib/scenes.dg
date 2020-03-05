@@ -80,7 +80,6 @@
         (then)
           (log) { scene $Scene started }
         (endif)
-        %% (log) { scene $Scene is now happening }
         (now) ($Scene is happening)
         %% The scene has started, at least once.
         %% Important for recurring scenes.

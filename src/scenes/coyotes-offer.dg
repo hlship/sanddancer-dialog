@@ -1,0 +1,60 @@
+#coyotes-offer
+(scene *)
+(start *)
+    (#fight has completed)
+    (par)
+    And then you blink, and realize he's not a coyote after all.
+    Just... just a guy.
+    (now) (#coyote is #in #open-desert)
+    (now) (conversation partner #coyote)
+    (queue #coyotes-introduction)
+(instead of [switch on #flashlight])
+    (* is happening)
+    You think you'd rather keep him on your side.
+
+#coyote
+(male *)
+(* provides lights) 
+(name *) Coyote
+(dict *) guy man
+(descr *)
+    You can barely see him in the darkness, can't tell whether he's old or how old,
+    what color his faded denim jacket is, and with those sunglasses on, you can't even
+    tell whether he's smirking at you or just twitching his mouth.
+    There's a weird smell coming off him, sweat and dirt and a little wet dog and
+    something deeper, earther, desert, rain, all mixed with cigarette smoke.
+(after [look])
+    (player can see *)
+    (par)
+    The coyote watches you intently.
+(#cigarette is #heldby *)
+(#denim-jacket/#sunglasses is #wornby *)
+
+#cigarette
+(item *)
+(name *) cigarette
+
+#denim-jacket
+(wearable *)
+(name *) faded denim jacket
+
+#sunglasses
+(wearable *)
+(name *) sunglasses
+(dict *) shades
+(pair *)
+
+#coyotes-introduction
+(reply *)
+    He wears a couple of days of stubble, a scuffed and faded denim jacket, and,
+    ridiculously in the darkness, a pair of cheap sunglasses.
+    He lights a cigarette, then holds up a hand in annoyance to block your flashlight beam.
+    "Turn that thing off," he says, and either you do it or it goes off by itself, because
+    the next thing you know, it's darker and he's closer and the only light comes from the red glow of the
+    cigarette.
+    (par)
+    "That's better," he says.
+    He takes a drag on the cigarette, then pulls another from behind his ear and offers it to you.
+    "Smoke?"
+    (now) (#flashlight is off)
+    

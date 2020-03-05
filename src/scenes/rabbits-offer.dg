@@ -4,7 +4,7 @@
 (start *)
     (current room #burrow)
     (now) (conversation partner #rabbit)
-    (queue #rabbit-introduction for #rabbit)
+    (queue #rabbit-introduction)
 (complete *)
     { (knock holds #courage) (or) (knock holds #strength) }
     (now) (#easter-basket is nowhere)

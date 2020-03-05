@@ -14,7 +14,6 @@
 (complete *)
     %% Note: timing for this is slightly off when ending cowardly; to be handled with coyote's offery
     (#coyotes is nowhere)
-    (log) { * completed }
 (on every tick during *)
     (fight duration $X)
     ($X incremented into $Y)
