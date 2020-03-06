@@ -3,6 +3,7 @@
 #open-desert
 (room *)
 (name *) Open Desert
+(inherently dark *)
 (look *)
     (select)
         Clouds of dust swirl through the air

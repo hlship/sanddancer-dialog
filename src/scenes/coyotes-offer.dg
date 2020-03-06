@@ -14,7 +14,7 @@
 
 #coyote
 (male *)
-(* provides lights) 
+(* provides light)
 (name *) Coyote
 (dict *) guy man
 (descr *)
