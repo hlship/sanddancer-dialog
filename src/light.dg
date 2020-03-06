@@ -13,12 +13,17 @@
 %% then Knock provides light!
 
 (#knock provides light)
-    (#emergency-lights is on)
-    (or)
+    (current room $Room)
     {
-        (#headlights is on)
-        (current room $Room)
-        (in range of headlights $Room)
+        {
+            (#emergency-lights is on)
+            (tower vicinity $Room)
+        }
+        (or)
+        {
+            (#headlights is on)
+            (in range of headlights $Room)
+        }
     }
 
 %% Several room descriptions adjust based on the light available in the room;
