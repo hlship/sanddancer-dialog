@@ -29,7 +29,9 @@
         ($Item is handled)
     (into $Plans)
 
-%% When we first see an item related to a plan, not that.
+%% When we first see an item related to a plan, note that.
+%% The Inform version waits for the player to "do something" to the item.
+%% I prefer this approach.
 
 (on every tick)
     (identify items useful to plans)

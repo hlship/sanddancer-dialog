@@ -12,9 +12,19 @@
 (name *) tire tracks
 (plural *)
 (#middle-of-nowhere/#backtracking attracts *)
+(descr *)
+    You can follow your truck's tracks only a little ways before they are lost 
+    in shifting sand.
 
 #desert-sand
 (name *) desert sand
+(instead of [take *])
+    (#rainstorm is happening)
+    More like mud right now.
+(instead of [take *])
+    You kneel down and let some run through your fingers, vague memories of better times
+    slipping through your fingers.
+    But the ground is freezing and you get back to your feet.
 
 #sagebrush
 (name *) sagebrush

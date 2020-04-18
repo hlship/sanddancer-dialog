@@ -119,7 +119,7 @@
     Sounds like a good way to lose something forever.
 
 #cobwebs
-(name *) (if #courage { hardly noticeable }) cobwebs
+(name *) (with #courage { hardly noticeable }) cobwebs
 (plural *)
 (dict *) web spiderweb spiderwebs cobweb spider spiders webs
 (fine where it is *)

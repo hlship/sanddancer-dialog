@@ -151,7 +151,7 @@
 
 #headlights
 (name *) headlights
-(dict *) light head headlight 
+(dict *) light head headlight lights
 (plural *)
 (switchable *)
 (* is on)
@@ -193,7 +193,7 @@
 (dict *) cactus
 
 #jade
-(name *) (if #luck { lucky }) piece of jade
+(name *) (with #luck { lucky }) piece of jade
 (item *)
 (descr *)
     Grandma said it will bring you luck, which hasn't really been working out.

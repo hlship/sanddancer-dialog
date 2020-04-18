@@ -42,7 +42,7 @@
 (prevent [attack (window $Window)])
     ($Window is closed)
     Nice thought, but the last thing you need is a sliced open hand.
-    Perhaps you could get a little distance.
+    Maybe you could use something less likely to bleed.
 
 (prevent [attack (window $Window)])
     ($Window is open)

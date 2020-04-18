@@ -125,7 +125,7 @@
 (reply *)
     "Hey, back off man," he says, "it's my \*\*\*n' job."
     And there's actually like a bleep, too, and now that you think of it you only ever saw 8 Mile on TV.
-    (queue #down-to-business for #rabbit)
+    (queue #down-to-business)
 
 #down-to-business
 (reply *)

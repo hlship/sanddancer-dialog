@@ -12,7 +12,7 @@
     (now) (#coyotes is #in #open-desert)
     (now) (fight duration 0)
 (complete *)
-    %% Note: timing for this is slightly off when ending cowardly; to be handled with coyote's offery
+    %% Note: timing for this is slightly off when ending cowardly; to be handled with coyote's offer
     (#coyotes is nowhere)
 (on every tick during *)
     (fight duration $X)
@@ -47,7 +47,7 @@
 (instead of [attack *])
     It's over.
     The coyotes dive in for the kill, jaws snapping,
-    (if #strength {
+    (with #strength {
         and without hardly realizing what you're doing you make a fist and slam it into the
         one that's closest.
         (par)
@@ -56,7 +56,7 @@
         Another coyote makes to lunge and you whirl towards it in fury, pulling back for
         another blow, but the pack breaks in some collective decision and scatters
     })
-    (if #courage {
+    (with #courage {
         and suddenly this bolt of courage runs through you and without even thinking about it
         you leap towards the biggest coyote with a terrible scream.
         (par)

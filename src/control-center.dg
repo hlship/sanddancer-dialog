@@ -49,7 +49,7 @@
     (knock holds #scent)
     Your sense of smell leads you straight to a sheet of corrugated metal.
     You lift it
-    (if #strength { effortlessly })
+    (with #strength { effortlessly })
     and throw it aside, revealing a gas can.
     (now) (#smell-of-gas is nowhere)
     (now) (#gas-can is #in #control-center)

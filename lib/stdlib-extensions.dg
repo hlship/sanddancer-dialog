@@ -75,6 +75,10 @@
         (tree $Child $ChildIndent)
     }
 
+%% So much of the trace output is understanding the players input, it obscures
+%% the game-specific rules, so these predicates make it easy to start tracing
+%% right at the point the action is processed via (try $) or (instead of $).
+
 (trace $Action)
     (trace on)
     (stoppable) { (try $Action ) }

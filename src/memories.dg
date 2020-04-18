@@ -122,7 +122,7 @@
 (#rusted-key suggests *)
 (descr *)
     She was buying a Fresca at Big Jimmy's when you got off your shift, shoving work keys in your pocket,
-    and you stodd behind her waiting to get some cigs, almost too tired to notice how cute she was but still noticing,
+    and you stood behind her waiting to get some cigs, almost too tired to notice how cute she was but still noticing,
     yeah, still noticing.
     (par)
     She turned around and caught you noticing and you were pretty embarrassed and covered in sweat and grease
@@ -255,3 +255,16 @@
         *($Memory is #in #emotional-baggage)
     (into $Memories)
     (length of $Memories into $Count)
+
+(instead of [wait])
+    { 
+        (select random item in #emotional-baggage into $Memory)
+        (or)
+        {
+            (collect $Memory)
+                *(memory $Memory) 
+            (into $Memories)
+            (randomly select $Memory from $Memories)
+        }
+    }
+    Nah, man, better keep busy or else it's back to brooding about (the $Memory).

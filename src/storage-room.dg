@@ -47,7 +47,7 @@
         The lights die out, leaving only the beam of your flashlight.
     (else)
         The lights flicker and die out
-        (if #courage { but you are not afraid })
+        (with #courage { but you are not afraid })
         .
     (endif)
     (line)
