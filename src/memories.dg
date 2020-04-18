@@ -119,6 +119,7 @@
 #meeting-ocean
 (memory *)
 (name *) meeting Ocean
+(proper *)
 (#rusted-key suggests *)
 (descr *)
     She was buying a Fresca at Big Jimmy's when you got off your shift, shoving work keys in your pocket,
