@@ -1,0 +1,9 @@
+(setup coyotes offer)
+(now) (knock holds #strength)
+open glove compartment
+take pack
+teleport open desert
+z
+attack coyotes
+say yes
+

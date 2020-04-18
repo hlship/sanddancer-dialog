@@ -4,8 +4,8 @@
  :debug-sources ["lib/debug/*.dg"
                  "/usr/local/share/dialog-if/stddebug.dg"]
  :library-sources ["lib/*.dg"
-                    "../threaded-conversation/lib/*.dg"
-                   #_{:github "hlship/threaded-conversation"
-                    :version "v0.2"
+                    #_"../threaded-conversation/lib/*.dg"
+                   {:github "hlship/threaded-conversation"
+                    :version "v0.3"
                     :path "lib/tc.dg"}
                    "/usr/local/share/dialog-if/stdlib.dg"]}

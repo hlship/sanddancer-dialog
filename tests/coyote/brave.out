@@ -12,53 +12,34 @@ can see a piece of jade. The glove compartment is closed.
 Through the windshield, you see a little lizard clinging frantically to the
 Saguaro.
 
-> (setup chase)
-Query succeeded: (setup chase)
+> (setup coyotes offer)
+Query succeeded: (setup coyotes offer)
 > (now) (knock holds #courage)
-> take jade
-You take the piece of jade.
+> open glove compartment
+You open the glove compartment, revealing a pack of cigarettes.
 
 Something about the piece of jade makes you want to brood about your grandma's
 stories.
 
-> n
-(first attempting to get out of the pickup truck)
-You work the rusty truck door open. You get out of the pickup truck.
+It's over. They've caught you. They surround you, circling, growling, looking
+for weakness, moving in for the kill.
 
-You walk north.
+> take pack
+You take the pack of cigarettes out of the glove compartment.
 
-Crumbling Concrete
-This building must've been some sort of utility structure for the huge
-electrical tower to the north, now abandoned. Tendrils of desert sand drift
-against a boarded-up door to the northeast leading inside; you could also walk
-around to the east or head south back to your truck.
-
-> w
-You walk west for a long time, thoughts turning over like the sand under your
-sneakers. You think about your grandma's stories. You think about Ocean and how
-pissed she's gonna be that you're not home. Like you tell her not to wait up for
-you but she always does anyway.
-
-Some wind kicks up and chucks sand in your face. You blink it out and kinda
-realize while you're doing it that you haven't really been paying attention to
-where you've been going. Another gust whines through the sagebrush and you
-realize with a kind of heavy feeling that with all the dust this wind is kicking
-up you can't see a damn thing. You can't see your pickup, you can't see the
-electrical tower. Not even your damn footprints. You're lost. Well, shit.
+> teleport open desert
 
 Open Desert
-The dust storm rages around you, and you wish you could see more than twenty
-feet in front of you.
+The desert stretches around you in all directions, and every inch of sand looks
+just like every other.
 
-You can sort of see some clumps of sagebrush, a looming cactus, and a dry
-streambed.
+Half-lost in the shadows, you see a looming cactus, a dull grey boulder, and
+some clumps of sagebrush and that's about it.
 
-> (now) (#chase has completed)
 > z
 A moment slips away.
 
-It's over. They've caught you. They surround you, circling, growling, looking
-for weakness, moving in for the kill.
+A coyote snaps his teeth, lunging foward, then fading back into the pack.
 
 > attack coyotes
 It's over. The coyotes dive in for the kill, jaws snapping, and suddenly this
@@ -84,5 +65,25 @@ the red glow of the cigarette.
 from behind his ear and offers it to you. "Smoke?"
 
 You could say yes or say no.
+
+> say yes
+It's freezing out and your nerves are jangled. "Sure, I could use a smoke" you
+say.
+
+You pull out your pack and he grins, like he knew you'd say yes, and leans
+forward for you to light up off him. His sunglasses reflect back nothing but
+your own face weirdly lit by the glow from the cig, and for a moment it's like
+the blackness behind them is deep, deeper than the sky, deeper than the
+universe...
+
+A moment passes.
+
+"Gotta keep an eye on the horizon," he says in a scratchy, slow voice. "Always
+someone hunting. Border Patrol, National Guard, INS, ICE, Minutemen. You want to
+help people get where they're going out here, you need more than courage. You
+need to learn how to hide."
+
+"I'm the Coyote," he says, "And we've been hiding from each other for a long
+time."
 
 > 

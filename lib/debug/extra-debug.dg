@@ -26,3 +26,5 @@
 
 (setup coyotes offer)
     (setup chase)
+    (now) (#chase has completed)
+

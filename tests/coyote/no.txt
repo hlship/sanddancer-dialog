@@ -1,0 +1,6 @@
+(setup coyotes offer)
+(now) (knock holds #strength)
+teleport open desert
+z
+attack coyotes
+no

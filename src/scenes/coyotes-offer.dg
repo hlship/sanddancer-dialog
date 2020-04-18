@@ -57,4 +57,74 @@
     He takes a drag on the cigarette, then pulls another from behind his ear and offers it to you.
     "Smoke?"
     (now) (#flashlight is off)
-    
+
+#yes-to-coyote
+(informative quip *)
+(name *) yes
+(* directly follows #coyotes-introduction)
+(comment *)
+    It's freezing out and your nerves are jangled.  "Sure, I could use a smoke" you say.
+(reply *)
+    (remaining cigarettes $Count)
+    (if) (knock holds #cigarettes)
+    (then)
+        You pull out your pack and
+        (if)  ($Count > 0)
+        (then)
+            he grins, like he knew you'd say yes
+            ($Count decremented into $NewCount)
+            (now) (remaining cigarettes $NewCount)
+        (else)
+            see that it's empty, but Coyote grins and hands you his last one
+        (endif)
+    (else)
+        "Out of smokes, eh?" he says, and hands you his last cigarette
+    (endif)
+    , and leans forward for you to light up off him.
+    His sunglasses reflect back nothing but your own face weirdly lit by the glow from
+    the cig, and for a moment it's like the blackness behind them is deep, deeper
+    than the sky, deeper than the universe...
+    (queue #coyote-talks)
+
+#no-to-coyote
+(name *) no
+(informative quip *)
+(* directly follows #coyotes-introduction)
+(comment *)
+    "Nah, I'm trying to kick 'em" you say.
+(reply *)
+    He shugs, takes a puff on his, and exhales the smoke into the desert night.
+    Wind whips it away and he stares towards the horizon,
+    forehead wrinkling in something \(annoyance, maybe contemplation\) you
+    can't read through the sunglasses.
+    (queue #coyote-talks)
+
+#coyote-talks
+(reply *)
+    (line)
+    "Gotta keep an eye on the horizon," he says in a scratchy, slow voice
+    (if) (#player recollects #yes-to-coyote)
+    (then)
+        as you step back, inhaling the dry smoke
+    (endif)
+    .
+    "Always someone hunting.  Border Patrol, National Guard, INS, ICE, Minutemen.
+    You want to help people get where they're going out here, you need more than
+    (if) (knock holds #strength)
+    (then) strength
+    (else) courage
+    (endif).
+    You need to learn how to hide."
+    (par)
+    "I'm the Coyote," he says, "And we've been hiding from each other for a long time."
+
+(coyote business)
+    (select)
+        smoke gusting from his lungs in clouds
+    (or)
+        scratching his stubble with the hand that holds the cigarette
+    (or)
+        itching underneath his jacket, slowly
+    (or)
+        the red tip of the cigarette glowing as he takes another drag
+    (at random)

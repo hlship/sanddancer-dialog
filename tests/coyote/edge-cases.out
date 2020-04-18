@@ -18,11 +18,10 @@ Query succeeded: (setup coyotes offer)
 > teleport open desert
 
 Open Desert
-The desert stretches around you in all directions, and every inch of sand looks
-just like every other.
+The dust storm rages around you, and god damn it's dark.
 
-Nearby: some clumps of sagebrush, a stand of cactus, and a dead cow. Nothing to
-write home about.
+Nearby: some dry bones, a dry streambed, and a low bluff. Nothing to write home
+about.
 
 > z
 A moment slips away.
@@ -46,14 +45,19 @@ the red glow of the cigarette.
 "That's better," he says. He takes a drag on the cigarette, then pulls another
 from behind his ear and offers it to you. "Smoke?"
 
+You could say yes or say no.
+
 > l
 Open Desert
-Clouds of dust swirl through the air, and god damn it's dark.
+Clouds of dust swirl through the air, and you wish you could see more than
+twenty feet in front of you.
 
-All you can make out in the darkness are some clumps of sagebrush, a stand of
-cactus, and a dead cow.
+Half-lost in the shadows, you see some dry bones, a dry streambed, and a low
+bluff and that's about it.
 
 The coyote watches you intently.
+
+You could say yes or say no.
 
 > x coyote
 You can barely see him in the darkness, can't tell whether he's old or how old,
@@ -62,7 +66,11 @@ even tell whether he's smirking at you or just twitching his mouth. There's a
 weird smell coming off him, sweat and dirt and a little wet dog and something
 deeper, earther, desert, rain, all mixed with cigarette smoke.
 
+You could say yes or say no.
+
 > turn flashlight on
 You think you'd rather keep him on your side.
+
+You could say yes or say no.
 
 > 
