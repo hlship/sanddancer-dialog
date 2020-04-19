@@ -9,6 +9,26 @@
     when there's a totally legit likeness on the driver's license in your
     wallet.
 
+(on every tick)
+    (random chance of 1 in 40)
+    ~{ *($Scene is happening) (dramatic $Scene) }
+    ~(#coyotes-offer has completed)
+    (par)
+    (select)
+        You shiver in the cold
+    (or)
+        The cold night air swirls around you
+        (if) (#jacket is #wornby #knock) 
+        (then)
+            , and you pull your jacket closer
+        (else)
+            , and you regret taking off your jacket
+        (endif)
+    (or)
+        The air is frigid, and turns your breath into clouds
+    (at random)
+    .
+
 %% A little utility
 
 @(knock holds $Object)

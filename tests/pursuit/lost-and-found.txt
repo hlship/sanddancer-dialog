@@ -1,22 +1,14 @@
 exit
 (setup pursuit)
 n
-s
-n
 w
+w
+%% Lost it, wait for it to re-appear:
 s
-s
-s
-s
-s
-s
-s
-s
-s
-s
-s
-s
-n
-sw
-ne
-sw
+%% Because debug mode, it appears immediately headed west
+w
+w
+w
+w
+w
+w

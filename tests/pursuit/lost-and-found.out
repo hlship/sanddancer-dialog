@@ -30,29 +30,6 @@ electrical tower to the north, now abandoned. Tendrils of desert sand drift
 against a boarded-up door to the northeast leading inside; you could also walk
 around to the east or head south back to your truck.
 
-> s
-You walk south.
-
-Middle of Nowhere
-The tire tracks from the south stop abruptly here, but where the hell are you?
-The desert sand and clumps of pale sagebrush are all you can see in the glow of
-the concrete building to the north.
-
-Your poor old pickup truck ticks and groans, smashed gracelessly against a tall
-Saguaro; wiffs of evaporating gasoline linger in the chill air. On the dash you
-can see a piece of jade.
-
-A brown-colored lizard clings to the cactus.
-
-> n
-You walk north.
-
-Crumbling Concrete
-This building must've been some sort of utility structure for the huge
-electrical tower to the north, now abandoned. Tendrils of desert sand drift
-against a boarded-up door to the northeast leading inside; you could also walk
-around to the east or head south back to your truck.
-
 Out of the corner of your eye you spot a glimpse of something moving in the
 darkness, off in the desert to the west.
 
@@ -78,7 +55,19 @@ The dust storm rages around you, and you plod wearily through the sand.
 Nearby: a low bluff, a dead cow, and a looming cactus. Nothing to write home
 about.
 
-Hey, there it is again--something's moving to the northeast.
+Yeah, you're sure you saw it--something's moving to the west.
+
+> w
+You chase after the shadow, faster and faster, breath misting in the cold air.
+
+Open Desert
+The desert stretches around you in all directions, and you wish you could see
+more than twenty feet in front of you.
+
+All you can make out in the darkness are a stand of cactus, a low bluff, and a
+dry streambed.
+
+Hey, there it is again--a darting shadow to the west.
 
 > s
 You lose sight of whatever it was.
@@ -86,157 +75,70 @@ You lose sight of whatever it was.
 You walk south.
 
 Open Desert
-The desert stretches around you in all directions, and every inch of sand looks
-just like every other.
+The dust storm rages around you, and you shiver in the chill night air.
 
-All you can make out in the darkness are a dead cow, a low bluff, and a dull
-grey boulder.
+Half-lost in the shadows, you see a stand of cactus, a looming cactus, and a low
+bluff and that's about it.
 
-> s
-You walk south.
+> w
+You walk west.
+
+Open Desert
+The desert stretches around you in all directions, and you wish you could see
+more than twenty feet in front of you.
+
+You can sort of see some dry bones, a looming cactus, and a dead cow.
+
+> w
+You walk west.
 
 Open Desert
 Your tracks are swallowed up in moments by the billowing sand, and god damn it's
 dark.
 
 Half-lost in the shadows, you see some clumps of sagebrush, a looming cactus,
-and a low bluff and that's about it.
+and a dry streambed and that's about it.
 
-> s
-You walk south.
+You see that weird movement again, out in the shadows to the west.
 
-Open Desert
-The dust storm rages around you, and every inch of sand looks just like every
-other.
-
-You can sort of see a low bluff, a dead cow, and some dry bones.
-
-> s
-You walk south.
-
-Open Desert
-Clouds of dust swirl through the air, and you shiver in the chill night air.
-
-Half-lost in the shadows, you see some dry bones, a dead cow, and a stand of
-cactus and that's about it.
-
-> s
-You walk south.
-
-Open Desert
-The desert stretches around you in all directions, and every inch of sand looks
-just like every other.
-
-Nearby: a dry streambed, some dry bones, and a stand of cactus. Nothing to write
-home about.
-
-> s
-You walk south.
-
-Open Desert
-Your tracks are swallowed up in moments by the billowing sand, and you shiver in
-the chill night air.
-
-All you can make out in the darkness are a dead cow, some clumps of sagebrush,
-and a dry streambed.
-
-> s
-You walk south.
-
-Open Desert
-Clouds of dust swirl through the air, and you wish you could see more than
-twenty feet in front of you.
-
-You can sort of see a dry streambed, some clumps of sagebrush, and a stand of
-cactus.
-
-> s
-You walk south.
-
-Open Desert
-Your tracks are swallowed up in moments by the billowing sand, and you shiver in
-the chill night air.
-
-All you can make out in the darkness are some dry bones, some clumps of
-sagebrush, and a looming cactus.
-
-> s
-You walk south.
-
-Open Desert
-The desert stretches around you in all directions, and god damn it's dark.
-
-Half-lost in the shadows, you see a dead cow, some dry bones, and a stand of
-cactus and that's about it.
-
-> s
-You walk south.
+> w
+You head off in the direction of movement, scanning with your flashlight over
+the skittering shadows.
 
 Open Desert
 Clouds of dust swirl through the air, and every inch of sand looks just like
 every other.
 
-You can sort of see some clumps of sagebrush, a low bluff, and a dry streambed.
+Nearby: a looming cactus, a dry streambed, and a stand of cactus. Nothing to
+write home about.
 
-> s
-You walk south.
+Yeah, you're sure you saw it--something's moving to the west.
 
-Open Desert
-Your tracks are swallowed up in moments by the billowing sand, and you plod
-wearily through the sand.
-
-All you can make out in the darkness are some clumps of sagebrush, a dead cow,
-and a dull grey boulder.
-
-> s
-You walk south.
-
-Open Desert
-The desert stretches around you in all directions, and you shiver in the chill
-night air.
-
-You can sort of see a low bluff, a stand of cactus, and a dull grey boulder.
-
-You see that weird movement again, out in the shadows to the north.
-
-> n
-You head off in the direction of movement, scanning with your flashlight over
-the skittering shadows.
-
-Open Desert
-The dust storm rages around you, and god damn it's dark.
-
-Half-lost in the shadows, you see a looming cactus, a dead cow, and a low bluff
-and that's about it.
-
-It's gone now... no, wait--a darting shadow to the southwest.
-
-> sw
+> w
 You chase after the shadow, faster and faster, breath misting in the cold air.
 
 Open Desert
-The desert stretches around you in all directions, and you plod wearily through
-the sand.
+The dust storm rages around you, and you plod wearily through the sand.
 
-You can sort of see a looming cactus, a dry streambed, and a stand of cactus.
+All you can make out in the darkness are a dry streambed, some clumps of
+sagebrush, and a stand of cactus.
 
-Hey, there it is again--something's moving to the northeast.
+Hey, there it is again--a darting shadow to the west.
 
-> ne
+> w
 Some crazy thrill comes over you. You feel like a hunter. You can almost smell
 the thing you're chasing in the air. You can smell it, fur and terror. You race
 after it.
 
 Open Desert
-Your tracks are swallowed up in moments by the billowing sand, and every inch of
-sand looks just like every other.
+Clouds of dust swirl through the air, and god damn it's dark.
 
-Half-lost in the shadows, you see a dull grey boulder, a looming cactus, and a
-stand of cactus and that's about it.
+Half-lost in the shadows, you see a dead cow, a stand of cactus, and a looming
+cactus and that's about it.
 
-It's gone now... no, wait--a darting shadow to the southwest.
+It's gone now... no, wait--something's moving to the west.
 
-> sw
+> w
 Dodging after the fleeing, skittering shadow, you're almost caught up to it when
 your foot trips on a rock and you stumble to the ground. But the ground doesn't
 stop your fall, it collapses, and you're tumbling in a shower of dirt clods down

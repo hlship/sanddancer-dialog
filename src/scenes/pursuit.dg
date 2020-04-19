@@ -1,4 +1,5 @@
 (global variable (pursuit duration $))
+(global variable (pursuit direction $))
 
 #pursuit
 (scene *)
@@ -7,14 +8,11 @@
     (#burrow is unvisited)
     (ready for shadow to appear)
     %% Setup
+    (randomly select pursuit direction)
     (current room $Room)
-    (collect $Dir)
-         *(from $Room go $Dir to #open-desert)
-    (into $Dirs)
-    (randomly select $Dir from $Dirs)
     (now) (#darting-shadow is #in $Room)
-    (now) (#darting-shadow is going $Dir)
     (now) (pursuit duration 0)
+    (pursuit direction $Dir)
     (select)
         Out of the corner of your eye you spot a glimpse of something moving in the darkness, off in the desert to the
         (name $Dir)
@@ -28,7 +26,7 @@
     %% Narration for this (either not following the shadow, or pursuing until entering
     %% the burrow) will already have taken place.
 (on every tick during *)
-    (#darting-shadow is going $Dir)
+    (pursuit direction $Dir)
     (select)
         Hey, there it is again
     (or)
@@ -45,7 +43,7 @@
     to the (name $Dir).
 (before [leave $Room $Dir])
     (* is happening)
-    (if) (#darting-shadow is going $Dir)
+    (if) (pursuit direction $Dir)
     (then)
         (from $Room go $Dir to $NewRoom)
         (pursuit duration $X)
@@ -73,8 +71,8 @@
     (pursuit duration $X)
     (narrate pursuit $X)
     (par)
-    (random cardinal direction $NewDir)
-    (now) (#darting-shadow is going $NewDir)
+    (randomly select pursuit direction)
+    (pursuit direction $Dir)
     %% We have that lovely bit of text for the first entry to open
     %% desert that should follow this logic.
     (if) ~($From = #open-desert)
@@ -102,8 +100,13 @@
 (ready for shadow to appear)
     (current room #open-desert)
     (turns in current room $Turns)
-    ($Turns >= 6)
-    (random chance of 1 in 4)
+    { 
+        ($Turns >= 3)
+        (fixed pursuit path)
+      (or)
+        ($Turns >= 6)
+        (random chance of 1 in 4)
+    }
 
 (ready for shadow to appear)
     (current room #roof)
@@ -117,10 +120,22 @@
     (around the tower $Room)
     (random chance of 1 in 3)
 
-
 #darting-shadow
 (name *) darting shadow
 (dict *) movement moving something
 
-(random cardinal direction $Dir)
-    (randomly select $Dir from [#north #northeast #east #southeast #south #southwest #west #northwest])
+(randomly select pursuit direction)
+    %% The tests got really hard to maintain when it wasn't known which direction the shadow would move,
+    %% so for testing, it always moves west in the open desert.
+    (current room $Room)
+    (if) ($Room = #open-desert) 
+         (fixed pursuit path)
+    (then)
+        ($Dir = #west)
+    (else)
+        (collect $Dir)
+             *(from $Room go $Dir to #open-desert)
+        (into $Dirs)
+        (randomly select $Dir from $Dirs)
+    (endif)
+    (now) (pursuit direction $Dir)

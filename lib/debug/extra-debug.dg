@@ -12,6 +12,7 @@
     (now) (#emergency-lights is on)
 
 (setup pursuit)
+    (now) (fixed pursuit path)
     (setup lighting)
     (now) (#radio-voice has completed)
     Pursuit should occur soon.

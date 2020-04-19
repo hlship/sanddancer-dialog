@@ -30,30 +30,6 @@ electrical tower to the north, now abandoned. Tendrils of desert sand drift
 against a boarded-up door to the northeast leading inside; you could also walk
 around to the east or head south back to your truck.
 
-> n
-You walk north.
-
-Base of the Tower
-Behind the concrete building a steel girder rises from the sand; far above you,
-a red warning light blinks on and off. A tumbleweed drifts lazily against the
-rusted metal among scrawny weeds bits of trash. Someone left a tin can here
-years ago: ridged ripples run down its rusty side.
-
-The desert stretches in all directions except back south towards the glow of the
-building.
-
-Something about the tumbleweed makes you want to brood about your last day of
-high school.
-
-> s
-You walk south.
-
-Crumbling Concrete
-This building must've been some sort of utility structure for the huge
-electrical tower to the north, now abandoned. Tendrils of desert sand drift
-against a boarded-up door to the northeast leading inside; you could also walk
-around to the east or head south back to your truck.
-
 Out of the corner of your eye you spot a glimpse of something moving in the
 darkness, off in the desert to the west.
 
@@ -62,9 +38,9 @@ You head off in the direction of movement, scanning with your flashlight over
 the skittering shadows.
 
 You walk west for a long time, thoughts turning over like the sand under your
-sneakers. You think about your last day of high school. You think about Ocean
-and how pissed she's gonna be that you're not home. Like you tell her not to
-wait up for you but she always does anyway.
+sneakers. You think about your grandma's stories. You think about Ocean and how
+pissed she's gonna be that you're not home. Like you tell her not to wait up for
+you but she always does anyway.
 
 Some wind kicks up and chucks sand in your face. You blink it out and kinda
 realize while you're doing it that you haven't really been paying attention to
@@ -79,9 +55,9 @@ The dust storm rages around you, and you plod wearily through the sand.
 Nearby: a low bluff, a dead cow, and a looming cactus. Nothing to write home
 about.
 
-Hey, there it is again--something's moving to the northeast.
+Yeah, you're sure you saw it--something's moving to the west.
 
-> ne
+> w
 You chase after the shadow, faster and faster, breath misting in the cold air.
 
 Open Desert
@@ -91,9 +67,9 @@ more than twenty feet in front of you.
 All you can make out in the darkness are a stand of cactus, a low bluff, and a
 dry streambed.
 
-It's gone now... no, wait--a darting shadow to the east.
+Hey, there it is again--a darting shadow to the west.
 
-> e
+> w
 Some crazy thrill comes over you. You feel like a hunter. You can almost smell
 the thing you're chasing in the air. You can smell it, fur and terror. You race
 after it.
@@ -104,9 +80,9 @@ The dust storm rages around you, and you shiver in the chill night air.
 Half-lost in the shadows, you see a stand of cactus, a looming cactus, and a low
 bluff and that's about it.
 
-Hey, there it is again--something's moving to the northwest.
+Yeah, you're sure you saw it--something's moving to the west.
 
-> nw
+> w
 Dodging after the fleeing, skittering shadow, you're almost caught up to it when
 your foot trips on a rock and you stumble to the ground. But the ground doesn't
 stop your fall, it collapses, and you're tumbling in a shower of dirt clods down

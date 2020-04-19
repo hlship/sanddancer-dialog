@@ -96,6 +96,7 @@
         $Scene
 
         (annotate [{ (recurring $Scene) recurring}
+                   { (dramatic $Scene) dramatic }
                    { ($Scene has started) started }
                    { ($Scene is happening) happening }
                    { ($Scene is complete) complete }])

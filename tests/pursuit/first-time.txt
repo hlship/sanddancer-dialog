@@ -1,10 +1,10 @@
 exit
 (setup pursuit)
 n
-n
-s
 w
-ne
-e
-nw
+w
+w
+w
+
+
 

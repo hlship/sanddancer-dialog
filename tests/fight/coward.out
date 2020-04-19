@@ -47,11 +47,11 @@ up you can't see a damn thing. You can't see your pickup, you can't see the
 electrical tower. Not even your damn footprints. You're lost. Well, shit.
 
 Open Desert
-Your tracks are swallowed up in moments by the billowing sand, and you plod
-wearily through the sand.
+Clouds of dust swirl through the air, and every inch of sand looks just like
+every other.
 
-Half-lost in the shadows, you see a low bluff, some clumps of sagebrush, and a
-looming cactus and that's about it.
+Half-lost in the shadows, you see a stand of cactus, a low bluff, and some dry
+bones and that's about it.
 
 > (now) (#chase has completed)
 > z
@@ -77,6 +77,12 @@ The circle of snarling coyotes tightens.
 Nah, man, better keep busy or else it's back to brooding about your grandma's
 stories.
 
+A coyote snaps his teeth, lunging foward, then fading back into the pack.
+
+> z
+Nah, man, better keep busy or else it's back to brooding about your grandma's
+stories.
+
 The coyotes growl, pulling closer, snapping at your heels.
 
 > z
@@ -90,12 +96,6 @@ Nah, man, better keep busy or else it's back to brooding about your grandma's
 stories.
 
 The circle of snarling coyotes tightens.
-
-> z
-Nah, man, better keep busy or else it's back to brooding about your grandma's
-stories.
-
-A coyote snaps his teeth, lunging foward, then fading back into the pack.
 
 > z
 Nah, man, better keep busy or else it's back to brooding about your grandma's

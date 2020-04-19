@@ -38,6 +38,8 @@ whole lot.
 > push barrel
 You push against the side, but you're not strong enough to move the barrel.
 
+You shiver in the cold.
+
 > (now) (knock holds #strength)
 > push barrel
 Heaving, you push against the barrel, and with a horrible grating noise, it
