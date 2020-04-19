@@ -12,7 +12,7 @@
 %% Most items are hefty and can shatter a window, but not flyweight.
 @(hefty $Item) ~(flyweight $Item)
 
-(flyweight #license/#receipt/#cigarettes/#photo)
+(flyweight #license/#receipt/#pack/#photo)
 
 (prevent [open (window $Window)])
     ($Window is open)

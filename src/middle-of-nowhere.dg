@@ -133,7 +133,7 @@
 
 (global variable (remaining cigarettes 6))
 
-#cigarettes
+#pack
 (item *)
 (name *) pack of cigarettes
 (dict *) cig cigarette cigs smokes

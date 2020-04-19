@@ -21,7 +21,7 @@
     You pat your pockets, but can't seem to find your lighter.
 
 (prevent [smoke $Obj])
-    ~($Obj = #cigarettes)
+    ~($Obj = #pack)
     Sounds like something your high school buddies would try.
 
 (prevent [smoke $])
