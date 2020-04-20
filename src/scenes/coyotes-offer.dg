@@ -8,6 +8,8 @@
     (now) (#coyote is #in #open-desert)
     (now) (conversation partner #coyote)
     (queue #coyotes-introduction)
+(complete *)
+    ~(current room #open-desert)
 (instead of [switch on #flashlight])
     (* is happening)
     You think you'd rather keep him on your side.
@@ -24,15 +26,23 @@
     There's a weird smell coming off him, sweat and dirt and a little wet dog and
     something deeper, earther, desert, rain, all mixed with cigarette smoke.
 (after [look])
-    (player can see *)
+    (player can see *) 
     (par)
-    The coyote watches you intently.
+    The Coyote watches you intently
+    (if) (#knock recollects #coyote-trades)
+    (then)
+        , holding in his hands two glowing orbs: scent and luck
+    (endif)
+    .
 (#cigarette is #heldby *)
 (#denim-jacket/#sunglasses is #wornby *)
 
 #cigarette
 (item *)
 (name *) cigarette
+(instead of [drop *])
+    (now) (* is nowhere)
+    You drop it to the ground and stub it out with your foot.
 
 #denim-jacket
 (wearable *)
@@ -68,6 +78,7 @@
     (remaining cigarettes $Count)
     (if) (knock holds #pack)
     (then)
+
         You pull out your pack and
         (if)  ($Count > 0)
         (then)
@@ -128,3 +139,87 @@
     (or)
         the red tip of the cigarette glowing as he takes another drag
     (at random)
+
+#coyote-advice
+(questioning quip *)
+(name *) for advice
+(* follows #coyote-talks)
+(off limits * after #coyote-trades)
+(comment *)
+    "Ok, sure," you say, "I'll take some advice if you got it."
+(reply *)
+    He laughs, (coyote business).
+    "Kid," he says, "you don't want my advice.
+    I could tell you some stories and you'll smile and be sure they'll never happen to you.
+    I could tell you some stories and you'll yawn and think you know them already.
+    I could tell you some stories and you'll think they're wise and not realize you
+    don't understand them until you make the same mistakes yourself and try to turn your
+    failure into advice and fail at that, too.
+    I could tell you some stories."
+    He looks off towards the horizon, (coyote business).
+    "But it's not my stories that will help you."
+
+#about-coyote
+(questioning quip *)
+(* follows #coyote-talks)
+(off limits * after #coyote-trades)
+(name *) who he is
+(comment *)
+    "No, really, who are you?" you ask.
+(reply *)
+    "You know who I am," he says, (coyote business).
+    "I'm the one who runs on both sides of the fence.
+    I'm the one who scouts ahead.
+    I'm the one with songs in my blood and dirt under my nails and people owe my money
+    in every trailer park town from here to Yuma, or maybe I owe them money but
+    anyway they don't want to see me.
+    You know who I am, Knock."
+
+#coyote-on-rabbit
+(questioning quip *)
+(* follows #coyote-talks)
+(off limits * after #coyote-trades)
+(name *) about the rabbit
+(comment *)
+    "Are you like the rabbit?" you ask.
+(reply *)
+    He grins, not unkindly but not exactly kindly either.
+    "That cute little jackalope?" he says, (coyote business).
+    "He's got his upsides, I guess.
+    (with #strength { Strength })
+    (with #bravery { Bravery })
+    has its place.
+    But if you're always in the spotlight, you'll never learn how to live in the shadows.
+    And most of us spend a lot of time in the shadows."
+
+#coyote-trades
+(questioning quip *)
+(* follows #coyote-talks)
+(name *) about trading
+(comment *)
+    You nervously ask, "Rabbit did a trade. What about you?"
+(reply *)
+    The Coyote presses his hands together, still clutching the cigarette with thumb and index finger, and smoke
+    rises past his hidden eyes as he slowly rubs his palms together.
+    He mutters something rythmic to himself and you realize it's a song, and you can't quite make out the lyrics,
+    but the melody is simple and makes you think of Johnny Cash and the end of the world.
+    And then he stops, and pulls his hands apart, and in each he holds a talent.
+    (par)
+    "Here we have luck," he says, bobbing the left, "and scent.
+    And look, I'll be straight with you.
+    These are precious things and I can't afford whatever blue light special deal the bunny gave you.
+    I need double his price.
+    I need two memories to part with one of these.
+    Oh, and they're worth it, believe me.
+    Both have saved my ass more times than you'd believe.
+    Both could save yours.
+    But it's up to you.
+    Which'll it be?"
+    (now) (#luck is #heldby #coyote)
+    (now) (#scent is #heldby #coyote)
+
+#about-luck
+(questioning quip *)
+(* follows #coyote-trades)
+(name *) about luck
+

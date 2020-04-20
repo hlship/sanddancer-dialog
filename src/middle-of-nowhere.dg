@@ -137,6 +137,7 @@
 (item *)
 (name *) pack of cigarettes
 (dict *) cig cigarette cigs smokes
+(your *)
 (descr *)
     (remaining cigarettes $Count)
     Your pack of cigarettes

@@ -16,7 +16,7 @@ Saguaro.
 Query succeeded: (setup coyotes offer)
 > (now) (knock holds #strength)
 > open glove compartment
-You open the glove compartment, revealing a pack of cigarettes.
+You open the glove compartment, revealing your pack of cigarettes.
 
 Something about the piece of jade makes you want to brood about your grandma's
 stories.
@@ -25,7 +25,7 @@ It's over. They've caught you. They surround you, circling, growling, looking
 for weakness, moving in for the kill.
 
 > take pack
-You take the pack of cigarettes out of the glove compartment.
+You take your pack of cigarettes out of the glove compartment.
 
 > teleport open desert
 
@@ -87,5 +87,8 @@ need to learn how to hide."
 
 "I'm the Coyote," he says, "And we've been hiding from each other for a long
 time."
+
+You could ask for advice, ask who he is, ask about the rabbit, or ask about
+trading.
 
 > 

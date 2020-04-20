@@ -3,3 +3,10 @@
 (instead of [go $])
     (conversation partner $NPC)
     Talking with (the $NPC) isn't something you should walk away from.
+
+%% (off limits $ after $) marks a quip as off limits after anyone recollects
+%% the second quip.
+
+(off limits $Quip)
+    (off limits $Quip after $OtherQuip)
+    (#knock recollects $OtherQuip)
