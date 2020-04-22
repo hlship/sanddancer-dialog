@@ -239,9 +239,8 @@
 (identify recalled memories)
     *(memory $Memory)
     ($Memory is nowhere)
-    %% Extra check so that you don't get reminded to brood about memories
-    %% you've traded for talents
-    ~($Memory is retrieved)
+    %% Watch out for memory getting re-identified after trading (if player carries the suggesting object):
+    ~($Memory is traded)
     %% For now, object <-> memory is 1:1
     ($Obj suggests $Memory)
     ~($Obj is hidden)

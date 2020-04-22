@@ -48,25 +48,23 @@
 
 (perform [trade $Memory for $Talent])
     (now) ($Memory is nowhere)
+    (now) ($Memory is traded)
     (conversation partner $NPC)
-    ($NPC accepts memory)
     (if) ($NPC is ready to trade for $Talent)
     (then)
         (now) (knock holds $Talent)
         (narrate traded $NPC $Memory for $Talent)
     (else)
+        ($NPC price $Price)
+        ($Price decremented into $NewPrice)
+        (now) ($NPC price $NewPrice)
         (narrate trade incomplete $NPC $Memory for $Talent)
     (endif)
-
-($NPC accepts memory)
-    ($NPC price $Price)
-    ($Price decremented into $NewPrice)
-    (now) ($NPC price $NewPrice)
 
 %% Standard rule; but Sand-dancer trading for freedom is different.
 ($NPC is ready to trade for $)
     ($NPC price $Price)
-    ($Price = 0)
+    ($Price = 1)
 
 %% Placeholders for now:
 
