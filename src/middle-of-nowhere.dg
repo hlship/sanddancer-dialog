@@ -2,32 +2,39 @@
 (around the tower *)
 (name *) Middle of Nowhere
 (look *)
-    The tire tracks from the south stop abruptly here, but where the hell
-    are you? The desert sand and clumps of pale sagebrush are all 
-    (if) (lit by headlights *)
-    (then)
-        your dimming headlights pick out before barely reaching
-    (elseif) (lit by flashlight *)
-    (then)
-        your flashlight picks out, other than
-    (else)
-        you can see in the glow of
-    (endif)
-    the concrete building to the north.
-    (par)
-    Your poor old pickup truck ticks and groans, smashed gracelessly against 
-    a tall Saguaro; 
-    (if) (knock holds #scent)
-    (then)
-        the overpowering stench of gasoline permeates the air
-    (else)
-        wiffs of evaporating gasoline linger in the chill air
-    (endif)
-    .
-    (descr truck dash)
     (if) (#knock is #in #pickup-truck)
     (then)
-        The glove compartment is (open or closed #glove-compartment).
+        You've smashed up against a tall Saguaro, which is all you can see out
+        the windshield except a few feet of desert sand, then blackness.
+        (select)
+            Hell, you must have driven off the road and crashed.
+            Ocean keeps telling you this night commute on this lonely highway's gonna kill you;
+            maybe you should start listening.
+        (stopping)
+        (descr truck dash)
+    (else)
+      The tire tracks from the south stop abruptly here, but where the hell are you?
+      The desert sand and clumps of pale sagebrush are all 
+        (if) (lit by headlights *)
+        (then)
+            your dimming headlights pick out before barely reaching
+        (elseif) (lit by flashlight *)
+        (then)
+            your flashlight picks out, other than
+        (else)
+            you can see in the glow of
+        (endif)
+        the concrete building to the north.
+        (par)
+        Your poor old pickup truck ticks and groans, smashed gracelessly against 
+        a tall Saguaro; 
+        (if) (knock holds #scent)
+        (then)
+            the overpowering stench of gasoline permeates the air
+        (else)
+            wiffs of evaporating gasoline linger in the chill air
+        (endif)
+        .
     (endif)
     (if) (#lizard is #in *)
     (then)
@@ -48,16 +55,22 @@
 (place #backtracking south of *)
 (place #crumbling-concrete north of *)
 
-(descr truck dash)
-    (collect items in #pickup-truck into $Items)
-    (if) ~(empty $Items)
-    (then)
-        On the dash you can see (a $Items).
-    (endif)
-
 #pickup-truck
 (name *) pickup truck
 (dict *) car door dash old poor
+(descr *)
+    (#knock is #in *)
+    You can't tell what the damage is from here.
+    (par)
+    (descr truck dash)
+(descr *)
+    (select)
+        Getting down on your knees in the cold sand, you look underneath.
+        Sure enough; you ripped up the fuel line and all your gas has drained away, sucked dry
+        by the thirsty desert sand.
+    (stopping)
+    You'll need to find some way to patch up the line, plus some fuel, to have any hope of fixing her.
+    
 (openable *)
 (* is transparent) %% Can see through the window, lets light in too.
 (actor container *)
@@ -66,12 +79,9 @@
     (* is closed)
     (try [open *])
 (narrate opening *)
-    You work the rusty truck door open.
+    The door creaks open with difficulty, rusted joints straining.
 (narrate closing *)
-    You swing the truck door shut with a squeal of rusty hinges.
-(perform [examine *])
-    Your truck is (open or closed *).
-    (descr truck dash)
+    You slam the door shut.
 %% This prevents a redundant list of items in the truck, when Knock looks while also in the truck:
 ~(appearance $ $ *)
 (prevent [take $Obj])
@@ -81,6 +91,18 @@
 (prevent [put $ #in * ])
     ~(#knock is #in *)
     You need to be inside the truck to do that.
+(descr truck dash)
+    (collect items in * into $Items)
+    (if) ~(empty $Items)
+    (then)
+        (par)
+        On the dash you can see (a $Items).
+    (endif)
+    (if) (#knock is #in *)
+    (then)
+        (par)
+        (descr #glove-compartment)
+    (endif)
     
 %% Players really want to just drive the truck away.
 

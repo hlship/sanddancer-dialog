@@ -7,6 +7,6 @@
 %% (off limits $ after $) marks a quip as off limits after anyone recollects
 %% the second quip.
 
-(off limits $Quip)
+(off limits $Quip) 
     (off limits $Quip after $OtherQuip)
     (#knock recollects $OtherQuip)
