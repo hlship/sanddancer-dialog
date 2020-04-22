@@ -10,6 +10,7 @@
             Hell, you must have driven off the road and crashed.
             Ocean keeps telling you this night commute on this lonely highway's gonna kill you;
             maybe you should start listening.
+            (or)
         (stopping)
         (descr truck dash)
     (else)
@@ -68,6 +69,7 @@
         Getting down on your knees in the cold sand, you look underneath.
         Sure enough; you ripped up the fuel line and all your gas has drained away, sucked dry
         by the thirsty desert sand.
+        (or)
     (stopping)
     You'll need to find some way to patch up the line, plus some fuel, to have any hope of fixing her.
     
