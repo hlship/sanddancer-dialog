@@ -1,5 +1,6 @@
 take jade
 brood stories
+open wallet
 (setup lighting)
 (now) (#pursuit has completed)
 (now) (#rainstorm has completed)

@@ -62,9 +62,18 @@
     (endif)
 
 %% Standard rule; but Sand-dancer trading for freedom is different.
+
 ($NPC is ready to trade for $)
     ($NPC price $Price)
     ($Price = 1)
+
+%% Don't want to start certain scenes that end with trading until the player has sufficient
+%% memories to trade.
+
+($NPC price can be met)
+    (count of memories into $MemCount)
+    ($NPC price $Price) 
+    ($MemCount >= $Price)
 
 %% Placeholders for now:
 

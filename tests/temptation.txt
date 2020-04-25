@@ -1,5 +1,7 @@
 (setup lighting)
+(now) (#meeting-ocean is #in #emotional-baggage)
 (now) (#emergency-lights is on)
+%% debug scenes
 take jade
 brood stories
 teleport burrow

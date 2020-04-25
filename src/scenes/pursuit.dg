@@ -119,6 +119,8 @@
     (current room $Room)
     (around the tower $Room)
     (random chance of 1 in 3)
+    %% No need to check number of memories, the player needs only one, and gets that almost from
+    %% the start.
 
 #darting-shadow
 (name *) darting shadow

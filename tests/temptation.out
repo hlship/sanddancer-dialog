@@ -15,6 +15,7 @@ Saguaro.
 
 > (setup lighting)
 Query succeeded: (setup lighting)
+> (now) (#meeting-ocean is #in #emotional-baggage)
 > (now) (#emergency-lights is on)
 > take jade
 You take the piece of jade.
@@ -164,7 +165,7 @@ wilier than me. Look up."
 You have strength, a piece of jade, a flashlight, your lighter, your wallet, and
 your emotional baggage. You're wearing your denim jacket.
 
-In your emotional baggage is her graduation night.
+In your emotional baggage are her graduation night and meeting Ocean.
 
 > look up
 Stupidly, you tilt your head back and stare up at the dirt ceiling, and all you
@@ -232,12 +233,11 @@ Nah, man, better keep busy or else it's back to brooding about her graduation
 night. Rain batters down on the desert.
 
 > z
-Nah, man, better keep busy or else it's back to brooding about her graduation
-night. Rain batters down on the desert.
+Nah, man, better keep busy or else it's back to brooding about meeting Ocean.
+Rain batters down on the desert.
 
 > z
-Nah, man, better keep busy or else it's back to brooding about her graduation
-night.
+Nah, man, better keep busy or else it's back to brooding about meeting Ocean.
 
 The rain's dying down, the sounds of the storm fading, water sinking into the
 thirsty sand leaving only the smell of sage behind.
@@ -254,9 +254,9 @@ He's too far away. You can barely see him.
 
 > w
 You walk west for a long time, thoughts turning over like the sand under your
-sneakers. You think about her graduation night. You think about Ocean and how
-pissed she's gonna be that you're not home. Like you tell her not to wait up for
-you but she always does anyway.
+sneakers. You think about meeting Ocean. You think about Ocean and how pissed
+she's gonna be that you're not home. Like you tell her not to wait up for you
+but she always does anyway.
 
 Some wind kicks up and chucks sand in your face. You blink it out and kinda
 realize while you're doing it that you haven't really been paying attention to
@@ -275,8 +275,7 @@ write home about.
 Something snarls off in the distance, a warning growl.
 
 > z
-Nah, man, better keep busy or else it's back to brooding about her graduation
-night.
+Nah, man, better keep busy or else it's back to brooding about meeting Ocean.
 
 A howl from behind you, and an answer from somewhere ahead. Coyotes. Hungry,
 sounds like.

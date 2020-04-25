@@ -40,6 +40,13 @@ mostly BS, you guess, but some of them stuck with you. When it's dark you still
 wonder if your spirit animals are out there, somewhere, and what the hell is
 taking them so long to find you.
 
+> open wallet
+You open your wallet, revealing your driver's license, a receipt from Big
+Jimmy's, and a folded photo.
+
+Something about the receipt from Big Jimmy's makes you want to brood about your
+shit job.
+
 > (setup lighting)
 Query succeeded: (setup lighting)
 > (now) (#pursuit has completed)
@@ -67,10 +74,10 @@ up you can't see a damn thing. You can't see your pickup, you can't see the
 electrical tower. Not even your damn footprints. You're lost. Well, shit.
 
 Open Desert
-Your tracks are swallowed up in moments by the billowing sand, and you plod
-wearily through the sand.
+Clouds of dust swirl through the air, and you shiver in the chill night air.
 
-You can sort of see some clumps of sagebrush, a dead cow, and a stand of cactus.
+Half-lost in the shadows, you see a low bluff, a looming cactus, and some clumps
+of sagebrush and that's about it.
 
 Something snarls off in the distance, a warning growl.
 
@@ -78,11 +85,10 @@ Something snarls off in the distance, a warning growl.
 You move nervously forward.
 
 Open Desert
-Clouds of dust swirl through the air, and every inch of sand looks just like
-every other.
+Your tracks are swallowed up in moments by the billowing sand, and you plod
+wearily through the sand.
 
-Nearby: a low bluff, a stand of cactus, and a looming cactus. Nothing to write
-home about.
+You can sort of see a low bluff, some clumps of sagebrush, and a dead cow.
 
 A howl from behind you, and an answer from somewhere ahead. Coyotes. Hungry,
 sounds like.
@@ -91,10 +97,11 @@ sounds like.
 You jog forward, eyes snapping left and right at the moving shadows around you.
 
 Open Desert
-The dust storm rages around you, and god damn it's dark.
+The desert stretches around you in all directions, and you shiver in the chill
+night air.
 
-Half-lost in the shadows, you see some dry bones, a stand of cactus, and a
-looming cactus and that's about it.
+All you can make out in the darkness are a low bluff, a dry streambed, and a
+dead cow.
 
 Coyotes call all around you now, circling in the dark, unseen, but coming
 closer, closer.
@@ -104,11 +111,11 @@ You're running now, jumping over sagebrush and stumbling on rocks, as snarling
 animal forms close in around you.
 
 Open Desert
-The desert stretches around you in all directions, and every inch of sand looks
-just like every other.
+Clouds of dust swirl through the air, and every inch of sand looks just like
+every other.
 
-You can sort of see a dull grey boulder, a dry streambed, and some clumps of
-sagebrush.
+Nearby: some dry bones, a stand of cactus, and a low bluff. Nothing to write
+home about.
 
 You can smell them now, wild, feral. Shifting shadows whirl around you, panting,
 whining with the thrill of the chase.
@@ -123,22 +130,11 @@ this terrified.
 You run.
 
 Open Desert
-Clouds of dust swirl through the air, and you shiver in the chill night air.
-
-All you can make out in the darkness are a dry streambed, some dry bones, and a
-dull grey boulder.
-
-Snarls and teeth and mangy fur on every side.
-
-> s
-You run.
-
-Open Desert
 Your tracks are swallowed up in moments by the billowing sand, and you plod
 wearily through the sand.
 
-Nearby: a dead cow, a dull grey boulder, and a looming cactus. Nothing to write
-home about.
+Half-lost in the shadows, you see some dry bones, a looming cactus, and a stand
+of cactus and that's about it.
 
 Snarls and teeth and mangy fur on every side.
 
@@ -146,10 +142,23 @@ Snarls and teeth and mangy fur on every side.
 You run.
 
 Open Desert
-The dust storm rages around you, and you wish you could see more than twenty
-feet in front of you.
+The dust storm rages around you, and every inch of sand looks just like every
+other.
 
-You can sort of see a looming cactus, some clumps of sagebrush, and a dead cow.
+All you can make out in the darkness are a stand of cactus, some dry bones, and
+some clumps of sagebrush.
+
+Snarls and teeth and mangy fur on every side.
+
+> s
+You run.
+
+Open Desert
+The desert stretches around you in all directions, and you plod wearily through
+the sand.
+
+Nearby: a looming cactus, some dry bones, and some clumps of sagebrush. Nothing
+to write home about.
 
 It's over. They've caught you. They surround you, circling, growling, looking
 for weakness, moving in for the kill.

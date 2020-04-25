@@ -4,6 +4,7 @@
     (#rainstorm has completed)
     (current room $Room)
     ~(office interior $Room)
+    (#coyote price can be met)
     ~($Room is one of [#roof #control-center])
     (now) (#distant-figure is #in $Room)
     (par)

@@ -24,8 +24,9 @@
 (setup chase)
     (setup lighting)
     (now) (#burrow is visited)
+    (now) (#your-shit-job is #in #emotional-baggage)
+    (now) (#meeting-ocean is #in #emotional-baggage)
 
 (setup coyotes offer)
     (setup chase)
     (now) (#chase has completed)
-
