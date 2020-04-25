@@ -164,12 +164,14 @@
 (your *)
 (descr *)
     (remaining cigarettes $Count)
-    Your pack of cigarettes
-    (if) ($Count = 0)
+    You're trying to quit, but man,
+    (if) ($Count >= 1)
     (then)
-        , now empty
+        you could really go for one right now.
+        It looks like you've only got
+        (spell out $Count) left
     (else)
-        \( (spell out $Count) remaining \)
+        you're totally out
     (endif)
     .
 (* is #in #glove-compartment)
