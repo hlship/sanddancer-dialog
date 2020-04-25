@@ -16,6 +16,7 @@
     leaving only the smell of sage behind.
     (now) (#rain is nowhere)
 (on every tick during *)
+    (par)
     Rain batters down on the desert.
 
 (instead of [listen])
