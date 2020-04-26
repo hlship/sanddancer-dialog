@@ -18,10 +18,23 @@
 (on every tick during *)
     (par)
     Rain batters down on the desert.
+(on every tick during *)
+    (current room $Room)
+    (office interior $Room)
+    (random chance of 1 in 3)
+    (select)
+        The building groans as wind and rain lash it from outside
+    (or)
+        Water from the storm trickles down from unseen cracks and holes
+    (or)
+        Rain beats constantly on the roof, loud and furious
+    (at random)
+    .
 
 (instead of [listen])
     (* is happening)
     You can't hear anything above the pounding noise of water slapping sand.
+
 
 #rain
 (name *) rain

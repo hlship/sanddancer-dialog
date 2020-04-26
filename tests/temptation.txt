@@ -20,6 +20,10 @@ attack cage
 take blanket
 teleport control center
 teleport crumbling concrete
+%% Due to randomness, keep having to change the number of times we wait here for rainstorm
+%% to end, so that temptation can begin.
+z
+z
 z
 z
 z
