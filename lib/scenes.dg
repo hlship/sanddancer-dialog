@@ -69,7 +69,7 @@
         (then)
              (log) { scene $Scene is happening }
         (endif)
-        (on every tick during $Scene)
+        (exhaust) *(on every tick during $Scene)
     }
 
 (identify starting scenes)
