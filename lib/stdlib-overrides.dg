@@ -1,1 +1,37 @@
 %% Overrides of standard rules
+
+(perform [inventory])
+	(current player $Player)
+	(collect $C) 
+        *($C is #heldby $Player)
+        ~(talent $C)
+    (into $HeldList)
+    (collect $Talent)
+        *(talent $Talent)
+        ($Talent is #heldby $Player)
+    (into $Talents)
+	(collect $C) *($C is #wornby $Player) (into $WornList)
+
+	(if) (empty $HeldList) (then)
+		(narrate holding nothing)
+	(else)
+		You have (a $HeldList).
+	(endif)
+	(if) (empty $WornList) (then)
+		(narrate wearing nothing)
+	(else)
+		You're wearing (a $WornList).
+	(endif)
+    (if) (nonempty $Talents)
+    (then)
+        You've gained the 
+        (if) (length of $Talents into $Count)
+             ($Count > 1)
+        (then)
+            talents
+        (else)
+            talent of
+        (endif)
+        (a $Talents).
+    (endif)
+	(line)
