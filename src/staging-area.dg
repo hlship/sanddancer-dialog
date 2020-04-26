@@ -157,6 +157,8 @@
     .
 (* provides light)
     (* is on)
+(instead of [drop *])
+    Better keep it with you. It's hella dark out.
 
 (narrate taking *)
     (current room #staging-area)
