@@ -32,3 +32,15 @@
 ($Room attracts *)
     (#rainstorm is happening)
     (around the tower $Room)
+
+#sage
+(name *) sage
+($Room attracts *)
+    (#rainstorm has completed)
+    (around the tower $Room)
+(perform [smell *])
+    When you were a kid, it semlt like camping and adventure.
+    Now it just smells like desert and confusion.
+(instead of [smell])
+    (player can see *)
+    (try [smell *])
