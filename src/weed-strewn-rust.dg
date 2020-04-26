@@ -31,11 +31,9 @@
 (plural *)
 
 #weeds
-(plant *)
 (name *) yellowing weeds
 (dict *) weed
 (plural *)
-(* is dead)
 
 #overturned-barrel
 (supporter *)

@@ -1,11 +1,6 @@
 
 %% around the tower region
 
-%% First, a bit about plants.
-
-%% Plants are generally alive, unless specifically dead
-@($ is alive)    ~($ is dead)
-
 %% Some backdrop objects
 
 #tire-tracks 
