@@ -105,6 +105,13 @@
         (par)
         (descr #glove-compartment)
     (endif)
+(instead of [fix *])
+    You should wait until you've got everything you need before you start making repairs.
+(instead of [use #duct-tape])
+    (player can see *)
+    (try [fix *])
+(instead of [switch on/off *])
+    The engine just turns over. It won't start.
     
 %% Players really want to just drive the truck away.
 
@@ -123,6 +130,13 @@
 (prevent [drive])
     ~(player can see *)
     You don't see any kind of vehicle here.
+(instead of [attack *])
+    You smack the
+    (if) (#knock is #in *)
+    (then) wheel (else) hood (endif)
+    in exasperation.
+    How did you get into this mess?
+
 
 (prevent [drive])
     ~(#knock is #in *)
@@ -222,6 +236,13 @@
 #saguaro
 (name *) tall Saguaro
 (dict *) cactus
+(descr *)
+    The cacuts seems totally undamaged. Go figure.
+(instead of [feel *])
+    Yeah, you did that once as a kid, on accident.
+    Not happening again.
+(instead of [take *])
+    (try [feel *])
 
 #jade
 (name *) (with #luck { lucky }) piece of jade
@@ -233,6 +254,7 @@
 
 #lizard
 (name *) brown lizard
+(topic *)
 (descr *)
     (select)
         He looks pretty pissed that you crashed into his cactus.

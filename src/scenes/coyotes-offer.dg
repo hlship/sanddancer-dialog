@@ -44,6 +44,7 @@
 
 #coyote
 (male *)
+(topic *)
 (* provides light)
 (name *) Coyote
 (dict *) guy man
