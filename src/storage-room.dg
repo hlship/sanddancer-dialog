@@ -58,10 +58,15 @@
 (dict *) shelves
 (supporter *)
 (#cans-of-food is #on *)
+(descr *)
+    Hundreds of cans line the bare, dusty metal shelves.
+(instead of [put $ #on *])
+    It feels like putting even one more thing on the shelves could cause a huge collapse.
+
 
 #ladder
 (name *) utility ladder
-(instead of [enter #ladder])
+(instead of [enter/climb #ladder])
     (try [go #up])
 
 #skylight
