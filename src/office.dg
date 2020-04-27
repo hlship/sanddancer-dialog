@@ -16,7 +16,6 @@
     (par)
     The only exit is to the south.
 (#foremans-desk/
-    #wastepaper-basket/
     #dust-covered-window/
     #poster
     is #in *)
@@ -27,19 +26,13 @@
 #foremans-desk
 (supporter *)
 (name *) half-collapsed desk
+(instead of [enter *])
+    It's already on its last legs.
 
 #rusted-key
 (item *)
 (name *) rusted key
 (* is #on #foremans-desk)
-
-#wastepaper-basket
-(item *)
-(container *)
-(name *) wastepaper basket
-(* is open) 
-(fine where it is *)
-
 
 #dust-covered-window
 (window *)
