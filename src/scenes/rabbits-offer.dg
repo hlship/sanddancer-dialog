@@ -13,7 +13,7 @@
         (talent $Obj) 
         (now) ($Obj is nowhere)
     }
-    (now) ~(conversation partner $)
+    (reset conversation partner)
     (par)
     "The others are coming," he says, "they'll be here soon," and now he looks like Frank from Donnie Darko and his face is
     behind that freaky metal mask and his voice is distorted and makes your skin crawl.

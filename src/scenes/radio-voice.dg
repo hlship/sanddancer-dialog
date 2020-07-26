@@ -101,4 +101,4 @@
     If you don't make it she'll be worried sick.
     Then on the other hand maybe you should worry about yourself first for a change.
     You feel like you need a cigarette and then you remember you quit. Hell, can't anything be easy?
-    (now) ~(conversation partner $)
+    (reset conversation partner)
