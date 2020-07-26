@@ -254,6 +254,7 @@
 
 #lizard
 (name *) brown lizard
+(animate *)
 (topic *)
 (descr *)
     (select)
