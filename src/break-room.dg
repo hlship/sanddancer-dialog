@@ -147,7 +147,7 @@
     ~(knock knows emergency frequency)
     You spin the dial randomly for a bit, but all you hear is hissing and static.
 (narrate tuning *)
-    You tune the radio to that emergency frequency listed on the poster, 133.2khz.
+    You tune the radio to that emergency frequency listed on the poster, 102.3khz.
     But what are the odds that anyone's listening?
 (after [tune *])
     (now) (radio is tuned)

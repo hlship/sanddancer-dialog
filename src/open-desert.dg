@@ -104,7 +104,7 @@
 (prevent enter desert from $Room)
     (lit by headlights $Room)
     ~(flashlight ready)
-    Outside the wavering glow of your headlights, it's black. Pitch.
+    Better not. Outside the wavering glow of your headlights, it's black. Pitch.
     Storm must have rolled in; there's no stars above, no anything but blackness around. 
     Only the smell of the desert tells you it's still out there.
 

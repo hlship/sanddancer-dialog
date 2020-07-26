@@ -2,7 +2,7 @@
 (around the tower *)
 (name *) Crumbling Concrete
 (look *)
-    This building must've been some sort of utility structure for the huge electrical tower
+    This concrete building must've been some sort of utility structure for the huge electrical tower
     to the north, now abandoned
     (if) (lit by headlights *)
     (then)
