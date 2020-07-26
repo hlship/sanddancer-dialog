@@ -1,6 +1,10 @@
 (global variable (pursuit duration $))
 (global variable (pursuit direction $))
 
+%% This gets overridden in testing
+(fixed pursuit path)
+    (fail)
+
 #pursuit
 (scene *)
 (recurring *)
