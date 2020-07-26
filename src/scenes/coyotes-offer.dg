@@ -42,48 +42,6 @@
     (* is happening)
     You think you'd rather keep him on your side.
 
-#coyote
-(male *)
-(topic *)
-(* provides light)
-(name *) Coyote
-(dict *) guy man
-(descr *)
-    You can barely see him in the darkness, can't tell whether he's old or how old,
-    what color his faded denim jacket is, and with those sunglasses on, you can't even
-    tell whether he's smirking at you or just twitching his mouth.
-    There's a weird smell coming off him, sweat and dirt and a little wet dog and
-    something deeper, earther, desert, rain, all mixed with cigarette smoke.
-(after [look])
-    (player can see *) 
-    (par)
-    The Coyote watches you intently
-    (if) (#knock recollects #coyote-trades)
-    (then)
-        , holding in his hands two glowing orbs: scent and luck
-    (endif)
-    .
-(#cigarette is #heldby *)
-(#denim-jacket/#sunglasses is #wornby *)
-(* price 2)
-
-#cigarette
-(item *)
-(name *) cigarette
-(instead of [drop *])
-    (now) (* is nowhere)
-    You drop it to the ground and stub it out with your foot.
-
-#denim-jacket
-(wearable *)
-(name *) faded denim jacket
-
-#sunglasses
-(wearable *)
-(name *) sunglasses
-(dict *) shades
-(pair *)
-
 #coyotes-introduction
 (reply *)
     He wears a couple of days of stubble, a scuffed and faded denim jacket, and,
