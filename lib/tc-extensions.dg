@@ -10,3 +10,11 @@
 (off limits $Quip) 
     (off limits $Quip after $OtherQuip)
     (#knock recollects $OtherQuip)
+
+(prevent [talk to $NPC])
+    ~(animate $NPC)
+    It's lonely out here, but not lonely enough to try to talk to (a $NPC).
+
+(prevent [talk to $NPC])
+    ~{ (spirit animal $NPC) (or) ($NPC = #radio-voice) }
+    You can't really get into a good conversation right now.
