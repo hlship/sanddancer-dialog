@@ -1,5 +1,5 @@
 (story title)   Sand-dancer
-(story author)  Aaron Reed and Howard M. Lewis Ship
+(story author)  Aaron Reed, Alexei Othenin-Girard, and Howard M. Lewis Ship
 (story ifid)    30CF2E4C-2C18-11EA-B63C-5B1952E6E634
 (story noun)    A Desert Fable
 (story blurb)
@@ -13,8 +13,10 @@
         *($Item is #heldby #knock)
         (now) ($Item is handled)
     }
+    but it's loo late, you're crashing, you crash...
+    (par)
     (banner)
-     (try [look])
+    (try [look])
 
 %% Regions
 
