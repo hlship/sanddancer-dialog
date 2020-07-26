@@ -1,5 +1,7 @@
 %% Basic smoking verb
 
+~(just smoked)
+
 (understand [smoke | $Words] as [smoke $Obj])
     (understand $Words as object $Obj preferably held)
 
@@ -34,6 +36,7 @@
     ($Count minus 1 into $NewCount)
     (now) (remaining cigarettes $NewCount)
     (exhaust) *(narrate smoking)
+    (now) (just smoked)
 
 %% The order here is important.
 
@@ -116,3 +119,12 @@
 
 (knock has smoked)
     ~(remaining cigarettes 6) %% start with six
+
+(perform $Action)
+    ~($Action = [smoke #pack])
+    (now) ~(just smoked)
+    (fail)
+
+(prevent [undo])
+    (just smoked)
+    Yeah, you wish you could unsmoke all the cigs you've inhaled. Life doesn't work like that.
