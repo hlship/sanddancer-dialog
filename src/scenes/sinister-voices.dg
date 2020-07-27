@@ -1,0 +1,114 @@
+#sinister-voices
+(scene *)
+(start *)
+    (#rabbits-offer has completed)
+    %% (now) (radio is tuned)
+
+(narrate entering #break-room)
+    (#sinister-voices is happening)
+    (par)
+    (try [look])
+    (par)
+    (select)
+        (sinister radio 1)
+    (or)
+        (sinister radio 2)
+    (or)
+        (sinister radio 3)
+    (stopping)
+
+(sinister radio 1)
+    With a sudden growl of static, the radio springs to life
+    (radio left off)
+    and it freaks the hell out of you.
+    The voice weaves in and out of crazy whirling distortion
+    and shifting blasts of static.
+    "Hey... receiving? (space) ...never told... you'll never, never--"
+    A wail like an 8-bit banshee screams through the signal.
+    "...waste of time... who do you think? (space) ..."
+    Static, static.
+    "Very soon now, Nak... akaibito... very..."
+    (par)
+    Uh. You're pretty sure you never told that dude your name.
+    Maybe you're just hearing things.
+
+(sinister radio 2)
+    The radio growls to life again
+    (radio left off)
+    , the voice distorted now under a constant barrage of electronic rain.
+    "Where do you think you're going?" it says.
+    "What are you trying to do?
+    You can't..."
+    A snap, some syncopated crackles.
+    "... can see you, Na... know where.... never going to work.
+    Never g--"
+    And the voice cuts off, replaced by a low, tooth-rattling hum.
+    (par)
+    The voice sounds different than before.
+    I mean it still kind of sounds like the first guy you talked to but it
+    sounds like someone else now too, someone you know,
+    you've known for a long time.
+    Someone you're afraid of.
+
+(sinister radio 3)
+    ~(plan threatened)
+    (collect $Item)
+        *(plan $Plan)
+        *($Plan requires $Item)
+        ($Item has ancestor #knock)
+    (into $Items)
+    (randomly select $Item from $Items)
+    The static on the radio resolves into overlapping whispers
+    (radio left off)
+    "Hey," the speaker shouts, "hey, do you really think that
+    (the $Item)(no space)'s going to help you with anything?
+    You can't even--" and static reclaims it again.
+    (now) (plan threatened)
+
+(sinister radio 3)
+    ~(memory threatened)
+    (select random item in #emotional-baggage into $Memory)
+    The static on the radio resolves into overlapping whispers
+    (radio left off).
+    "It makes for a nice story," the whispers say, "but you're
+    remembering (the $Memory) all wrong.
+    That's not really how it happened, was it?"
+    (now) (memory threatened)
+
+(sinister radio 3)
+    ~(talent threatened)
+    (held talents $Talents)
+    (nonempty $Talents)
+    (randomly select $Talent from $Talents)
+    "You think just because you've got (a $Talent)
+    now you're going to be anything other than a pathetic failure?" the
+    radio squaks angrily
+    (radio left off),
+    before dissolving into harsh buzzing distortions.
+    (now) (talent threatened)
+
+(sinister radio 3)
+    ~(final threatened)
+    (held talents $Talents)
+    (nonempty $Talents)
+    "You're nothing," the radio spews, "your (the $Talents) (is $Talents)
+    worthless. You'll never amount to anything, and neither will your kid, just another half-breed loser destined to die in poverty and live in debt, isn't that right, Knock?"
+    and with a sudden shock you realize why the voice sounds so familiar. It's your voice. It's your own god-damned voice.
+    (now) (final threatened)
+
+(sinister radio 3)
+    (select)
+        The radio fizzles and growls through weird twists of distortion
+    (or)
+        Angry distortion bubbles and pops from the radio speaker, twisting in weird rhythmic patterns
+    (stopping)
+    .
+
+(radio left off)
+    (if) (#radio is off)
+    (then)
+        (select)
+        , which is weird because you're damn sure you turned it off
+        (stopping)
+    (endif)
+    

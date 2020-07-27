@@ -43,3 +43,9 @@
     (else)
         It glimmers and sparkles.
     (endif)
+
+(held talents $Talents)
+    (collect $Talent)
+        *(talent $Talent)
+        (knock holds $Talent)
+    (into $Talents)
