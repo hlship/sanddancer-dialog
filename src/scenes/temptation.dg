@@ -24,7 +24,7 @@
 (male *)
 (name *) distant figure
 ($Room attracts *)
-    (#temptation is happening)
+    (#temptation in progress)
     (current room $Room)
     (around the tower $Room)
 (instead of [wave])

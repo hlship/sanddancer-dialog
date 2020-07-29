@@ -191,7 +191,7 @@
 (* is #in #glove-compartment)
 (instead of [smoke *])
     *(scene $Scene)
-    ($Scene is happening)
+    ($Scene in progress)
     (dramatic $Scene)
     This isn't really the best time for that, man.
 

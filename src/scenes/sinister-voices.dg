@@ -5,7 +5,7 @@
     %% (now) (radio is tuned)
 
 (narrate entering #break-room)
-    (#sinister-voices is happening)
+    (#sinister-voices in progress)
     (par)
     (try [look])
     (par)
@@ -117,7 +117,7 @@
 %% Now some stuff with the radio during this time
 
 (instead of [attack #radio])
-    (#sinister-voices is happening)
+    (#sinister-voices in progress)
     (select)
         You slam a fist into the top of the radio, but it just keeps hissing with static.
     (or)
@@ -131,7 +131,7 @@
 (grammar [unplug [single]] for [unplug $])
 
 (instead of [unplug #radio])
-    (#sinister-voices is happening)
+    (#sinister-voices in progress)
     (select)
         You rip the cord out of the wall
         (if) (#radio is on)
@@ -151,6 +151,6 @@
     (The $Obj) is not something you can unplug.
 
 (instead of [talk to #radio])
-    (#sinister-voices is happening)
+    (#sinister-voices in progress)
     You'd rather find a way to make the radio stop talking!
 

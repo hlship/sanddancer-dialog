@@ -84,7 +84,7 @@
     (voice explains choices)
 
 (unlikely [switch off #radio])
-    (#radio-voice is happening)
+    (#radio-voice in progress)
 
 (voice explains choices)
     "Look, son," the voice says, "I don't know how you got out there but that's not important right now.

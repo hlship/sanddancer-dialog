@@ -46,7 +46,7 @@
     (at random)
     to the (name $Dir).
 (before [leave $Room $Dir])
-    (* is happening)
+    (* in progress)
     (if) (pursuit direction $Dir)
     (then)
         (from $Room go $Dir to $NewRoom)
@@ -61,7 +61,7 @@
         (par)
     (endif)
 (instead of [leave $ $])
-    (* is happening)
+    (* in progress)
     (player can see #darting-shadow)
     (pursuit duration 4)
     Dodging after the fleeing, skittering shadow, you're almost caught up to it when your foot trips on a rock and you stumble to the ground.
@@ -71,7 +71,7 @@
     (par)
     (enter #burrow)
 (narrate leaving $From $Dir)
-    (* is happening)
+    (* in progress)
     (pursuit duration $X)
     (narrate pursuit $X)
     (par)

@@ -8,10 +8,10 @@
 %% the predicate should also perform any state updates and provide any narration pertaining
 %% to the start of the scene.
 
-%% Started scenes will receive the flag ($ is happening) and ($ has started).
+%% Started scenes will receive the flag ($ in progress) and ($ has started).
 
 %% Scenes must supply the (complete $) predicate, the counterpart to (start $); 
-%% when this succeeds, the ($ is happening) flag is cleared, and the ($ is complete) flag
+%% when this succeeds, the ($ in progress) flag is cleared, and the ($ is complete) flag
 %% is set.
 
 %% On each tick, scenes complete before new scenes start; this allows scenes to start triggered
@@ -25,7 +25,7 @@
 
 (start $) (fail)
 (scene $) (fail)
-($ is happening) (fail)
+($ in progress) (fail)
 ($ has started) (fail)
 (complete $) (fail)
 ($ is complete) (fail)
@@ -36,7 +36,7 @@
 (scene debugging enabled)
     (fail)
 
-%% Each scene that is happening at the start of the tick and not completed during the tick
+%% Each scene that in progress at the start of the tick and not completed during the tick
 %% is notified via this predicate.  It doesn't matter whether this predicate succeeds or fails.
 (on every tick during scene $) (fail)
 
@@ -48,13 +48,13 @@
 (identify completed scenes)
     (exhaust) {
         *(scene $Scene)
-        ($Scene is happening)
+        ($Scene in progress)
         (complete $Scene)
         (if) (scene debugging enabled)
         (then)
             (log) { scene $Scene completed }
         (endif)
-        (now) ~($Scene is happening)
+        (now) ~($Scene in progress)
         %% The scene has completed, at least once
         (now) ($Scene has completed)
         %% Important for recurring scenes
@@ -64,10 +64,10 @@
 (tick happening scenes)
     (exhaust) {
         *(scene $Scene)
-        ($Scene is happening)
+        ($Scene in progress)
         (if) (scene debugging enabled)
         (then)
-             (log) { scene $Scene is happening }
+             (log) { scene $Scene in progress }
         (endif)
         (exhaust) *(on every tick during $Scene)
     }
@@ -81,14 +81,14 @@
         (then)
           (log) { scene $Scene started }
         (endif)
-        (now) ($Scene is happening)
+        (now) ($Scene in progress)
         %% The scene has started, at least once.
         %% Important for recurring scenes.
         (now) ($Scene has started)
     }
 
 (ready to start scene $Scene)
-    ~($Scene is happening)
+    ~($Scene in progress)
     { ~($Scene is complete) (or) (recurring $Scene) }
 
 (scenes)
@@ -99,7 +99,7 @@
         (annotate [{ (recurring $Scene) recurring}
                    { (dramatic $Scene) dramatic }
                    { ($Scene has started) started }
-                   { ($Scene is happening) happening }
+                   { ($Scene in progress) happening }
                    { ($Scene is complete) complete }
                    { ($Scene has completed) has completed }])
         (line)

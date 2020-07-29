@@ -39,7 +39,7 @@
     (now) (#flashlight is #on)
     (enter #base-of-tower)
 (instead of [switch on #flashlight])
-    (* is happening)
+    (* in progress)
     You think you'd rather keep him on your side.
 
 #coyotes-introduction

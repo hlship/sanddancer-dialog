@@ -25,7 +25,7 @@
 (from #crumbling-concrete go #in through * to #staging-area)
 (from #staging-area go #out through * to #crumbling-concrete)
 (narrate leaving #crumbling-concrete #in)
-    (#rainstorm is happening)
+    (#rainstorm in progress)
     Gratefully, you slip inside the building, out of the storm.
 (narrate leaving $Room $Dir)
     (from $Room go $Dir through * to $)

@@ -14,7 +14,7 @@
 #desert-sand
 (name *) desert sand
 (instead of [take *])
-    (#rainstorm is happening)
+    (#rainstorm in progress)
     More like mud right now.
 (instead of [take *])
     You kneel down and let some run through your fingers, vague memories of better times

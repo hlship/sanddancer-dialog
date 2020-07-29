@@ -32,7 +32,7 @@
     .
 
 (instead of [listen])
-    (* is happening)
+    (* in progress)
     You can't hear anything above the pounding noise of water slapping sand.
 
 
@@ -43,7 +43,7 @@
     The frigid rain washes down on you.
 
 ($Room attracts *)
-    (#rainstorm is happening)
+    (#rainstorm in progress)
     (around the tower $Room)
 
 #sage

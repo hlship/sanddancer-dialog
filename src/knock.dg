@@ -11,7 +11,7 @@
 
 (on every tick)
     (random chance of 1 in 40)
-    ~{ *($Scene is happening) (dramatic $Scene) }
+    ~{ *($Scene in progress) (dramatic $Scene) }
     ~(#coyotes-offer has completed)
     (par)
     (select)

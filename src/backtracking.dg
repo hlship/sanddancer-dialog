@@ -9,7 +9,7 @@
 (#withered-cactus is #in *)
 (prevent [leave * #south])
     %% Don't break the pursuit scene because game randomly chose south from here for the chase
-    ~(#pursuit is happening)
+    ~(#pursuit in progress)
     (select)
         You stare back down the pickup's path uneasily.
         The tracks are swallowed by darkness, quickly melding, blending,
