@@ -93,7 +93,9 @@
     (nonempty $Talents)
     "You're nothing," the radio spews, "your (the $Talents) (is $Talents)
     worthless. You'll never amount to anything, and neither will your kid, just another half-breed loser destined to die in poverty and live in debt, isn't that right, Knock?"
-    and with a sudden shock you realize why the voice sounds so familiar. It's your voice. It's your own god-damned voice.
+    and with a sudden shock you realize why the voice sounds so familiar. 
+    It's your voice. 
+    It's your own god-damned voice.
     (now) (final threatened)
 
 (sinister radio 3)
@@ -111,4 +113,44 @@
         , which is weird because you're damn sure you turned it off
         (stopping)
     (endif)
-    
+
+%% Now some stuff with the radio during this time
+
+(instead of [attack #radio])
+    (#sinister-voices is happening)
+    (select)
+        You slam a fist into the top of the radio, but it just keeps hissing with static.
+    (or)
+        You kick the radio off the table and it clatters to the ground, but still keeps laughing with hisses and whines.
+    (or)
+        You smash the radio over and over again, until it lies in pieces on the ground, but the static still continues, and more and more it sounds like sand.
+    (or)
+        The radio is destroyed, but the sound still plays, echoing and reverberating through the room.
+    (stopping)
+
+(grammar [unplug [single]] for [unplug $])
+
+(instead of [unplug #radio])
+    (#sinister-voices is happening)
+    (select)
+        You rip the cord out of the wall
+        (if) (#radio is on)
+        (then) , but the speaker keeps buzzing and the lighted dial keeps flickering
+        (endif)
+        .
+    (or)
+        Damnit, you already did!
+    (stopping)
+
+(instead of [unplug #radio])
+    Why?  It's too big to move and might be handy
+    (if) (#radio-voice has started) (then) again (endif)
+    .
+
+(prevent [unplug $Obj])
+    (The $Obj) is not something you can unplug.
+
+(instead of [talk to #radio])
+    (#sinister-voices is happening)
+    You'd rather find a way to make the radio stop talking!
+

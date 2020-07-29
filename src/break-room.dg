@@ -165,3 +165,16 @@
     (narrate tuning $Obj)
 
 (tunable $) (fail)
+
+(before [talk to #radio])
+    (#radio is off)
+    (first try [switch on #radio])
+
+(instead of [talk to #radio])
+    You try to raise somone, but there's no response
+    (if) (#radio is off)
+    (then)
+        , at least on this frequency
+    (endif)
+    .
+
