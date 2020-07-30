@@ -307,10 +307,9 @@
 
 %% Count up the number of retrieved memories
 (count of memories into $Count)
-    (collect $Memory)
+    (accumulate 1)
         *($Memory is #in #emotional-baggage)
-    (into $Memories)
-    (length of $Memories into $Count)
+    (into $Count)
 
 (instead of [wait])
     { 
