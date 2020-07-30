@@ -25,9 +25,26 @@
 (in progress plans $Plans)
     (collect $Plan)
         *(plan $Plan)
+        (plan $Plan is in progress)
+    (into $Plans)
+
+(plan $Plan is in progress)
+    *($Plan requires $Item)
+    ($Item is handled)    
+
+(complete plans $Plans)
+    (collect $Plan)
+        *(plan $Plan)
+        (plan $Plan is complete)
+    (into $Plans)
+
+(plan $Plan is complete)
+    (accumulate 1)
         *($Plan requires $Item)
         ($Item is handled)
-    (into $Plans)
+    (into $Count)
+    ($Count = 2)
+
 
 %% When we first see an item related to a plan, note that.
 %% The Inform version waits for the player to "do something" to the item.
