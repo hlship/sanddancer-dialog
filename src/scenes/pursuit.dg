@@ -17,6 +17,7 @@
     (now) (#darting-shadow is #in $Room)
     (now) (pursuit duration 0)
     (pursuit direction $Dir)
+    (par)
     (select)
         Out of the corner of your eye you spot a glimpse of something moving in the darkness, off in the desert to the
         (name $Dir)
