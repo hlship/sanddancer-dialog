@@ -237,7 +237,7 @@
 (name *) tall Saguaro
 (dict *) cactus
 (descr *)
-    The cacuts seems totally undamaged. Go figure.
+    The cactus seems totally undamaged. Go figure.
 (instead of [feel *])
     Yeah, you did that once as a kid, on accident.
     Not happening again.
@@ -273,6 +273,6 @@
 (instead of [$Verb | $Words])
     ($Verb is one of [attack take push touch])
     (* is one of $Words)
-    You reach out to grab it, but in a flash, it scurries around to the other size of the cactus and disappears.
+    You reach out to grab it, but in a flash, it scurries around to the other side of the cactus and disappears.
     (now) (* is nowhere)
 
