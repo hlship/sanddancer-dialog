@@ -13,7 +13,7 @@
         *($Item is #heldby #knock)
         (now) ($Item is handled)
     }
-    but it's loo late, you're crashing, you crash...
+    but it's too late, you're crashing, you crash...
     (par)
     (banner)
     (try [look])
