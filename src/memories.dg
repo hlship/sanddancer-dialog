@@ -257,14 +257,23 @@
 
 %% Brood verb to access memories:
 
-(rewrite [brood about/on/over | $Words] into [brood | $Words])
-(rewrite [think about | $Words] into [brood | $Words])
+%% See https://intfiction.org/t/adding-grammar-tokens/46549
 
-(understand [brood | $Words] as [brood $Obj])
+(grammar [brood about/on/over [memory]] for [brood $])
+(grammar [brood [memory]] for [brood $])
+
+@(grammar transformer [[memory] | $Tail] $SoFar $Verb $Action $Rev)
+	(grammar transformer $Tail [1000 | $SoFar] $Verb $Action $Rev)
+
+(match grammar token 1000 against $Words $ into $Obj)
     *(understand $Words as single object $Obj preferably { (memory $_) })
 
 (describe action [brood $Obj])
     brood about (the $Obj)
+
+(prevent [brood $Obj])
+    ($Obj suggests $Memory)
+    It's not (the $Obj) you want to brood about, it's (name $Memory).
 
 (prevent [brood $Obj])
     ~(memory $Obj)
