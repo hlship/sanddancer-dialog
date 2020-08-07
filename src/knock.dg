@@ -116,8 +116,10 @@
     a
     (if) (* is closed) (then) folded  (endif)
     photo
+%% Encourage the player to brood about things as a way to progress on this.
+%% The text seems a little under-developed in the I7 version.  
 (instead of [open *])
-    (count of memories into $Count)
+    (count of retrieved memories into $Count)
     ($Count < 4)
     (try [examine *])
 (narrate opening *)
