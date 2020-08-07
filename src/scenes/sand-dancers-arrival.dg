@@ -1,0 +1,72 @@
+#sand-dancers-arrival
+(scene *)
+(dramatic *)
+(start *)
+    (tried to leave)
+    There's like this faint tickle through the soles of your feet, some vibration, almost like whispers in the sand. 
+    You want to bend down, put your ear to the ground, listen forever.
+    (par)
+    And then the ground drops out from under you, heaves, and drops again. 
+    Struts groan and boards snap and then with a whooshing bang sand starts pouring in through the window and every crack, jets of sand,
+    and already it's shin-deep and holy christ you've got to get out of here.
+(complete *)
+    (current room #roof)
+    
+(look (office interior $))
+    (* in progress)
+    (select)
+        Waves of sand flow like water through the room, filling it higher and higher
+    (or)
+        Knee-deep sand fills the room, rising at a terrifying rate
+    (or)
+        The deluge of sand thunders in from every side, filling the room
+    (stopping)
+    .
+
+(on every tick during *)
+    (par)
+    The building shakes and groans as sand continues to pour in, rising higher and higher.
+
+(narrate leaving $ $)
+    (* is happening)
+    You wade through the sand, which is rising all the time.
+    (par)
+    (fail) %% Continue to default
+
+
+(time for arrival)
+    %% There's a lot of processing to figure out when to start, so we short circuit
+    %% until after coyotes offer.
+    (#coyotes-offer has completed)
+    { (one complete plan) (or) (two in progress plans) }
+
+(one complete plan)
+    (complete plans $Plans)
+    (length of $Plans into $Count)
+    ($Count > 0)
+
+(two in progress plans)
+    (in progress plans $Plans)
+    (length of $Plans into $Count)
+    ($Count > 1)
+
+(sufficient memories for sand-dancer)
+    (count of memories into $Count)
+    ($Count > 2)
+
+(when sand starts to come)
+    (time for arrival)
+    (sufficient memories for sand-dancer)
+    %% TODO: Feels like this could trigger when outside, which would be weird.
+    (select)
+        You start to go out, but then you stop. 
+        Something's not right. Something's... weird.
+    (or)
+        The building's sinking into the sand! You've got to get out some other way!
+    (stopping)
+    (now) (tried to leave)
+
+(prevent [leave #staging-area #southeast/#out])
+    (when sand starts to come)
+
+    

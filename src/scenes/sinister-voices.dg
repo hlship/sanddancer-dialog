@@ -2,7 +2,8 @@
 (scene *)
 (start *)
     (#rabbits-offer has completed)
-    %% (now) (radio is tuned)
+(stop *)
+    (#sand-dancers-arrival is happening)
 
 (narrate entering #break-room)
     (#sinister-voices in progress)
@@ -114,7 +115,9 @@
         (stopping)
     (endif)
 
-%% Now some stuff with the radio during this time
+%% Now some stuff with the radio during this scene
+
+%% I7 version doesn't limit this logic to just sinister voices, which can be incongruous.
 
 (instead of [attack #radio])
     (#sinister-voices in progress)
