@@ -138,3 +138,16 @@
 (descr *)
     Your baby too.
 
+
+(instead of [wait])
+    { 
+        (select random item in #emotional-baggage into $Memory)
+        (or)
+        {
+            (collect $Memory)
+                *(memory $Memory) 
+            (into $Memories)
+            (randomly select $Memory from $Memories)
+        }
+    }
+    Nah, man, better keep busy or else it's back to brooding about (the $Memory).    

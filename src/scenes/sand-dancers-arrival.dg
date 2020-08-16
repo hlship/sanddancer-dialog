@@ -22,6 +22,23 @@
         The deluge of sand thunders in from every side, filling the room
     (stopping)
     .
+    (current room $Room)
+    (collect $Dir)
+        *(from $Room go $Dir to $)
+    (into $ExitDirections) 
+    %% listing is not public API for Dialog, but useful!
+    You glance wildly at the exits (listing $ExitDirections {(name $_)} @and [] 0).
+
+(prevent $Action)
+    (* in progress)
+    ~{
+        ($Action = [go $])
+        (or)
+        ($Action = [leave $ $])
+        (or)
+        ($Action = [look])
+    }
+    No time for that, you've got to escape the sand before you are buried!
 
 (on every tick during *)
     (par)
@@ -38,6 +55,8 @@
     %% There's a lot of processing to figure out when to start, so we short circuit
     %% until after coyotes offer.
     (#coyotes-offer has completed)
+    %% Note that this can only first evaluate to true while *inside* the building (that's where
+    %% all plan required items are).)
     { (one complete plan) (or) (two in progress plans) }
 
 (one complete plan)
@@ -52,6 +71,7 @@
 
 (sufficient memories for sand-dancer)
     (count of memories into $Count)
+    %% He wants at least 3, or all memories for "freedom"
     ($Count > 2)
 
 (when sand starts to come)
@@ -69,4 +89,8 @@
 (prevent [leave #staging-area #southeast/#out])
     (when sand starts to come)
 
-    
+(narrate leaving #storage-room #up)
+    (* in progress)
+    Barely able to reach the ladder through sand up to your waist, you haul yourself up
+    the rungs and pull free just in time.
+

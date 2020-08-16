@@ -99,7 +99,7 @@
         (annotate [{ (recurring $Scene) recurring}
                    { (dramatic $Scene) dramatic }
                    { ($Scene has started) started }
-                   { ($Scene in progress) happening }
+                   { ($Scene in progress) in progress }
                    { ($Scene is complete) complete }
                    { ($Scene has completed) has completed }])
         (line)
