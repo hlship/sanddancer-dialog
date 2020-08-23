@@ -39,7 +39,7 @@
 (name *) (with #strength { flimsy-looking }) wire mesh cage
 (container *)
 (lockable *)
-(* is transparent)
+~(opaque *)
 (openable *)
 (* is locked)
 (* is closed)

@@ -74,7 +74,7 @@
     You'll need to find some way to patch up the line, plus some fuel, to have any hope of fixing her.
     
 (openable *)
-(* is transparent) %% Can see through the window, lets light in too.
+~(opaque *)
 (actor container *)
 (#jade is #in *)
 (before [enter/leave *])
