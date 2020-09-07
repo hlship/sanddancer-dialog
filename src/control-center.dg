@@ -32,6 +32,7 @@
     (endif)
     (par)
     Back down is the only place to go.
+(from * go #down to #roof)
 (instead of [smell *])
     (try [smell #smell-of-gasoline])
 

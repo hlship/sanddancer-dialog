@@ -1,0 +1,221 @@
+#sand-dancers-offer
+(scene *)
+(dramatic *)
+(start *)
+    (#sand-dancers-arrival is complete)
+    (now) (#lizards is #in #roof)
+    (now) (#sand-dancer is #in #roof)
+    (now) (conversation partner #sand-dancer)
+    (now) (#rungs is nowhere)
+    (now) (#huge-barrel is nowhere)
+    The sand swirls and churns like something liquid or alive around you,
+    and then you look and see it is alive,
+    thousands and thousands of lizards, little sand-dancers,
+    are burrowing up from somewhere underground, scattering and writhing in
+    some complex pattern.
+    (par)
+    Then, suddenly, everything stops.
+    (par)
+    And with a mighty heave, a huge lizard crests through the sand right
+    in front of you.
+    (par)
+    The lizard's tongue snakes through the air, tasting it, tasting you.
+    One slitted eye studies you intently.
+        It pauses, as if waiting for you to say something.
+(prevent [leave #roof $])
+    (* in progress)
+    No way, man.  There's freaking lizards everywhere.
+(look #roof)
+    (* in progress)
+    Except it's more like a foundation now, the
+    building's sunk almost entirely into the sand.
+    (par)
+    Thousands of lizards writhe in the desert around you.
+    (if) (sand-dancer is named)
+    (then) Sand-dancer
+    (else) The huge lizard
+    (endif)
+    sits before you, breathing, watching.
+
+(after [take $Item])
+    (* in progress)
+    ($ requires $Item)
+    (collect $Other)
+        *($ requires $Other)
+        ~(knock holds $Other)
+        (now) ($Other is nowhere)
+    (into $Others)
+    As you take it, (the $Others) sink(s $Others) into the sand.
+
+#greet-sd
+(informative quip *)
+(name *) hello
+(dict *) hi
+(* supplies #sand-dancer)
+(off limits * after #about-sand-dancer)
+(comment *)
+    Stunned by what you see, you stammer out a greeting.
+(reply *)
+    The ground rumbles as the lizards shift.
+    "Hello," he says (sd business).
+    "Yes, hello, little one.
+    Strange thing to say when I've always been with you, watching,
+    waiting. But hello, hello at last, Nakaibito."
+
+#about-sand-dancer
+(questioning quip *)
+(name *) about Sand-dancer
+(mentions #sand-dancer)
+(* supplies #sand-dancer)
+(comment *)
+    "Who, uh, what are you?" you stammer.
+(reply *)
+    "I am Sand-dancer," he breathes (sd business).
+    "I am the desert and the dust and the rain and the wind.
+    I was there the first time you went hungry and the first time you made
+    love and the last time you asked for help, but I could not help you then.
+    But tonight, Nakaibito, tonight I can."
+    (now) (sand-dancer is named)
+
+#path-selection
+(question quip *)
+(name *) what do I do next?
+(* follows #about-sand-dancer)
+(off limits *)
+    *(plan $Plan)
+    (plan $Plan is complete)
+(comment *)
+    "I've been kicking around here all night, seems like I'm no closer to
+    leaving than when I started" you say.
+(reply *)
+    "Much has happened tonight.
+    You've made bargains and plans.
+    (sd talent summary)
+    But these things together do not help you.
+    No, you still haven't decided."
+    The lizard stares at you with one eye, (sd business).
+    "But now is the time."
+    (par)
+    (collect $Item)
+        *($ requires $Item)
+        ~(knock holds $Item)
+        (now) ($Item is #in #roof)
+    (into $Unclaimed)
+    The ground shudders and shifts beneath you, and out of the sand rise(s $Unclaimed)
+    (the $Unclaimed).
+    (par)
+    "The tape and gas can will return you to her.
+    The blanket and the can of food will look out for you.
+    Take one."
+    (queue #final-choice)
+
+#final-choice
+(comment *)
+    *(plan $Plan)
+    *($Plan requires $Item)
+    ($Item is handled)
+    "By your actions and and through your talents, you have chosen
+    (a $Plan)," he says, (sd business).
+    "You have looked into yourself and found your story, the path
+    you will walk tomorrow."
+    (par)
+    He breathes.
+    "And are you happy with your story?" he asks, and there's some
+    dangerous undertone to the question and you don't know why.
+    The lizards tense, quivering, twisting their little heads back and
+    forth as they await your answer.
+
+#final-yes
+(declarative quip *)
+(* immediately follows #final-choice)
+(name *) yes
+(comment *)
+    You pause for a moment and realize that every insane
+    thing that's happened tonight has led up to this instant.
+    You open your mouth to speak, but find that all you can
+    manage is a little node.
+(reply *)
+    "Yes?" Sand-dancer says, and the lizards quiver anxiously.
+    "You're happy with the path you've chosen? (sd tease)."
+
+#final-no
+(declarative quip *)
+(* immediately follows #final-choice)
+(name *) no
+(comment *)
+    How could you come so far tonight and not, well, know?
+    But you don't.  You stare down at your feet, your answer
+    unspoken but obvious.
+(reply *)
+    "Yes?" Sand-dancer says, and the lizards quiver anxiously.
+    "You're happy with the path you've chosen? (sd tease)."    
+
+(sd tease)
+    (if) (plan #staying-the-night is complete)
+    (then)
+            "A life on the run, alone, work time in one town,
+            jail time in another, no job, no skills, no family?"
+    (else)
+            "Trying to build a family out of nothing, spin futures
+            from goverment handouts and dusty trailer parks,
+            raising another generation of hopeless dropouts
+            and messed-up losers?"
+    (endif)
+    The lizards scurry angrily, snapping and clawing at each other,
+    with sound like static and sand.
+    (par)
+    "It doesn't matter," he says more calmly, as the lizards subside,
+    "since you have already made your choice.
+    You cannot take back your actions.
+    You cannot unmake the past."
+    The lizards around him tilt their heads, edge forward 
+    cautionsly, and he seems to grin.
+    "But I can."
+
+(sd talent summary)
+    (exhaust) {
+        *(talent $Talent)
+        (knock holds $Talent)
+        (sd talent summary $Talent)
+    }
+
+(sd talent summary #strength)
+    You carry strength that ripped warmth from walls.
+
+(sd talent summary #courage)
+    You hold courage that earned you a tool for mending.
+
+(sd talent summary #luck)
+    You wear luck that filled your belly.
+
+(sd talent summary #scent)
+    You have scent that brought you liquid motion.
+
+
+
+
+
+#about-lizards
+(questioning quip *)
+(name *) about the lizards
+(* references #lizards)
+(* follows #greet-sd)
+
+(sd business)
+    (select)
+        and his voice shakes the earth and creaks the rusty joins of the tower
+    (or)
+        flicking his toungue in and out, slowly
+    (or)
+        his great slittled eye blinking
+    (or)
+        sighing as the lizards in the desert writhe and twitch
+    (cycling)
+
+#lizards
+(actor *)
+(name *) thousands of lizards
+(descr *)
+    They crawl over and under and around each other, restless,
+    always moving.
+    

@@ -13,6 +13,8 @@
 %% What items that are required by any plan have been handled
 %% (used when narrating the smoke action).
 
+(interface (handled plan items $>Items))
+
 (handled plan items $Items)
     (collect $Item)
         *(plan $Plan)
@@ -22,21 +24,33 @@
 
 %% Likewise, which plans are in progress because Knock has handled
 %% one or more items required by the plan?
+
+(interface (in progress plans $>Plans))
+
 (in progress plans $Plans)
     (collect $Plan)
         *(plan $Plan)
-        (plan $Plan is in progress)
+        ($Plan in progress)
     (into $Plans)
 
-(plan $Plan is in progress)
+(interface ($<Plan in progress))
+
+($Plan in progress)
     *($Plan requires $Item)
     ($Item is handled)    
+
+(interface (complete plans $>Plans))
 
 (complete plans $Plans)
     (collect $Plan)
         *(plan $Plan)
         (plan $Plan is complete)
     (into $Plans)
+
+%% Naming conflict between this trait and the ($ is complete) scene
+%% flag, so we put plan in front.
+
+(interface (plan $<Plan is complete))
 
 (plan $Plan is complete)
     (accumulate 1)

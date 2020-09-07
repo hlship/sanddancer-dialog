@@ -25,18 +25,18 @@
 
 (start $) (fail)
 (scene $) (fail)
-($ in progress) (fail)
-($ has started) (fail)
+%% ($ in progress) (fail)
+%% ($ has started) (fail)
 (complete $) (fail)
-($ is complete) (fail)
-($ has completed) (fail)
+%% ($ is complete) (fail)
+%% ($ has completed) (fail)
 (recurring $) (fail)
 (dramatic $) (fail)
 
 (scene debugging enabled)
     (fail)
 
-%% Each scene that in progress at the start of the tick and not completed during the tick
+%% Each scene that is in progress at the start of the tick and not completed during the tick
 %% is notified via this predicate.  It doesn't matter whether this predicate succeeds or fails.
 (on every tick during scene $) (fail)
 

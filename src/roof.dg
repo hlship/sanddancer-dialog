@@ -18,7 +18,8 @@
 (#rungs/
     #huge-barrel
     is #in *)
-(place #control-center up from *)
+(from * go #up to #control-center)
+    ~(#sand-dancers-offer in progress)
 
 (prevent [leave * $Direction])
     ~(from * go $Direction to room $)

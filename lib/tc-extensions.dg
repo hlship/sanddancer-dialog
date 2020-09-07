@@ -4,7 +4,7 @@
     (conversation partner $NPC)
     Talking with (the $NPC) isn't something you should walk away from.
 
-%% (off limits $ after $) marks a quip as off limits after anyone recollects
+%% (off limits $ after $) marks a quip as off limits after Knock recollects
 %% the second quip.
 
 (off limits $Quip) 
