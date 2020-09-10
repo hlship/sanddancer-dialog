@@ -30,12 +30,16 @@
 (in progress plans $Plans)
     (collect $Plan)
         *(plan $Plan)
-        ($Plan in progress)
+        (plan $Plan in progress)
     (into $Plans)
 
-(interface ($<Plan in progress))
+%% Need the plan prefix on the predicate name or there's
+%% a conflict with the scene ($ in progress) flag.
+%% Same for (plan $ is complete).
 
-($Plan in progress)
+(interface (plan $<Plan in progress))
+
+(plan $Plan in progress)
     *($Plan requires $Item)
     ($Item is handled)    
 
@@ -46,9 +50,6 @@
         *(plan $Plan)
         (plan $Plan is complete)
     (into $Plans)
-
-%% Naming conflict between this trait and the ($ is complete) scene
-%% flag, so we put plan in front.
 
 (interface (plan $<Plan is complete))
 

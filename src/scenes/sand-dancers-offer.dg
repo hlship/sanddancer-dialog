@@ -6,6 +6,8 @@
     (now) (#lizards is #in #roof)
     (now) (#sand-dancer is #in #roof)
     (now) (conversation partner #sand-dancer)
+    %% TODO: Maybe an alternate Roof would be simpler, and
+    %% move knock there at end of scene.
     (now) (#rungs is nowhere)
     (now) (#huge-barrel is nowhere)
     The sand swirls and churns like something liquid or alive around you,
@@ -67,6 +69,7 @@
 (name *) about Sand-dancer
 (mentions #sand-dancer)
 (* supplies #sand-dancer)
+(* follows #greet-sd)
 (comment *)
     "Who, uh, what are you?" you stammer.
 (reply *)
@@ -126,8 +129,8 @@
     forth as they await your answer.
 
 #final-yes
-(declarative quip *)
-(* immediately follows #final-choice)
+(informative quip *)
+(* directly follows #final-choice)
 (name *) yes
 (comment *)
     You pause for a moment and realize that every insane
@@ -137,10 +140,11 @@
 (reply *)
     "Yes?" Sand-dancer says, and the lizards quiver anxiously.
     "You're happy with the path you've chosen? (sd tease)."
+    (queue #start-sd-trade)
 
 #final-no
-(declarative quip *)
-(* immediately follows #final-choice)
+(informative quip *)
+(* directly follows #final-choice)
 (name *) no
 (comment *)
     How could you come so far tonight and not, well, know?
@@ -148,7 +152,94 @@
     unspoken but obvious.
 (reply *)
     "Yes?" Sand-dancer says, and the lizards quiver anxiously.
-    "You're happy with the path you've chosen? (sd tease)."    
+    "You're happy with the path you've chosen? (sd tease)."
+    (queue #start-sd-trade)
+
+#final-not-sure
+(informative quip *)
+(* directly follows #final-choice) 
+(name *) you're not sure
+(comment *)
+    You open your mouth to say something and ... no words come out.
+    You don't know if you've made the right choice or not. You
+    stare helplessly at the giant lizard.
+(reply *)
+    The lizard turns his head sharply, and all the lizards in the
+    desert around writhe angrily, clawing and biting at each other in
+    agitation.
+    "And when will you know, Knock?" the lizard asks.
+    "When will you own your life?
+    When will you become a man?
+    Tonight.  It must be tonight."
+    (queue #start-sd-trade)
+
+#start-sd-trade
+(reply *)
+    A glistening egg rises from the sand, glowing with neon potential,
+    the the lizard glances down at it almost dismissively.
+    "This is
+    (if) (plan #staying-the-night is complete)
+    (then)
+        spirit
+        (now) (#spirit is #in #roof)
+    (else)
+        honor
+        (now) (#honor is #in #roof)
+    (endif)
+    ", he says,
+    "the last talent you need to achieve your goal, and you can have it for
+    three memories.
+    But perhaps I have something else to trade."
+    (par)
+    The lizards whisper in anticipation as a second egg rises.
+    This one's bigger, and almost blinding with its intensity, and
+    the lizards draw back, chittering in awe and amazement.
+    "This," Sand-dancer says, "is freedom.
+    Pure, undiluted, and absolute.
+    Many crave it and few get a chance to take it.
+    I offer it to you, Nakaibito, but it does not come cheaply."
+    He grins.
+    "For freedom, you must give up everything.
+    You must give me all your memories."
+    (par)
+    The lizards begin to circle restlessly as they wait for you to choose.
+    Sand-dancer merely watches, and waits.
+
+#about-spirit
+(questioning quip *)
+(name *) about spirit
+(off limits *)
+    ~(player can see #spirit)
+(comment *)
+    "How does spirit help me?" you ask.
+(reply *)
+    "You have warmth and energy you need to stay through the night," he says,
+    "but to continue looking out for yourself, you will need spirit."
+
+#about-honor
+(questioning quip *)
+(off limits *)
+    ~(player can see #honor)
+(name *) about honor
+(comment *)
+    "Ok, sure, honor," you say, "sounds good, right?"
+(reply *)
+    "You have the tools to fix your truck," he says,
+    "but to return to Ocean and stand by her side you will need honor."
+
+#about-freedom
+(questioning quip *)
+(name *) about freedom
+(* follows #start-sd-trade)
+(comment *)
+    "Freedom, huh?  I bet I could use some of that" you say.
+(reply *)
+    "With freedom, Nakaibito, you can make your troubles vanish.
+    True freedom is the power of umaking the past, of undoing what's done and
+    regretted.
+    This power is great and terrible, but I promise you."
+    He flicks his tongue.
+    "It will set you free."
 
 (sd tease)
     (if) (plan #staying-the-night is complete)

@@ -25,11 +25,7 @@
 
 (start $) (fail)
 (scene $) (fail)
-%% ($ in progress) (fail)
-%% ($ has started) (fail)
 (complete $) (fail)
-%% ($ is complete) (fail)
-%% ($ has completed) (fail)
 (recurring $) (fail)
 (dramatic $) (fail)
 
