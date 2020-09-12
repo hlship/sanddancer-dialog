@@ -1,0 +1,18 @@
+%% sand-dancers arrival needs one complete plan, or two in-progress plans
+(grab [#courage #scent #duct-tape #blanket])
+(setup sand-dancers offer)
+u
+say hello
+ask who
+%% Trigger missing plan items
+ask next
+l
+take gas can
+say not sure
+ask honor
+trade job for honor
+trade last day for honor
+trade road trips for honor
+
+
+

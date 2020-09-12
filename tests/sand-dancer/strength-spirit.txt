@@ -6,7 +6,6 @@ u
 x lizard
 l
 say hello
-ask lizards
 ask who
 %% SD is now named
 l
@@ -14,13 +13,13 @@ d
 %% Trigger missing plan items
 ask next
 l
-take tape
+take oranges
 say not sure
-ask honor
+ask spirit
 ask freedom
-trade job for honor
-trade last day for honor
-trade road trips for honor
+trade job for spirit
+trade last day for spirit
+trade road trips for spirit
 %% TODO: End game logic
 
 

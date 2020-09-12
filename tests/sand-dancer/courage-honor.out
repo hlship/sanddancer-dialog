@@ -15,8 +15,8 @@ The glove compartment is closed.
 Through the windshield, you see a little lizard clinging frantically to the
 Saguaro.
 
-> (grab [#strength #scent #blanket #gas-can])
-Query succeeded: (grab [#strength #scent #blanket #gas-can])
+> (grab [#courage #scent #duct-tape #blanket])
+Query succeeded: (grab [#courage #scent #duct-tape #blanket])
 > (setup sand-dancers offer)
 
 Storage Room
@@ -47,23 +47,6 @@ eye studies you intently. It pauses, as if waiting for you to say something.
 
 You could say hello.
 
-> x lizard
-His scales are thick, sand still spilling off them in rivulets and trickles, and
-they recede and collide in fractal complexities that make you dizzy. He rumbles
-somewhere inside him, and sand jitters at his feet.
-
-You could say hello.
-
-> l
-Roof
-Except it's more like a foundation now, the building's sunk almost entirely into
-the sand.
-
-Thousands of lizards writhe in the desert around you. The freaky giant lizard
-sits before you, breathing, watching.
-
-You could say hello.
-
 > say hello
 Stunned by what you see, you stammer out a greeting.
 
@@ -74,39 +57,15 @@ hello, hello at last, Nakaibito."
 
 You could ask who he is or ask about the lizards.
 
-> ask lizards
-"What's with all the little guys?" you ask.
-
-The lizards hiss and writhe as you ask, almost as if they are laughing. "Little
-sand-dancers," he says, flicking his toungue in and out, slowly, "they come with
-me wherever I go. They will not bother you."
-
-You could ask who he is.
-
 > ask who
 "Who, uh, what are you?" you stammer.
 
-"I am Sand-dancer," he breathes his great slittled eye blinking. "I am the
-desert and the dust and the rain and the wind. I was there the first time you
-went hungry and the first time you made love and the last time you asked for
+"I am Sand-dancer," he breathes flicking his toungue in and out, slowly. "I am
+the desert and the dust and the rain and the wind. I was there the first time
+you went hungry and the first time you made love and the last time you asked for
 help, but I could not help you then. But tonight, Nakaibito, tonight I can."
 
-You could ask what to do next.
-
-> l
-Roof
-Except it's more like a foundation now, the building's sunk almost entirely into
-the sand.
-
-Thousands of lizards writhe in the desert around you. Sand-dancer sits before
-you, breathing, watching.
-
-You could ask what to do next.
-
-> d
-No way, man. There's freaking lizards everywhere.
-
-You could ask what to do next.
+You could ask what to do next or ask about the lizards.
 
 > ask next
 "I've been kicking around here all night, seems like I'm no closer to leaving
@@ -114,11 +73,10 @@ than when I started" you say.
 
 "Much has happened tonight. You've made bargains and plans. But these things
 together do not help you. No, you still haven't decided." The lizard stares at
-you with one eye, sighing as the lizards in the desert writhe and twitch. "But
-now is the time."
+you with one eye, his great slittled eye blinking. "But now is the time."
 
 The ground shudders and shifts beneath you, and out of the sand rise the canned
-oranges and the roll of duct-tape.
+oranges and the gas can.
 
 "The tape and gas can will return you to her. The blanket and the can of food
 will look out for you. Take one."
@@ -131,18 +89,18 @@ the sand.
 Thousands of lizards writhe in the desert around you. Sand-dancer sits before
 you, breathing, watching.
 
-You see a roll of duct-tape here.
+On the sand before him are a gas can and some canned oranges.
 
-You see some canned oranges here.
+Something about the gas can makes you want to brood about road trips through the
+desert.
 
-> take tape
-You take the roll of duct-tape. As you take it, the canned oranges sink into the
-sand.
+> take gas can
+You take the gas can. As you do, the canned oranges sink into the sand.
 
-"By your actions and and through your talents, you have chosen to survive the
-night here, alone" he says, and his voice shakes the earth and creaks the rusty
-joins of the tower. "You have looked into yourself and found your story, the
-path you will walk tomorrow."
+"By your actions and through your talents, you have chosen to repair your
+vehicle and return to her" he says, sighing as the lizards in the desert writhe
+and twitch. "You have looked into yourself and found your story, the path you
+will walk tomorrow."
 
 He breathes. "And are you happy with your story?" he asks, and there's some
 dangerous undertone to the question and you don't know why. The lizards tense,
@@ -162,7 +120,7 @@ become a man? Tonight. It must be tonight."
 The little sand-dancers writher and chitter all around you.
 
 A glistening egg rises from the sand, glowing with neon potential, the lizard
-glances down at it almost dismissively. "This is honor ", he says, "the last
+glances down at it almost dismissively. "This is honor," he says, "the last
 talent you need to achieve your goal, and you can have it for three memories.
 But perhaps I have something else to trade."
 
@@ -186,21 +144,17 @@ stand by her side you will need honor."
 
 You could ask about freedom.
 
-> ask freedom
-"Freedom, huh? I bet I could use some of that" you say.
-
-"With freedom, Nakaibito, you can make your troubles vanish. True freedom is the
-power of unmaking the past, of undoing what's done and regretted. This power is
-great and terrible, but I promise you." He flicks his tongue. "It will set you
-free."
-
 > trade job for honor
-He flicks out his tongue and pulls your shit job from your soul, swallowing it
+He flicks out his tongue and pulls your shit job from your head, swallowing it
 whole. "A good start," he says, "but you must trade more."
+
+You could ask about freedom.
 
 > trade last day for honor
 He flicks out his tongue and pulls your last day of high school from your heart,
 swallowing it whole. "Yes," he says, "but more."
+
+You could ask about freedom.
 
 > trade road trips for honor
 Sand-dancer nods. "Yes," he says, "a fair trade." And something happens inside

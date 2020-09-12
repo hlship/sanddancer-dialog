@@ -59,7 +59,22 @@
     (then)
         On the sand before him are two glowing talents, (the $Talents), that he's offered for trade.
     (endif)
+    %% Normally, pristine items aren't listed ... but SD has grabbed them from somewhere and put 
+    %% them on the sand and we need to list them out.
+    (collect $Item)
+        *($Item is #in #roof)
+        ($Item is pristine)
+        ($ requires $Item)
+    (into $Items)
+    (if) ~(empty $Items)
+    (then)
+        (par)
+        On the sand before him are (a $Items).
+    (endif)
 
+%% The scene starts with either two incomplete plans or one complete plan. In the incomplete
+%% case, SD offers the two completing items and taking such an item cleans up and
+%% triggers the final choice.    
 (after [take $Item])
     (* in progress)
     ($ requires $Item)
@@ -68,7 +83,7 @@
         ~(knock holds $Other)
         (now) ($Other is nowhere)
     (into $Others)
-    As you take it, (the $Others) sink(s $Others) into the sand.
+    As you do, (the $Others) sink(s $Others) into the sand.
     (queue #final-choice)
 
 #greet-sd
@@ -125,7 +140,6 @@
         *($ requires $Item)
         ~(knock holds $Item)
         (now) ($Item is #in #roof)
-        (now) ($Item is handled)
         %% This is probably something that can only happen in testing, but:
         (now) ($Item is noted useful)
     (into $Unclaimed)
@@ -139,11 +153,9 @@
 #final-choice
 (reply *)
     *(plan $Plan)
-    *($Plan requires $Item)
-    ($Item is handled)
-    "By your actions and and through your talents, you have chosen to
-    (sd name $Plan)
-    (no space)" he says, (sd business).
+    (plan $Plan is complete)
+    "By your actions and through your talents, you have chosen to
+    (sd name $Plan) (no space)" he says, (sd business).
     "You have looked into yourself and found your story, the path
     you will walk tomorrow."
     (par)
@@ -204,7 +216,7 @@
     A glistening egg rises from the sand, glowing with neon potential,
     the lizard glances down at it almost dismissively.
     "This is
-    (if) (plan #staying-the-night is complete)
+    (if) (plan #spending-the-night is complete)
     (then)
         spirit
         (now) (#spirit is #in #roof)
@@ -212,7 +224,7 @@
         honor
         (now) (#honor is #in #roof)
     (endif)
-    ", he says,
+    ," he says,
     "the last talent you need to achieve your goal, and you can have it for
     three memories.
     But perhaps I have something else to trade."
@@ -314,6 +326,7 @@
 (name *) about the lizards
 (* references #lizards)
 (* follows #greet-sd)
+(off limits * after #path-selection)
 (comment *)
     "What's with all the little guys?" you ask.
 (reply *)

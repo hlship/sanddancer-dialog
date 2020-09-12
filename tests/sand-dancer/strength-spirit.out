@@ -1,0 +1,212 @@
+
+
+but it's too late, you're crashing, you crash...
+
+Middle of Nowhere (in the pickup truck)
+You've smashed up against a tall Saguaro, which is all you can see out the
+windshield except a few feet of desert sand, then blackness. Hell, you must have
+driven off the road and crashed. Ocean keeps telling you this night commute on
+this lonely highway's gonna kill you; maybe you should start listening.
+
+On the dash you can see a piece of jade.
+
+The glove compartment is closed.
+
+Through the windshield, you see a little lizard clinging frantically to the
+Saguaro.
+
+> (grab [#strength #scent #blanket #gas-can])
+Query succeeded: (grab [#strength #scent #blanket #gas-can])
+> (setup sand-dancers offer)
+
+Storage Room
+Waves of sand flow like water through the room, filling it higher and higher.
+You glance wildly at the exits south and up.
+
+Query succeeded: (setup sand-dancers offer)
+> u
+Barely able to reach the ladder through sand up to your waist, you haul yourself
+up the rungs and pull free just in time.
+
+Roof
+Except it's more like a foundation now, the building's sunk almost entirely into
+the sand.
+
+The sand swirls and churns like something liquid or alive around you, and then
+you look and see it is alive, thousands and thousands of lizards, little sand-
+dancers, are burrowing up from somewhere underground, scattering and writhing in
+some complex pattern.
+
+Then, suddenly, everything stops.
+
+And with a mighty heave, a huge lizard crests through the sand right in front of
+you.
+
+The lizard's tongue snakes through the air, tasting it, tasting you. One slitted
+eye studies you intently. It pauses, as if waiting for you to say something.
+
+You could say hello.
+
+> x lizard
+His scales are thick, sand still spilling off them in rivulets and trickles, and
+they recede and collide in fractal complexities that make you dizzy. He rumbles
+somewhere inside him, and sand jitters at his feet.
+
+You could say hello.
+
+> l
+Roof
+Except it's more like a foundation now, the building's sunk almost entirely into
+the sand.
+
+Thousands of lizards writhe in the desert around you. The freaky giant lizard
+sits before you, breathing, watching.
+
+You could say hello.
+
+> say hello
+Stunned by what you see, you stammer out a greeting.
+
+The ground rumbles as the lizards shift. "Hello," he says and his voice shakes
+the earth and creaks the rusty joins of the tower. "Yes, hello, little one.
+Strange thing to say when I've always been with you, watching, waiting. But
+hello, hello at last, Nakaibito."
+
+You could ask who he is or ask about the lizards.
+
+> ask who
+"Who, uh, what are you?" you stammer.
+
+"I am Sand-dancer," he breathes flicking his toungue in and out, slowly. "I am
+the desert and the dust and the rain and the wind. I was there the first time
+you went hungry and the first time you made love and the last time you asked for
+help, but I could not help you then. But tonight, Nakaibito, tonight I can."
+
+You could ask what to do next or ask about the lizards.
+
+> l
+Roof
+Except it's more like a foundation now, the building's sunk almost entirely into
+the sand.
+
+Thousands of lizards writhe in the desert around you. Sand-dancer sits before
+you, breathing, watching.
+
+You could ask what to do next or ask about the lizards.
+
+> d
+No way, man. There's freaking lizards everywhere.
+
+You could ask what to do next or ask about the lizards.
+
+> ask next
+"I've been kicking around here all night, seems like I'm no closer to leaving
+than when I started" you say.
+
+"Much has happened tonight. You've made bargains and plans. But these things
+together do not help you. No, you still haven't decided." The lizard stares at
+you with one eye, his great slittled eye blinking. "But now is the time."
+
+The ground shudders and shifts beneath you, and out of the sand rise the canned
+oranges and the roll of duct-tape.
+
+"The tape and gas can will return you to her. The blanket and the can of food
+will look out for you. Take one."
+
+> l
+Roof
+Except it's more like a foundation now, the building's sunk almost entirely into
+the sand.
+
+Thousands of lizards writhe in the desert around you. Sand-dancer sits before
+you, breathing, watching.
+
+On the sand before him are a roll of duct-tape and some canned oranges.
+
+> take oranges
+You take the canned oranges. As you do, the roll of duct-tape sinks into the
+sand.
+
+"By your actions and through your talents, you have chosen to survive the night
+here, alone" he says, sighing as the lizards in the desert writhe and twitch.
+"You have looked into yourself and found your story, the path you will walk
+tomorrow."
+
+He breathes. "And are you happy with your story?" he asks, and there's some
+dangerous undertone to the question and you don't know why. The lizards tense,
+quivering, twisting their little heads back and forth as they await your answer.
+
+You could say yes, say no, or say you're not sure.
+
+> say not sure
+You open your mouth to say something and... no words come out. You don't know if
+you've made the right choice or not. You stare helplessly at the giant lizard.
+
+The lizard turns his head sharply, and all the lizards in the desert around
+writhe angrily, clawing and biting at each other in agitation. "And when will
+you know, Knock?" the lizard asks. "When will you own your life? When will you
+become a man? Tonight. It must be tonight."
+
+The little sand-dancers writher and chitter all around you.
+
+A glistening egg rises from the sand, glowing with neon potential, the lizard
+glances down at it almost dismissively. "This is spirit," he says, "the last
+talent you need to achieve your goal, and you can have it for three memories.
+But perhaps I have something else to trade."
+
+The lizards whisper in anticipation as a second egg rises. This one's bigger,
+and almost blinding with its intensity, and the lizards draw back, chittering in
+awe and amazement. "This," Sand-dancer says, "is freedom. Pure, undiluted, and
+absolute. Many crave it and few get a chance to take it. I offer it to you,
+Nakaibito, but it does not come cheaply." He grins. "For freedom, you must give
+up everything. You must give me all your memories."
+
+The lizards begin to circle restlessly as they wait for you to choose. Sand-
+dancer merely watches, and waits.
+
+You could ask about spirit or ask about freedom.
+
+> ask spirit
+"How does spirit help me?" you ask.
+
+"You have warmth and energy you need to stay through the night," he says, "but
+to continue looking out for yourself, you will need spirit."
+
+You could ask about freedom.
+
+> ask freedom
+"Freedom, huh? I bet I could use some of that" you say.
+
+"With freedom, Nakaibito, you can make your troubles vanish. True freedom is the
+power of unmaking the past, of undoing what's done and regretted. This power is
+great and terrible, but I promise you." He flicks his tongue. "It will set you
+free."
+
+> trade job for spirit
+He flicks out his tongue and pulls your shit job from your core, swallowing it
+whole. "A good start," he says, "but you must trade more."
+
+> trade last day for spirit
+He flicks out his tongue and pulls your last day of high school from your soul,
+swallowing it whole. "Yes," he says, "but more."
+
+> trade road trips for spirit
+Sand-dancer nods. "Yes," he says, "a fair trade." And something happens inside
+you as he says it. The memory of road trips through the desert shifts and
+wriggles and fades away and it's still there, but now it's shifted, become
+something else. And, yeah, it kinda does feel like you could call it spirit.
+Cool. "The choice is made," he rumbles, "your path is set. Goodbye, Nakaibito."
+And he turns and dives into the sand. The lizards twist and writhe and follow
+him.
+
+And then, just as quiet settles, another huge rumble shakes the ground, and,
+almost like an afterthought, the bulding breaches the sand and rises to the
+surface.
+
+Crumbling Concrete
+This concrete building must've been some sort of utility structure for the huge
+electrical tower to the north, now abandoned. Tendrils of desert sand drift
+against a boarded-up door to the northeast leading inside; you could also walk
+around to the east or head south back to your truck.
+
+> 
