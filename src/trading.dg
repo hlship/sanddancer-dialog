@@ -53,6 +53,7 @@
     (if) ($NPC is ready to trade for $Talent)
     (then)
         (now) (knock holds $Talent)
+        (now) ($NPC has traded)
         (narrate traded $NPC $Memory for $Talent)
     (else)
         ($NPC price $Price)

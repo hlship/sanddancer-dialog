@@ -137,7 +137,6 @@
     in exasperation.
     How did you get into this mess?
 
-
 (prevent [drive])
     ~(#knock is #in *)
     It's generally safer to drive from inside the vehicle, but in this case

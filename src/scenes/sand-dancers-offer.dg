@@ -24,20 +24,41 @@
     The lizard's tongue snakes through the air, tasting it, tasting you.
     One slitted eye studies you intently.
         It pauses, as if waiting for you to say something.
+(complete *)
+    (#sand-dancer has traded)
+    "The choice is made," he rumbles, "your path is set.
+    Goodbye, Nakaibito."
+    And he turns and dives into the sand.
+    The lizards twist and writhe and follow him.
+    (par)
+    And then, just as quiet settles, another huge rumble shakes the ground,
+    and, almost like an afterthought, the bulding breaches the sand
+    and rises to the surface.
+    (reset conversation partner)
+    (enter #crumbling-concrete)
+
 (prevent [leave #roof $])
     (* in progress)
     No way, man.  There's freaking lizards everywhere.
 (look #roof)
-    (* in progress)
+    %% Tricky case that happens before the scene hand-off occurs.
+    { (* in progress) (or) (#sand-dancers-arrival in progress) }
     Except it's more like a foundation now, the
     building's sunk almost entirely into the sand.
-    (par)
-    Thousands of lizards writhe in the desert around you.
-    (if) (sand-dancer is named)
-    (then) Sand-dancer
-    (else) The huge lizard
+    (if) (* in progress)
+    (then) 
+        (par)
+        Thousands of lizards writhe in the desert around you.
+        (The #sand-dancer) sits before you, breathing, watching.
     (endif)
-    sits before you, breathing, watching.
+    (collect $Talent)
+        *(talent $Talent)
+        ($Talent is #in #roof)
+    (into $Talents)
+    (if) ~(empty $Talents)
+    (then)
+        On the sand before him are two glowing talents, (the $Talents), that he's offered for trade.
+    (endif)
 
 (after [take $Item])
     (* in progress)
@@ -48,6 +69,7 @@
         (now) ($Other is nowhere)
     (into $Others)
     As you take it, (the $Others) sink(s $Others) into the sand.
+    (queue #final-choice)
 
 #greet-sd
 (informative quip *)
@@ -66,7 +88,7 @@
 
 #about-sand-dancer
 (questioning quip *)
-(name *) about Sand-dancer
+(name *) who he is
 (mentions #sand-dancer)
 (* supplies #sand-dancer)
 (* follows #greet-sd)
@@ -81,8 +103,8 @@
     (now) (sand-dancer is named)
 
 #path-selection
-(question quip *)
-(name *) what do I do next?
+(questioning quip *)
+(name *) what to do next
 (* follows #about-sand-dancer)
 (off limits *)
     *(plan $Plan)
@@ -103,6 +125,9 @@
         *($ requires $Item)
         ~(knock holds $Item)
         (now) ($Item is #in #roof)
+        (now) ($Item is handled)
+        %% This is probably something that can only happen in testing, but:
+        (now) ($Item is noted useful)
     (into $Unclaimed)
     The ground shudders and shifts beneath you, and out of the sand rise(s $Unclaimed)
     (the $Unclaimed).
@@ -110,15 +135,15 @@
     "The tape and gas can will return you to her.
     The blanket and the can of food will look out for you.
     Take one."
-    (queue #final-choice)
 
 #final-choice
-(comment *)
+(reply *)
     *(plan $Plan)
     *($Plan requires $Item)
     ($Item is handled)
-    "By your actions and and through your talents, you have chosen
-    (a $Plan)," he says, (sd business).
+    "By your actions and and through your talents, you have chosen to
+    (sd name $Plan)
+    (no space)" he says, (sd business).
     "You have looked into yourself and found your story, the path
     you will walk tomorrow."
     (par)
@@ -127,6 +152,9 @@
     dangerous undertone to the question and you don't know why.
     The lizards tense, quivering, twisting their little heads back and
     forth as they await your answer.
+
+(sd name #spending-the-night) survive the night here, alone
+(sd name #fixing-the-truck) repair your vehicle and return to her
 
 #final-yes
 (informative quip *)
@@ -139,7 +167,7 @@
     manage is a little node.
 (reply *)
     "Yes?" Sand-dancer says, and the lizards quiver anxiously.
-    "You're happy with the path you've chosen? (sd tease)."
+    "You're happy with the path you've chosen? (sd tease)
     (queue #start-sd-trade)
 
 #final-no
@@ -147,12 +175,10 @@
 (* directly follows #final-choice)
 (name *) no
 (comment *)
-    How could you come so far tonight and not, well, know?
-    But you don't.  You stare down at your feet, your answer
-    unspoken but obvious.
+    "No. Hell, no!  But what kind of choice do I really have?" you ask.
 (reply *)
-    "Yes?" Sand-dancer says, and the lizards quiver anxiously.
-    "You're happy with the path you've chosen? (sd tease)."
+    "No?" Sand-dancer says, and the lizards quiver anxiously.
+    "You're not happy with the path you've chosen? (sd tease)
     (queue #start-sd-trade)
 
 #final-not-sure
@@ -176,7 +202,7 @@
 #start-sd-trade
 (reply *)
     A glistening egg rises from the sand, glowing with neon potential,
-    the the lizard glances down at it almost dismissively.
+    the lizard glances down at it almost dismissively.
     "This is
     (if) (plan #staying-the-night is complete)
     (then)
@@ -194,6 +220,7 @@
     The lizards whisper in anticipation as a second egg rises.
     This one's bigger, and almost blinding with its intensity, and
     the lizards draw back, chittering in awe and amazement.
+    (now) (#freedom is #in #roof)
     "This," Sand-dancer says, "is freedom.
     Pure, undiluted, and absolute.
     Many crave it and few get a chance to take it.
@@ -222,7 +249,7 @@
     ~(player can see #honor)
 (name *) about honor
 (comment *)
-    "Ok, sure, honor," you say, "sounds good, right?"
+    "What's honor got to do with getting out of this dump?" you ask.
 (reply *)
     "You have the tools to fix your truck," he says,
     "but to return to Ocean and stand by her side you will need honor."
@@ -235,7 +262,7 @@
     "Freedom, huh?  I bet I could use some of that" you say.
 (reply *)
     "With freedom, Nakaibito, you can make your troubles vanish.
-    True freedom is the power of umaking the past, of undoing what's done and
+    True freedom is the power of unmaking the past, of undoing what's done and
     regretted.
     This power is great and terrible, but I promise you."
     He flicks his tongue.
@@ -244,16 +271,16 @@
 (sd tease)
     (if) (plan #staying-the-night is complete)
     (then)
-            "A life on the run, alone, work time in one town,
+            A life on the run, alone, work time in one town,
             jail time in another, no job, no skills, no family?"
     (else)
-            "Trying to build a family out of nothing, spin futures
+            Trying to build a family out of nothing, spin futures
             from goverment handouts and dusty trailer parks,
             raising another generation of hopeless dropouts
             and messed-up losers?"
     (endif)
     The lizards scurry angrily, snapping and clawing at each other,
-    with sound like static and sand.
+    with a sound like static and sand.
     (par)
     "It doesn't matter," he says more calmly, as the lizards subside,
     "since you have already made your choice.
@@ -282,15 +309,19 @@
 (sd talent summary #scent)
     You have scent that brought you liquid motion.
 
-
-
-
-
 #about-lizards
 (questioning quip *)
 (name *) about the lizards
 (* references #lizards)
 (* follows #greet-sd)
+(comment *)
+    "What's with all the little guys?" you ask.
+(reply *)
+    The lizards hiss and writhe as you ask, almost
+    as if they are laughing.
+    "Little sand-dancers," he says, (sd business),
+    "they come with me wherever I go.
+    They will not bother you."
 
 (sd business)
     (select)
@@ -309,4 +340,10 @@
 (descr *)
     They crawl over and under and around each other, restless,
     always moving.
+
+(beat $)
+    (conversation partner #sand-dancer)
+    The little sand-dancers writher and chitter all around you.
+    (par)
+
     

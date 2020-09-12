@@ -1,6 +1,6 @@
 %% Customizations of threaded conversation
 
-(instead of [go $])
+(prevent [leave $ $])
     (conversation partner $NPC)
     Talking with (the $NPC) isn't something you should walk away from.
 

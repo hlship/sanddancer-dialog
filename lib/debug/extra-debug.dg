@@ -6,8 +6,25 @@
 
 %% Setup for tests
 
+(grab (memory $Memory))
+    (now) ($Memory is #in #emotional-baggage)
+
+(grab (item $Item))
+    (now) (knock holds $Item)
+    (now) ($Item is handled)
+    (now) ($Item is noted useful)
+    (if) ($Item suggests $Memory)
+    (then) (grab $Memory)
+    (endif)
+
+(grab (list $List))
+  (exhaust) {
+      *($Item is one of $List)
+      (grab $Item)
+  }
+
 (setup lighting)
-    (now) (knock holds #flashlight)
+    (grab #flashlight)
     (now) (#flashlight is on)
     (now) (#emergency-lights is on)
 
@@ -24,9 +41,18 @@
 (setup chase)
     (setup lighting)
     (now) (#burrow is visited)
-    (now) (#your-shit-job is #in #emotional-baggage)
-    (now) (#meeting-ocean is #in #emotional-baggage)
+    (grab [#your-shit-job #meeting-ocean])
 
 (setup coyotes offer)
     (setup chase)
     (now) (#chase has completed)
+
+(setup sand-dancers offer)
+    (setup lighting)
+    (grab [#your-shit-job 
+           #meeting-ocean 
+           #watching-family-guy
+           #last-day-of-high-school])
+    (now) (#sand-dancers-arrival in progress)
+    (now) (#sand-dancers-arrival has started)
+    (enter #storage-room)

@@ -1,0 +1,26 @@
+%% sand-dancers arrival needs one complete plan, or two in-progress plans
+(grab [#strength #scent #blanket #gas-can])
+(setup sand-dancers offer)
+u
+%% A little testing about how SD is named
+x lizard
+l
+say hello
+ask lizards
+ask who
+%% SD is now named
+l
+d
+%% Trigger missing plan items
+ask next
+l
+take tape
+say not sure
+ask honor
+ask freedom
+trade job for honor
+trade last day for honor
+trade road trips for honor
+%% TODO: End game logic
+
+

@@ -9,7 +9,7 @@
     (now) (conversation partner #coyote)
     (queue #coyotes-introduction)
 (complete *)
-    { (knock holds #luck) (or) (knock holds #scent) }
+    (#coyote has traded)
     He tucks the other talent back in his jacket, and without its faint glow, it seems darker
     than ever, the pulsing red tip of his cigarette all you can see.
     (par)

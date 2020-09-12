@@ -1,12 +1,36 @@
 #sand-dancer
-(male *)
 (spirit animal *)
-(name *) Sand-dancer
-(dict *) sand dancer lizard huge
+(* price 3) %% except for freedom
+(proper *)
+    (sand-dancer is named)
+(name *) 
+    (if) (sand-dancer is named) (then) Sand-dancer (else) freaky giant lizard (endif)
+(dict *) 
+    (if) (sand-dancer is named) (then) sand dancer (endif)
+    lizard huge
 (descr *)
     His scales are thick, sand still spilling off them in
     rivulets and trickles, and they recede and collide in fractal
     complexities that make you dizzy.
     He rumbles somewhere inside him, and sand jitters at his feet.
 
-    
+(narrate trade incomplete * $Memory for $)
+    He flicks out his tongue and pulls (the $Memory) from your
+    (select)
+        head (or) heart (or) gut (or) core (or) soul
+    (at random)
+    , swallowing it whole.
+    (select)
+        "A good start," he says, "but you must trade more."
+    (or)
+        "Yes," he says, "but more."
+    (or)
+        "More," he says.
+    (or)
+        "Still more," he says.
+    (or)
+        "I must have more," he says.
+    (or)
+        "Give me more," he says.
+    (stopping)
+
