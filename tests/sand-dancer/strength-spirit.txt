@@ -20,7 +20,7 @@ ask freedom
 trade job for spirit
 trade last day for spirit
 trade road trips for spirit
-%% TODO: End game logic
 i
+s
 
 

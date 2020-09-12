@@ -1,0 +1,82 @@
+%% After the final trade with sand dancer, we're ready to end the story
+%% as soon as the player moves.
+
+(instead of [leave $ $])
+    (knock holds #freedom)
+    You go, with a strange, kinda tingly feeling in the backs of your hands and inside your eyes. You feel powerful
+    (with #strength { , stronger than the wind now })
+    (with #courage { , braver than the sun now })
+    and free, most of all free. 
+    You walk backwards across the sand to your truck, sucking up your footprints as you go, and slip behind the wheel. 
+    There's this crazy wrenching bang and you jerk backwards as the engine starts, uncrashing your pickup off the cactus and
+    juddering back onto the highway, and you smile. 
+    You're going back, back to a second chance, back to make it all right.
+    (par)
+    You speed up, drive backwards at a thousand miles an hour to work, and unfix junkers and repack parts in a flash, faster and faster.
+    The days rewind like videotape, unwork, unsleep, giving back kisses from Ocean one by one
+    (with #scent {, and the smell of the past unfurling is like wine and ozone }). 
+    And then it's that night, the night you made the Big Mistake
+    (if) (knock holds #luck)
+    (then) before your luck started turning around, yeah, cause
+    (else) , but
+    (endif)
+    this time you unmake love.
+    And the moment unpasses and your future is safe and uncomplicated, no kid, no nightmares, no arguments, no lectures,
+    and you just have to get this thing out of reverse now and do it right this time 
+    \(or mebbe not at all, it's too hot anyway ya know babe?\) and this time you'll make everything perfecto. 
+    (par)
+    But you don't turn around. 
+    You try, but it's kinda like trying to stop falling, and you suddenly get that you (italic) are (roman) falling, 
+    plummeting back faster and faster like you got pushed off the cliff of now. 
+    You're unmeeting Ocean and unditching school and unsmoking for the first time behind the dumpsters, faster and faster, 
+    stomach in your throat, memories blowing back your hair as they rocket past. 
+    You're a kid again unskateboarding and unlearning video game combos, screaming backwards faster and faster and you get it now, 
+    you get the lizard's joke. 
+    He's making you free by unmaking you, fixing the burden by erasing the guy who's bearing it, and you're unlearning to read and
+    unlearning to walk and uncrawling and uncrying and then some brilliant moment of light and noise and chaos comes shrieking
+    towards you hella fast, fast, faster than anything and it's too late, you're crashing, you're crashing, you crash...
+    (game over { You have freedom. })
+
+(instead of [leave $ $])
+    (knock holds #honor)
+    You go, and the clouds are gone and the stars are so bright you squint. 
+    You patch the fuel line and refill the tank and she starts like a beauty, and then you're back on the highway again,
+    headed for Ocean, 
+    (with #luck { and you've never felt luckier })
+    (with #scent { the urge to breathe the same air as her leads you like a bloodhound }).
+    (par)
+    You shut off the headlights as you pull up to the trailer, and climb in through her window for old times sake
+    (with #courage { , crazy courage her sister at least appreciated if not her old man })
+    (with #strength { even though you think you're finally strong enough to take her old man }).
+    She's awake of course, always no matter how quiet you are, and she holds out a hand from somewhere under the blankets.
+    And as she's doing it you're suddenly exhausted, beyond exhausted but also safe, 
+    warm even before you slip under the covers.
+    She half turns to kiss you as you fumble with the blankets but you're so tired all you can do is push your face 
+    against her neck and slip an arm around her warm skin, and she starts to ask you something but it's too late, 
+    you're crashing, you're crashing, you crash...
+    (game over { You have honor. })
+
+(instead of [leave $ $])
+    (knock holds #spirit)
+    You go, and the night collapses in on you so hard you barely remember curling up in a corner with the blanket
+    (with #courage {, not afraid any more})
+    (with #strength { , strong enough now to wait out the night })
+    .
+    (par)
+    In the morning some highway patrol dude shakes you awake with a lecture and a ride back to town. 
+    Oro Oeste? he asks but you tell him no, take a left instead, and you end up on a street corner in Pobre Vista 
+    and keep going.
+    Seven Sticks and then Gallup and then Flagstaff, hitching west. 
+    The cash in your wallet runs out but a trucker buys you a value meal and 
+    (with #luck { with a little more luck you keep from being hungry })
+    (with #scent { you seem to have a knack for sniffing out enough to stay fed })
+    and your blanket keeps you warm and you keep going.
+    (par)
+    When you hit the Pacific you roll up your jeans and wade into the surf for the first time in your life.
+    And it's warm on the top and cool underneath and this is all you want, this moment, this here and now.
+    You'll find work and you'll find love but you'll never find home and that's okay.
+    It's okay. You wade deeper and the waves lap higher and then a big one rolls in, blue and white, and you feel 
+    (if) (knock holds #strength) (then) strong, strong (else) crazy brave (endif)
+    as it crests and smashes into you with the force of all the water in the world, 
+    and you laugh and try to stay on your feet but it's too late, you're crashing, you're crashing, you crash...
+    (game over { You have spirit. })
