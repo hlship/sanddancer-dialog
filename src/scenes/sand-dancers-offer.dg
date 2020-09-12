@@ -116,14 +116,25 @@
     love and the last time you asked for help, but I could not help you then.
     But tonight, Nakaibito, tonight I can."
     (now) (sand-dancer is named)
+    (if) (some plan is complete)
+    (then) 
+        (queue #final-choice)
+        (now) (prevent about lizards quip)
+        %% A bit of a hack, TC should make this first class.
+        %% Challenge here is that #about-sand-dancer is not dead-ended?
+        (perform queued quip for #sand-dancer)
+    (endif)
+
+(some plan is complete)
+    *(plan $plan) 
+    (plan $plan is complete)
 
 #path-selection
 (questioning quip *)
 (name *) what to do next
 (* follows #about-sand-dancer)
 (off limits *)
-    *(plan $Plan)
-    (plan $Plan is complete)
+    (some plan is complete)
 (comment *)
     "I've been kicking around here all night, seems like I'm no closer to
     leaving than when I started" you say.
@@ -143,15 +154,19 @@
         %% This is probably something that can only happen in testing, but:
         (now) ($Item is noted useful)
     (into $Unclaimed)
-    The ground shudders and shifts beneath you, and out of the sand rise(s $Unclaimed)
-    (the $Unclaimed).
+    The ground shudders and shifts beneath you, and out of the sand rises (the $Unclaimed).
     (par)
+    %% Again, we start with two incomplete plans, so we already have one half of
+    %% each pair.
     "The tape and gas can will return you to her.
     The blanket and the can of food will look out for you.
     Take one."
 
 #final-choice
 (reply *)
+    %% Because of the linkage between the player's choice of talents
+    %% and the possibility of acquiring plan related items, 
+    %% at most one plan can be complete at this point.
     *(plan $Plan)
     (plan $Plan is complete)
     "By your actions and through your talents, you have chosen to
@@ -176,7 +191,7 @@
     You pause for a moment and realize that every insane
     thing that's happened tonight has led up to this instant.
     You open your mouth to speak, but find that all you can
-    manage is a little node.
+    manage is a little nod.
 (reply *)
     "Yes?" Sand-dancer says, and the lizards quiver anxiously.
     "You're happy with the path you've chosen? (sd tease)
@@ -281,7 +296,7 @@
     "It will set you free."
 
 (sd tease)
-    (if) (plan #staying-the-night is complete)
+    (if) (plan #spending-the-night is complete)
     (then)
             A life on the run, alone, work time in one town,
             jail time in another, no job, no skills, no family?"
@@ -299,7 +314,7 @@
     You cannot take back your actions.
     You cannot unmake the past."
     The lizards around him tilt their heads, edge forward 
-    cautionsly, and he seems to grin.
+    cautiosly, and he seems to grin.
     "But I can."
 
 (sd talent summary)
@@ -327,6 +342,8 @@
 (* references #lizards)
 (* follows #greet-sd)
 (off limits * after #path-selection)
+(off limits *)
+    (prevent about lizards quip)
 (comment *)
     "What's with all the little guys?" you ask.
 (reply *)

@@ -15,8 +15,8 @@ The glove compartment is closed.
 Through the windshield, you see a little lizard clinging frantically to the
 Saguaro.
 
-> (grab [#courage #scent #duct-tape #blanket])
-Query succeeded: (grab [#courage #scent #duct-tape #blanket])
+> (grab [#courage #duct-tape #luck #canned-oranges])
+Query succeeded: (grab [#courage #duct-tape #luck #canned-oranges])
 > (setup sand-dancers offer)
 
 Storage Room
@@ -71,12 +71,14 @@ You could ask what to do next or ask about the lizards.
 "I've been kicking around here all night, seems like I'm no closer to leaving
 than when I started" you say.
 
-"Much has happened tonight. You've made bargains and plans. But these things
-together do not help you. No, you still haven't decided." The lizard stares at
-you with one eye, his great slittled eye blinking. "But now is the time."
+"Much has happened tonight. You've made bargains and plans. You hold courage
+that earned you a tool for mending. You wear luck that filled your belly. But
+these things together do not help you. No, you still haven't decided." The
+lizard stares at you with one eye, his great slittled eye blinking. "But now is
+the time."
 
-The ground shudders and shifts beneath you, and out of the sand rise the canned
-oranges and the gas can.
+The ground shudders and shifts beneath you, and out of the sand rises the
+emergency blanket and the gas can.
 
 "The tape and gas can will return you to her. The blanket and the can of food
 will look out for you. Take one."
@@ -89,13 +91,13 @@ the sand.
 Thousands of lizards writhe in the desert around you. Sand-dancer sits before
 you, breathing, watching.
 
-On the sand before him are a gas can and some canned oranges.
+On the sand before him are a gas can and an emergency blanket.
 
 Something about the gas can makes you want to brood about road trips through the
 desert.
 
 > take gas can
-You take the gas can. As you do, the canned oranges sink into the sand.
+You take the gas can. As you do, the emergency blanket sinks into the sand.
 
 "By your actions and through your talents, you have chosen to repair your
 vehicle and return to her" he says, sighing as the lizards in the desert writhe
@@ -174,5 +176,12 @@ This concrete building must've been some sort of utility structure for the huge
 electrical tower to the north, now abandoned. Tendrils of desert sand drift
 against a boarded-up door to the northeast leading inside; you could also walk
 around to the east or head south back to your truck.
+
+> i
+You have a gas can, a flashlight, some canned oranges, a roll of duct-tape, your
+lighter, your wallet, and your emotional baggage. You're wearing your denim
+jacket. You've gained the talents courage, luck, and honor.
+
+In your emotional baggage are watching Family Guy with Karl and meeting Ocean.
 
 > 

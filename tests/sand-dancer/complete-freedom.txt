@@ -1,0 +1,25 @@
+%% start with one complete plan
+(grab [#strength #blanket #luck #canned-oranges #grandmas-stories #oceans-perfume #graduation-night])
+(grab [#heard-the-news #road-trips])
+(setup sand-dancers offer)
+u
+i
+say hello
+ask who
+say yes
+ask freedom
+i
+trade job for freedom
+trade last day for freedom
+trade family guy for freedom
+trade graduation for freedom
+trade news for freedom
+trade meeting ocean for freedom
+trade road trips for freedom
+trade perfume for freedom
+trade stories for freedom
+i
+
+
+
+

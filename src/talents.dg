@@ -2,6 +2,8 @@
 
 (proper (talent $))
 
+(item $Talent) *(talent $Talent)
+
 #strength
 (talent *)
 (name *) strength

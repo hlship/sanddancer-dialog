@@ -36,29 +36,31 @@
     "I only have talents to offer you," says (the $NPC),
     "(no space) (the $Talents)."
 
-(refuse [trade $ for (talent $Talent)])
-    (knock holds $Talent)
-    You need to trade for something new; you already have (the $Talent).
-
-%% This may not be necessary, you can't get this far unless Knock is in
-%% conversation with a spirit animal, and there's new talents to obtain.
 (refuse [trade $ for $])
     ~(conversation partner $)
     There's no one here to trade with.
+
+(refuse [trade $ for (talent $Talent)])
+    (knock holds $Talent)
+    You need to trade for something new; you already have (the $Talent).
 
 (perform [trade $Memory for $Talent])
     (now) ($Memory is nowhere)
     (now) ($Memory is traded)
     (conversation partner $NPC)
+
+    %% Keep track of how many memories have been traded so far
+
+    { ($NPC number of trades $Trades) (or) ($Trades = 0) }
+    ($Trades incremented into $NewTrades)
+    (now) ($NPC number of trades $NewTrades)
+
     (if) ($NPC is ready to trade for $Talent)
     (then)
         (now) (knock holds $Talent)
         (now) ($NPC has traded)
         (narrate traded $NPC $Memory for $Talent)
     (else)
-        ($NPC price $Price)
-        ($Price decremented into $NewPrice)
-        (now) ($NPC price $NewPrice)
         (narrate trade incomplete $NPC $Memory for $Talent)
     (endif)
 
@@ -66,8 +68,9 @@
 
 ($NPC is ready to trade for $)
     ($NPC price $Price)
-    ($Price = 1)
-
+    ($NPC number of trades $Trades)
+    ($Trades >= $Price)
+    
 %% Don't want to start certain scenes that end with trading until the player has sufficient
 %% memories to trade.
 
@@ -84,9 +87,6 @@
     And something happens inside you as he says it.
     The memory of (the $Memory) shifts and wriggles and fades away and it's still there, but now it's shifted, become something else.
     And, yeah, it kinda does feel like you could call it (the $Talent).  Cool.
-
-(narrate trade incomplete $NPC $Memory for $Talent)
-    (The $NPC) accepts (the $Memory) but needs more before you can get (the $Talent).
 
 (prevent [$Verb | $Rest])
   ~($Verb is one of [examine trade])

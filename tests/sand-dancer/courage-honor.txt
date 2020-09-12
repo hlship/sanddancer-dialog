@@ -1,5 +1,5 @@
 %% sand-dancers arrival needs one complete plan, or two in-progress plans
-(grab [#courage #scent #duct-tape #blanket])
+(grab [#courage #duct-tape #luck #canned-oranges])
 (setup sand-dancers offer)
 u
 say hello
@@ -13,6 +13,7 @@ ask honor
 trade job for honor
 trade last day for honor
 trade road trips for honor
+i
 
 
 
