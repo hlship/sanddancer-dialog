@@ -35,3 +35,6 @@
         (a $Talents).
     (endif)
 	(line)
+
+%% The map is small, and the default command is a bit confused by how we deal with light and dark rooms.
+~(understand [exits] as $)
