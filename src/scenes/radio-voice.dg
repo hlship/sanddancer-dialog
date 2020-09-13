@@ -2,7 +2,7 @@
 (scene *)
 (start *)
     (current room #break-room)
-    (radio is tuned)
+    (radio is properly tuned)
     (par)
     Not like you think anything's going to happen, but what the hell.
     You grab the dusty old mike, press the call button, and 
@@ -11,6 +11,10 @@
     (queue #voice-hello)
 (complete *)
     ~(conversation partner $)
+(perform [listen to #radio])
+    (* in progress)
+    You mean, beyond the conversation you're in the middle of?  No, nothing stands out.
+
 
 #voice
 (male *)

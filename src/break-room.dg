@@ -119,16 +119,19 @@
 (dict *) old big fifties knob switch
 (descr *)
     Vintage, man. A chrome switch on the side to turn it on and off, and a big fifties
-    dial on the front.
+    dial on the front
+    (if) (* is tuned to $Freq)
+    (then)
+        is tuned to (format $Freq)
+    (endif)
+    .
     (if) (radio is operating)
     (then)
         It's lit up from inside (space) ... are those freakin' (italic)vacuum tubes(roman)?
-        (if) (knock knows emergency frequency) ~(radio is tuned)
-        (then)
-            (par)
-            You could TUNE the radio, since you know that emergency frequency.
-        (endif)
     (endif)
+(radio is properly tuned)
+    (* is tuned to $Freq)
+    (deconstruct frequency $Freq into 102 3)
 (radio is operating)
     (* is on)
     (#emergency-lights is on)
@@ -137,34 +140,12 @@
     You flick the switch on and off a few times, but nothing happens.
 (narrate switching on *)
     With a hiss and a crackle, the old radio comes to life.
-(prevent [tune *])
+(prevent [tune * to $])
     ~(radio is operating)
     You really should get the radio working first.
-(prevent [tune *])
-    (radio is tuned)
-    It's already tuned to the emergency frequency.
-(prevent [tune *])
-    ~(knock knows emergency frequency)
-    You spin the dial randomly for a bit, but all you hear is hissing and static.
-(narrate tuning *)
-    You tune the radio to that emergency frequency listed on the poster, 102.3khz.
-    But what are the odds that anyone's listening?
-(after [tune *])
-    (now) (radio is tuned)
-
-%% TUNE <OBJECT> -- really, just the radio
-
-(understand [tune | $Words] as [tune $Object])
-    *(understand $Words as single object $Object preferably { (tunable $_) })
-
-(prevent [tune $Obj])
-    ~(tunable $Obj)
-    That's not something you can tune.
-
-(perform [tune $Obj])
-    (narrate tuning $Obj)
-
-(tunable $) (fail)
+(perform [listen to *])
+    (radio is operating)
+    Hiss and crackle.
 
 (before [talk to #radio])
     (#radio is off)
@@ -177,4 +158,3 @@
         , at least on this frequency
     (endif)
     .
-

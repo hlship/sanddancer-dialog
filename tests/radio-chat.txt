@@ -2,14 +2,10 @@
 s
 e
 turn on radio
-tune it
-w
-n
-x poster
-s
-e
-tune radio
-n
+tune it to 104.2 khz
+listen to radio
+tune it to 102.3 khz
+listen to radio
 lost
 yes
 n

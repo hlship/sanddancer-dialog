@@ -1,0 +1,85 @@
+%% Tuning (the radio)
+%% See https://intfiction.org/t/understanding-complicated-numbers/46769/8
+
+(tunable $) (fail)
+
+(command preprocessing enabled)
+
+(preprocessing entry point $In $Out)
+    %% Essentially, convert the '.' to '$' and remove any space before the k in 'khz'.
+    %% Result is something like [102 $ 7 khz].
+    (match pattern [10 [@. @$] 10 [k [@\s k]] h z] in $In giving $Out)
+    %% (log) { pep: $In (line) to: $Out }
+ 
+(understand $Words as frequency $Freq)
+    %% (log) { understand: $Words }
+	(split $Words by @$ into $Left and $Right)
+	($Right = [$Right2 @khz])
+	(understand $Left as number $First)
+	(understand [$Right2] as number $Second)
+	(struct $Freq has tag @frequency and contents [$First $Second])
+    %% It will always be fully bound, but the compiler can't be certain about that unless we tell it
+    (fully bound $Freq)  
+    
+@(grammar transformer [[frequency] | $Tail] $SoFar $Verb $Action $Rev)
+	(grammar transformer $Tail [2000 | $SoFar] $Verb $Action $Rev)
+
+(match grammar token 2000 against $Words $ into $Freq)
+    *(understand $Words as frequency $Freq)
+    
+(grammar [tune [single object] to [frequency]] for [tune $ to $])
+
+(prevent [tune $Obj to $Freq])
+    (when $Obj is not tunable)
+    (or)
+    (when $Freq is out of range)
+
+(perform [tune $Obj to $Freq])
+    (narrate tuning $Obj to $Freq)
+    (now) ($Obj is tuned to $Freq)
+
+(narrate tuning $Obj to $Freq)
+    You tune (the $Obj) to (format $Freq).
+
+(format $Freq)
+    (deconstruct frequency $Freq into $Unit $Decimal)
+    $Unit . (no space) $Decimal khz
+
+
+(when $Freq is out of range)
+    (deconstruct frequency $Freq into $Unit $Decimal)
+
+    { ($Unit $Decimal < 67 0) (or) ($Unit $Decimal > 109 9) }
+    That's out of range; the dial goes from 67 khz to 109.9 khz.
+
+(deconstruct frequency $Freq into $Unit $Decimal)
+    (struct $Freq has tag @frequency and contents [$Unit $Decimal])
+
+($LU $LD = $RU $RD)
+    ($LU = $RU)
+    ($LD = $RD)
+
+($LU $LD < $RU $RD)
+    ($LU < $RU)
+    (or)
+    { ($LU = $RU) ($LD < $RD) }
+
+($LU $LD > $RU $RD)
+    ($LU > $RU)
+    (or)
+    { ($LU = $RU) ($LD > $RD) }
+
+%% This is a mistake
+
+(grammar [tune [single object]])
+
+(prevent [tune $Obj])
+    (when $Obj is not tunable)
+    (or)
+    You have to TUNE (the $Obj) TO a fequency.
+
+(when $Obj is not tunable)
+    ~(tunable $Obj)
+    That's not something you can tune.
+
+

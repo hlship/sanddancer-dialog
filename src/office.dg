@@ -48,7 +48,6 @@
 (descr *)
     The poster is peeling and faded, but you can make out a safety section that identifies
     the emergency radio frequency as 102.3khz.
-    (now) (knock knows emergency frequency)
 (prevent [take *])
     It would disintegrate if you tried to remove it from the wall.
 (instead of [read *])

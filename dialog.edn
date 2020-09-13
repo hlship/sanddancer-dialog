@@ -1,6 +1,7 @@
 {:story-sources ["src/scenes/*.dg"
                  "src/characters/*.dg"
-                 "src/*.dg"]
+                 "src/*.dg"
+                 "src/actions/*.dg"]
  :debug-sources ["lib/debug/*.dg"
                  "/usr/local/share/dialog-if/stddebug.dg"]
  :library-sources ["lib/*.dg"
