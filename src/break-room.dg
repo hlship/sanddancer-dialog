@@ -13,7 +13,7 @@
     (endif)
     (name #cage)
     (collect items in #cage into $Items)
-    (if) ~(empty $Items)
+    (if) (nonempty $Items)
     (then)
         , in which (is $Items) (a $Items)
     (endif)

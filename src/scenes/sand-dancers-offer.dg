@@ -55,7 +55,7 @@
         *(talent $Talent)
         ($Talent is #in #roof)
     (into $Talents)
-    (if) ~(empty $Talents)
+    (if) (nonempty $Talents)
     (then)
         On the sand before him are two glowing talents, (the $Talents), that he's offered for trade.
     (endif)
@@ -66,7 +66,7 @@
         ($Item is pristine)
         ($ requires $Item)
     (into $Items)
-    (if) ~(empty $Items)
+    (if) (nonempty $Items)
     (then)
         (par)
         On the sand before him are (a $Items).

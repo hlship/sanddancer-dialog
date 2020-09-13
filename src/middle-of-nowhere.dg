@@ -95,7 +95,7 @@
     You need to be inside the truck to do that.
 (descr truck dash)
     (collect items in * into $Items)
-    (if) ~(empty $Items)
+    (if) (nonempty $Items)
     (then)
         (par)
         On the dash you can see (a $Items).

@@ -67,7 +67,7 @@
         *(knock holds $Talent)
         (talent $Talent)
     (into $Talents)
-    ~(empty $Talents)
+    (nonempty $Talents)
     (par)
     Some wierd shit went down in the desert, but you
     do feel like you have more
@@ -77,7 +77,7 @@
 
 (narrate smoking)
     (handled plan items $Items)
-    ~(empty $Items)
+    (nonempty $Items)
     (par)
     You've found (the $Items), but
     (in progress plans $Plans)
