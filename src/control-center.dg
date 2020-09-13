@@ -11,16 +11,15 @@
     Like, piles of trash, broken equipment, and junk are everywhere.
     (if) (#can-opener is pristine)
     (then)
-        (par)
         But hey, on one pile there's a perfectly good can opener.
     (endif)
     (if) (#gas-can is #in *) (#gas-can is pristine)
     (then)
         Admist the piles of trash is a can of gasoline.
     (endif)
-    (par)
-    (if) (#smell-of-gas is #in *)
+    (if) (#smell-of-gasoline is #in *)
     (then)
+        (par)
         (if) (knock holds #scent)
         (then)
             You can clearly smell gasoline coming from under that
@@ -33,8 +32,10 @@
     (par)
     Back down is the only place to go.
 (from * go #down to #roof)
-(instead of [smell *])
-    (try [smell #smell-of-gasoline])
+(instead of [smell])
+    (current room *)
+    (#smell-of-gasoline is #in *)
+    (try [examine #smell-of-gasoline])
 
 #can-opener
 (name *) rusty can opener
@@ -52,7 +53,7 @@
     You lift it
     (with #strength { effortlessly })
     and throw it aside, revealing a gas can.
-    (now) (#smell-of-gas is nowhere)
+    (now) (#smell-of-gasoline is nowhere)
     (now) (#gas-can is #in #control-center)
 (instead of [search */#metal-sheet])
     (try [look #under *])
@@ -65,6 +66,15 @@
 #smell-of-gasoline
 (name *) smell of gasoline
 (dict *) faint whiff gas
+(descr *)
+    Something smells
+    (if) (knock holds #scent) (then) strongly (else) very faintly (endif)
+    of gasoline.
+(perform [smell *])
+    (knock holds #scent)
+    It's so strong now you can practially see it coming from under those piles of trash.
+(perform [smell *])
+    It's faint but distinct, but you can't tell where it's coming from.
 
 #metal-sheet
 (name *) corrugated metal sheet
@@ -80,4 +90,7 @@
     It's full of gas.
 (instead of [open *])
     You don't want to spill it.
+(instead of [smell *])
+    (knock holds #scent)
+    Even closed tight, the stench of gasoline is almost overpowering. But this is too useful to leave behind.
 
