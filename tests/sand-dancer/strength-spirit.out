@@ -15,6 +15,9 @@ The glove compartment is closed.
 Through the windshield, you see a little lizard clinging frantically to the
 Saguaro.
 
+Something about the piece of jade makes you want to brood about your grandma's
+stories.
+
 > (grab [#strength #blanket #scent #gas-can])
 Query succeeded: (grab [#strength #blanket #scent #gas-can])
 > (setup sand-dancers offer)
@@ -216,7 +219,8 @@ You have some canned oranges, a flashlight, a gas can, an emergency blanket,
 your lighter, your wallet, and your emotional baggage. You're wearing your denim
 jacket. You've gained the talents strength, scent, and spirit.
 
-In your emotional baggage are watching Family Guy with Karl and meeting Ocean.
+In your emotional baggage are watching Family Guy with Karl, meeting Ocean, and
+your grandma's stories.
 
 > s
 You go, and the night collapses in on you so hard you barely remember curling up

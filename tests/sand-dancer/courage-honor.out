@@ -15,6 +15,9 @@ The glove compartment is closed.
 Through the windshield, you see a little lizard clinging frantically to the
 Saguaro.
 
+Something about the piece of jade makes you want to brood about your grandma's
+stories.
+
 > (grab [#courage #duct-tape #luck #canned-oranges])
 Query succeeded: (grab [#courage #duct-tape #luck #canned-oranges])
 > (setup sand-dancers offer)
@@ -182,7 +185,8 @@ You have a gas can, a flashlight, some canned oranges, a roll of duct-tape, your
 lighter, your wallet, and your emotional baggage. You're wearing your denim
 jacket. You've gained the talents courage, luck, and honor.
 
-In your emotional baggage are watching Family Guy with Karl and meeting Ocean.
+In your emotional baggage are watching Family Guy with Karl, meeting Ocean, and
+your grandma's stories.
 
 > s
 You go, and the clouds are gone and the stars are so bright you squint. You

@@ -15,14 +15,14 @@ The glove compartment is closed.
 Through the windshield, you see a little lizard clinging frantically to the
 Saguaro.
 
+Something about the piece of jade makes you want to brood about your grandma's
+stories.
+
 > (setup coyotes offer)
 Query succeeded: (setup coyotes offer)
 > (now) (knock holds #strength)
 > open glove compartment
 You open the glove compartment, revealing your pack of cigarettes.
-
-Something about the piece of jade makes you want to brood about your grandma's
-stories.
 
 It's over. They've caught you. They surround you, circling, growling, looking
 for weakness, moving in for the kill.
@@ -40,7 +40,8 @@ Half-lost in the shadows, you see a low bluff, some clumps of sagebrush, and a
 stand of cactus and that's about it.
 
 > z
-Nah, man, better keep busy or else it's back to brooding about your shit job.
+Nah, man, better keep busy or else it's back to brooding about your grandma's
+stories.
 
 A coyote snaps his teeth, lunging foward, then fading back into the pack.
 

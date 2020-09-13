@@ -15,14 +15,14 @@ The glove compartment is closed.
 Through the windshield, you see a little lizard clinging frantically to the
 Saguaro.
 
+Something about the piece of jade makes you want to brood about your grandma's
+stories.
+
 > (setup chase)
 Query succeeded: (setup chase)
 > (now) (knock holds #courage)
 > take jade
 You take the piece of jade.
-
-Something about the piece of jade makes you want to brood about your grandma's
-stories.
 
 > n
 (first attempting to get out of the pickup truck)
@@ -39,9 +39,9 @@ around to the east or head south back to your truck.
 
 > w
 You walk west for a long time, thoughts turning over like the sand under your
-sneakers. You think about your grandma's stories. You think about Ocean and how
-pissed she's gonna be that you're not home. Like you tell her not to wait up for
-you but she always does anyway.
+sneakers. You think about meeting Ocean. You think about Ocean and how pissed
+she's gonna be that you're not home. Like you tell her not to wait up for you
+but she always does anyway.
 
 Some wind kicks up and chucks sand in your face. You blink it out and kinda
 realize while you're doing it that you haven't really been paying attention to
@@ -59,7 +59,8 @@ bones and that's about it.
 
 > (now) (#chase has completed)
 > z
-Nah, man, better keep busy or else it's back to brooding about your shit job.
+Nah, man, better keep busy or else it's back to brooding about your grandma's
+stories.
 
 It's over. They've caught you. They surround you, circling, growling, looking
 for weakness, moving in for the kill.
@@ -71,10 +72,20 @@ the center of the circle, terrified.
 A coyote snaps his teeth, lunging foward, then fading back into the pack.
 
 > z
+Nah, man, better keep busy or else it's back to brooding about meeting Ocean.
+
+The circle of snarling coyotes tightens.
+
+> z
+Nah, man, better keep busy or else it's back to brooding about your shit job.
+
+A coyote snaps his teeth, lunging foward, then fading back into the pack.
+
+> z
 Nah, man, better keep busy or else it's back to brooding about your grandma's
 stories.
 
-The circle of snarling coyotes tightens.
+The coyotes growl, pulling closer, snapping at your heels.
 
 > z
 Nah, man, better keep busy or else it's back to brooding about meeting Ocean.
@@ -84,22 +95,10 @@ A coyote snaps his teeth, lunging foward, then fading back into the pack.
 > z
 Nah, man, better keep busy or else it's back to brooding about your shit job.
 
-The coyotes growl, pulling closer, snapping at your heels.
-
-> z
-Nah, man, better keep busy or else it's back to brooding about your grandma's
-stories.
-
-A coyote snaps his teeth, lunging foward, then fading back into the pack.
-
-> z
-Nah, man, better keep busy or else it's back to brooding about meeting Ocean.
-
 The circle of snarling coyotes tightens.
 
 > z
-Nah, man, better keep busy or else it's back to brooding about your grandma's
-stories.
+Nah, man, better keep busy or else it's back to brooding about meeting Ocean.
 
 The coyotes growl, pulling closer, snapping at your heels.
 
