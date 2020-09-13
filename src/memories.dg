@@ -89,6 +89,7 @@
 (memory *)
 (name *) grandma's stories
 (dict *) grandma story
+(plural *)
 (your *)
 (#jade suggests *)
 (descr *)
