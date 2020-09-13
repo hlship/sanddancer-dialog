@@ -2,7 +2,8 @@
 s
 e
 turn on radio
-tune it to 104.2 khz
+tune it to 107 khz
+tune it to 104
 listen to radio
 tune it to 102.3 khz
 listen to radio

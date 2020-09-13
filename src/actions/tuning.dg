@@ -9,18 +9,35 @@
     %% Essentially, convert the '.' to '$' and remove any space before the k in 'khz'.
     %% Result is something like [102 $ 7 khz].
     (match pattern [10 [@. @$] 10 [k [@\s k]] h z] in $In giving $Out)
-    %% (log) { pep: $In (line) to: $Out }
- 
+    (or)
+    (match pattern [10 [k [@\s k]] h z] in $In giving $Out)
+
 (understand $Words as frequency $Freq)
-    %% (log) { understand: $Words }
-	(split $Words by @$ into $Left and $Right)
-	($Right = [$Right2 @khz])
-	(understand $Left as number $First)
-	(understand [$Right2] as number $Second)
-	(struct $Freq has tag @frequency and contents [$First $Second])
+    (recognize $Words as $Unit $Decimal)
+	(struct $Freq has tag @frequency and contents [$Unit $Decimal])
     %% It will always be fully bound, but the compiler can't be certain about that unless we tell it
-    (fully bound $Freq)  
-    
+    (fully bound $Freq)
+
+%% Variations corresponding to the different patterns above
+(recognize [$U @$ $D khz] as $Unit $Decimal)
+    (understand [$U] as number $Unit)
+    (understand [$D] as number $Decimal)
+
+(recognize [$U khz] as $Unit $Decimal)
+    (understand [$U] as number $Unit)
+    ($Decimal = 0)
+
+%% If you omit the khz suffix it will kind of work, and hopefully the
+%% narration will clue the player in to how to get the radio properly tuned.
+
+(recognize [$U] as $Unit $Decimal)
+    (understand [$U] as number $Unit)
+    ($Decimal = 0)
+
+%% There's no way to recognize '102.3' as a simple number to tune,
+%% because without the `khz` on the end to match, the `.` is treated
+%% as a player command separator.
+
 @(grammar transformer [[frequency] | $Tail] $SoFar $Verb $Action $Rev)
 	(grammar transformer $Tail [2000 | $SoFar] $Verb $Action $Rev)
 
@@ -38,6 +55,9 @@
     (narrate tuning $Obj to $Freq)
     (now) ($Obj is tuned to $Freq)
 
+(describe action [tune $Obj to $Freq])
+    tune (the $Obj) to (format $Freq)
+
 (narrate tuning $Obj to $Freq)
     You tune (the $Obj) to (format $Freq).
 
@@ -54,10 +74,6 @@
 
 (deconstruct frequency $Freq into $Unit $Decimal)
     (struct $Freq has tag @frequency and contents [$Unit $Decimal])
-
-($LU $LD = $RU $RD)
-    ($LU = $RU)
-    ($LD = $RD)
 
 ($LU $LD < $RU $RD)
     ($LU < $RU)
