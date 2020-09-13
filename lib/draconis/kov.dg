@@ -1,0 +1,113 @@
+(extension version)
+	(line)Kinds-of-Value version 0.1 by Daniel Stelzer
+
+(interface (obj-list $<List))
+(obj-list [#kovmarker|$])
+	(just)(fail) %% A list starting with #kovmarker is not an object list
+(obj-list $List)
+	(nonempty $List) %% Otherwise, equivalent to (nonempty $)
+
+(struct $Struct has tag $Tag and contents $Contents)
+	($Struct = [#kovmarker $Tag | $Contents])
+(struct $Struct has tag $Tag and single value $Value)
+	($Struct = [#kovmarker $Tag $Value])
+(kov $Kov has tag $Tag and contents $Contents)
+	(struct $Kov has tag $Tag and contents $Contents)
+(kov $Kov has tag $Tag and single value $Value)
+	(struct $Kov has tag $Tag and single value $Value)
+
+%% These three predicates are modifications to the standard library's parsing routines - specifically replacing calls to (nonempty $) with (obj-list $)
+
+(try-complex $ComplexAction)
+	(if) ~(allowed action $ComplexAction) (then)
+		(report disallowed action $ComplexAction)
+		(stop)
+	(elseif) ([] is one of $ComplexAction) (then)
+		You're not aware of any such thing!
+		(stop)
+	(else)
+		(strip decorations from $ComplexAction into $MultiAction)
+		%% Now we have something like:
+		%% [put [#marble1 #marble2 #marblefloor] #in #bowl]
+		(if)
+			*($Obj is one of $MultiAction)
+			{
+				(obj-list $Obj)
+			(or)
+				(object $Obj)
+				~(direction $Obj)
+				~(relation $Obj)
+				~(room $Obj)
+			}
+		(then)
+			(notice player's $Obj)
+		(endif)
+		(if) *($List is one of $MultiAction) (obj-list $List) (then)
+			(exhaust) {
+				*(modified regroup stripped action $MultiAction of
+					$MultiAction into $Regrouped $Multi)
+				%% Assuming the marbles are fungible, now we
+				%% are backtracking over:
+				%% [put [#marble1 #marble2] #in #bowl]
+				%% [put #marblefloor #in #bowl]
+				(if)
+					~(empty $Multi)
+				(then)
+					%% If at least two multi-actions are
+					%% implied, describe each step.
+					(line)
+					(if) (library links enabled) (then)
+						(link) (The full $Multi)
+					(else)
+						(The full $Multi)
+					(endif)
+					:
+				(endif)
+				(try regrouped $Regrouped)
+			}
+		(else)
+			%% Optimize the common case.
+			(try regrouped $MultiAction)
+		(endif)
+	(endif)
+
+(try regrouped $Regrouped)
+	(exhaust) {
+		*($Regrouped recursively contains $O)
+		(object $O)
+		(now) ~($O is hidden)
+	}
+	(if)
+		*($Elem is one of $Regrouped)
+		(obj-list $Elem)
+	(then)
+		(group-try $Regrouped)
+	(else)
+		(try $Regrouped)
+	(endif)
+	(if) ~(command $Regrouped) (then)
+		(tick)
+	(endif)
+	(par)
+
+(modified regroup stripped action [] of $ into [] [])
+
+(modified regroup stripped action [$HeadIn | $TailIn] of $Action into [$HeadOut | $TailOut] $Multi)
+	(if) (obj-list $HeadIn) (then)
+		(regroup objects $HeadIn of $Action into $GroupList)
+		(if) ($GroupList = [$Single]) (then)
+			%% All of the objects in this slot ended up in the
+			%% same group, like [#e #d] in the example.
+			($HeadOut = $Single)
+			*(modified regroup stripped action $TailIn of $Action into $TailOut $Multi)
+		(else)
+			%% Backtrack over the groups.
+			*($HeadOut is one of $GroupList)
+			*(modified regroup stripped action $TailIn of $Action into $TailOut $MultiTail)
+			($Multi = [$HeadOut | $MultiTail])
+		(endif)
+	(else)
+		%% This was a regular object or word, like @frob or #c.
+		($HeadOut = $HeadIn)
+		*(modified regroup stripped action $TailIn of $Action into $TailOut $Multi)
+	(endif)

@@ -1,0 +1,62 @@
+(extension version)
+	(line)Pattern-Matching version 0.1 by Daniel Stelzer
+
+%% First, we build a helper function
+
+%% Prototype: (match in-progress pattern $Pattern in $String giving $Result original $Original)
+%% ($Original is the original pattern we were matching)
+
+%% Base case: pattern is done? Start over!
+(match in-progress pattern [] in $String giving $Result original $Original)
+	(match pattern $Original in $String giving $Result)
+
+%% Non-empty pattern in empty string fails
+(match in-progress pattern $ in [] giving $ original $)
+	(fail)
+
+%% Skip over word breaks when matching, but leave them in the output
+(match in-progress pattern $Pattern in [@\s|$Chars] giving $Result original $Original)
+	(match in-progress pattern $Pattern in $Chars giving $Tail original $Original)
+	($Result = [@\s|$Tail])
+
+%% `10` in a pattern means one or more numeric characters
+(match in-progress pattern [10|$Pattern] in [$Head|$Chars] giving $Result original $Original)
+	(number $Head)
+	{ %% Accept more digits after this one if appropriate
+		(match in-progress pattern [10|$Pattern] in $Chars giving $Tail original $Original)
+	(or)
+		(match in-progress pattern $Pattern in $Chars giving $Tail original $Original)
+	}
+	($Result = [$Head|$Tail])
+
+%% A list [X Y] in a pattern means replace X with Y
+(match in-progress pattern [[$From $To]|$Pattern] in [$From|$Chars] giving $Result original $Original)
+	(list $To) %% This rule is only for lists
+	(match in-progress pattern $Pattern in $Chars giving $Tail original $Original)
+	(append $To $Tail $Result)
+
+%% Works for single character Y's as well as lists
+(match in-progress pattern [[$From $To]|$Pattern] in [$From|$Chars] giving $Result original $Original)
+	(match in-progress pattern $Pattern in $Chars giving $Tail original $Original)
+	($Result = [$To|$Tail])
+
+%% Any other character matches literally
+(match in-progress pattern [$Head|$Pattern] in [$Head|$Chars] giving $Result original $Original)
+	(match in-progress pattern $Pattern in $Chars giving $Tail original $Original)
+	($Result = [$Head|$Tail])
+
+%% Now, we build our main function
+
+%% Prototype: (match pattern $Pattern in $String giving $Result)
+
+%% Empty string gives empty output
+(match pattern $ in [] giving [])
+
+%% Preferred option: start pattern-matching!
+(match pattern $Pattern in $String giving $Result)
+	(match in-progress pattern $Pattern in $String giving $Result original $Pattern)
+
+%% Dispreferred option: cut off one character and continue on to the next one
+(match pattern $Pattern in [$Head|$Tail] giving $Result)
+	(match pattern $Pattern in $Tail giving $TailRes)
+	($Result = [$Head|$TailRes])

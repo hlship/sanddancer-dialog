@@ -1,0 +1,18 @@
+%% Make numbers be numbers
+(awkwardly fix numbers from $Input into $Output)
+	(collect $Result)
+		*($Char is one of $Input)
+			(convert $Char to number $Result)
+	(into $Output)
+
+(convert @0 to number 0)
+(convert @1 to number 1)
+(convert @2 to number 2)
+(convert @3 to number 3)
+(convert @4 to number 4)
+(convert @5 to number 5)
+(convert @6 to number 6)
+(convert @7 to number 7)
+(convert @8 to number 8)
+(convert @9 to number 9)
+(convert $N to number $N) %% Leave other characters untouched

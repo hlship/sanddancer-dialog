@@ -1,0 +1,97 @@
+(extension version)
+	(line)Preprocessing version 0.1 by Daniel Stelzer
+
+%% [ [a] [b c] [[d]] ] → [a b c [d]]
+(flatten [] into $OutList)
+	($OutList = [])
+
+(flatten [$Head|$Tail] into $OutList)
+	(flatten $Tail into $TailList)
+	(append $Head $TailList $OutList)
+
+%% Turn a series of dictionary words (and numbers) into a buffer of single characters (single-digit numbers or single-character words)
+(break command line [] into characters $Chars)
+	($Chars = [])
+
+(break command line [$Last] into characters $Chars)
+	(split word $Last into $Chars)
+
+(break command line [$Head|$Line] into characters $Chars)
+	(split word $Head into $HeadChars)
+	(break command line $Line into characters $TailChars)
+	(flatten [$HeadChars [@\s] $TailChars] into $Chars)
+
+%% And the inverse
+(reassemble characters [] into command line $Line)
+	($Line = [])
+
+%% For when there are two or more words (if there's only one, the split query fails)
+(reassemble characters $Chars into command line $Line)
+	(split $Chars by @\s into $Left and $Right)
+	(reassemble characters $Left into command line $LeftLine)
+	(reassemble characters $Right into command line $RightLine)
+	(append $LeftLine $RightLine $Line)
+
+%% For when there's only one word left
+(reassemble characters $Chars into command line $Line)
+	(join words $Chars into $Word)
+	($Line = [$Word])
+
+(preprocess command line $InLine into $OutLine)
+	(command preprocessing enabled)
+	(break command line $InLine into characters $InChars)
+	(awkwardly fix numbers from $InChars into $InChars2)
+	(preprocessing entry point $InChars2 $OutChars)
+	(reassemble characters $OutChars into command line $OutLine)
+
+%% This version will be used if and only if (command preprocessing enabled) hasn't been defined in the story
+(preprocess command line $InLine into $OutLine)
+	($InLine = $OutLine)
+
+%% Story authors can override this to make it do things 
+(preprocessing entry point $InChars $OutChars)
+	($InChars = $OutChars)
+
+%% This replaces a bit from the Standard Library
+(read-parse-act)
+	(rebuild scope)
+	(if) (deferred commandline $Words) (then)
+		(now) ~(deferred commandline $)
+		(stoppable) {
+			(parse commandline $Words with choices [])
+		}
+	(else)
+		(par)
+		(stoppable) {
+			(if)
+				(scoring enabled)
+				(score notifications are on)
+			(then)
+				(report score change)
+			(endif)
+
+			(if) (current node $DispObj) (then)
+				(collect $Choice)
+					*($DispObj offers $Choice)
+					(available $Choice)
+				(into $ChoiceListWithDup)
+				(remove duplicates $ChoiceListWithDup $ChoiceList)
+				(if) (empty $ChoiceList) (then)
+					(now) ~(current node $)
+					(now) ($DispObj is choice-exhausted)
+					(if) ($DispObj flows to $Fallback) (then)
+						(activate node $Fallback)
+					(endif)
+				(endif)
+				(redraw status bar)
+				(enumerate choices $ChoiceList 1)
+			(else)
+				(redraw status bar)
+				($ChoiceList = [])
+			(endif)
+
+			> (get input $Words)
+			(preprocess command line $Words into $Words2)
+			(parse commandline $Words2 with choices $ChoiceList)
+		}
+	(endif)
