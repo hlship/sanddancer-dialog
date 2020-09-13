@@ -253,6 +253,7 @@
 
 #lizard
 (name *) brown lizard
+(dict *) sand dancer sand-dancer
 (animate *)
 (topic *)
 (descr *)
