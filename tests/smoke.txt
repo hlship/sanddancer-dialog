@@ -1,0 +1,10 @@
+open glove
+get pack
+x pack
+smoke pack
+x pack
+exit
+light cigs
+x pack
+light up cigs
+x pack

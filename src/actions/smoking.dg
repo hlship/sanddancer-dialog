@@ -2,10 +2,8 @@
 
 ~(just smoked)
 
-(understand [smoke | $Words] as [smoke $Obj])
-    (understand $Words as object $Obj preferably held)
-
-(rewrite [light up | $Words] into [smoke | $Words])
+(grammar [smoke/light [single held]] for [smoke $])
+(grammar [light up [single held]] for [smoke $])
 
 (before [smoke $Obj])
     (ensure $Obj is held)

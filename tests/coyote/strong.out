@@ -22,13 +22,13 @@ stories.
 Query succeeded: (setup coyotes offer)
 > (now) (knock holds #strength)
 > open glove compartment
-You open the glove compartment, revealing your pack of cigarettes.
+You open the glove compartment, revealing a pack of cigarettes.
 
 It's over. They've caught you. They surround you, circling, growling, looking
 for weakness, moving in for the kill.
 
 > take pack
-You take your pack of cigarettes out of the glove compartment.
+You take the pack of cigarettes out of the glove compartment.
 
 > teleport open desert
 
