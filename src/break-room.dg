@@ -110,8 +110,6 @@
 (name *) crumbling trash
 (some *)
 
-%% Can't do the tune-to-right frequency thing, since that's something Dialog doesn't yet support.
-
 #radio
 (switchable *)
 (tunable *)
