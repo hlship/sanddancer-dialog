@@ -17,7 +17,7 @@ Currently tested against Dialog `0m/01`.
 
 ## History
 
-v0.1 -- 13 Sep 2020
+### v0.1 -- 13 Sep 2020
 
 Initial release.
 
