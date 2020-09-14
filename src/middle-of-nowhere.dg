@@ -147,6 +147,11 @@
     that leaking gas line. Even then you'd be lucky to get it moving or find
     the highway.
 
+%% Temporary: See https://intfiction.org/t/ann-sand-dancer-dialog-0-1/47034/26
+
+(understand [get out] as [leave])
+    (just)
+        
 #glove-compartment
 (container *)
 (name *) glove compartment

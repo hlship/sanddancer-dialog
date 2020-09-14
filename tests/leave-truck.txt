@@ -1,0 +1,5 @@
+leave
+enter truck
+leave truck
+enter truck
+get out
