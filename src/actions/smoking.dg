@@ -25,8 +25,7 @@
     Sounds like something your high school buddies would try.
 
 (prevent [smoke $])
-    (remaining cigarettes $Count)
-    ($Count = 0)
+    (remaining cigarettes 0)
     Your pack of cigarettes is empty.
 
 (perform [smoke $])
@@ -100,12 +99,7 @@
 (narrate smoking)
     (par)
     (remaining cigarettes $Count)
-    (if) ($Count = 0)
-    (then) 
-        And that was your last cigarette.
-    (else)
-        And you still haven't quit smoking.
-    (endif)
+    (cigarettes left $Count)
     You
     (if) (#knock is #in #pickup-truck)
     (then)
@@ -114,6 +108,18 @@
         crush the butt under your heel
     (endif)
     and wonder what to do next.
+
+(cigarettes left 2/3)
+    And you're starting to get low on cigarettes.
+
+(cigarettes left 1)
+    And you're down to your last cigarette.
+
+(cigarettes left 0)
+    And that was your last cigarette.
+
+(cigarettes left $)
+    And you still haven't quit smoking.
 
 (knock has smoked)
     ~(remaining cigarettes 6) %% start with six

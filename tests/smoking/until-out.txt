@@ -1,0 +1,13 @@
+open glove 
+smoke pack
+x pack
+exit
+smoke pack
+n
+smoke pack
+smoke pack
+x pack
+smoke pack
+smoke pack
+x pack
+smoke pack
