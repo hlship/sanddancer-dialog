@@ -139,7 +139,7 @@
     Your baby too.
 
 
-(instead of [wait])
+(perform [wait])
     { 
         (select random item in #emotional-baggage into $Memory)
         (or)

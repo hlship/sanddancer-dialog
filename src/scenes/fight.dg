@@ -18,14 +18,14 @@
     (fight duration $X)
     ($X incremented into $Y)
     (now) (fight duration $Y)
-(instead of [brood $])
+(prevent [brood $])
     (* in progress)
     No time for that now.
-(instead of [leave $ $])
+(prevent [leave $ $])
     (* in progress)
     You try to flee and instantly teeth and claws block your path; you pull back to
     the center of the circle, terrified.
-(instead of [throw $ at #coyotes])
+(prevent [throw $ at #coyotes])
     (* in progress)
     Maybe you could just attack them directly.
 

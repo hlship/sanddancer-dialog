@@ -53,7 +53,7 @@
     You take a step and crack your shin against what feels like a metal desk.
     Ouch.
 
-(instead of [examine $])
+(prevent [examine $])
     (current room *)
     (* is dim)
     You can hardly see anything in here; touch is about the only way
@@ -104,7 +104,7 @@
         Through a mass of (name #cobwebs), you can see (a $Items) down in the hole.
     (endif)
 
-(instead of [take $Item])
+(prevent [take $Item])
     ($Item is #in *)
     ~(knock holds #courage)
     (select)

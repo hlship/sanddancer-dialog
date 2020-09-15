@@ -38,7 +38,7 @@
     (reset conversation partner)
     (now) (#flashlight is #on)
     (enter #base-of-tower)
-(instead of [switch on #flashlight])
+(prevent [switch on #flashlight])
     (* in progress)
     You think you'd rather keep him on your side.
 

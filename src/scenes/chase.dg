@@ -41,7 +41,7 @@
 (dict *)
     coyote coyotes moving shadow animal form forms snarl growl
     sound sounds wolf call feral wild shifting pack snarls teeth mangy fur
-(instead of [$ | $Words])
+(prevent [$ | $Words])
     (* is one of $Words)
     All you can do is run.
 

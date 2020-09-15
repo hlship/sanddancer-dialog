@@ -29,6 +29,6 @@
     (around the tower $Room)
 (instead of [wave])
     The figure waves back, then seems to beckon you forward.
-(instead of [$ | $Stuff])
+(prevent [$ | $Stuff])
     (* is one of $Stuff)
     He's too far away. You can barely see him.

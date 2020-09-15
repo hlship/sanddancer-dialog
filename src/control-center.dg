@@ -59,7 +59,7 @@
     (try [look #under *])
 (instead of [take */#metal-sheet])
     (try [look #under *])
-(instead of [look #under *])
+(prevent [look #under *])
     You root around the trash hopelessly, but there's a lot of it.
     You don't turn up anything useful.
 

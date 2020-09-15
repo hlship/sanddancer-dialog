@@ -12,7 +12,7 @@
 #bow-tie
 (name *) bunny's bow tie
 %% Starts off-stage
-(instead of $Action)
+(prevent $Action)
     (* is one of $Action)
     It's just a few lines on a silouette.
 

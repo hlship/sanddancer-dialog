@@ -26,7 +26,7 @@
 #foremans-desk
 (supporter *)
 (name *) half-collapsed desk
-(instead of [enter *])
+(prevent [enter *])
     It's already on its last legs.
 
 #rusted-key

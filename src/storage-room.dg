@@ -60,7 +60,7 @@
 (#cans-of-food is #on *)
 (descr *)
     Hundreds of cans line the bare, dusty metal shelves.
-(instead of [put $ #on *])
+(prevent [put $ #on *])
     It feels like putting even one more thing on the shelves could cause a huge collapse.
 
 
@@ -77,7 +77,7 @@
 (item *)
 (name *) cans of food
 (dict *) hundreds can
-(instead of [take *])
+(prevent [take *])
     (#canned-oranges is handled)
     You won't be hungry again till morning.
 (instead of [take *])
@@ -95,7 +95,7 @@
     %% We're responsible for this; normally the responsibility of [take $] action:
     (now) (#canned-oranges is handled)
     (now) (#orange-smell is #in #storage-room )
-(instead of [take *])
+(prevent [take *])
     (knock holds #can-opener)
     You pull down a can from the shelf, grip it with the rusty can opener, and peel open the lid.
     Yuck:
@@ -116,7 +116,7 @@
     (or)
         Some these should still be good, right?
     (at random)
-(instead of [take *])
+(prevent [take *])
     You grab one and turn it over and over in your hand, but water has soaked and crumbled away the label,
     and you don't have any way to get it open.
     Your stomach growls a little as you put it back on the shelf.

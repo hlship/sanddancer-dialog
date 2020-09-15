@@ -31,7 +31,7 @@
     (at random)
     .
 
-(instead of [listen])
+(prevent [listen])
     (* in progress)
     You can't hear anything above the pounding noise of water slapping sand.
 

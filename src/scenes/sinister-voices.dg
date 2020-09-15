@@ -119,7 +119,7 @@
 
 %% I7 version doesn't limit this logic to just sinister voices, which can be incongruous.
 
-(instead of [attack #radio])
+(prevent [attack #radio])
     (#sinister-voices in progress)
     (select)
         You slam a fist into the top of the radio, but it just keeps hissing with static.
@@ -133,7 +133,7 @@
 
 (grammar [unplug [single]] for [unplug $])
 
-(instead of [unplug #radio])
+(prevent [unplug #radio])
     (#sinister-voices in progress)
     (select)
         You rip the cord out of the wall
@@ -145,7 +145,7 @@
         Damnit, you already did!
     (stopping)
 
-(instead of [unplug #radio])
+(prevent [unplug #radio])
     Why?  It's too big to move and might be handy
     (if) (#radio-voice has started) (then) again (endif)
     .
@@ -153,7 +153,7 @@
 (prevent [unplug $Obj])
     (The $Obj) is not something you can unplug.
 
-(instead of [talk to #radio])
+(prevent [talk to #radio])
     (#sinister-voices in progress)
     You'd rather find a way to make the radio stop talking!
 

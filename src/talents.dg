@@ -32,7 +32,7 @@
 (talent *)
 (name *) freedom
 
-(instead of [drop (talent $)])
+(prevent [drop (talent $)])
     You can't imagine being without it, now.
 
 (instead of [put (talent $Talent) $ $])

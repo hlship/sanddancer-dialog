@@ -81,7 +81,7 @@
 (instead of [climb *])
     (* is placed)
     (try [go #up])
-(instead of $Action)
+(prevent $Action)
     (current room #roof)
     ~(* is placed)
     ($Action is one of [[enter *]
