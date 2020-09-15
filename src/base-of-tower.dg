@@ -8,13 +8,14 @@
         ; you shine your flashlight up towards the tower looming above you
     (elseif) (lit by headlights *)
     (then)
-        , on of three legs of the huge electrical tower looming like
+        , one of three legs of the huge electrical tower looming like
         some gargantuan spider into blackness above you
     (else)
-        ; far above you, a red warning light blinks on and off.
+        ; far above you, a red warning light blinks on and off
     (endif)
+    .
     A tumbleweed drifts lazily against the rusted metal among scrawny weeds 
-    bits of trash.
+    and bits of trash.
     (if) (#rusty-can is pristine)
     (then)
         Someone left a tin can here years ago: ridged ripples run down

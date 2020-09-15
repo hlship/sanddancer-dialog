@@ -1,0 +1,75 @@
+
+
+but it's too late, you're crashing, you crash...
+
+Middle of Nowhere (in the pickup truck)
+You've smashed up against a tall Saguaro, which is all you can see out the
+windshield except a few feet of desert sand, then blackness. Hell, you must have
+driven off the road and crashed. Ocean keeps telling you this night commute on
+this lonely highway's gonna kill you; maybe you should start listening.
+
+On the dash you can see a piece of jade.
+
+The glove compartment is closed.
+
+Through the windshield, you see a little lizard clinging frantically to the
+Saguaro.
+
+Something about the piece of jade makes you want to brood about your grandma's
+stories.
+
+> exit
+The door creaks open with difficulty, rusted joints straining. You get out of
+the pickup truck.
+
+> n
+You walk north.
+
+Crumbling Concrete
+This concrete building must've been some sort of utility structure for the huge
+electrical tower to the north, now abandoned: a pane of cracked glass sparkles
+faintly in the beam of your headlights. Tendrils of desert sand drift against a
+boarded-up door to the northeast leading inside; you could also walk around to
+the east or head south back to your truck.
+
+> n
+You walk north.
+
+Base of the Tower
+Behind the concrete building a steel girder rises from the sand, one of three
+legs of the huge electrical tower looming like some gargantuan spider into
+blackness above you. A tumbleweed drifts lazily against the rusted metal among
+scrawny weeds and bits of trash. Someone left a tin can here years ago: ridged
+ripples run down its rusty side.
+
+The desert stretches in all directions except back south towards the building.
+
+Something about the tumbleweed makes you want to brood about your last day of
+high school.
+
+> purloin flashlight
+
+> turn flashlight on
+Your surroundings spring into brightness around you.
+
+Base of the Tower
+Behind the concrete building a steel girder rises from the sand; you shine your
+flashlight up towards the tower looming above you. A tumbleweed drifts lazily
+against the rusted metal among scrawny weeds and bits of trash. Someone left a
+tin can here years ago: ridged ripples run down its rusty side.
+
+The desert stretches in all directions except back south towards the building.
+
+> (setup lighting)
+Query succeeded: (setup lighting)
+> l
+Base of the Tower
+Behind the concrete building a steel girder rises from the sand; far above you,
+a red warning light blinks on and off. A tumbleweed drifts lazily against the
+rusted metal among scrawny weeds and bits of trash. Someone left a tin can here
+years ago: ridged ripples run down its rusty side.
+
+The desert stretches in all directions except back south towards the glow of the
+building.
+
+> 
