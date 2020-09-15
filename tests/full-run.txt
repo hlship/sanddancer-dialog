@@ -1,0 +1,114 @@
+take jade
+open wallet
+open glove
+take pack
+exit
+n
+n
+s
+throw jade at window
+in
+feel desk
+open drawer
+take flashlight
+turn it on
+take jade
+n
+take key
+s
+x hole
+take tape
+e
+n
+turn on lights
+s
+turn on radio
+tune it to 102.3 khz
+lost
+yes
+talk to radio
+n
+u
+d
+s
+w
+out
+s
+e
+e
+nw
+e
+insane
+ask who
+tell not real
+everything
+yes
+i
+2
+trade last day for courage
+look uyp
+look up
+n
+n
+in
+x hole
+take duct tape
+e
+n
+u
+u
+take opener
+take can opener
+d
+d
+open can
+s
+turn off radio
+l
+w
+out
+e
+e
+e
+e
+e
+e
+e
+e
+e
+e
+attack coyotes
+yes
+ask about trading
+i
+trade karl for scent
+trade night for scent
+s
+in
+e
+n
+open can
+i
+u
+u
+smell
+x metal
+look under metal
+brood trips
+take gas can
+d
+d
+s
+w
+out
+e
+n
+u
+say hello
+ask who
+yes
+i
+trade trips for honor
+trade shit job for honor
+trade stories for honor
+s
