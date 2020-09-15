@@ -8,3 +8,7 @@ light cigs
 x pack
 light up cigs
 x pack
+smoke
+pack
+light up
+wallet

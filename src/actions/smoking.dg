@@ -5,6 +5,13 @@
 (grammar [smoke/light [single held]] for [smoke $])
 (grammar [light up [single held]] for [smoke $])
 
+(grammar [smoke/light] for [smoke])
+(grammar [light up] for [smoke])
+
+(perform [smoke])
+    What do you want to smoke?
+	(asking for object in [smoke []])
+
 (before [smoke $Obj])
     (ensure $Obj is held)
 
