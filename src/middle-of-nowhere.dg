@@ -271,7 +271,7 @@
     (or)
         The little sand-dancer lizard stares at you with one slitted eye.
     (stopping)
-(instead of [give $Obj to *])
+(prevent [give $Obj to *])
     You dangle (the $Obj) in front of it, but it just flicks it tongue in and out a little
     faster, staying put.
 (instead of [$Verb | $Words])
