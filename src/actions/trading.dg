@@ -54,7 +54,6 @@
     { ($NPC number of trades $Trades) (or) ($Trades = 0) }
     ($Trades incremented into $NewTrades)
     (now) ($NPC number of trades $NewTrades)
-
     (if) ($NPC is ready to trade for $Talent)
     (then)
         (now) (knock holds $Talent)
@@ -64,11 +63,17 @@
         (narrate trade incomplete $NPC $Memory for $Talent)
     (endif)
 
+(narrate trade incomplete $NPC $Memory for $)
+    (The $NPC) touches your fingertips and pulls (the $Memory) through your nerve endings. 
+    "Good," he says, "I'll take that, although it's not enough to complete the trade."
+    (par)
+    Somewhere inside you, things are shifting, moving, growing.
+
 %% Standard rule; but Sand-dancer trading for freedom is different.
 
 ($NPC is ready to trade for $)
     ($NPC price $Price)
-    ($NPC number of trades $Trades)
+    ($NPC number of trades $Trades) 
     ($Trades >= $Price)
     
 %% Don't want to start certain scenes that end with trading until the player has sufficient

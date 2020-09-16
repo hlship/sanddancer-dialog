@@ -46,7 +46,6 @@ yes
 i
 2
 trade last day for courage
-look uyp
 look up
 n
 n
@@ -58,7 +57,6 @@ n
 u
 u
 take opener
-take can opener
 d
 d
 open can

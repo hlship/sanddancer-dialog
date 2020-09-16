@@ -41,8 +41,9 @@
 (name *) rusty can opener
 (item *)
 ~(dict *)
-(parse object name [can opener] as * $ $)
-        (* is in scope)
+(parse object name $Words as * $ $)
+    ($Words is one of [[opener] [can opener]])
+    (* is in scope)
 
 #piles-of-trash
 (name *) piles of trash
