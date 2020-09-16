@@ -23,7 +23,7 @@
         (if) (knock holds #scent)
         (then)
             You can clearly smell gasoline coming from under that
-            sheet of corrugate metal
+            sheet of corrugated metal
         (else)
             You catch a faint whiff of gasoline coming from somewhere
         (endif)
@@ -89,7 +89,7 @@
 (openable *)
 (descr *)
     It's full of gas.
-(instead of [open *])
+(prevent [open *])
     You don't want to spill it.
 (instead of [smell *])
     (knock holds #scent)

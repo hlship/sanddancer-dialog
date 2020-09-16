@@ -151,10 +151,9 @@
         *($ requires $Item)
         ~(knock holds $Item)
         (now) ($Item is #in #roof)
-        %% This is probably something that can only happen in testing, but:
         (now) ($Item is noted useful)
     (into $Unclaimed)
-    The ground shudders and shifts beneath you, and out of the sand rises (the $Unclaimed).
+    The ground shudders and shifts beneath you, and out of the sand rises (a $Unclaimed).
     (par)
     %% Again, we start with two incomplete plans, so we already have one half of
     %% each pair.
