@@ -17,6 +17,19 @@ Currently tested against Dialog `0m/01`.
 
 ## History
 
+### V0.2 -- 17 Sep 2020
+
+- Fix a number of typos
+- Fix false failure when trading with Coyote
+- Fix opener not recognized as can opener
+- Fix wrong response to 'give baggage to lizard'
+- Add 'smoke' command that prompts for what to smoke
+- Keep player informed about number of cigarettes left, after smoking
+- Fix 'get out' to exit truck
+- Add 'light' and 'light up' as synonyms of 'smoke'
+
+
+
 ### v0.1 -- 13 Sep 2020
 
 Initial release.
