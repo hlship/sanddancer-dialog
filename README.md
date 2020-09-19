@@ -17,6 +17,16 @@ Currently tested against Dialog `0m/01`.
 
 ## History
 
+### V0.3 -- 19 Sep 2020
+
+- Prevent "You go west" messages during pursuit scene
+- Add a 'brood' command that prompts for a memory 
+- Identify that it is memories in emotional baggage
+- Give Rabbit a custom quip beat
+- Customize the out of reach message for the blanket
+- Customize the message for you can't climb the shelves
+- Add a description for the cans of food
+
 ### V0.2 -- 17 Sep 2020
 
 - Fix a number of typos
