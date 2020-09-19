@@ -309,6 +309,13 @@
 (perform [think])
     Most of the thinking you do nowadays comes from either smoking or brooding.
 
+(grammar [brood] for itself)
+
+(perform [brood])
+    What do you want brood about?
+    (asking for object in [brood []])
+
+
 %% Every turn when we see something that is linked to a memory, note it, and
 %% move it to emotional baggage.
 
