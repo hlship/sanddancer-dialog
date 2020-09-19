@@ -8,7 +8,7 @@
 (descr *)
     Your guidance counselor used to say you're always carrying it with you.
     You imagine it's kind of ugly, lumpy, and green, and definitely has a stuck zipper.
-    (list objects #in *)
+    (list memories)
 (container *)
 (* is open)
 (* is #heldby #knock)
@@ -17,10 +17,22 @@
     ~($Verb = @examine)
     (* is one of $Objects)
     It's not real, bro.
-
+(list memories)
+    (collect $Memory)
+        *($Memory is #in *)
+    (into $Memories)
+    (nonempty $Memories)
+    (length of $Memories into $Count)
+    In your emotional baggage 
+    (if) ($Count > 1) 
+    (then) are the memories 
+    (else) is the  memory
+    (endif) 
+    of (a $Memories).
 (after [inventory])
+    ($ is #in *)
     (par)
-    (list objects #in *)
+    (list memories)
 
 %% Memories exist as almost-items, but you can't really do anything with them
 (unlikely $Action)
