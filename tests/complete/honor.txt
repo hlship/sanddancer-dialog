@@ -56,6 +56,7 @@ e
 n
 u
 u
+(end rainstorm)
 take opener
 d
 d

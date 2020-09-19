@@ -18,7 +18,7 @@
     (else)
         off
     (endif).
-    Rows of crumbling shelving support hundreds of cans of food, the labels long since aged away.
+    On the shelving are hundreds of cans of food, the labels long since aged away.
     The break room lies back to the south and a utility ladder climbs through a
     broken skylight to the roof.
 
@@ -55,14 +55,15 @@
 
 #shelves
 (name *) rows of crumbling shelving
-(dict *) shelves
+(dict *) shelves shelf
 (supporter *)
 (#cans-of-food is #on *)
 (descr *)
     Hundreds of cans line the bare, dusty metal shelves.
 (prevent [put $ #on *])
     It feels like putting even one more thing on the shelves could cause a huge collapse.
-
+(prevent [climb *])
+    The shelves are too narrow and rickety to support your weight.
 
 #ladder
 (name *) utility ladder
@@ -80,6 +81,8 @@
 (prevent [take *])
     (#canned-oranges is handled)
     You won't be hungry again till morning.
+(descr *)
+    There are hundreds of cans, all give or take the same size, and the labels have long since worn away.
 (instead of [take *])
     ~(#canned-oranges is handled)
     (knock holds #can-opener)

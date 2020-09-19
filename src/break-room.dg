@@ -93,6 +93,10 @@
     You can touch the warm wool through the mesh, but you can't get it out.
 (feel *)
     The wool of the blanket is warm and comforting on this frigid night.
+(when * is out of reach)
+    (* is pristine)
+    (#cage is closed)
+    You can reach through the bars of the cage and just barely touch (the *), but that's it.
 
 #tiny-frosted-window
 (window *)

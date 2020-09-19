@@ -18,3 +18,7 @@
 (prevent [talk to $NPC])
     ~{ (spirit animal $NPC) (or) ($NPC = #voice) }
     You can't really get into a good conversation right now.
+
+(beat $)
+    (conversation partner $Partner)
+    (beat for $Partner)

@@ -9,7 +9,7 @@
 (complete *)
     (#control-center is visited)
     ~(current room #roof)
-    (random chance of 1 in 4)
+    { (random chance of 1 in 4) (or) (force rainstorm complete) }
     *(in progress plans $)
     (par)
     The rain's dying down, the sounds of the storm fading, water sinking into the thirsty sand
@@ -48,12 +48,15 @@
 
 #sage
 (name *) sage
-($Room attracts *)
+((around the tower $) attracts *)
     (#rainstorm has completed)
-    (around the tower $Room)
 (perform [smell *])
-    When you were a kid, it semlt like camping and adventure.
+    The soaking rain has brought out the smell of sage throughout the desert.
+    When you were a kid, it smelt like camping and adventure.
     Now it just smells like desert and confusion.
 (instead of [smell])
     (player can see *)
     (try [smell *])
+
+(end rainstorm)
+    (now) (force rainstorm complete)

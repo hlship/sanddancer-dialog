@@ -171,10 +171,10 @@ You walk north.
 Storage Room
 The walls are lined with bare metal shelves, casting strange patterns of shadow
 as you sweep your flashlight beam around. Mounted to the wall is a control panel
-for the building's emergency lights. They are switched off. Rows of crumbling
-shelving support hundreds of cans of food, the labels long since aged away. The
-break room lies back to the south and a utility ladder climbs through a broken
-skylight to the roof.
+for the building's emergency lights. They are switched off. On the shelving are
+hundreds of cans of food, the labels long since aged away. The break room lies
+back to the south and a utility ladder climbs through a broken skylight to the
+roof.
 
 > turn on lights
 With a sharp buzz, a wiff of static, and an electrical groan, bare light bulbs
@@ -249,10 +249,10 @@ You walk north.
 
 Storage Room
 The walls are lined with bare metal shelves, rusting away. Mounted to the wall
-is a control panel for the building's emergency lights. They are switched on.
-Rows of crumbling shelving support hundreds of cans of food, the labels long
-since aged away. The break room lies back to the south and a utility ladder
-climbs through a broken skylight to the roof.
+is a control panel for the building's emergency lights. They are switched on. On
+the shelving are hundreds of cans of food, the labels long since aged away. The
+break room lies back to the south and a utility ladder climbs through a broken
+skylight to the roof.
 
 > u
 You climb up.
@@ -270,10 +270,10 @@ You climb down.
 
 Storage Room
 The walls are lined with bare metal shelves, rusting away. Mounted to the wall
-is a control panel for the building's emergency lights. They are switched on.
-Rows of crumbling shelving support hundreds of cans of food, the labels long
-since aged away. The break room lies back to the south and a utility ladder
-climbs through a broken skylight to the roof.
+is a control panel for the building's emergency lights. They are switched on. On
+the shelving are hundreds of cans of food, the labels long since aged away. The
+break room lies back to the south and a utility ladder climbs through a broken
+skylight to the roof.
 
 > s
 You walk south.
@@ -429,7 +429,7 @@ You could ask about grandma's stories or tell the rabbit he's not real.
 "Then it'd be just you here all alone, and wouldn't that be boring. It's much
 more interesting if I'm really around."
 
-A moment passes.
+The rabbit stares intently at you, as if expecting something.
 
 "Hey, yo, you been hella good about keepin' off those cancer sticks," Buster
 says, except he's not Buster any more, more like Eminem. "Don't think I ain't
@@ -444,7 +444,7 @@ Everything."
 "Hey, back off man," he says, "it's my ***n' job." And there's actually like a
 bleep, too, and now that you think of it you only ever saw 8 Mile on TV.
 
-A moment passes.
+The rabbit's ears twitch a little, and he looks momentarily anxious.
 
 "Anyway, look, man, we both know you're in trouble. I just gotta ask you one
 question." And he changes again into like a giant silhouette, and it's the
@@ -461,7 +461,7 @@ night.
 "Then you probably should get home and tell her," the bunny says. "Patch up that
 truck and fly down the highway before she gets away." It winks.
 
-A moment passes.
+The rabbit stares intently at you, as if expecting something.
 
 "Look," he says, and now he's big and fluffy and smells like springtime and
 peeps. "I can help you make your decisions. I'll trade you for one of these
@@ -569,14 +569,14 @@ Rain batters down on the desert.
 Through a mass of hardly noticeable cobwebs, you can see a roll of duct-tape
 down in the hole.
 
-Rain batters down on the desert. Water from the storm trickles down from unseen
-cracks and holes.
+Rain batters down on the desert.
 
 > take duct tape
 You reach down into the hole, brushing cobwebs away impatiently, and pull out
 the duct tape.
 
-Rain batters down on the desert.
+Rain batters down on the desert. Rain beats constantly on the roof, loud and
+furious.
 
 > e
 You walk east.
@@ -600,20 +600,19 @@ akaibito... very..."
 Uh. You're pretty sure you never told that dude your name. Maybe you're just
 hearing things.
 
-Rain batters down on the desert. The building groans as wind and rain lash it
-from outside.
+The cold night air swirls around you, and you pull your jacket closer.
+
+Rain batters down on the desert.
 
 > n
 You walk north.
 
 Storage Room
 The walls are lined with bare metal shelves, rusting away. Mounted to the wall
-is a control panel for the building's emergency lights. They are switched on.
-Rows of crumbling shelving support hundreds of cans of food, the labels long
-since aged away. The break room lies back to the south and a utility ladder
-climbs through a broken skylight to the roof.
-
-The cold night air swirls around you, and you pull your jacket closer.
+is a control panel for the building's emergency lights. They are switched on. On
+the shelving are hundreds of cans of food, the labels long since aged away. The
+break room lies back to the south and a utility ladder climbs through a broken
+skylight to the roof.
 
 Rain batters down on the desert.
 
@@ -647,8 +646,12 @@ Back down is the only place to go.
 
 Rain batters down on the desert.
 
+> (end rainstorm)
+Query succeeded: (end rainstorm)
 > take opener
 You take the rusty can opener.
+
+The air is frigid, and turns your breath into clouds.
 
 The rain's dying down, the sounds of the storm fading, water sinking into the
 thirsty sand leaving only the smell of sage behind.
@@ -664,8 +667,6 @@ space to grab the bottom rung. A huge metal barrel stands upright and intact
 nearby, large enough that you could climb up on it. At your feet is the way back
 down.
 
-The air is frigid, and turns your breath into clouds.
-
 Something about the sage makes you want to brood about watching Family Guy with
 Karl.
 
@@ -674,15 +675,14 @@ You climb down.
 
 Storage Room
 The walls are lined with bare metal shelves, rusting away. Mounted to the wall
-is a control panel for the building's emergency lights. They are switched on.
-Rows of crumbling shelving support hundreds of cans of food, the labels long
-since aged away. The break room lies back to the south and a utility ladder
-climbs through a broken skylight to the roof.
+is a control panel for the building's emergency lights. They are switched on. On
+the shelving are hundreds of cans of food, the labels long since aged away. The
+break room lies back to the south and a utility ladder climbs through a broken
+skylight to the roof.
 
 > open can
 You pull down a can from the shelf, grip it with the rusty can opener, and peel
-open the lid. Yuck: black and mold-covered mushrooms. Some of these should still
-be good, right?
+open the lid. Yuck: moldy peas. Just your luck.
 
 > s
 You walk south.
@@ -759,13 +759,12 @@ Desert stretches in all directions; back west is the front of the building.
 You walk east.
 
 Open Desert
-The dust storm rages around you, and every inch of sand looks just like every
-other.
+The desert stretches around you in all directions, and you wish you could see
+more than twenty feet in front of you.
 
-Half-lost in the shadows, you see a dead cow, a dull grey boulder, and a dry
-streambed and that's about it.
+You can sort of see a dead cow, some clumps of sagebrush, and a looming cactus.
 
-Something snarls off in the distance, a warning growl.
+You shiver in the cold. Something snarls off in the distance, a warning growl.
 
 > e
 You move nervously forward.
@@ -773,8 +772,8 @@ You move nervously forward.
 Open Desert
 Clouds of dust swirl through the air, and you plod wearily through the sand.
 
-Nearby: some dry bones, some clumps of sagebrush, and a dry streambed. Nothing
-to write home about.
+Half-lost in the shadows, you see a dull grey boulder, a looming cactus, and a
+dry streambed and that's about it.
 
 A howl from behind you, and an answer from somewhere ahead. Coyotes. Hungry,
 sounds like.
@@ -783,11 +782,10 @@ sounds like.
 You jog forward, eyes snapping left and right at the moving shadows around you.
 
 Open Desert
-The desert stretches around you in all directions, and you wish you could see
-more than twenty feet in front of you.
+The desert stretches around you in all directions, and every inch of sand looks
+just like every other.
 
-You can sort of see a dull grey boulder, a looming cactus, and some clumps of
-sagebrush.
+You can sort of see a looming cactus, a low bluff, and a dry streambed.
 
 Coyotes call all around you now, circling in the dark, unseen, but coming
 closer, closer.
@@ -797,10 +795,10 @@ You're running now, jumping over sagebrush and stumbling on rocks, as snarling
 animal forms close in around you.
 
 Open Desert
-The dust storm rages around you, and you shiver in the chill night air.
+The dust storm rages around you, and you plod wearily through the sand.
 
-All you can make out in the darkness are a low bluff, a dry streambed, and a
-dull grey boulder.
+Nearby: a dead cow, some clumps of sagebrush, and a dull grey boulder. Nothing
+to write home about.
 
 You can smell them now, wild, feral. Shifting shadows whirl around you, panting,
 whining with the thrill of the chase.
@@ -809,10 +807,10 @@ whining with the thrill of the chase.
 You run.
 
 Open Desert
-Clouds of dust swirl through the air, and god damn it's dark.
+The desert stretches around you in all directions, and god damn it's dark.
 
-Half-lost in the shadows, you see some clumps of sagebrush, a dead cow, and a
-low bluff and that's about it.
+Half-lost in the shadows, you see a looming cactus, a low bluff, and some clumps
+of sagebrush and that's about it.
 
 The pack's at your heels, snapping, growling, and you've never in your life been
 this terrified.
@@ -821,22 +819,10 @@ this terrified.
 You run.
 
 Open Desert
-The desert stretches around you in all directions, and you wish you could see
-more than twenty feet in front of you.
+Your tracks are swallowed up in moments by the billowing sand, and you shiver in
+the chill night air.
 
-You can sort of see a dry streambed, a looming cactus, and a low bluff.
-
-Snarls and teeth and mangy fur on every side.
-
-> e
-You run.
-
-Open Desert
-Your tracks are swallowed up in moments by the billowing sand, and every inch of
-sand looks just like every other.
-
-Half-lost in the shadows, you see some dry bones, a low bluff, and a dull grey
-boulder and that's about it.
+You can sort of see a dead cow, a stand of cactus, and some clumps of sagebrush.
 
 Snarls and teeth and mangy fur on every side.
 
@@ -844,11 +830,21 @@ Snarls and teeth and mangy fur on every side.
 You run.
 
 Open Desert
-The dust storm rages around you, and you wish you could see more than twenty
-feet in front of you.
+The dust storm rages around you, and god damn it's dark.
 
-Nearby: a dead cow, a low bluff, and a looming cactus. Nothing to write home
-about.
+Half-lost in the shadows, you see a dry streambed, a looming cactus, and some
+dry bones and that's about it.
+
+Snarls and teeth and mangy fur on every side.
+
+> e
+You run.
+
+Open Desert
+Your tracks are swallowed up in moments by the billowing sand, and you shiver in
+the chill night air.
+
+You can sort of see a dead cow, a looming cactus, and a dull grey boulder.
 
 It's over. They've caught you. They surround you, circling, growling, looking
 for weakness, moving in for the kill.
@@ -857,7 +853,7 @@ for weakness, moving in for the kill.
 You try to flee and instantly teeth and claws block your path; you pull back to
 the center of the circle, terrified.
 
-The circle of snarling coyotes tightens.
+The coyotes growl, pulling closer, snapping at your heels.
 
 > attack coyotes
 It's over. The coyotes dive in for the kill, jaws snapping, and suddenly this
@@ -888,15 +884,13 @@ You could say yes or say no.
 It's freezing out and your nerves are jangled. "Sure, I could use a smoke" you
 say.
 
-The cold night air swirls around you, and you pull your jacket closer.
-
 You pull out your pack and he grins, like he knew you'd say yes, and leans
 forward for you to light up off him. His sunglasses reflect back nothing but
 your own face weirdly lit by the glow from the cig, and for a moment it's like
 the blackness behind them is deep, deeper than the sky, deeper than the
 universe...
 
-A moment passes.
+The rabbit twitches a little and looks a you expectantly.
 
 "Gotta keep an eye on the horizon," he says in a scratchy, slow voice. "Always
 someone hunting. Border Patrol, National Guard, INS, ICE, Minutemen. You want to
@@ -1016,14 +1010,14 @@ You walk north.
 
 Storage Room
 The walls are lined with bare metal shelves, rusting away. Mounted to the wall
-is a control panel for the building's emergency lights. They are switched on.
-Rows of crumbling shelving support hundreds of cans of food, the labels long
-since aged away. The break room lies back to the south and a utility ladder
-climbs through a broken skylight to the roof.
+is a control panel for the building's emergency lights. They are switched on. On
+the shelving are hundreds of cans of food, the labels long since aged away. The
+break room lies back to the south and a utility ladder climbs through a broken
+skylight to the roof.
 
 > open can
 You pull down a can from the shelf, grip it with the rusty can opener, and peel
-open the lid. Yuck: rotten condensed milk. Just your luck.
+open the lid. Yuck: rotten condensed milk. Not your lucky day.
 
 > i
 You have a rusty can opener, a roll of duct-tape, a rusted key, a piece of jade,
@@ -1115,10 +1109,10 @@ You climb down.
 
 Storage Room
 The walls are lined with bare metal shelves, rusting away. Mounted to the wall
-is a control panel for the building's emergency lights. They are switched on.
-Rows of crumbling shelving support hundreds of cans of food, the labels long
-since aged away. The break room lies back to the south and a utility ladder
-climbs through a broken skylight to the roof.
+is a control panel for the building's emergency lights. They are switched on. On
+the shelving are hundreds of cans of food, the labels long since aged away. The
+break room lies back to the south and a utility ladder climbs through a broken
+skylight to the roof.
 
 > s
 You walk south.
@@ -1281,13 +1275,13 @@ shit job, and your grandma's stories.
 You could ask about honor or ask about freedom.
 
 > trade trips for honor
-He flicks out his tongue and pulls road trips through the desert from your gut,
+He flicks out his tongue and pulls road trips through the desert from your core,
 swallowing it whole. "A good start," he says, "but you must trade more."
 
 You could ask about honor or ask about freedom.
 
 > trade shit job for honor
-He flicks out his tongue and pulls your shit job from your soul, swallowing it
+He flicks out his tongue and pulls your shit job from your head, swallowing it
 whole. "Yes," he says, "but more."
 
 You could ask about honor or ask about freedom.

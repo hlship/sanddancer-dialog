@@ -99,7 +99,7 @@ You could ask about grandma's stories or tell the rabbit he's not real.
 "Then it'd be just you here all alone, and wouldn't that be boring. It's much
 more interesting if I'm really around."
 
-A moment passes.
+The rabbit stares intently at you, as if expecting something.
 
 "Hey, yo, you been hella good about keepin' off those cancer sticks," Buster
 says, except he's not Buster any more, more like Eminem. "Don't think I ain't
@@ -114,7 +114,7 @@ Everything."
 "Hey, back off man," he says, "it's my ***n' job." And there's actually like a
 bleep, too, and now that you think of it you only ever saw 8 Mile on TV.
 
-A moment passes.
+The rabbit's ears twitch a little, and he looks momentarily anxious.
 
 "Anyway, look, man, we both know you're in trouble. I just gotta ask you one
 question." And he changes again into like a giant silhouette, and it's the
@@ -134,7 +134,7 @@ night.
 gettings good. You think either of you will be happier if you put that off?
 There's fish in other oceans kid. You've got your whole life to swim." It winks.
 
-A moment passes.
+The rabbit twitches a little and looks a you expectantly.
 
 "Look," he says, and now he's big and fluffy and smells like springtime and
 peeps. "I can help you make your decisions. I'll trade you for one of these
@@ -212,8 +212,6 @@ hearing things.
 You grip the mesh in one hand and pull, and realize it's so rusted you can
 easily peel it back. The door rips free and you drop it to the floor.
 
-You shiver in the cold.
-
 Hey, that emergency blanket might be useful if you decide on spending the night
 here.
 
@@ -243,28 +241,8 @@ electrical tower to the north, now abandoned. Tendrils of desert sand drift
 against a boarded-up door to the northeast leading inside; you could also walk
 around to the east or head south back to your truck.
 
-> z
-Nah, man, better keep busy or else it's back to brooding about meeting Ocean.
-
-Rain batters down on the desert.
-
-> z
-Nah, man, better keep busy or else it's back to brooding about her graduation
-night.
-
-Rain batters down on the desert.
-
-> z
-Nah, man, better keep busy or else it's back to brooding about her graduation
-night.
-
-Rain batters down on the desert.
-
-> z
-Nah, man, better keep busy or else it's back to brooding about meeting Ocean.
-
-Rain batters down on the desert.
-
+> (end rainstorm)
+Query succeeded: (end rainstorm)
 > z
 Nah, man, better keep busy or else it's back to brooding about meeting Ocean.
 
@@ -275,20 +253,25 @@ You stop in mid-stride as your eyes flick to the horizon. Way out in the desert,
 silhouetted on a rise, a distant figure stands. As you watch he raises a hande
 and waves.
 
-> wave
-The figure waves back, then seems to beckon you forward.
+> smell
+The soaking rain has brought out the smell of sage throughout the desert. When
+you were a kid, it smelt like camping and adventure. Now it just smells like
+desert and confusion.
 
 Something about the sage makes you want to brood about watching Family Guy with
 Karl.
+
+> wave
+The figure waves back, then seems to beckon you forward.
 
 > attack figure
 He's too far away. You can barely see him.
 
 > w
 You walk west for a long time, thoughts turning over like the sand under your
-sneakers. You think about watching Family Guy with Karl. You think about Ocean
-and how pissed she's gonna be that you're not home. Like you tell her not to
-wait up for you but she always does anyway.
+sneakers. You think about meeting Ocean. You think about Ocean and how pissed
+she's gonna be that you're not home. Like you tell her not to wait up for you
+but she always does anyway.
 
 Some wind kicks up and chucks sand in your face. You blink it out and kinda
 realize while you're doing it that you haven't really been paying attention to
@@ -298,17 +281,17 @@ up you can't see a damn thing. You can't see your pickup, you can't see the
 electrical tower. Not even your damn footprints. You're lost. Well, shit.
 
 Open Desert
-Clouds of dust swirl through the air, and you wish you could see more than
-twenty feet in front of you.
+The desert stretches around you in all directions, and every inch of sand looks
+just like every other.
 
-You can sort of see some dry bones, a dry streambed, and some clumps of
-sagebrush.
+All you can make out in the darkness are a low bluff, a dry streambed, and a
+dead cow.
 
 Something snarls off in the distance, a warning growl.
 
 > z
-Nah, man, better keep busy or else it's back to brooding about watching Family
-Guy with Karl.
+Nah, man, better keep busy or else it's back to brooding about her graduation
+night.
 
 A howl from behind you, and an answer from somewhere ahead. Coyotes. Hungry,
 sounds like.
