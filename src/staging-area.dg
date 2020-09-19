@@ -146,7 +146,7 @@
 #flashlight
 (item *)
 (name *) flashlight
-(dict *) light
+(dict *) light flash
 (switchable *)
 (descr *)
     Sturdy and heavy

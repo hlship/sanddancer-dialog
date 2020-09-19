@@ -76,8 +76,8 @@
     (pursuit duration $X)
     (narrate pursuit $X)
     (par)
-    (randomly select pursuit direction)
     (pursuit direction $Dir)
+    (randomly select pursuit direction)
     %% We have that lovely bit of text for the first entry to open
     %% desert that should follow this logic.
     (if) ~($From = #open-desert)
