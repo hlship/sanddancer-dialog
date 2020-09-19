@@ -69,6 +69,7 @@
         Getting down on your knees in the cold sand, you look underneath.
         Sure enough; you ripped up the fuel line and all your gas has drained away, sucked dry
         by the thirsty desert sand.
+        (now) (truck damage is known)
         (or)
     (stopping)
     You'll need to find some way to patch up the line, plus some fuel, to have any hope of fixing her.
@@ -136,11 +137,16 @@
     (then) wheel (else) hood (endif)
     in exasperation.
     How did you get into this mess?
-
+        
 (prevent [drive])
     ~(#knock is #in *)
     It's generally safer to drive from inside the vehicle, but in this case
     it doesn't matter -- your pickup truck is in no shape to go anywhere.
+
+(instead of [drive])
+    (#knock is #in *)
+    ~(truck damage is known)
+    (try [switch on *])
 
 (prevent [drive])
     Your pickup truck is in no shape to go anywhere until you fix
