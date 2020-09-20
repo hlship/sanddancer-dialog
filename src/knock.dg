@@ -55,6 +55,20 @@
         Now that you've got your bearings a little, a smoke does sound nice.
     (endif)
 (your *)
+(prevent [smoke *])
+    (current room $Room)
+    ~(brightly lit $Room)
+    ~(lit by flashlight $Room)
+    You flick the lighter, but the light seems grey and tiny in the face
+    of the dark.  
+    (if) (current room #staging-area)
+    (then) All you can really see is a desk by your feet.
+    (endif)
+    As your thumb starts to burn, you let the puny light go out.
+
+(prevent [smoke *])
+    You flick it open and shut a few times, an old habit.
+
 
 #jacket
 (wearable *)
