@@ -62,7 +62,3 @@
 
 #red-warning-light
 (name *) red warning light
-
-#electrical-tower
-(name *) electrical tower
-(dict *) rusted metal

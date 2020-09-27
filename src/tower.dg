@@ -2,6 +2,7 @@
 %% around the tower region
 
 %% Some backdrop objects
+((around the tower $) attracts #desert-sand/#sagebrush/#tower)
 
 #tire-tracks 
 (name *) tire tracks
@@ -28,4 +29,8 @@
 
 #tower
 (name *) huge electrical tower
-((around the tower $) attracts #desert-sand/#sagebrush/#tower)
+(descr *)
+    You can barely see it in the gloom but it's huge, like a metal
+    spider web weaving into space.
+    Way above, a red light blinks on, off, on, off.
+
