@@ -23,6 +23,16 @@
 (#cigarette is #heldby *)
 (#denim-jacket/#sunglasses is #wornby *)
 (* price 2)
+(beat for *)
+    The coyote stares at you momentarily before
+    (select)
+        taking a drag of his cigarette
+    (or)
+        gazing out at the horizon
+    (or)
+        sniffing the air
+    (at random)
+    .
 
 #cigarette
 (item *)
