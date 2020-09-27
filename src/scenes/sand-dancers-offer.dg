@@ -87,7 +87,7 @@
     (queue #final-choice)
 
 #greet-sd
-(informative quip *)
+(telling quip *)
 (name *) hello
 (dict *) hi
 (* supplies #sand-dancer)
@@ -102,7 +102,7 @@
     waiting. But hello, hello at last, Nakaibito."
 
 #about-sand-dancer
-(questioning quip *)
+(asking quip *)
 (name *) who he is
 (mentions #sand-dancer)
 (* supplies #sand-dancer)
@@ -130,7 +130,7 @@
     (plan $plan is complete)
 
 #path-selection
-(questioning quip *)
+(asking quip *)
 (name *) what to do next
 (* follows #about-sand-dancer)
 (off limits *)
@@ -183,7 +183,7 @@
 (sd name #fixing-the-truck) repair your vehicle and return to her
 
 #final-yes
-(informative quip *)
+(telling quip *)
 (* directly follows #final-choice)
 (name *) yes
 (comment *)
@@ -197,7 +197,7 @@
     (queue #start-sd-trade)
 
 #final-no
-(informative quip *)
+(telling quip *)
 (* directly follows #final-choice)
 (name *) no
 (comment *)
@@ -208,7 +208,7 @@
     (queue #start-sd-trade)
 
 #final-not-sure
-(informative quip *)
+(telling quip *)
 (* directly follows #final-choice) 
 (name *) you're not sure
 (comment *)
@@ -259,8 +259,9 @@
     Sand-dancer merely watches, and waits.
 
 #about-spirit
-(questioning quip *)
-(name *) about spirit
+(asking quip *)
+(name *) spirit
+(about *)
 (off limits *)
     ~(player can see #spirit)
 (comment *)
@@ -270,10 +271,11 @@
     "but to continue looking out for yourself, you will need spirit."
 
 #about-honor
-(questioning quip *)
+(asking quip *)
 (off limits *)
     ~(player can see #honor)
-(name *) about honor
+(name *) honor
+(about *)
 (comment *)
     "What's honor got to do with getting out of this dump?" you ask.
 (reply *)
@@ -281,8 +283,9 @@
     "but to return to Ocean and stand by her side you will need honor."
 
 #about-freedom
-(questioning quip *)
-(name *) about freedom
+(asking quip *)
+(name *) freedom
+(about *)
 (* follows #start-sd-trade)
 (comment *)
     "Freedom, huh?  I bet I could use some of that" you say.
@@ -336,8 +339,9 @@
     You have scent that brought you liquid motion.
 
 #about-lizards
-(questioning quip *)
-(name *) about the lizards
+(asking quip *)
+(name *) the lizards
+(about *)
 (* references #lizards)
 (* follows #greet-sd)
 (off limits * after #path-selection)

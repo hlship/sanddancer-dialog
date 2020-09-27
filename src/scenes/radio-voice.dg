@@ -29,7 +29,7 @@
     now what?
 
 #never-mind
-(informative quip *)
+(telling quip *)
 (name *) never mind
 (* directly follows #voice-hello)
 (comment *)
@@ -40,7 +40,7 @@
     Why don't you tell me what's going on?" 
 
 #what-does-40-mean
-(questioning quip *)
+(asking quip *)
 (name *) what ten forty means
 (* directly follows #voice-hello)
 (comment *)
@@ -51,7 +51,7 @@
     Ain't nobody on duty out there anymore, specially not this time of night. What's going on?"
 
 #being-lost
-(informative quip *)
+(telling quip *)
 (name *) that you are lost
 (dict *) I'm you're your %% grammar, but!
 (* directly follows #voice-hello/#what-does-40-mean/#never-mind)
@@ -70,7 +70,7 @@
     "Hello son, do you copy?"
 
 #yes-to-voice
-(performative quip *)
+(performing quip *)
 (name *) answer yes
 (* directly follows #being-lost)
 (comment *)
@@ -79,7 +79,7 @@
     (voice explains choices)
 
 #switch-off-the-radio
-(performative quip *)
+(performing quip *)
 (name *) turn off the radio
 (* follows #being-lost)
 (comment *)

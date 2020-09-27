@@ -45,7 +45,7 @@
     Its whiskers twitch.
 
 #go-insane
-(performative quip *)
+(performing quip *)
 (name *) just, you know, go insane
 (* directly follows #rabbit-introduction)
 (comment *)
@@ -53,8 +53,9 @@
 (reply *)
 
 #who-rabbit-is
-(questioning quip *)
-(name *) who the rabbit is
+(asking quip *)
+(name *) who he is
+(* mentions #rabbit)
 (* follows #rabbit-introduction)
 (comment *)
     "Who, uh, what are you?" you ask.
@@ -66,8 +67,9 @@
     He grins, buck teeth protruding.
 
 #grandma
-(questioning quip *)
-(name *) about grandma's stories
+(asking quip *)
+(name *) grandma's stories
+(about *)
 (* directly follows #who-rabbit-is)
 (comment *)
     "So how much of my grandma's bullshit was for real?" you ask.
@@ -77,9 +79,8 @@
     (queue #rabbits-judgement)
 
 #rabbit-not-real
-(informative quip *)
-(name *) the rabbit he's not real
-(action verb *) tell
+(telling quip *)
+(name *) he's not real
 (* directly follows #who-rabbit-is)
 (comment *)
     "But, you're not, like, real."
@@ -117,7 +118,7 @@
         \(Oh hey, Rabbit Smith, you get it.\)
 
 #knows-everything
-(questioning quip *)
+(asking quip *)
 (name *) how he knows so much about everything
 (* follows #rabbits-judgement)
 (comment *)
@@ -136,7 +137,7 @@
     (now) (#bow-tie is #in #burrow)
 
 #yes-to-rabbit
-(performative quip *)
+(performing quip *)
 (name *) answer yes
 (* directly follows #down-to-business)
 (comment *)
@@ -149,7 +150,7 @@
     (queue #rabbits-choices)
 
 #no-to-rabbit
-(performative quip *)
+(performing quip *)
 (* directly follows #down-to-business)
 (name *) answer no
 (comment *)
@@ -165,9 +166,9 @@
     (queue #rabbits-choices)
 
 #dont-know
-(informative quip *)
+(telling quip *)
 (* directly follows #down-to-business)
-(name *) him that you don't know
+(name *) that you don't know
 (action verb *) tell
 (comment *)
     "I tell her I love her," you begin, "I tell her I do and I wanna believe it.
@@ -199,8 +200,9 @@
     Something real, something I can work with."
 
 #about-strength
-(questioning quip *)
-(name *) about strength
+(asking quip *)
+(name *) strength
+(about *)
 (* supplies #rabbit)
 (* follows #rabbits-choices)
 (comment *)
@@ -209,9 +211,10 @@
     "Might be useful for surviving through the night," he says, "if that's what you are planning."
 
 #about-courage
-(questioning quip *)
+(asking quip *)
 (* supplies #rabbit)
-(name *) about courage
+(name *) courage
+(about *)
 (* follows #rabbits-choices)
 (comment *)
     "I can hack it," you say, "do I really need courage?"
@@ -220,8 +223,9 @@
     Ocean," he says, "if that's what you want."
 
 #about-trading
-(questioning quip *)
-(name *) about trading
+(asking quip *)
+(name *) trading
+(about *)
 (dict *) trade
 (* supplies #rabbit)
 (* follows #rabbits-choices)
@@ -232,8 +236,8 @@
     "but it will change, transverse, be resurrected as something else. Reborn."
 
 #dont-want-to-trade
-(informative quip *)
-(name *) him you don't want to trade
+(telling quip *)
+(name *) you don't want to trade
 (dict *) i %% as in "i don't want to trade"
 (action verb *) tell
 (* follows #rabbits-choices)

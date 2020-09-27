@@ -5,8 +5,7 @@ teleport burrow
 x rabbit
 go insane
 ask who
-ask real
-tell real
+real
 ask much
 no
 trade stories for strength

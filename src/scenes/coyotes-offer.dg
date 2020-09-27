@@ -57,7 +57,7 @@
     (now) (#flashlight is off)
 
 #yes-to-coyote
-(informative quip *)
+(telling quip *)
 (name *) yes
 (* directly follows #coyotes-introduction)
 (comment *)
@@ -87,7 +87,7 @@
 
 #no-to-coyote
 (name *) no
-(informative quip *)
+(telling quip *)
 (* directly follows #coyotes-introduction)
 (comment *)
     "Nah, I'm trying to kick 'em" you say.
@@ -129,7 +129,7 @@
     (at random)
 
 #coyote-advice
-(questioning quip *)
+(asking quip *)
 (name *) for advice
 (* follows #coyote-talks)
 (off limits * after #coyote-trades)
@@ -148,7 +148,7 @@
     "But it's not my stories that will help you."
 
 #about-coyote
-(questioning quip *)
+(asking quip *)
 (* follows #coyote-talks)
 (off limits * after #coyote-trades)
 (name *) who he is
@@ -164,10 +164,11 @@
     You know who I am, Knock."
 
 #coyote-on-rabbit
-(questioning quip *)
+(asking quip *)
 (* follows #coyote-talks)
 (off limits * after #coyote-trades)
-(name *) about the rabbit
+(name *) the rabbit
+(about *)
 (comment *)
     "Are you like the rabbit?" you ask.
 (reply *)
@@ -181,9 +182,10 @@
     And most of us spend a lot of time in the shadows."
 
 #coyote-trades
-(questioning quip *)
+(asking quip *)
 (* follows #coyote-talks)
-(name *) about trading
+(name *) trading
+(about *)
 (comment *)
     You nervously ask, "Rabbit did a trade. What about you?"
 (reply *)
@@ -207,9 +209,10 @@
     (now) (#scent is #heldby #coyote)
 
 #about-luck
-(questioning quip *)
+(asking quip *)
 (* follows #coyote-trades)
-(name *) about luck
+(name *) luck
+(about *)
 (comment *)
     "What's happened tonight", you say, "what's happened before tonight. Maybe I could use some luck."
 (reply *)
@@ -222,9 +225,10 @@
     I don't know if luck'll help you out much there, though."
 
 #about-scent
-(questioning quip *)
+(asking quip *)
 (* follows #coyote-trades)
-(name *) about scent
+(name *) scent
+(about *)
 (comment *)
     "What's scent going to do for me?" you ask.
 (reply *)
