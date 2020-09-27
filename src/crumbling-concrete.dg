@@ -14,7 +14,7 @@
     .
     Tendrils of desert sand drift against a boarded-up door to the northeast leading inside; 
     you could also walk around to the east or head south back to your truck.
-(#fragments-of-glass/#boarded-up-door is #in *)
+(#fragments-of-glass is #in *)
 (place #base-of-tower north of *)
 (place #weed-strewn-rust east of *)
 
@@ -39,12 +39,16 @@
 #boarded-up-door
 (name *) boarded up door
 (dict *) board
+(descr *) A solid wooden door that appears to have been nailed shut.
+(#crumbling-concrete/#staging-area attracts *)
 (prevent [attack *])
     (door wont budge)
 (prevent [open *])
     (door wont budge)
 (prevent [enter *])
     (door wont budge)
+
+
 (refuse [go #in])
     (current room #crumbling-concrete)
     (#pane-of-cracked-glass is closed)
@@ -53,7 +57,8 @@
 (door wont budge)
     The door won't budge.
     You slam your hands against the boards in frustration
-    (if) (#pane-of-cracked-glass is closed)
+    (if) (current room #crumbling-concrete)
+         (#pane-of-cracked-glass is closed)
     (then)
         , causing the nearby window to quiver in the reflected light
     (endif)
