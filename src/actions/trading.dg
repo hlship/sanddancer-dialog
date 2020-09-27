@@ -64,7 +64,7 @@
     (endif)
 
 (narrate trade incomplete $NPC $Memory for $)
-    (The $NPC) touches your fingertips and pulls (the $Memory) through your nerve endings. 
+    (The $NPC) touches your fingertips and pulls the memory of (the $Memory) through your nerve endings. 
     "Good," he says, "I'll take that, although it's not enough to complete the trade."
     (par)
     Somewhere inside you, things are shifting, moving, growing.

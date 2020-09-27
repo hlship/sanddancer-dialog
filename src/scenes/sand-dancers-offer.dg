@@ -6,8 +6,6 @@
     (now) (#lizards is #in #roof)
     (now) (#sand-dancer is #in #roof)
     (now) (conversation partner #sand-dancer)
-    %% TODO: Maybe an alternate Roof would be simpler, and
-    %% move knock there at end of scene.
     (now) (#rungs is nowhere)
     (now) (#huge-barrel is nowhere)
     The sand swirls and churns like something liquid or alive around you,
