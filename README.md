@@ -26,6 +26,7 @@ Currently tested against Dialog `0m/01`.
 - Provide a hint about consulting when you read the guidebook
 - Fix bug in `tune radio`
 - Model the dial on the radio, and redirect `turn dial` to `tune radio`
+- Electrical panel is now modeled, redirect switch on/off to the emergency lights
 
 ### v4 -- 27 Sep 2020
 

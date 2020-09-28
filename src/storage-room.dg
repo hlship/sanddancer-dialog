@@ -26,12 +26,13 @@
 (#emergency-lights/
     #shelves/
     #ladder/
-    #skylight 
+    #skylight/
+    #panel 
     is #in *)
 
 #emergency-lights
 (name *) emergency lights
-(dict *) bare bulbs control panel
+(dict *) bare bulbs control switch
 (plural *)
 (switchable *)
 (narrate switching on *)
@@ -52,6 +53,15 @@
     (endif)
     (line)
     The generator whines as it powers off, slowly falling silent.
+
+#panel
+(name *) electrical panel
+(descr *)
+    An industrial electrical panel containing the switch for the emergency lights.
+(instead of [switch on *])
+    (try [switch on #emergency-lights])
+(instead of [switch off *])
+    (try [switch off #emergency-lights])
 
 #shelves
 (name *) rows of crumbling shelving
