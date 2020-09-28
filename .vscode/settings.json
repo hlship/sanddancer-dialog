@@ -1,2 +1,19 @@
 {
+    "spellright.language": [
+        "en"
+    ],
+    "spellright.documentTypes": [
+        "markdown",
+        "latex",
+        "plaintext",
+        "dialog"
+    ],
+    "spellright.parserByClass": {
+        "dialog": {
+            "parser": "plain"
+        }
+    },
+    "spellright.ignoreRegExps": [
+     "/\\(.*?\\)/"
+    ]
 }

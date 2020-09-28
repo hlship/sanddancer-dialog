@@ -28,7 +28,7 @@
     (then)
         Stay lucky
     (else)
-        Keep you nose to the wind
+        Keep your nose to the wind
     (endif)
     .
     Remember the shadows."
@@ -218,7 +218,7 @@
 (reply *)
     (knock holds #strength)
     "Looks like you're already pretty tough," he says appraisingly, look you over.
-    "With a little luck, you oght to make it through the night and get on with the rest of your life."
+    "With a little luck, you ought to make it through the night and get on with the rest of your life."
 (reply *)
     "You found some cojones, kid," he says, looking you over appraisingly, "which'll be good for fixing your truck
     and getting back to your girl.

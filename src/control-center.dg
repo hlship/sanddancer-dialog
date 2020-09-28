@@ -11,11 +11,11 @@
     Like, piles of trash, broken equipment, and junk are everywhere.
     (if) (#can-opener is pristine)
     (then)
-        But hey, on one pile there's a perfectly good can opener.
+        But hey, on one pile there's a somewhat serviceable can opener.
     (endif)
     (if) (#gas-can is #in *) (#gas-can is pristine)
     (then)
-        Admist the piles of trash is a can of gasoline.
+        Amidst the piles of trash is a can of gasoline.
     (endif)
     (if) (#smell-of-gasoline is #in *)
     (then)
@@ -73,7 +73,7 @@
     of gasoline.
 (perform [smell *])
     (knock holds #scent)
-    It's so strong now you can practially see it coming from under those piles of trash.
+    It's so strong now you can practically see it coming from under those piles of trash.
 (perform [smell *])
     It's faint but distinct, but you can't tell where it's coming from.
 
