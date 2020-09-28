@@ -17,7 +17,18 @@ Currently tested against Dialog `0m/01`.
 
 ## History
 
-### V0.3 -- 19 Sep 2020
+### v0.4 -- 27 Sep 2020
+
+- Say "the memory of" when narrating a trade
+- Add a custom beat for coyote
+- add description of tower
+- prevent disambiguation about tower in Base of Tower room
+- door now exists on both sides
+- Don't use the Rabbit's beat with other characters
+- 'light lighter' now does something
+- Don't reveal truck's damage until examined
+
+### v0.3 -- 19 Sep 2020
 
 - Prevent "You go west" messages during pursuit scene
 - Add a 'brood' command that prompts for a memory 
@@ -27,7 +38,7 @@ Currently tested against Dialog `0m/01`.
 - Customize the message for you can't climb the shelves
 - Add a description for the cans of food
 
-### V0.2 -- 17 Sep 2020
+### v0.2 -- 17 Sep 2020
 
 - Fix a number of typos
 - Fix false failure when trading with Coyote
@@ -37,8 +48,6 @@ Currently tested against Dialog `0m/01`.
 - Keep player informed about number of cigarettes left, after smoking
 - Fix 'get out' to exit truck
 - Add 'light' and 'light up' as synonyms of 'smoke'
-
-
 
 ### v0.1 -- 13 Sep 2020
 
