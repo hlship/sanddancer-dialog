@@ -13,6 +13,7 @@
 - coyote chase goes on too long
 - coyote offers you a cig, why do you smoke one of your own?
 - about rabbit (coyote) - jackalope; missing text in reply
+- lift sheet / move sheet don't work, but later you lift/move sheet (you aren't strong enough to do)
 
 
 

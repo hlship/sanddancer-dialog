@@ -9,4 +9,6 @@
                    {:github "hlship/threaded-conversation"
                     :version "v0.5"
                     :path "lib/tc.dg"}
-                   "/usr/local/share/dialog-if/stdlib.dg"]}
+                   "/usr/local/share/dialog-if/stdlib.dg"]
+ :cover "src/cover.png"
+ :cover-alt "Sand-dancer Logo"}
