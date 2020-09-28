@@ -22,7 +22,7 @@ Currently tested against Dialog `0m/01`.
 - Typo in grandma's stories
 - When brooding about an object, name the memory with "your"
 - Remove the fragments of glass object from crumbling concrete
-
+- Lots more hints about breaking the pane of glass
 
 ### v4 -- 27 Sep 2020
 

@@ -45,14 +45,15 @@ The door won't budge. You slam your hands against the boards in frustration,
 causing the nearby window to quiver in the reflected light.
 
 > attack window
-Nice thought, but the last thing you need is a sliced open hand. Maybe you could
-use something less likely to bleed.
+Nice thought, but the last thing you need is a sliced open hand. Perhaps there's
+a way to accomplish that more safely?
 
 > open window
 It looks like these windows have been rusted shut for years.
 
 > x window
-The glass is too filthy to see anything on the other side.
+It's a large pane of glass, as wide as your shoulders, with a few sizable cracks
+streaking across it.
 
 > throw wallet at window
 Your wallet passes through the pane of cracked glass, shattering it.
@@ -64,11 +65,11 @@ It's already busted open.
 There's nothing of the pane of cracked glass left to close.
 
 > x window
-The pane of cracked glass is open, and through it you can see someplace
-unfamiliar.
+Only a few fragments of glass remain of the original pane, not enough to get in
+the way of climbing inside.
 
 > in
-You brush away remants of broken glass and wriggle through the window.
+You brush away remnants of broken glass and wriggle through the window.
 
 Staging Area
 Faint shafts of light from your dimming headlights seep through the empty window

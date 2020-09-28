@@ -20,6 +20,13 @@
 #pane-of-cracked-glass
 (window *)
 (name *) pane of cracked glass
+(descr *)
+    (* is open)
+    Only a few fragments of glass remain of the original pane, not enough to get in the way
+    of climbing inside.
+(descr *)
+    It's a large pane of glass, as wide as your shoulders, with a few sizable cracks streaking across it.
+
 (dict *) quiver
 (from #crumbling-concrete go #in through * to #staging-area)
 (from #staging-area go #out through * to #crumbling-concrete)
@@ -30,7 +37,7 @@
     (from $Room go $Dir through * to $)
     You
     (select)
-        brush away remants of broken glass and
+        brush away remnants of broken glass and
     (or)
     (stopping)
     wriggle through the window.

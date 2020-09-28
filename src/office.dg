@@ -37,6 +37,11 @@
 #dust-covered-window
 (window *)
 (name *) dust covered window
+(descr *)
+    It's 
+    (if) (* is open) (then) the remains of (endif)
+    a small window high above the desk.
+
 (prevent [leave $Room $Dir])
     (from $Room go $Dir through * to $)
     It's too high for you to pull yourself up.

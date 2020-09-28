@@ -101,7 +101,11 @@
 #tiny-frosted-window
 (window *)
 (name *) tiny frosted window
-(tiny *)
+(descr *)
+    (* is open)
+    You've smashed the tiny frosted window open.
+(descr *)
+    It's a tiny window of frosted glass; makes you wonder why anyone would go to the bother.
 (prevent [leave $Room $Dir])
     (from $Room go $Dir through * to $)
     It's too small to wiggle through.
