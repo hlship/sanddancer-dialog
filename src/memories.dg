@@ -287,7 +287,7 @@
 
 (prevent [brood $Obj])
     ($Obj suggests $Memory)
-    It's not (the $Obj) you want to brood about, it's (name $Memory).
+    It's not (the $Obj) you want to brood about, it's (the $Memory).
 
 (prevent [brood $Obj])
     ~(memory $Obj)
