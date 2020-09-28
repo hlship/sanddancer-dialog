@@ -25,7 +25,7 @@
     The speaker blurts and holy crap, someone's responding, and they
     say "Roger, roger, tower station nineteen, read you now loud and clear,
     what's your forty?" and the voice is staticky and whirled through
-    with weird rythmic distortions but you can hear it just fine and 
+    with weird rhythmic distortions but you can hear it just fine and 
     now what?
 
 #never-mind
@@ -41,7 +41,7 @@
 
 #what-does-40-mean
 (asking quip *)
-(name *) what ten forty means
+(name *) what forty means
 (* directly follows #voice-hello)
 (comment *)
     "Man, I haven't got forty of anything right now" you say, trying to make a joke.

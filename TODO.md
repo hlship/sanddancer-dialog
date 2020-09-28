@@ -7,5 +7,6 @@
 - read book -> generic response
 - panel should be distinct from emergency lights
 - prevent change tune 
-- typo: rythmic 
-- "what's your ten forty? should be "what's your forty?"
+- "What's up Knock?" needs a comma
+- rabbit twitches looks a you
+
