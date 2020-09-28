@@ -19,8 +19,10 @@ Currently tested against Dialog `0m/01`.
 
 ### v5 - UNRELEASED
 
-- typo in grandma's stories
- 
+- Typo in grandma's stories
+- When brooding about an object, name the memory with "your"
+- Remove the fragments of glass object from crumbling concrete
+
 
 ### v4 -- 27 Sep 2020
 
