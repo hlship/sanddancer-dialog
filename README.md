@@ -17,6 +17,11 @@ Currently tested against Dialog `0m/01`.
 
 ## History
 
+### v5 - UNRELEASED
+
+- typo in grandma's stories
+ 
+
 ### v4 -- 27 Sep 2020
 
 - Add a custom beat for Sand-Dancer
