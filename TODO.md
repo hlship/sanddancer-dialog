@@ -7,6 +7,7 @@
 - panel should be distinct from emergency lights
 - prevent change tune 
 - "What's up Knock?" needs a comma
-- rabbit twitches looks a you
 - can return to desert immediately after rabbits offer scene
+- listen to radio during sinister voices is "Hiss and crackle", should be more specific
+
 
