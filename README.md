@@ -17,7 +17,7 @@ Currently tested against Dialog `0m/01`.
 
 ## History
 
-### v0.4 -- 27 Sep 2020
+### v4 -- 27 Sep 2020
 
 - Add a custom beat for Sand-Dancer
 - Say "the memory of" when narrating a trade
@@ -29,7 +29,7 @@ Currently tested against Dialog `0m/01`.
 - 'light lighter' now does something
 - Don't reveal truck's damage until examined
 
-### v0.3 -- 19 Sep 2020
+### v3 -- 19 Sep 2020
 
 - Prevent "You go west" messages during pursuit scene
 - Add a 'brood' command that prompts for a memory 
@@ -39,7 +39,7 @@ Currently tested against Dialog `0m/01`.
 - Customize the message for you can't climb the shelves
 - Add a description for the cans of food
 
-### v0.2 -- 17 Sep 2020
+### v2 -- 17 Sep 2020
 
 - Fix a number of typos
 - Fix false failure when trading with Coyote
@@ -50,7 +50,7 @@ Currently tested against Dialog `0m/01`.
 - Fix 'get out' to exit truck
 - Add 'light' and 'light up' as synonyms of 'smoke'
 
-### v0.1 -- 13 Sep 2020
+### v1 -- 13 Sep 2020
 
 Initial release.
 
