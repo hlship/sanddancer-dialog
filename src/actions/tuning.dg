@@ -87,7 +87,7 @@
 
 %% This is a mistake
 
-(grammar [tune [single object]])
+(grammar [tune [single object]] for [tune $])
 
 (prevent [tune $Obj])
     (when $Obj is not tunable)

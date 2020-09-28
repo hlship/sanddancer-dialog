@@ -24,6 +24,8 @@ Currently tested against Dialog `0m/01`.
 - Remove the fragments of glass object from crumbling concrete
 - Lots more hints about breaking the pane of glass
 - Provide a hint about consulting when you read the guidebook
+- Fix bug in `tune radio`
+- Model the dial on the radio, and redirect `turn dial` to `tune radio`
 
 ### v4 -- 27 Sep 2020
 
