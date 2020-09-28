@@ -54,6 +54,8 @@
     You could try looking up various animals in it.
 (instead of [consult * about $Topic])
     (guide entry $Topic)
+(prevent [read *])
+    It's a guide book, you can CONSULT it about different desert creatures.
 
 (topic keyword @pandas)
 (topic keyword @panda implies @pandas)

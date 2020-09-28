@@ -4,9 +4,9 @@
 - unlock cage with key ; can we redirect to unlock cage with key
 - redirect player from turning dial to tune radio
 - alias "look up <x>" for "consult <x> in guidebook"
-- read book -> generic response
 - panel should be distinct from emergency lights
 - prevent change tune 
 - "What's up Knock?" needs a comma
 - rabbit twitches looks a you
+- can return to desert immediately after rabbits offer scene
 
