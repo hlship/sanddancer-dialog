@@ -19,11 +19,12 @@ Currently tested against Dialog `0m/01`.
 
 ### v0.4 -- 27 Sep 2020
 
+- Add a custom beat for Sand-Dancer
 - Say "the memory of" when narrating a trade
 - Add a custom beat for coyote
-- add description of tower
-- prevent disambiguation about tower in Base of Tower room
-- door now exists on both sides
+- Add description of tower
+- Prevent disambiguation about tower in Base of Tower room
+- Door now exists on both sides
 - Don't use the Rabbit's beat with other characters
 - 'light lighter' now does something
 - Don't reveal truck's damage until examined

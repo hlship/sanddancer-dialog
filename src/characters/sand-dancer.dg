@@ -18,6 +18,8 @@
     %% For freedom, continue until emotional baggage is empty.
     %% Override the normal price matching rule, for #freedom.
     (just) ~($ is #in #emotional-baggage)
+(beat for *)    
+    (The *) breathes deeply and stares at you expectantly.
 
 (narrate trade incomplete * $Memory for $)
     He flicks out his tongue and pulls the memory of (the $Memory) from your
