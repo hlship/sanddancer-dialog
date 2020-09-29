@@ -27,6 +27,8 @@ Currently tested against Dialog `0m/01`.
 - Model the dial on the radio, and redirect `turn dial` to `tune radio`
 - Electrical panel is now modeled, redirect switch on/off to the emergency lights
 - Add cover art
+- You can now `light webs` or `burn webs` (but still need courage)
+- Prevent player from tuning or switching off radio while talking with voice
 
 ### v4 -- 27 Sep 2020
 
@@ -39,8 +41,6 @@ Currently tested against Dialog `0m/01`.
 - Don't use the Rabbit's beat with other characters
 - `light lighter` now does something
 - Don't reveal truck's damage until examined
-- You can now `light webs` or `burn webs` (but still need courage)
-- Prevent player from tuning or switching off radio while talking with voice
 
 
 ### v3 -- 19 Sep 2020
