@@ -152,18 +152,27 @@
 (perform [listen to *])
     (radio is operating)
     Hiss and crackle.
-
-(before [talk to #radio])
+(before [talk to *])
     (#radio is off)
     (first try [switch on #radio])
-
-(prevent [talk to #radio])
-    You try to raise somone, but there's no response
+(prevent [talk to *])
+    You try to raise someone, but there's no response
     (if) (#radio is off)
     (then)
         , at least on this frequency
     (endif)
     .
+(prevent [tune *])
+    (dont mess with radio)
+(prevent [tune * to $])
+    (dont mess with radio)
+(prevent [switch off *])
+    (dont mess with radio)
+
+(dont mess with radio)
+    (conversation partner $)
+    You don't want to break your connection with the staticky voice.
+
 
 #dial
 (name *) dial

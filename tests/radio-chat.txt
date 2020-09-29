@@ -7,6 +7,8 @@ tune it to 104
 listen to radio
 tune it to 102.3 khz
 listen to radio
+tune radio
 lost
 yes
+turn radio off
 n

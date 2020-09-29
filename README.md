@@ -40,6 +40,8 @@ Currently tested against Dialog `0m/01`.
 - `light lighter` now does something
 - Don't reveal truck's damage until examined
 - You can now `light webs` or `burn webs` (but still need courage)
+- Prevent player from tuning or switching off radio while talking with voice
+
 
 ### v3 -- 19 Sep 2020
 
