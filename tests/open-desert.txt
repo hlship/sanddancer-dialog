@@ -3,7 +3,7 @@ e
 purloin flashlight
 turn it on
 e
-(now) (#emergency-lights is on)
 open wallet
+(force pursuit start)
 e
-s
+w

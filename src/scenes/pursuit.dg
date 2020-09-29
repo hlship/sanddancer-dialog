@@ -102,13 +102,15 @@
     You (italic) can (unstyle) smell it, fur and terror.
     You race after it.
 
+%% If you lose the shadow in the desert, it will re-appear after
+%% a couple of turns.
 (ready for shadow to appear)
     (current room #open-desert)
     (turns in current room $Turns)
     { 
         ($Turns >= 3)
         (fixed pursuit path)
-      (or)
+    (or)
         ($Turns >= 6)
         (random chance of 1 in 4)
     }
@@ -123,9 +125,17 @@
     (#emergency-lights is on)
     (current room $Room)
     (around the tower $Room)
-    (random chance of 1 in 3)
+    { (random chance of 1 in 3) (or) (force shadow) }
     %% No need to check number of memories, the player needs only one, and gets that almost from
     %% the start.
+
+(force pursuit start)
+    (now) (force shadow)
+    (now) (#emergency-lights is on)
+    (now) (#roof is visited)
+    (now) (force shadow)
+    (now) (#radio-voice has completed)
+    
 
 #darting-shadow
 (name *) darting shadow

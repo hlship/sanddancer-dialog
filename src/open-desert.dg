@@ -98,6 +98,7 @@
     Sounds like a good way to lose something forever.
 
 (prevent [leave $Room $Direction])
+    ~($Room = *)
     (from $Room go $Direction to room *)
     (prevent enter desert from $Room)
 
@@ -124,6 +125,12 @@
 (prevent enter desert from $)
     ~(flashlight ready)
     Without a light, on a night this freakishly dark, that's insane.
+
+(prevent enter desert from $)
+    (#burrow is unvisited)
+    ~(#pursuit in progress)
+    You heft your flashlight nervously, licking your lips, but decide not to head out into the desert just yet.
+    There might be more around here you should investigate before taking such a drastic step.
 
 (flashlight ready)
     (knock holds #flashlight)

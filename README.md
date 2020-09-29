@@ -29,6 +29,8 @@ Currently tested against Dialog `0m/01`.
 - Add cover art
 - You can now `light webs` or `burn webs` (but still need courage)
 - Prevent player from tuning or switching off radio while talking with voice
+- Prevent player from wandering into desert the first time before being ready
+
 
 ### v4 -- 27 Sep 2020
 
