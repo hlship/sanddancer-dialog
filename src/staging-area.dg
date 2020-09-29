@@ -91,22 +91,25 @@
 (container *)
 (#cobwebs/#duct-tape is #in *)
 (descr *)
+    %% The cobwebs aren't an item
     (collect items in * into $Items)
     (if) (empty $Items)
     (then)
-        The hole is empty
+        The hole is empty.
+    (else)
         (if) (#cobwebs is #in *)
         (then)
-            , save for cobwebs
+            Through a mass of (name #cobwebs), you
+        (else)
+            You
         (endif)
-        .
-    (else)
-        Through a mass of (name #cobwebs), you can see (a $Items) down in the hole.
+        can see (a $Items) down in the hole.
     (endif)
 
 (prevent [take $Item])
     ($Item is #in *)
     ~(knock holds #courage)
+    (#cobwebs is $ $)
     (select)
         You reach your hand towards the hole, then pull back with a start as you brush cobwebs.
         Nightmare visions of fat black spiders shudder through your brain.
@@ -123,6 +126,19 @@
 (plural *)
 (dict *) web spiderweb spiderwebs cobweb spider spiders webs
 (fine where it is *)
+(flammable *)
+(prevent [burn *])
+    ~(knock holds #courage)
+    You think about reaching into the hole to light the cobwebs, then have a nightmarish image
+    of fat black spiders crawling over your hand. You shudder and pull back.
+(narrate burning *)
+    You flick your lighter and the cobwebs instantly ignite, almost instantly shriveling to nothing.
+(prevent [attack *])
+    ~(knock holds #courage)
+    (try [take *])
+%% "light web" becomes smoke, so instead, burn.
+(instead of [smoke *])
+    (try [burn *])
 
 #duct-tape
 (item *)
@@ -131,6 +147,7 @@
 (* is hidden)
 (narrate taking *)
     (* is #in #hole)
+    (#cobwebs is #in #hole)
     You reach down into the hole, brushing cobwebs away impatiently, and pull out the duct tape.
     (now) (#cobwebs is nowhere)
 

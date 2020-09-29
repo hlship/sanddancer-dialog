@@ -1,0 +1,19 @@
+%% A lot of wind-up for a non-viable action, but there you go.
+
+(grammar [burn [single]] for [burn $])
+
+(flammable $) (fail)
+
+(before [burn $])
+    (ensure #lighter is held)
+
+(prevent [burn $Object])
+    ~(flammable $Object)
+    It doesn't look like (the $Object) will burn.
+
+(perform [burn $Object])
+    (now) ($Object is nowhere)
+    (narrate burning $Object)
+
+(narrate burning $Object)
+    (The $Object) catches fire and rapidly turn to an ash that disappears in the night.

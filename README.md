@@ -19,7 +19,6 @@ Currently tested against Dialog `0m/01`.
 
 ### v5 - UNRELEASED
 
-- Typo in grandma's stories
 - When brooding about an object, name the memory with "your"
 - Remove the fragments of glass object from crumbling concrete
 - Lots more hints about breaking the pane of glass
@@ -38,13 +37,14 @@ Currently tested against Dialog `0m/01`.
 - Prevent disambiguation about tower in Base of Tower room
 - Door now exists on both sides
 - Don't use the Rabbit's beat with other characters
-- 'light lighter' now does something
+- `light lighter` now does something
 - Don't reveal truck's damage until examined
+- You can now `light webs` or `burn webs` (but still need courage)
 
 ### v3 -- 19 Sep 2020
 
 - Prevent "You go west" messages during pursuit scene
-- Add a 'brood' command that prompts for a memory 
+- Add a `brood` command that prompts for a memory 
 - Identify that it is memories in emotional baggage
 - Give Rabbit a custom quip beat
 - Customize the out of reach message for the blanket
@@ -57,10 +57,10 @@ Currently tested against Dialog `0m/01`.
 - Fix false failure when trading with Coyote
 - Fix opener not recognized as can opener
 - Fix wrong response to 'give baggage to lizard'
-- Add 'smoke' command that prompts for what to smoke
+- Add `smoke` command that prompts for what to smoke
 - Keep player informed about number of cigarettes left, after smoking
-- Fix 'get out' to exit truck
-- Add 'light' and 'light up' as synonyms of 'smoke'
+- Fix `get out` to exit truck
+- Add `light` and `light up` as synonyms of `smoke`
 
 ### v1 -- 13 Sep 2020
 

@@ -1,0 +1,14 @@
+(setup lighting)
+teleport staging
+drop lighter
+burn web
+take web
+attack web
+light web
+x hole
+take roll
+(now) (knock holds #courage)
+burn web
+x hole
+take roll 
+x hole
