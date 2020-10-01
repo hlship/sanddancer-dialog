@@ -17,6 +17,11 @@ Currently tested against Dialog `0m/01`.
 
 ## History
 
+### v6 - UNRELEASED
+
+- Package up the web page with cover images, IF guide, etc.
+
+
 ### v5 - 30 Sep 2020
 
 - When brooding about an object, name the memory with "your"
