@@ -2,6 +2,7 @@
 (scene *)
 (dramatic *)
 (start *)
+    (photo has been opened)
     (tried to leave)
     There's like this faint tickle through the soles of your feet, some vibration, almost like whispers in the sand. 
     You want to bend down, put your ear to the ground, listen forever.
@@ -26,8 +27,7 @@
     (collect $Dir)
         *(from $Room go $Dir to $)
     (into $ExitDirections) 
-    %% listing is not public API for Dialog, but useful!
-    You glance wildly at the exits (listing $ExitDirections {(name $_)} @and [] 0).
+    You glance wildly at the exits (the $ExitDirections).
 
 (prevent $Action)
     (* in progress)
@@ -94,3 +94,16 @@
     Barely able to reach the ladder through sand up to your waist, you haul yourself up
     the rungs and pull free just in time.
 
+(narrate leaving $ $Direction)
+    (* in progress)
+    You
+    (select)
+        climb (name $Direction) over the drifts of sand
+    (or)
+        wade exhaustedly through rivers of sand, all but swimming (name $Direction)
+    (or)
+        struggle (name $Direction)-ward against a wall of sand
+    (or)
+        crawl (name $Direction) in the narrow space between the sand and the roof
+    (stopping)
+    .

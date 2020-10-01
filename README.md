@@ -37,7 +37,8 @@ Currently tested against Dialog `0m/01`.
 - Add "coyotes" as synonym of "coyote" in the guide book
 - Add `open <object> with <object>`  as a synonym of `unlock <object> with <object>`
 - Automatically open the photo (if nearby) after retrieving four memories, if it was previously examined
-
+- Need to open photo before Sand-dancer's arrival can trigger
+- Better flavor text moving between rooms during Sand-dancer's arrival
 
 ### v4 -- 27 Sep 2020
 
