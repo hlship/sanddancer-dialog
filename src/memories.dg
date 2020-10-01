@@ -302,7 +302,7 @@
 (perform [brood $Memory])
     (narrate brooding about $Memory)
     (now) ($Memory is retrieved)
-
+    
 (narrate brooding about $Memory)
     (descr $Memory)
 

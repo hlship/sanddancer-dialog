@@ -23,7 +23,7 @@
 %% Starts off-stage
 (prevent $Action)
     (* is one of $Action)
-    It's just a few lines on a silouette.
+    It's just a few lines on a silhouette.
 
 #easter-basket
 (name *) Easter Basket

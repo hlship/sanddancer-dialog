@@ -21,6 +21,25 @@ stories.
 > take jade
 You take the piece of jade.
 
+> brood stories
+There are dark spirits who roam the earth, little Knock. Grandma used to say
+that, holding you tight and stroking your hair. There are dark spirits who roam
+the earth, but you're not alone. Oh, no. I'm here. (She'd kiss your head and
+you'd squeeze her back.) But others are watching out for you too. You have three
+animal guardians, hmm? Spirits who are always watching over you. Oh, you can't
+always trust them to know what's best. Remember that, Knock. But when you need
+help, they'll come, and protect you from the worser things in the world.
+
+Mom would yell at Grandma a lot for filling your head with that new-age
+bullshit. Grandma grew up white and midwestern and Baptist, but had started
+wearing things with feathers and playing the pan flute by the time you were
+born. She seemed to really like having a son-in-law who was Native American or
+American Indian or Indigenous People or whatever she'd decided the term was that
+week, and she was pretty pissed when Mom left him. Anyway. Her stories were
+mostly BS, you guess, but some of them stuck with you. When it's dark you still
+wonder if your spirit animals are out there, somewhere, and what the hell is
+taking them so long to find you.
+
 > open wallet
 You open your wallet, revealing your driver's license, a receipt from Big
 Jimmy's, and a folded photo.
@@ -33,6 +52,22 @@ You open the glove compartment, revealing a pack of cigarettes.
 
 > take pack
 You take the pack of cigarettes out of the glove compartment.
+
+> brood shit job
+Juza straddles the 371 like a drunk at last call, smelly and without a plan for
+the future. Shiny cars whiz by at ninety once in a while, only stopping for gas
+or directions (hint: not this way). No one ever stops for the stalls selling
+food and jewelry and blankets and cheap t-shirts that cluster around the dirt
+turn-off onto the rez. At least, no one buying anything.
+
+Big Jimmy shook his head when he heard you lived in Oro Oeste. Hell of a drive,
+kid, he said, popping up his Lumberjacks cap to scratch the straw pate
+underneath. You should get a place in Hoo-zuh. Little Jimmy'll set you up in
+that trailer cross the road for almost nothin'.
+
+Almost nothing. Yeah, exactly what you'd turn into on the cold day in hell you
+move to Juza. But on the other hand, that was before you met Ocean. Now the road
+back to Oro Oeste seems longer and longer every night.
 
 > exit
 The door creaks open with difficulty, rusted joints straining. You get out of
@@ -126,6 +161,27 @@ Something about the rusted key makes you want to brood about meeting Ocean.
 
 > take key
 You take the rusted key off the half-collapsed desk.
+
+> brood ocean
+She was buying a Fresca at Big Jimmy's when you got off your shift, shoving work
+keys in your pocket, and you stood behind her waiting to get some cigs, almost
+too tired to notice how cute she was but still noticing, yeah, still noticing.
+
+She turned around and caught you noticing and you were pretty embarrassed and
+covered in sweat and grease from the garage, so you stepped up and bought some
+Camels and were pretty surprised that she was still there when you turned
+around.
+
+She told you her name was Ocean Running Deer and she lived on the rez and you
+told her your name was Nakaibito Morales and you lived in Oro Oeste. She said
+isn't Nakaibito the name of a town off west and you told her your mom had picked
+it off a map because it sounded like a good Indian name. You never tell anyone
+that story but for some reason you told her. She laughed, sweetly though, and
+said maybe the two of you should go there sometime and see what is was like.
+Somehow two weeks later you were dating although you never ended up going to
+Nakaibito.
+
+And now... no, you can't think about that yet.
 
 > s
 You walk south.
@@ -322,16 +378,16 @@ Saguaro; whiffs of evaporating gasoline linger in the chill air.
 A brown-colored lizard clings to the cactus.
 
 Out of the corner of your eye you spot a glimpse of something moving in the
-darkness, off in the desert to the east.
+darkness, off in the desert to the west.
 
-> e
+> w
 You head off in the direction of movement, scanning with your flashlight over
 the skittering shadows.
 
-You walk east for a long time, thoughts turning over like the sand under your
-sneakers. You think about your last day of high school. You think about Ocean
-and how pissed she's gonna be that you're not home. Like you tell her not to
-wait up for you but she always does anyway.
+You walk west for a long time, thoughts turning over like the sand under your
+sneakers. You think about your grandma's stories. You think about Ocean and how
+pissed she's gonna be that you're not home. Like you tell her not to wait up for
+you but she always does anyway.
 
 Some wind kicks up and chucks sand in your face. You blink it out and kinda
 realize while you're doing it that you haven't really been paying attention to
@@ -341,39 +397,38 @@ up you can't see a damn thing. You can't see your pickup, you can't see the
 electrical tower. Not even your damn footprints. You're lost. Well, shit.
 
 Open Desert
-The desert stretches around you in all directions, and god damn it's dark.
+The desert stretches around you in all directions, and every inch of sand looks
+just like every other.
 
-You can sort of see some clumps of sagebrush, a looming cactus, and a dead cow.
+You can sort of see a dry stream-bed, a stand of cactus, and a looming cactus.
 
-It's gone now... no, wait--a darting shadow to the east.
+Hey, there it is again--a darting shadow to the east.
 
 > e
 You chase after the shadow, faster and faster, breath misting in the cold air.
 
 Open Desert
-Clouds of dust swirl through the air, and every inch of sand looks just like
-every other.
+Clouds of dust swirl through the air, and you shiver in the chill night air.
 
-Nearby: a dull grey boulder, a dead cow, and a looming cactus. Nothing to write
-home about.
+Nearby: some clumps of sagebrush, some dry bones, and a dull grey boulder.
+Nothing to write home about.
 
-Hey, there it is again--something's moving to the northwest.
+Yeah, you're sure you saw it--something's moving to the south.
 
-> nw
+> s
 Some crazy thrill comes over you. You feel like a hunter. You can almost smell
 the thing you're chasing in the air. You can smell it, fur and terror. You race
 after it.
 
 Open Desert
-Your tracks are swallowed up in moments by the billowing sand, and god damn it's
-dark.
+The desert stretches around you in all directions, and every inch of sand looks
+just like every other.
 
-All you can make out in the darkness are some dry bones, a dead cow, and a
-looming cactus.
+You can sort of see some dry bones, a low bluff, and a dead cow.
 
-It's gone now... no, wait--a darting shadow to the east.
+Hey, there it is again--a darting shadow to the north.
 
-> e
+> n
 Dodging after the fleeing, skittering shadow, you're almost caught up to it when
 your foot trips on a rock and you stumble to the ground. But the ground doesn't
 stop your fall, it collapses, and you're tumbling in a shower of dirt clods down
@@ -425,7 +480,7 @@ You could ask about grandma's stories or say he's not real.
 "Then it'd be just you here all alone, and wouldn't that be boring. It's much
 more interesting if I'm really around."
 
-The rabbit stares intently at you, as if expecting something.
+The rabbit's ears twitch a little, and he looks momentarily anxious.
 
 "Hey, yo, you been hella good about keepin' off those cancer sticks," Buster
 says, except he's not Buster any more, more like Eminem. "Don't think I ain't
@@ -440,7 +495,7 @@ Everything."
 "Hey, back off man," he says, "it's my ***n' job." And there's actually like a
 bleep, too, and now that you think of it you only ever saw 8 Mile on TV.
 
-The rabbit's ears twitch a little, and he looks momentarily anxious.
+The rabbit stares intently at you, as if expecting something.
 
 "Anyway, look, man, we both know you're in trouble. I just gotta ask you one
 question." And he changes again into like a giant silhouette, and it's the
@@ -457,7 +512,7 @@ night.
 "Then you probably should get home and tell her," the bunny says. "Patch up that
 truck and fly down the highway before she gets away." It winks.
 
-The rabbit stares intently at you, as if expecting something.
+The rabbit twitches a little and looks at you expectantly.
 
 "Look," he says, and now he's big and fluffy and smells like springtime and
 peeps. "I can help you make your decisions. I'll trade you for one of these
@@ -521,6 +576,26 @@ way north back to your truck.
 Rain starts to come down, pattering on the desert sand. Soon it's gonna be a
 muddy deathtrap out here.
 
+> brood graduation night
+She grinned when you picked her up, and you drove on in to Mike's and the lot
+was filled with trucks and Mike's was filled with Indian guys and Indian girls
+and she was still the most beautiful, and you danced a lot and drank some and
+left early to go lie down under the stars and count the shooting ones.
+
+And that was maybe you think the first time she said she loved you, and you said
+it back cause it felt all right and shit, but you didn't really know if you
+meant it, or if she did, or what it even really means. I mean you like Ocean a
+lot, really a lot, but then you also aren't really sure you even know her,
+anything about her that's important or real or meaningful. She could be anyone,
+really, on the inside. So could you.
+
+You unfold the photo revealing the ultrasound of Ocean's baby. Your baby.
+
+Something about the ultrasound makes you want to brood about when you heard the
+news.
+
+Rain batters down on the desert.
+
 > n
 You walk north.
 
@@ -559,11 +634,14 @@ collapsed near one corner, revealing a hole criss-crossed with cobwebs.
 The boarded-up door is southwest, alongside the empty window frame leading
 outside; other rooms lie north and east.
 
-Rain batters down on the desert.
+Rain batters down on the desert. Rain beats constantly on the roof, loud and
+furious.
 
 > x hole
 Through a mass of hardly noticeable cobwebs, you can see a roll of duct-tape
 down in the hole.
+
+The cold night air swirls around you, and you pull your jacket closer.
 
 Rain batters down on the desert.
 
@@ -571,8 +649,7 @@ Rain batters down on the desert.
 You reach down into the hole, brushing cobwebs away impatiently, and pull out
 the duct tape.
 
-Rain batters down on the desert. Rain beats constantly on the roof, loud and
-furious.
+Rain batters down on the desert.
 
 > e
 You walk east.
@@ -595,8 +672,6 @@ akaibito... very..."
 
 Uh. You're pretty sure you never told that dude your name. Maybe you're just
 hearing things.
-
-The cold night air swirls around you, and you pull your jacket closer.
 
 Rain batters down on the desert.
 
@@ -623,6 +698,8 @@ space to grab the bottom rung. A huge metal barrel stands upright and intact
 nearby, large enough that you could climb up on it. At your feet is the way back
 down.
 
+The air is frigid, and turns your breath into clouds.
+
 Rain batters down on the desert.
 
 > u
@@ -646,8 +723,6 @@ Rain batters down on the desert.
 Query succeeded: (end rainstorm)
 > take opener
 You take the rusty can opener.
-
-The air is frigid, and turns your breath into clouds.
 
 The rain's dying down, the sounds of the storm fading, water sinking into the
 thirsty sand leaving only the smell of sage behind.
@@ -676,9 +751,28 @@ the shelving are hundreds of cans of food, the labels long since aged away. The
 break room lies back to the south and a utility ladder climbs through a broken
 skylight to the roof.
 
+> brood karl
+Whatcha watchin, Knock? he asked, lurching out of mom's room smelling of sage
+incense and holding a beer and crashing into the lazyboy, and you said Nothing
+Mr Morales (and god damn it kid, can't you at least call me Karl if you won't
+call me dad? but that conversation's been buried a year now at least out loud)
+and he squinted and said is this that Family Guy crap? I thought your mother
+said she didn't want you watching this crap (because it's always mother who
+wants you to do things or be things or say things, never Mr Morales) I thought
+your mother said you ought to start learning about your culture.
+
+So while Peter is trying to start a rock band or something Karl starts spouting
+some story about Mexican myths with eagles and feathered serpent gods, and he
+must be so into the stepdad thing he's forgotten that's his culture, not yours
+(well, sort of). Not that your real dad or Peter Griffin ever helped you figure
+out what your culture's supposed to be either. It hits you that your culture
+must be somewhere in the middle, between Family Guy and Quetzalcoatl, and you
+start laughing and get grounded because you can't even imagine what the middle
+between those two could possibly look like.
+
 > open can
 You pull down a can from the shelf, grip it with the rusty can opener, and peel
-open the lid. Yuck: moldy peas. Just your luck.
+open the lid. Yuck: something nasty-smelling and green. Not your lucky day.
 
 > s
 You walk south.
@@ -755,21 +849,22 @@ Desert stretches in all directions; back west is the front of the building.
 You walk east.
 
 Open Desert
-The desert stretches around you in all directions, and you wish you could see
-more than twenty feet in front of you.
+Your tracks are swallowed up in moments by the billowing sand, and you plod
+wearily through the sand.
 
-You can sort of see a dead cow, some clumps of sagebrush, and a looming cactus.
+Nearby: some clumps of sagebrush, a looming cactus, and a stand of cactus.
+Nothing to write home about.
 
-You shiver in the cold. Something snarls off in the distance, a warning growl.
+Something snarls off in the distance, a warning growl.
 
 > e
 You move nervously forward.
 
 Open Desert
-Clouds of dust swirl through the air, and you plod wearily through the sand.
+The desert stretches around you in all directions, and you wish you could see
+more than twenty feet in front of you.
 
-Half-lost in the shadows, you see a dull grey boulder, a looming cactus, and a
-dry stream-bed and that's about it.
+You can sort of see a looming cactus, a low bluff, and some dry bones.
 
 A howl from behind you, and an answer from somewhere ahead. Coyotes. Hungry,
 sounds like.
@@ -778,10 +873,10 @@ sounds like.
 You jog forward, eyes snapping left and right at the moving shadows around you.
 
 Open Desert
-The desert stretches around you in all directions, and every inch of sand looks
-just like every other.
+The dust storm rages around you, and you plod wearily through the sand.
 
-You can sort of see a looming cactus, a low bluff, and a dry stream-bed.
+Nearby: a dull grey boulder, a looming cactus, and a dry stream-bed. Nothing to
+write home about.
 
 Coyotes call all around you now, circling in the dark, unseen, but coming
 closer, closer.
@@ -791,10 +886,11 @@ You're running now, jumping over sagebrush and stumbling on rocks, as snarling
 animal forms close in around you.
 
 Open Desert
-The dust storm rages around you, and you plod wearily through the sand.
+Your tracks are swallowed up in moments by the billowing sand, and you shiver in
+the chill night air.
 
-Nearby: a dead cow, some clumps of sagebrush, and a dull grey boulder. Nothing
-to write home about.
+All you can make out in the darkness are some dry bones, a dry stream-bed, and a
+looming cactus.
 
 You can smell them now, wild, feral. Shifting shadows whirl around you, panting,
 whining with the thrill of the chase.
@@ -803,10 +899,11 @@ whining with the thrill of the chase.
 You run.
 
 Open Desert
-The desert stretches around you in all directions, and god damn it's dark.
+The desert stretches around you in all directions, and you wish you could see
+more than twenty feet in front of you.
 
-Half-lost in the shadows, you see a looming cactus, a low bluff, and some clumps
-of sagebrush and that's about it.
+Nearby: a low bluff, some dry bones, and a stand of cactus. Nothing to write
+home about.
 
 The pack's at your heels, snapping, growling, and you've never in your life been
 this terrified.
@@ -815,10 +912,11 @@ this terrified.
 You run.
 
 Open Desert
-Your tracks are swallowed up in moments by the billowing sand, and you shiver in
-the chill night air.
+Your tracks are swallowed up in moments by the billowing sand, and every inch of
+sand looks just like every other.
 
-You can sort of see a dead cow, a stand of cactus, and some clumps of sagebrush.
+All you can make out in the darkness are some clumps of sagebrush, a dry stream-
+bed, and some dry bones.
 
 Snarls and teeth and mangy fur on every side.
 
@@ -828,8 +926,7 @@ You run.
 Open Desert
 The dust storm rages around you, and god damn it's dark.
 
-Half-lost in the shadows, you see a dry stream-bed, a looming cactus, and some
-dry bones and that's about it.
+You can sort of see a looming cactus, some clumps of sagebrush, and a low bluff.
 
 Snarls and teeth and mangy fur on every side.
 
@@ -837,10 +934,11 @@ Snarls and teeth and mangy fur on every side.
 You run.
 
 Open Desert
-Your tracks are swallowed up in moments by the billowing sand, and you shiver in
-the chill night air.
+The desert stretches around you in all directions, and every inch of sand looks
+just like every other.
 
-You can sort of see a dead cow, a looming cactus, and a dull grey boulder.
+All you can make out in the darkness are a stand of cactus, some dry bones, and
+a dry stream-bed.
 
 It's over. They've caught you. They surround you, circling, growling, looking
 for weakness, moving in for the kill.
@@ -849,7 +947,7 @@ for weakness, moving in for the kill.
 You try to flee and instantly teeth and claws block your path; you pull back to
 the center of the circle, terrified.
 
-The coyotes growl, pulling closer, snapping at your heels.
+A coyote snaps his teeth, lunging foward, then fading back into the pack.
 
 > attack coyotes
 It's over. The coyotes dive in for the kill, jaws snapping, and suddenly this
@@ -886,7 +984,7 @@ your own face weirdly lit by the glow from the cig, and for a moment it's like
 the blackness behind them is deep, deeper than the sky, deeper than the
 universe...
 
-The coyote stares at you momentarily before taking a drag of his cigarette.
+The coyote stares at you momentarily before gazing out at the horizon.
 "Gotta keep an eye on the horizon," he says in a scratchy, slow voice. "Always
 someone hunting. Border Patrol, National Guard, INS, ICE, Minutemen. You want to
 help people get where they're going out here, you need more than courage. You
@@ -923,8 +1021,9 @@ a flashlight, a pack of cigarettes, your lighter, your wallet, and your
 emotional baggage. You're wearing your denim jacket. You've gained the talent of
 courage.
 
-In your emotional baggage are the memories of watching Family Guy with Karl, her
-graduation night, meeting Ocean, your shit job, and your grandma's stories.
+In your emotional baggage are the memories of watching Family Guy with Karl,
+when you heard the news, her graduation night, meeting Ocean, your shit job, and
+your grandma's stories.
 
 You could ask about luck or ask about scent.
 
@@ -1012,7 +1111,7 @@ skylight to the roof.
 
 > open can
 You pull down a can from the shelf, grip it with the rusty can opener, and peel
-open the lid. Yuck: rotten condensed milk. Not your lucky day.
+open the lid. Yuck: rotten condensed milk. Just your luck.
 
 > i
 You have a rusty can opener, a roll of duct-tape, a rusted key, a piece of jade,
@@ -1020,8 +1119,8 @@ a flashlight, a pack of cigarettes, your lighter, your wallet, and your
 emotional baggage. You're wearing your denim jacket. You've gained the talents
 courage and scent.
 
-In your emotional baggage are the memories of meeting Ocean, your shit job, and
-your grandma's stories.
+In your emotional baggage are the memories of when you heard the news, meeting
+Ocean, your shit job, and your grandma's stories.
 
 > u
 You climb up.
@@ -1123,8 +1222,8 @@ Open doorways lead west and north.
 
 The static on the radio resolves into overlapping whispers, which is weird
 because you're damn sure you turned it off. "It makes for a nice story," the
-whispers say, "but you're remembering your grandma's stories all wrong. That's
-not really how it happened, was it?"
+whispers say, "but you're remembering your shit job all wrong. That's not really
+how it happened, was it?"
 
 > w
 You walk west.
@@ -1267,19 +1366,20 @@ and your emotional baggage. You're wearing your denim jacket. You've gained the
 talents courage and scent.
 
 In your emotional baggage are the memories of road trips through the desert,
-meeting Ocean, your shit job, and your grandma's stories.
+when you heard the news, meeting Ocean, your shit job, and your grandma's
+stories.
 
 You could ask about honor or ask about freedom.
 
 > trade trips for honor
 He flicks out his tongue and pulls the memory of road trips through the desert
-from your core, swallowing it whole. "A good start," he says, "but you must
+from your heart, swallowing it whole. "A good start," he says, "but you must
 trade more."
 
 You could ask about honor or ask about freedom.
 
 > trade shit job for honor
-He flicks out his tongue and pulls the memory of your shit job from your head,
+He flicks out his tongue and pulls the memory of your shit job from your gut,
 swallowing it whole. "Yes," he says, "but more."
 
 You could ask about honor or ask about freedom.

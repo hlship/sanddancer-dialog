@@ -68,6 +68,10 @@
     (annotate [{ ($Obj is handled) handled }
                { (animate $Obj) animate }
                { ($Obj is hidden) hidden }
+               { ($Obj is closed) closed }
+               { ($Obj is locked ) locked }
+               { ($Obj is off) off }
+               { ($Obj is broken) broken }
                { ($Obj provides light) lit}])
     (line)
     ($Indent plus 4 into $ChildIndent)

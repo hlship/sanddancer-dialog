@@ -1,7 +1,9 @@
 take jade
+brood stories
 open wallet
 open glove
 take pack
+brood shit job
 exit
 n
 n
@@ -15,6 +17,7 @@ turn it on
 take jade
 n
 take key
+brood ocean
 s
 x hole
 take tape
@@ -34,10 +37,10 @@ s
 w
 out
 s
+w
 e
-e
-nw
-e
+s
+n
 insane
 ask who
 tell not real
@@ -47,6 +50,7 @@ i
 2
 trade last day for courage
 look up
+brood graduation night
 n
 n
 in
@@ -60,6 +64,7 @@ u
 take opener
 d
 d
+brood karl
 open can
 s
 turn off radio

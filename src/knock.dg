@@ -117,9 +117,10 @@
 (openable *)
 (#ultrasound is #in #photo)
 (descr *)
-    (* is closed)
+    ~(photo has been opened)
     You can't deal with that right now.
     Maybe after you've spent more time brooding.
+    (now) (photo is noted)
 (descr *)
     It's an ultrasound of Ocean's baby.
 (understand [fold | $Words] as [close *])
@@ -136,13 +137,31 @@
     (count of retrieved memories into $Count)
     ($Count < 4)
     (try [examine *])
+(after [open *])
+    (now) (photo has been opened)
 (narrate opening *)
-    You've brooded enough. You unfold the photo revealing the ultrasound of Ocean's baby. Your baby.
+    (if) (photo is noted)
+    (then) 
+        You've brooded enough.
+        (now) ~(photo is noted)
+    (endif)
+    You unfold the photo revealing the ultrasound of Ocean's baby. Your baby.
 (narrate closing *)
     You fold the photo.
 (prevent [take $Item])
     ($Item is #in *)
     It's just a photo.
+(after [brood $])
+    ~(photo has been opened)
+    (photo is nearby)
+    (count of retrieved memories into $Count)
+    ($Count >= 4)
+    (par)
+    (try [open *])
+(photo is nearby)
+    { (* has ancestor #knock) (or) (player can see *) }
+
+
  
 #ultrasound
 (name *) ultrasound
