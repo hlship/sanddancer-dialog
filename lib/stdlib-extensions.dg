@@ -95,3 +95,6 @@
 
 ($X decremented into $Z)
     ($X minus 1 into $Z)
+
+%% Playtester kept trying this
+(grammar [open [single] with [single]] for [unlock $ with $])

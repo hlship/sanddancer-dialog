@@ -1,0 +1,44 @@
+
+
+but it's too late, you're crashing, you crash...
+
+Middle of Nowhere (in the pickup truck)
+You've smashed up against a tall Saguaro, which is all you can see out the
+windshield except a few feet of desert sand, then blackness. Hell, you must have
+driven off the road and crashed. Ocean keeps telling you this night commute on
+this lonely highway's gonna kill you; maybe you should start listening.
+
+On the dash you can see a piece of jade.
+
+The glove compartment is closed.
+
+Through the windshield, you see a little lizard clinging frantically to the
+Saguaro.
+
+Something about the piece of jade makes you want to brood about your grandma's
+stories.
+
+> (setup lighting)
+Query succeeded: (setup lighting)
+> purloin key
+
+> teleport break room
+
+Break Room
+Shadows and grime linger in dark corners of this dismal room with just one tiny
+frosted window. Some rotting picnic tables strewn with layers of sand and
+crumbling trash are pushed against one wall. On the opposite wall is a closed
+wire mesh cage, in which is an emergency blanket. A clunky old-fashioned
+emergency radio sits on a table.
+
+Open doorways lead west and north.
+
+> open cage with key
+You sling the key into the lock, but as you turn it, the rusted metal snaps off
+inside. The crumbling fragments fall to the ground as you slam your fist against
+the wire mesh in frustration. This is not your day.
+
+Hey, that emergency blanket might be useful if you decide on spending the night
+here.
+
+> 

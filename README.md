@@ -35,6 +35,7 @@ Currently tested against Dialog `0m/01`.
 - Before entering desert, turn on the flashlight if held
 - Prevent entering the desert during the rainstorm scene
 - Add "coyotes" as synonym of "coyote" in the guide book
+- Add `open <object> with <object>`  as a synonym of `unlock <object> with <object>`
 
 
 ### v4 -- 27 Sep 2020
