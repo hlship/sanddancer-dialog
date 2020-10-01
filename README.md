@@ -17,7 +17,7 @@ Currently tested against Dialog `0m/01`.
 
 ## History
 
-### v5 - UNRELEASED
+### v5 - 30 Sep 2020
 
 - When brooding about an object, name the memory with "your"
 - Remove the fragments of glass object from crumbling concrete
