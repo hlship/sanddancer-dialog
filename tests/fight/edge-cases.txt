@@ -1,9 +1,8 @@
-(setup chase)
+(setup coyotes offer)
 take jade
-n
 w
-(now) (#chase has completed)
-z
+(now) (turns in current room 6)
+w
 brood stories
 x coyotes
 s

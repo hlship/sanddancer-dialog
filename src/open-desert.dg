@@ -102,6 +102,12 @@
     (from $Room go $Direction to room *)
     (prevent enter desert from $Room)
 
+(before [leave $Room $Direction])
+    (from $Room go $Direction to #open-desert)
+    (knock holds #flashlight)
+    (#flashlight is off)
+    (first try [switch on #flashlight])
+
 (prevent enter desert from $Room)
     (lit by headlights $Room)
     ~(flashlight ready)
@@ -127,11 +133,19 @@
     Without a light, on a night this freakishly dark, that's insane.
 
 (prevent enter desert from $)
-    (#burrow is unvisited)
-    ~(#pursuit in progress)
-    You heft your flashlight nervously, licking your lips, but decide not to head out into the desert just yet.
-    There might be more around here you should investigate before taking such a drastic step.
+    (#rainstorm in progress)
+    In a storm like this? No way.
 
+(prevent enter desert from $)
+    (#coyotes-offer is complete)
+    You have a feeling that when the last
+    spirit animal decides to make an appearance, 
+    it will find you.    
+
+(prevent enter desert from $)
+    ~ { (#pursuit in progress) (or) (#temptation in progress) }
+    On a night as freakishly dark as this, that's insane.
+    
 (flashlight ready)
     (knock holds #flashlight)
     (#flashlight is on)

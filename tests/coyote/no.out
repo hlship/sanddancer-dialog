@@ -21,17 +21,56 @@ stories.
 > (setup coyotes offer)
 Query succeeded: (setup coyotes offer)
 > (now) (knock holds #strength)
-> teleport open desert
+> open glove compartment
+You open the glove compartment, revealing a pack of cigarettes.
+
+The cold night air swirls around you, and you pull your jacket closer.
+
+Something about the sage makes you want to brood about watching Family Guy with
+Karl.
+
+You stop in mid-stride as your eyes flick to the horizon. Way out in the desert,
+silhouetted on a rise, a distant figure stands. As you watch he raises a hand
+and waves.
+
+> take pack
+You take the pack of cigarettes out of the glove compartment.
+
+> exit
+The door creaks open with difficulty, rusted joints straining. You get out of
+the pickup truck.
+
+> w
+You walk west for a long time, thoughts turning over like the sand under your
+sneakers. You think about watching Family Guy with Karl. You think about Ocean
+and how pissed she's gonna be that you're not home. Like you tell her not to
+wait up for you but she always does anyway.
+
+Some wind kicks up and chucks sand in your face. You blink it out and kinda
+realize while you're doing it that you haven't really been paying attention to
+where you've been going. Another gust whines through the sagebrush and you
+realize with a kind of heavy feeling that with all the dust this wind is kicking
+up you can't see a damn thing. You can't see your pickup, you can't see the
+electrical tower. Not even your damn footprints. You're lost. Well, shit.
 
 Open Desert
-Your tracks are swallowed up in moments by the billowing sand, and you shiver in
-the chill night air.
+The dust storm rages around you, and you wish you could see more than twenty
+feet in front of you.
 
-All you can make out in the darkness are a looming cactus, a stand of cactus,
-and some dry bones.
+Nearby: a dead cow, some dry bones, and a dry stream-bed. Nothing to write home
+about.
 
-> z
-Nah, man, better keep busy or else it's back to brooding about meeting Ocean.
+Something snarls off in the distance, a warning growl.
+
+> (now) (turns in current room 6)
+> w
+You move nervously forward.
+
+Open Desert
+Clouds of dust swirl through the air, and every inch of sand looks just like
+every other.
+
+You can sort of see a low bluff, a dry stream-bed, and some clumps of sagebrush.
 
 It's over. They've caught you. They surround you, circling, growling, looking
 for weakness, moving in for the kill.
@@ -80,5 +119,127 @@ time."
 
 You could ask for advice, ask who he is, ask about the rabbit, or ask about
 trading.
+
+> advice
+"Ok, sure," you say, "I'll take some advice if you got it."
+
+He laughs, itching underneath his jacket, slowly. "Kid," he says, "you don't
+want my advice. I could tell you some stories and you'll smile and be sure
+they'll never happen to you. I could tell you some stories and you'll yawn and
+think you know them already. I could tell you some stories and you'll think
+they're wise and not realize you don't understand them until you make the same
+mistakes yourself and try to turn your failure into advice and fail at that,
+too. I could tell you some stories." He looks off towards the horizon,
+scratching his stubble with the hand that holds the cigarette. "But it's not my
+stories that will help you."
+
+You could ask who he is, ask about the rabbit, or ask about trading.
+
+> ask who
+"No, really, who are you?" you ask.
+
+"You know who I am," he says, itching underneath his jacket, slowly. "I'm the
+one who runs on both sides of the fence. I'm the one who scouts ahead. I'm the
+one with songs in my blood and dirt under my nails and people owe me money in
+every trailer park town from here to Yuma, or maybe I owe them money but anyway
+they don't want to see me. You know who I am, Knock."
+
+You could ask about the rabbit or ask about trading.
+
+> rabbit
+"Are you like the rabbit?" you ask.
+
+He grins, not unkindly but not exactly kindly either. "That cute little
+jackalope?" he says, scratching his stubble with the hand that holds the
+cigarette. "He's got his upsides, I guess. Strength has its place. But if you're
+always in the spotlight, you'll never learn how to live in the shadows. And most
+of us spend a lot of time in the shadows."
+
+You could ask about trading.
+
+> trading
+You nervously ask, "Rabbit did a trade. What about you?"
+
+The Coyote presses his hands together, still clutching the cigarette with thumb
+and index finger, and smoke rises past his hidden eyes as he slowly rubs his
+palms together. He mutters something rhythmic to himself and you realize it's a
+song, and you can't quite make out the lyrics, but the melody is simple and
+makes you think of Johnny Cash and the end of the world. And then he stops, and
+pulls his hands apart, and in each he holds a talent.
+
+"Here we have luck," he says, bobbing the left, "and scent. And look, I'll be
+straight with you. These are precious things and I can't afford whatever blue
+light special deal the bunny gave you. I need double his price. I need two
+memories to part with one of these. Oh, and they're worth it, believe me. Both
+have saved my ass more times than you'd believe. Both could save yours. But it's
+up to you. Which'll it be?"
+
+You could ask about luck or ask about scent.
+
+> luck
+"What's happened tonight", you say, "what's happened before tonight. Maybe I
+could use some luck."
+
+"Looks like you're already pretty tough," he says appraisingly, look you over.
+"With a little luck, you ought to make it through the night and get on with the
+rest of your life."
+
+You could ask about scent.
+
+> scent
+"What's scent going to do for me?" you ask.
+
+"You're pretty tough," he says, "but I don't know that a good nose is going to
+help you make it through the night and get on with the rest of your life, if
+that's what you're trying to do."
+
+> trade stories for scent
+The Coyote touches your fingertips and pulls the memory of your grandma's
+stories through your nerve endings. "Good," he says, "I'll take that, although
+it's not enough to complete the trade."
+
+Somewhere inside you, things are shifting, moving, growing.
+
+> trade karl for scent
+The Coyote nods. "Yes," he says, "a fair trade." And something happens inside
+you as he says it. The memory of watching Family Guy with Karl shifts and
+wriggles and fades away and it's still there, but now it's shifted, become
+something else. And, yeah, it kinda does feel like you could call it scent.
+Cool. He tucks the other talent back in his jacket, and without its faint glow,
+it seems darker than ever, the pulsing red tip of his cigarette all you can see.
+
+"The last of us is coming," Coyote's voice says out of the black, "last and more
+powerful, and most dangerous, and most afraid. Sand-dancer. Be careful of him,
+Knock. Stay strong. Keep your nose to the wind. Remember the shadows."
+
+And it seems like he's growing, larger and larger, the red tip of his cigarette
+pulsing and glowing now high up in the sky, and you stumble back, shivering, and
+suddenly remember your flashlight in your hand and switch it on...
+
+Base of the Tower
+Behind the concrete building a steel girder rises from the sand; far above you,
+a red warning light blinks on and off. A tumbleweed drifts lazily against the
+rusted metal among scrawny weeds and bits of trash. Someone left a tin can here
+years ago: ridged ripples run down its rusty side.
+
+The desert stretches in all directions except back south towards the glow of the
+building.
+
+> i
+You have a pack of cigarettes, a flashlight, your lighter, your wallet, and your
+emotional baggage. You're wearing your denim jacket. You've gained the talents
+strength and scent.
+
+In your emotional baggage are the memories of meeting Ocean and your shit job.
+
+Something about the tumbleweed makes you want to brood about your last day of
+high school.
+
+> n
+(first attempting to switch the flashlight on)
+Your surroundings spring into brightness around you.
+
+You have a feeling that when the last spirit animal decides to make an
+appearance, it will find you.
 
 > 

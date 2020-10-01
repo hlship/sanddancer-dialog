@@ -24,26 +24,53 @@ Query succeeded: (setup coyotes offer)
 > open glove compartment
 You open the glove compartment, revealing a pack of cigarettes.
 
-It's over. They've caught you. They surround you, circling, growling, looking
-for weakness, moving in for the kill.
+Something about the sage makes you want to brood about watching Family Guy with
+Karl.
+
+You stop in mid-stride as your eyes flick to the horizon. Way out in the desert,
+silhouetted on a rise, a distant figure stands. As you watch he raises a hand
+and waves.
 
 > take pack
 You take the pack of cigarettes out of the glove compartment.
 
-> teleport open desert
+> exit
+The door creaks open with difficulty, rusted joints straining. You get out of
+the pickup truck.
+
+> w
+You walk west for a long time, thoughts turning over like the sand under your
+sneakers. You think about meeting Ocean. You think about Ocean and how pissed
+she's gonna be that you're not home. Like you tell her not to wait up for you
+but she always does anyway.
+
+Some wind kicks up and chucks sand in your face. You blink it out and kinda
+realize while you're doing it that you haven't really been paying attention to
+where you've been going. Another gust whines through the sagebrush and you
+realize with a kind of heavy feeling that with all the dust this wind is kicking
+up you can't see a damn thing. You can't see your pickup, you can't see the
+electrical tower. Not even your damn footprints. You're lost. Well, shit.
 
 Open Desert
-The desert stretches around you in all directions, and you wish you could see
-more than twenty feet in front of you.
+The desert stretches around you in all directions, and you shiver in the chill
+night air.
 
-Half-lost in the shadows, you see a low bluff, some clumps of sagebrush, and a
-stand of cactus and that's about it.
+You can sort of see a dull grey boulder, a looming cactus, and a low bluff.
 
-> z
-Nah, man, better keep busy or else it's back to brooding about your grandma's
-stories.
+Something snarls off in the distance, a warning growl.
 
-A coyote snaps his teeth, lunging foward, then fading back into the pack.
+> (now) (turns in current room 6)
+> w
+You move nervously forward.
+
+Open Desert
+The dust storm rages around you, and god damn it's dark.
+
+Nearby: a dull grey boulder, some clumps of sagebrush, and a looming cactus.
+Nothing to write home about.
+
+It's over. They've caught you. They surround you, circling, growling, looking
+for weakness, moving in for the kill.
 
 > attack coyotes
 It's over. The coyotes dive in for the kill, jaws snapping, and without hardly

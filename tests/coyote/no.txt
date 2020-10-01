@@ -1,6 +1,20 @@
 (setup coyotes offer)
 (now) (knock holds #strength)
-teleport open desert
-z
+open glove compartment
+take pack
+exit
+w
+(now) (turns in current room 6)
+w
 attack coyotes
 no
+advice
+ask who
+rabbit
+trading
+luck
+scent
+trade stories for scent
+trade karl for scent
+i
+n

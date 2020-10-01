@@ -30,6 +30,10 @@ Currently tested against Dialog `0m/01`.
 - You can now `light webs` or `burn webs` (but still need courage)
 - Prevent player from tuning or switching off radio while talking with voice
 - Prevent player from wandering into desert the first time before being ready
+- Prevent player from returning to desert until temptation scene
+- Prevent player from returning to desert after coyotes offer
+- Before entering desert, turn on the flashlight if held
+- Prevent entering the desert during the rainstorm scene
 
 
 ### v4 -- 27 Sep 2020
@@ -43,6 +47,7 @@ Currently tested against Dialog `0m/01`.
 - Don't use the Rabbit's beat with other characters
 - `light lighter` now does something
 - Don't reveal truck's damage until examined
+
 
 
 ### v3 -- 19 Sep 2020

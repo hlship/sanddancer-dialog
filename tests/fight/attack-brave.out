@@ -18,24 +18,22 @@ Saguaro.
 Something about the piece of jade makes you want to brood about your grandma's
 stories.
 
-> (setup chase)
-Query succeeded: (setup chase)
+> (setup coyotes offer)
+Query succeeded: (setup coyotes offer)
 > (now) (knock holds #courage)
 > take jade
 You take the piece of jade.
 
-> n
-(first attempting to get out of the pickup truck)
+Something about the sage makes you want to brood about watching Family Guy with
+Karl.
+
+You stop in mid-stride as your eyes flick to the horizon. Way out in the desert,
+silhouetted on a rise, a distant figure stands. As you watch he raises a hand
+and waves.
+
+> exit
 The door creaks open with difficulty, rusted joints straining. You get out of
 the pickup truck.
-
-You walk north.
-
-Crumbling Concrete
-This concrete building must've been some sort of utility structure for the huge
-electrical tower to the north, now abandoned. Tendrils of desert sand drift
-against a boarded-up door to the northeast leading inside; you could also walk
-around to the east or head south back to your truck.
 
 > w
 You walk west for a long time, thoughts turning over like the sand under your
@@ -51,15 +49,23 @@ up you can't see a damn thing. You can't see your pickup, you can't see the
 electrical tower. Not even your damn footprints. You're lost. Well, shit.
 
 Open Desert
-Clouds of dust swirl through the air, and you shiver in the chill night air.
+The dust storm rages around you, and god damn it's dark.
 
-Nearby: a stand of cactus, a dull grey boulder, and a low bluff. Nothing to
-write home about.
+You can sort of see a dry stream-bed, a stand of cactus, and some clumps of
+sagebrush.
 
-> (now) (#chase has completed)
-> z
-Nah, man, better keep busy or else it's back to brooding about your grandma's
-stories.
+Something snarls off in the distance, a warning growl.
+
+> (now) (turns in current room 6)
+> w
+You move nervously forward.
+
+Open Desert
+Your tracks are swallowed up in moments by the billowing sand, and you plod
+wearily through the sand.
+
+Nearby: a dull grey boulder, a looming cactus, and a low bluff. Nothing to write
+home about.
 
 It's over. They've caught you. They surround you, circling, growling, looking
 for weakness, moving in for the kill.

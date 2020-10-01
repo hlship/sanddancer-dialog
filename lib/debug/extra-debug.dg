@@ -41,11 +41,12 @@
 (setup chase)
     (setup lighting)
     (now) (#burrow is visited)
+    (now) (#rainstorm has completed)
     (grab [#your-shit-job #meeting-ocean])
 
 (setup coyotes offer)
     (setup chase)
-    (now) (#chase has completed)
+    %% (now) (#chase has completed)
 
 (setup sand-dancers offer)
     (setup lighting)

@@ -18,11 +18,18 @@ Saguaro.
 Something about the piece of jade makes you want to brood about your grandma's
 stories.
 
-> (setup chase)
-Query succeeded: (setup chase)
+> (setup coyotes offer)
+Query succeeded: (setup coyotes offer)
 > (now) (knock holds #courage)
 > take jade
 You take the piece of jade.
+
+Something about the sage makes you want to brood about watching Family Guy with
+Karl.
+
+You stop in mid-stride as your eyes flick to the horizon. Way out in the desert,
+silhouetted on a rise, a distant figure stands. As you watch he raises a hand
+and waves.
 
 > n
 (first attempting to get out of the pickup truck)
@@ -39,7 +46,7 @@ around to the east or head south back to your truck.
 
 > w
 You walk west for a long time, thoughts turning over like the sand under your
-sneakers. You think about meeting Ocean. You think about Ocean and how pissed
+sneakers. You think about your shit job. You think about Ocean and how pissed
 she's gonna be that you're not home. Like you tell her not to wait up for you
 but she always does anyway.
 
@@ -57,10 +64,31 @@ every other.
 Half-lost in the shadows, you see a stand of cactus, a low bluff, and some dry
 bones and that's about it.
 
-> (now) (#chase has completed)
-> z
-Nah, man, better keep busy or else it's back to brooding about your grandma's
-stories.
+Something snarls off in the distance, a warning growl.
+
+> w
+You move nervously forward.
+
+Open Desert
+Your tracks are swallowed up in moments by the billowing sand, and you shiver in
+the chill night air.
+
+You can sort of see some clumps of sagebrush, a looming cactus, and a dull grey
+boulder.
+
+A howl from behind you, and an answer from somewhere ahead. Coyotes. Hungry,
+sounds like.
+
+> (now) (turns in current room 6)
+> w
+You jog forward, eyes snapping left and right at the moving shadows around you.
+
+Open Desert
+The desert stretches around you in all directions, and you wish you could see
+more than twenty feet in front of you.
+
+Nearby: a stand of cactus, a dry stream-bed, and a looming cactus. Nothing to
+write home about.
 
 It's over. They've caught you. They surround you, circling, growling, looking
 for weakness, moving in for the kill.
@@ -69,31 +97,35 @@ for weakness, moving in for the kill.
 You try to flee and instantly teeth and claws block your path; you pull back to
 the center of the circle, terrified.
 
-A coyote snaps his teeth, lunging foward, then fading back into the pack.
+The coyotes growl, pulling closer, snapping at your heels.
 
-> z
-Nah, man, better keep busy or else it's back to brooding about meeting Ocean.
+> e
+You try to flee and instantly teeth and claws block your path; you pull back to
+the center of the circle, terrified.
 
 The circle of snarling coyotes tightens.
 
-> z
-Nah, man, better keep busy or else it's back to brooding about your shit job.
-
-A coyote snaps his teeth, lunging foward, then fading back into the pack.
-
-> z
-Nah, man, better keep busy or else it's back to brooding about your grandma's
-stories.
+> s
+You try to flee and instantly teeth and claws block your path; you pull back to
+the center of the circle, terrified.
 
 The coyotes growl, pulling closer, snapping at your heels.
 
-> z
-Nah, man, better keep busy or else it's back to brooding about meeting Ocean.
+> w
+You try to flee and instantly teeth and claws block your path; you pull back to
+the center of the circle, terrified.
+
+The circle of snarling coyotes tightens.
+
+> n
+You try to flee and instantly teeth and claws block your path; you pull back to
+the center of the circle, terrified.
 
 A coyote snaps his teeth, lunging foward, then fading back into the pack.
 
-> z
-Nah, man, better keep busy or else it's back to brooding about your shit job.
+> e
+You try to flee and instantly teeth and claws block your path; you pull back to
+the center of the circle, terrified.
 
 The circle of snarling coyotes tightens.
 

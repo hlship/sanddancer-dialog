@@ -1,7 +1,8 @@
 (setup coyotes offer)
 (now) (knock holds #strength)
-teleport open desert
-z
+w
+(now) (turns in current room 6)
+w
 attack coyotes
 say yes
 

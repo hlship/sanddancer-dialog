@@ -2,8 +2,10 @@
 (now) (knock holds #strength)
 open glove compartment
 take pack
-teleport open desert
-z
+exit
+w
+(now) (turns in current room 6)
+w
 attack coyotes
 say yes
 

@@ -20,17 +20,48 @@ stories.
 
 > (setup coyotes offer)
 Query succeeded: (setup coyotes offer)
-> (now) (#chase has completed)
-> teleport open desert
+> w
+(first attempting to get out of the pickup truck)
+The door creaks open with difficulty, rusted joints straining. You get out of
+the pickup truck.
+
+Something about the sage makes you want to brood about watching Family Guy with
+Karl.
+
+You stop in mid-stride as your eyes flick to the horizon. Way out in the desert,
+silhouetted on a rise, a distant figure stands. As you watch he raises a hand
+and waves.
+
+You walk west for a long time, thoughts turning over like the sand under your
+sneakers. You think about your shit job. You think about Ocean and how pissed
+she's gonna be that you're not home. Like you tell her not to wait up for you
+but she always does anyway.
+
+Some wind kicks up and chucks sand in your face. You blink it out and kinda
+realize while you're doing it that you haven't really been paying attention to
+where you've been going. Another gust whines through the sagebrush and you
+realize with a kind of heavy feeling that with all the dust this wind is kicking
+up you can't see a damn thing. You can't see your pickup, you can't see the
+electrical tower. Not even your damn footprints. You're lost. Well, shit.
 
 Open Desert
-The dust storm rages around you, and god damn it's dark.
+Your tracks are swallowed up in moments by the billowing sand, and you wish you
+could see more than twenty feet in front of you.
 
-Nearby: some dry bones, a dry stream-bed, and a low bluff. Nothing to write home
-about.
+Nearby: a stand of cactus, a dull grey boulder, and a looming cactus. Nothing to
+write home about.
 
-> z
-Nah, man, better keep busy or else it's back to brooding about meeting Ocean.
+Something snarls off in the distance, a warning growl.
+
+> (now) (turns in current room 6)
+> w
+You move nervously forward.
+
+Open Desert
+The desert stretches around you in all directions, and god damn it's dark.
+
+All you can make out in the darkness are a dry stream-bed, a dull grey boulder,
+and some dry bones.
 
 It's over. They've caught you. They surround you, circling, growling, looking
 for weakness, moving in for the kill.
@@ -55,11 +86,10 @@ You could say yes or say no.
 
 > l
 Open Desert
-The desert stretches around you in all directions, and you plod wearily through
-the sand.
+Clouds of dust swirl through the air, and you wish you could see more than
+twenty feet in front of you.
 
-All you can make out in the darkness are some dry bones, a dry stream-bed, and a
-low bluff.
+You can sort of see a dry stream-bed, a dull grey boulder, and some dry bones.
 
 The Coyote watches you intently.
 
@@ -70,7 +100,7 @@ You can barely see him in the darkness, can't tell whether he's old or how old,
 what color his faded denim jacket is, and with those sunglasses on, you can't
 even tell whether he's smirking at you or just twitching his mouth. There's a
 weird smell coming off him, sweat and dirt and a little wet dog and something
-deeper, earther, desert, rain, all mixed with cigarette smoke.
+deeper, earth, desert, rain, all mixed with cigarette smoke.
 
 You could say yes or say no.
 

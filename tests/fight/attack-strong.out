@@ -18,26 +18,24 @@ Saguaro.
 Something about the piece of jade makes you want to brood about your grandma's
 stories.
 
-> (setup chase)
-Query succeeded: (setup chase)
+> (setup coyotes offer)
+Query succeeded: (setup coyotes offer)
 > (now) (knock holds #strength)
 > take jade
 You take the piece of jade.
 
-> n
+Something about the sage makes you want to brood about watching Family Guy with
+Karl.
+
+You stop in mid-stride as your eyes flick to the horizon. Way out in the desert,
+silhouetted on a rise, a distant figure stands. As you watch he raises a hand
+and waves.
+
+> w
 (first attempting to get out of the pickup truck)
 The door creaks open with difficulty, rusted joints straining. You get out of
 the pickup truck.
 
-You walk north.
-
-Crumbling Concrete
-This concrete building must've been some sort of utility structure for the huge
-electrical tower to the north, now abandoned. Tendrils of desert sand drift
-against a boarded-up door to the northeast leading inside; you could also walk
-around to the east or head south back to your truck.
-
-> w
 You walk west for a long time, thoughts turning over like the sand under your
 sneakers. You think about your grandma's stories. You think about Ocean and how
 pissed she's gonna be that you're not home. Like you tell her not to wait up for
@@ -51,14 +49,22 @@ up you can't see a damn thing. You can't see your pickup, you can't see the
 electrical tower. Not even your damn footprints. You're lost. Well, shit.
 
 Open Desert
+The desert stretches around you in all directions, and god damn it's dark.
+
+Nearby: a dead cow, a looming cactus, and a dull grey boulder. Nothing to write
+home about.
+
+Something snarls off in the distance, a warning growl.
+
+> (now) (turns in current room 6)
+> w
+You move nervously forward.
+
+Open Desert
 Clouds of dust swirl through the air, and you shiver in the chill night air.
 
-All you can make out in the darkness are a dead cow, a looming cactus, and a
-dull grey boulder.
-
-> (now) (#chase has completed)
-> z
-Nah, man, better keep busy or else it's back to brooding about meeting Ocean.
+All you can make out in the darkness are a dry stream-bed, some clumps of
+sagebrush, and some dry bones.
 
 It's over. They've caught you. They surround you, circling, growling, looking
 for weakness, moving in for the kill.

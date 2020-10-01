@@ -1,7 +1,7 @@
 (setup coyotes offer)
-(now) (#chase has completed)
-teleport open desert
-z
+w
+(now) (turns in current room 6)
+w
 attack coyotes
 l
 x coyote
