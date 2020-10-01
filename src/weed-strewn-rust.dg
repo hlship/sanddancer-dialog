@@ -52,7 +52,7 @@
     Most of the pages are faded or worn away, but flipping through, it looks
     like a guide to local animal life.
     You could try looking up various animals in it.
-(instead of [consult * about $Topic])
+(perform [consult * about $Topic])
     (guide entry $Topic)
 (prevent [read *])
     It's a guide book, you can CONSULT it about different desert creatures.
@@ -74,7 +74,8 @@
 (topic keyword @sand implies @sand-dancer)
 (topic keyword @dancer implies @sand-dancer)
 (topic keyword @lizards implies @sand-dancer)
-(guide entry #lizard/@sand-dancer)
+(describe topic @sand-dancer/@lizards) brown lizard
+(guide entry @sand-dancer)
     You look up the brown-colored lizard in the guidebook and quickly identify
     it: those eyes are a dead giveaway. The entry says it's a "rare subspecies
     of the common desert lizard found only in the deep desert near Oro Oeste,
@@ -83,8 +84,19 @@
     created night by tricking the sun into spending half the day underground."
     Huh.
 
-(guide entry #coyote)
+(instead of [consult * about #lizard])
+    (try [consult * about @sand-dancer])
+
+%% Prevent disambiguation
+
+(unlikely [consult * about (object $)])
+
+(topic keyword @coyotes implies @coyote)
+(guide entry @coyote)
     Weird, it looks like somebody's ripped out the page.
+
+(instead of [consult * about #snarling-shadows/#coyotes])
+    (try [consult * about @coyote])
 
 (guide entry $)
     You flip though (the *) but, unsurprisingly, find nothing about that.

@@ -1,4 +1,4 @@
-# Sand-dancer in Dialog
+ # Sand-dancer in Dialog
 
 This is a re-implementation of Aaron Reed's Sand-dancer, in 
 [Dialog](https://linusakesson.net/dialog/index.php).
@@ -34,6 +34,7 @@ Currently tested against Dialog `0m/01`.
 - Prevent player from returning to desert after coyotes offer
 - Before entering desert, turn on the flashlight if held
 - Prevent entering the desert during the rainstorm scene
+- Add "coyotes" as synonym of "coyote" in the guide book
 
 
 ### v4 -- 27 Sep 2020

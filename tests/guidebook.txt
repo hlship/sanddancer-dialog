@@ -1,0 +1,13 @@
+(setup lighting)
+n
+e
+read book
+%% *(understand [consult book about sand-dancer] as $)
+consult book about sand-dancer 
+consult book about lizards
+consult book about pandas
+consult book about rabbit 
+look up coyote in book
+consult book about coyotes
+
+
