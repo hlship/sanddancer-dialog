@@ -39,6 +39,7 @@ Currently tested against Dialog `0m/01`.
 - Automatically open the photo (if nearby) after retrieving four memories, if it was previously examined
 - Need to open photo before Sand-dancer's arrival can trigger
 - Better flavor text moving between rooms during Sand-dancer's arrival
+- You can now omit the `khz` suffix when tuning the radio, e.g., `tune radio to 104.3`
 
 ### v4 -- 27 Sep 2020
 

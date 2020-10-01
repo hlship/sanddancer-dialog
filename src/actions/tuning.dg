@@ -5,12 +5,11 @@
 
 (command preprocessing enabled)
 
+%% Recognize simple floating numbers (e.g. "104.7") and convert it to [104 @$ 7] so that
+%% it can be recognized as a frequency.
+
 (preprocessing entry point $In $Out)
-    %% Essentially, convert the '.' to '$' and remove any space before the k in 'khz'.
-    %% Result is something like [102 $ 7 khz].
-    (match pattern [10 [@. @$] 10 [k [@\s k]] h z] in $In giving $Out)
-    (or)
-    (match pattern [10 [k [@\s k]] h z] in $In giving $Out)
+    (match pattern [10 [@. @$] 10] in $In giving $Out)
 
 (understand $Words as frequency $Freq)
     (recognize $Words as $Unit $Decimal)
@@ -23,20 +22,17 @@
     (understand [$U] as number $Unit)
     (understand [$D] as number $Decimal)
 
+(recognize [$U @$ $D] as $Unit $Decimal)
+    (understand [$U] as number $Unit)
+    (understand [$D] as number $Decimal)
+
 (recognize [$U khz] as $Unit $Decimal)
     (understand [$U] as number $Unit)
     ($Decimal = 0)
 
-%% If you omit the khz suffix it will kind of work, and hopefully the
-%% narration will clue the player in to how to get the radio properly tuned.
-
 (recognize [$U] as $Unit $Decimal)
     (understand [$U] as number $Unit)
     ($Decimal = 0)
-
-%% There's no way to recognize '102.3' as a simple number to tune,
-%% because without the `khz` on the end to match, the `.` is treated
-%% as a player command separator.
 
 @(grammar transformer [[frequency] | $Tail] $SoFar $Verb $Action $Rev)
 	(grammar transformer $Tail [2000 | $SoFar] $Verb $Action $Rev)
