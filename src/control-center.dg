@@ -48,21 +48,38 @@
 #piles-of-trash
 (name *) piles of trash
 (dict *) broken equipment junk
+(descr *)
+    Lots of construction junk; conduits, broken equipment, metal sheeting, and so forth in
+    an unruly pile.
 (instead of [look #under *])
     (knock holds #scent)
+    (#gas-can is nowhere)
     Your sense of smell leads you straight to a sheet of corrugated metal.
-    You lift it
-    (with #strength { effortlessly })
-    and throw it aside, revealing a gas can.
+    (if) (knock holds #strength)
+    (then) You lift it effortlessly, allowing you
+    (else) You strain to shift it just barely enough
+    (endif)
+    to reach inside and pull out a small plastic gas can.
+    The contents of the can slosh around ... you guess there's enough gas there to get you home,
+    if you can patch up the truck.
     (now) (#smell-of-gasoline is nowhere)
-    (now) (#gas-can is #in #control-center)
+    (now) (#gas-can is #heldby #knock)
+    %% We just noted this as useful.  However, we want the default message if the
+    %% can appears during sand-dancer's offer.
+    (now) (#gas-can is noted useful)
+    (now) (#gas-can is handled)
 (instead of [search */#metal-sheet])
     (try [look #under *])
 (instead of [take */#metal-sheet])
     (try [look #under *])
 (prevent [look #under *])
     You root around the trash hopelessly, but there's a lot of it.
-    You don't turn up anything useful.
+    You don't turn up anything 
+    (if) (#gas-can is $ $)
+    (then) else
+    (else) useful
+    (endif)
+    .
 
 #smell-of-gasoline
 (name *) smell of gasoline
@@ -78,10 +95,12 @@
     It's faint but distinct, but you can't tell where it's coming from.
 
 #metal-sheet
-(name *) corrugated metal sheet
+(name *) corrugated metal sheet sheeting
 (instead of [look #under *])
     (try [look #under #piles-of-trash])
-
+(instead of [search *])
+    (try [look #under #piles-of-trash])
+     
 #gas-can
 (item *)
 (name *) gas can

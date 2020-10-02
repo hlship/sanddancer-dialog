@@ -32,6 +32,9 @@
         (par)
         Rain batters down on the desert.
     (endif)
+(perform [smell])
+    (* in progress)
+    The frigid rain masks all odors.
 
 (prevent [listen])
     (* in progress)
@@ -59,6 +62,3 @@
 (instead of [smell])
     (player can see *)
     (try [smell *])
-
-(end rainstorm)
-    (now) (force rainstorm complete)

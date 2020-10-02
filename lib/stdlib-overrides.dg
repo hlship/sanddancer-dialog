@@ -1,3 +1,4 @@
+
 %% Overrides of standard rules
 
 (perform [inventory])
@@ -38,3 +39,12 @@
 
 %% The map is small, and the default command is a bit confused by how we deal with light and dark rooms.
 ~(understand [exits] as $)
+    
+(perform [smell])
+    (current room $Room)
+    (office interior $Room)
+    It smells less pleasant, here; dusty, but also a hint of mold and decay.
+
+(perform [smell])
+    The desert smells of dust.
+

@@ -1,0 +1,50 @@
+
+
+but it's too late, you're crashing, you crash...
+
+Middle of Nowhere (in the pickup truck)
+You've smashed up against a tall Saguaro, which is all you can see out the
+windshield except a few feet of desert sand, then blackness. Hell, you must have
+driven off the road and crashed. Ocean keeps telling you this night commute on
+this lonely highway's gonna kill you; maybe you should start listening.
+
+On the dash you can see a piece of jade.
+
+The glove compartment is closed.
+
+Through the windshield, you see a little lizard clinging frantically to the
+Saguaro.
+
+Something about the piece of jade makes you want to brood about your grandma's
+stories.
+
+> (setup lighting)
+Query succeeded: (setup lighting)
+> (grab #strength)
+Query succeeded: (grab #strength)
+> teleport control
+
+Control Center
+Some kind of electrical control stuff must have happened here once, but it's
+totally trashed now. Like, piles of trash, broken equipment, and junk are
+everywhere. But hey, on one pile there's a somewhat serviceable can opener.
+
+You catch a faint whiff of gasoline coming from somewhere.
+
+Back down is the only place to go.
+
+> smell
+Something smells very faintly of gasoline.
+
+> (grab #scent)
+Query succeeded: (grab #scent)
+> search equipment
+Your sense of smell leads you straight to a sheet of corrugated metal. You lift
+it effortlessly, allowing you to reach inside and pull out a small plastic gas
+can. The contents of the can slosh around... you guess there's enough gas there
+to get you home, if you can patch up the truck.
+
+Something about the gas can makes you want to brood about road trips through the
+desert.
+
+> 

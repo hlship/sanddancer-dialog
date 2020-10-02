@@ -55,6 +55,13 @@
     is #in *)
 (place #backtracking south of *)
 (place #crumbling-concrete north of *)
+(perform [smell])
+    (#knock is #in *)
+    (if) (knock holds #scent)
+    (then) The stench of gasoline overwhelms the normal smell of the desert.
+    (else) Mixed with the desert smell is a faint whiff of gasoline.
+    (endif)
+
 
 #pickup-truck
 (name *) pickup truck
@@ -73,6 +80,13 @@
         (or)
     (stopping)
     You'll need to find some way to patch up the line, plus some fuel, to have any hope of fixing her.
+(perform [smell])
+    (#knock is #in *)
+    It smells like your truck: the odor of the plastic dashboard baked by the desert sun,
+    a hint of burnt motor oil, and a bit of cigarette smoke
+    (with #scent { ... and maybe a faint whiff of gasoline })
+    .
+
     
 (openable *)
 ~(opaque *)

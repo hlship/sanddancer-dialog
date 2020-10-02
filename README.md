@@ -20,7 +20,8 @@ Currently tested against Dialog `0m/01`.
 ### v6 - UNRELEASED
 
 - Package up the web page with cover images, IF guide, etc.
-
+- Override default `smell` to reflect the desert and current location or scene
+- Beef up text and actions related to getting the gas can
 
 ### v5 - 30 Sep 2020
 

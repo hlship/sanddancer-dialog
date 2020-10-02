@@ -98,7 +98,6 @@ smell
 x metal
 look under metal
 brood trips
-take gas can
 d
 d
 s
