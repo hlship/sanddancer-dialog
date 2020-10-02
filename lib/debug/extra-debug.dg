@@ -57,3 +57,6 @@
     (now) (#sand-dancers-arrival in progress)
     (now) (#sand-dancers-arrival has started)
     (enter #storage-room)
+
+(end rainstorm)
+    (now) (force rainstorm complete)    
