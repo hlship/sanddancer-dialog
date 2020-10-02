@@ -49,7 +49,7 @@
     (endif)
 (#knock/
     #pickup-truck/
-    #wiffs-of-gasoline/
+    #whiffs-of-gasoline/
     #saguaro/
     #lizard
     is #in *)
@@ -233,9 +233,9 @@
 (add * to scope)
     (#knock is #in #pickup-truck)
 
-#wiffs-of-gasoline
-(name *) wiffs of gasoline
-(dict *) gas wiff
+#whiffs-of-gasoline
+(name *) whiffs of gasoline
+(dict *) gas whiff
 (plural *)
 (prevent [$Verb *])
     ~($Verb is one of [smell take])

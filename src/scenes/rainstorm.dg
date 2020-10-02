@@ -16,20 +16,22 @@
     leaving only the smell of sage behind.
     (now) (#rain is nowhere)
 (on every tick during *)
-    (par)
-    Rain batters down on the desert.
-(on every tick during *)
     (current room $Room)
-    (office interior $Room)
-    (random chance of 1 in 3)
-    (select)
-        The building groans as wind and rain lash it from outside
-    (or)
-        Water from the storm trickles down from unseen cracks and holes
-    (or)
-        Rain beats constantly on the roof, loud and furious
-    (at random)
-    .
+    (if) (office interior $Room)
+    (then)
+        (random chance of 1 in 3)
+        (par)
+        (select)
+            The building groans as wind and rain lash it from outside
+        (or)
+            Water from the storm trickles down from unseen cracks and holes
+        (or)
+            Rain beats constantly on the roof, loud and furious
+        (at random)
+    (else)
+        (par)
+        Rain batters down on the desert.
+    (endif)
 
 (prevent [listen])
     (* in progress)

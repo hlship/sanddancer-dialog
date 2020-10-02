@@ -233,7 +233,7 @@ back to the south and a utility ladder climbs through a broken skylight to the
 roof.
 
 > turn on lights
-With a sharp buzz, a wiff of static, and an electrical groan, bare light bulbs
+With a sharp buzz, a whiff of static, and an electrical groan, bare light bulbs
 flicker on throughout the building.
 
 > s
@@ -519,20 +519,14 @@ peeps. "I can help you make your decisions. I'll trade you for one of these
 talents." He holds out an easter basket filled with plastic green easter grass;
 in it are two glowing orbs.
 
-"Strength," hey says, pointing to the first one, "and courage. Pick whichever
-one you think will be most useful, but you have to give me something back.
-Something real, something I can work with."
+"Strength," he says, pointing to the first one, "and courage. Pick whichever one
+you think will be most useful, but you have to give me something back. Something
+real, something I can work with."
 
 You could ask about strength, ask about courage, ask about trading, or say you
 don't want to trade.
 
 > i
-Did you want to:
-1. tell the Rabbit about you don't want to trade, or
-2. take inventory?
-(Type the corresponding number)
-
-> 2
 You have a rusted key, a piece of jade, a flashlight, a pack of cigarettes, your
 lighter, your wallet, and your emotional baggage. You're wearing your denim
 jacket.
@@ -634,8 +628,7 @@ collapsed near one corner, revealing a hole criss-crossed with cobwebs.
 The boarded-up door is southwest, alongside the empty window frame leading
 outside; other rooms lie north and east.
 
-Rain batters down on the desert. Rain beats constantly on the roof, loud and
-furious.
+Rain beats constantly on the roof, loud and furious
 
 > x hole
 Through a mass of hardly noticeable cobwebs, you can see a roll of duct-tape
@@ -643,13 +636,9 @@ down in the hole.
 
 The cold night air swirls around you, and you pull your jacket closer.
 
-Rain batters down on the desert.
-
 > take duct tape
 You reach down into the hole, brushing cobwebs away impatiently, and pull out
 the duct tape.
-
-Rain batters down on the desert.
 
 > e
 You walk east.
@@ -673,8 +662,6 @@ akaibito... very..."
 Uh. You're pretty sure you never told that dude your name. Maybe you're just
 hearing things.
 
-Rain batters down on the desert.
-
 > n
 You walk north.
 
@@ -684,8 +671,6 @@ is a control panel for the building's emergency lights. They are switched on. On
 the shelving are hundreds of cans of food, the labels long since aged away. The
 break room lies back to the south and a utility ladder climbs through a broken
 skylight to the roof.
-
-Rain batters down on the desert.
 
 > u
 You climb up.
@@ -716,8 +701,6 @@ everywhere. But hey, on one pile there's a somewhat serviceable can opener.
 You catch a faint whiff of gasoline coming from somewhere.
 
 Back down is the only place to go.
-
-Rain batters down on the desert.
 
 > (end rainstorm)
 Query succeeded: (end rainstorm)
@@ -947,7 +930,7 @@ for weakness, moving in for the kill.
 You try to flee and instantly teeth and claws block your path; you pull back to
 the center of the circle, terrified.
 
-A coyote snaps his teeth, lunging foward, then fading back into the pack.
+A coyote snaps his teeth, lunging forward, then fading back into the pack.
 
 > attack coyotes
 It's over. The coyotes dive in for the kill, jaws snapping, and suddenly this
@@ -1044,7 +1027,7 @@ And, yeah, it kinda does feel like you could call it scent. Cool. He tucks the
 other talent back in his jacket, and without its faint glow, it seems darker
 than ever, the pulsing red tip of his cigarette all you can see.
 
-"The last of us is coming," Coyote's voice says out of the black, "last and more
+"The last of us is coming," Coyote's voice says out of the black, "last and most
 powerful, and most dangerous, and most afraid. Sand-dancer. Be careful of him,
 Knock. Stay brave. Keep your nose to the wind. Remember the shadows."
 
@@ -1095,9 +1078,9 @@ emergency radio sits on a table.
 Open doorways lead west and north.
 
 The static on the radio resolves into overlapping whispers, which is weird
-because you're damn sure you turned it off "Hey," the speaker shouts, "hey, do
-you really think that the roll of duct-tape's going to help you with anything?
-You can't even--" and static reclaims it again.
+because you're damn sure you turned it off. "Hey," the speaker shouts, "hey, do
+you really think that a roll of duct-tape's going to help you with anything? You
+can't even--" and static reclaims it again.
 
 > n
 You walk north.
@@ -1256,7 +1239,7 @@ Waves of sand flow like water through the room, filling it higher and higher.
 You glance wildly at the exits north, out, and west.
 
 "You think just because you've got scent now you're going to be anything other
-than a pathetic failure?" the radio squaks angrily, which is weird because
+than a pathetic failure?" the radio squawks angrily, which is weird because
 you're damn sure you turned it off, before dissolving into harsh buzzing
 distortions.
 
@@ -1309,7 +1292,7 @@ You could ask who he is or ask about the lizards.
 > ask who
 "Who, uh, what are you?" you stammer.
 
-"I am Sand-dancer," he breathes flicking his toungue in and out, slowly. "I am
+"I am Sand-dancer," he breathes flicking his tongue in and out, slowly. "I am
 the desert and the dust and the rain and the wind. I was there the first time
 you went hungry and the first time you made love and the last time you asked for
 help, but I could not help you then. But tonight, Nakaibito, tonight I can."

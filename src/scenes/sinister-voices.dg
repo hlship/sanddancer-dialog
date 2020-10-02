@@ -60,9 +60,9 @@
     (into $Items)
     (randomly select $Item from $Items)
     The static on the radio resolves into overlapping whispers
-    (radio left off)
+    (radio left off).
     "Hey," the speaker shouts, "hey, do you really think that
-    (the $Item)(no space)'s going to help you with anything?
+    (a $Item)(no space)'s going to help you with anything?
     You can't even--" and static reclaims it again.
     (now) (plan threatened)
 
@@ -83,7 +83,7 @@
     (randomly select $Talent from $Talents)
     "You think just because you've got (a $Talent)
     now you're going to be anything other than a pathetic failure?" the
-    radio squaks angrily
+    radio squawks angrily
     (radio left off),
     before dissolving into harsh buzzing distortions.
     (now) (talent threatened)

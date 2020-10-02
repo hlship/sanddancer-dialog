@@ -36,7 +36,7 @@
 (plural *)
 (switchable *)
 (narrate switching on *)
-    With a sharp buzz, a wiff of static, and an electrical groan,
+    With a sharp buzz, a whiff of static, and an electrical groan,
     bare light bulbs flicker on throughout the building.
 (narrate switching off *)
     (if) (#headlights is on)

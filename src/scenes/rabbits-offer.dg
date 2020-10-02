@@ -169,7 +169,6 @@
 (telling quip *)
 (* directly follows #down-to-business)
 (name *) that you don't know
-(action verb *) tell
 (comment *)
     "I tell her I love her," you begin, "I tell her I do and I wanna believe it.
     But I don't know. I should believe, I should know, but I don't. 
@@ -194,7 +193,7 @@
     He holds out an easter basket filled with plastic green easter grass; in it
     are two glowing orbs.
     (par)
-    "Strength," hey says, pointing to the first one, "and courage.
+    "Strength," he says, pointing to the first one, "and courage.
     Pick whichever one you think will be most useful, but you have to give me
     something back.
     Something real, something I can work with."
@@ -236,10 +235,8 @@
     "but it will change, transverse, be resurrected as something else. Reborn."
 
 #dont-want-to-trade
-(telling quip *)
-(name *) you don't want to trade
-(dict *) i %% as in "i don't want to trade"
-(action verb *) tell
+(performing quip *)
+(name *) say you don't want to trade
 (* follows #rabbits-choices)
 (comment *)
     "Right. Indians, trading. Not a fan." you say.

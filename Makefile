@@ -8,4 +8,4 @@ web: release
 	cp -R web-overrides/* out/release/web/
 
 upload:	web
-	scp -r out/release/web/* ${IF_SCP_ROOT}/sand-dancer\
+	scp -r out/release/web/* ${IF_SCP_ROOT}/sand-dancer
