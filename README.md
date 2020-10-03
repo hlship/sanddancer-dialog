@@ -23,7 +23,7 @@ Currently tested against Dialog `0m/01`.
 - Override default `smell` to reflect the desert and current location or scene
 - Beef up text and actions related to getting the gas can
 - Model the radio better if attacked during sinister voices
-
+- Customize `listen to radio` during sinister voices
 
 ### v5 - 30 Sep 2020
 

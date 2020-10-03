@@ -4,6 +4,9 @@
     (#rabbits-offer has completed)
 (stop *)
     (#sand-dancers-arrival is happening)
+(perform [listen to #radio])
+    (* in progress)
+    You hear sounds like sand shifting, and eerie whispers.
 
 (narrate entering #break-room)
     (#sinister-voices in progress)
