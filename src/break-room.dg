@@ -17,12 +17,8 @@
     (then)
         , in which (is $Items) (a $Items)
     (endif)
-    . A clunky old-fashioned emergency radio
-    (if) (radio is operating)
-    (then) hums and crackles
-    (else) sits
-    (endif)
-    on a table.
+    . 
+    (look radio)
     (par)
     Open doorways lead west and north.
 (place #storage-room north of *)
@@ -124,6 +120,12 @@
 (name *) emergency radio
 (dict *) old big fifties knob switch
 (descr *)
+    (radio smashed)
+    The radio has been reduced to broken fragments and the static and voices continue.
+(descr *)
+    (radio kicked over)
+    You've kicked over the radio, but the voices keep coming.
+(descr *)
     Vintage, man. A chrome switch on the side to turn it on and off, and a big fifties
     dial on the front
     (if) (* is tuned to $Freq)
@@ -173,6 +175,21 @@
     (conversation partner $)
     You don't want to break your connection with the staticky voice.
 
+(look radio)
+    (radio smashed)
+    The remains of the smashed emergency radio are scattered across the floor.
+
+(look radio)
+    (radio kicked over)
+    The emergency radio has been kicked over on its side.
+
+(look radio)
+    A clunky old-fashioned emergency radio
+    (if) (radio is operating)
+    (then) hums and crackles
+    (else) sits
+    (endif)
+    on a table.
 
 #dial
 (name *) dial

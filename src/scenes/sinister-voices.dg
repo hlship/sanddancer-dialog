@@ -17,6 +17,7 @@
     (or)
         (sinister radio 3)
     (stopping)
+    (now) (#radio is on)
 
 (sinister radio 1)
     With a sudden growl of static, the radio springs to life
@@ -91,7 +92,6 @@
 (sinister radio 3)
     ~(final threatened)
     (held talents $Talents)
-    (nonempty $Talents)
     "You're nothing," the radio spews, "your (the $Talents) (is $Talents)
     worthless. You'll never amount to anything, and neither will your kid, just another half-breed loser destined to die in poverty and live in debt, isn't that right, Knock?"
     and with a sudden shock you realize why the voice sounds so familiar. 
@@ -125,8 +125,10 @@
         You slam a fist into the top of the radio, but it just keeps hissing with static.
     (or)
         You kick the radio off the table and it clatters to the ground, but still keeps laughing with hisses and whines.
+        (now) (radio kicked over)
     (or)
         You smash the radio over and over again, until it lies in pieces on the ground, but the static still continues, and more and more it sounds like sand.
+        (now) (radio smashed)
     (or)
         The radio is destroyed, but the sound still plays, echoing and reverberating through the room.
     (stopping)

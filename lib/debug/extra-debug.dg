@@ -59,4 +59,10 @@
     (enter #storage-room)
 
 (end rainstorm)
-    (now) (force rainstorm complete)    
+    (now) (force rainstorm complete)  
+    
+(setup sinister voices)
+    (setup lighting)
+    (grab [#strength #scent #your-shit-job #last-day-of-high-school])
+    (now) (#rabbits-offer has completed)
+    (enter #break-room)

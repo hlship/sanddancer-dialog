@@ -1,0 +1,29 @@
+(setup sinister voices)
+turn radio off
+n
+s
+w
+e
+x radio
+break radio
+l
+x radio
+break radio
+l
+x radio
+n
+s
+break radio
+l
+x radio
+w
+e
+break radio
+x radio
+l
+n
+s
+w
+e
+
+

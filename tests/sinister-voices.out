@@ -1,0 +1,294 @@
+
+
+but it's too late, you're crashing, you crash...
+
+Middle of Nowhere (in the pickup truck)
+You've smashed up against a tall Saguaro, which is all you can see out the
+windshield except a few feet of desert sand, then blackness. Hell, you must have
+driven off the road and crashed. Ocean keeps telling you this night commute on
+this lonely highway's gonna kill you; maybe you should start listening.
+
+On the dash you can see a piece of jade.
+
+The glove compartment is closed.
+
+Through the windshield, you see a little lizard clinging frantically to the
+Saguaro.
+
+Something about the piece of jade makes you want to brood about your grandma's
+stories.
+
+> (setup sinister voices)
+
+Break Room
+Shadows and grime linger in dark corners of this dismal room with just one tiny
+frosted window. Some rotting picnic tables strewn with layers of sand and
+crumbling trash are pushed against one wall. On the opposite wall is a closed
+flimsy-looking wire mesh cage, in which is an emergency blanket. A clunky old-
+fashioned emergency radio sits on a table.
+
+Open doorways lead west and north.
+
+Query succeeded: (setup sinister voices)
+> turn radio off
+The emergency radio is already off.
+
+The cold night air swirls around you, and you pull your jacket closer.
+
+Hey, that emergency blanket might be useful if you decide on spending the night
+here.
+
+> n
+You walk north.
+
+Storage Room
+The walls are lined with bare metal shelves, rusting away. Mounted to the wall
+is a control panel for the building's emergency lights. They are switched on. On
+the shelving are hundreds of cans of food, the labels long since aged away. The
+break room lies back to the south and a utility ladder climbs through a broken
+skylight to the roof.
+
+> s
+You walk south.
+
+Break Room
+Shadows and grime linger in dark corners of this dismal room with just one tiny
+frosted window. Some rotting picnic tables strewn with layers of sand and
+crumbling trash are pushed against one wall. On the opposite wall is a closed
+flimsy-looking wire mesh cage, in which is an emergency blanket. A clunky old-
+fashioned emergency radio sits on a table.
+
+Open doorways lead west and north.
+
+With a sudden growl of static, the radio springs to life, which is weird because
+you're damn sure you turned it off and it freaks the hell out of you. The voice
+weaves in and out of crazy whirling distortion and shifting blasts of static.
+"Hey... receiving? ...never told... you'll never, never--" A wail like an 8-bit
+banshee screams through the signal. "...waste of time... who do you think? ..."
+Static, static. "Very soon now, Nak... akaibito... very..."
+
+Uh. You're pretty sure you never told that dude your name. Maybe you're just
+hearing things.
+
+> w
+You walk west.
+
+Staging Area
+It's obvious this place has been abandoned for years. Cold night air breathes
+through holes in the roof and everything is strewn with sand and patches of
+mold. An imposing metal desk extends out from one wall. The floor has half-
+collapsed near one corner, revealing a hole criss-crossed with cobwebs.
+
+The boarded-up door is southwest, alongside the empty window frame leading
+outside; other rooms lie north and east.
+
+> e
+You walk east.
+
+Break Room
+Shadows and grime linger in dark corners of this dismal room with just one tiny
+frosted window. Some rotting picnic tables strewn with layers of sand and
+crumbling trash are pushed against one wall. On the opposite wall is a closed
+flimsy-looking wire mesh cage, in which is an emergency blanket. A clunky old-
+fashioned emergency radio hums and crackles on a table.
+
+Open doorways lead west and north.
+
+The radio growls to life again, the voice distorted now under a constant barrage
+of electronic rain. "Where do you think you're going?" it says. "What are you
+trying to do? You can't..." A snap, some syncopated crackles. "... can see you,
+Na... know where.... never going to work. Never g--" And the voice cuts off,
+replaced by a low, tooth-rattling hum.
+
+The voice sounds different than before. I mean it still kind of sounds like the
+first guy you talked to but it sounds like someone else now too, someone you
+know, you've known for a long time. Someone you're afraid of.
+
+> x radio
+Vintage, man. A chrome switch on the side to turn it on and off, and a big
+fifties dial on the front. It's lit up from inside ... are those freakin' vacuum
+tubes?
+
+> break radio
+You slam a fist into the top of the radio, but it just keeps hissing with
+static.
+
+> l
+Break Room
+Shadows and grime linger in dark corners of this dismal room with just one tiny
+frosted window. Some rotting picnic tables strewn with layers of sand and
+crumbling trash are pushed against one wall. On the opposite wall is a closed
+flimsy-looking wire mesh cage, in which is an emergency blanket. A clunky old-
+fashioned emergency radio hums and crackles on a table.
+
+Open doorways lead west and north.
+
+> x radio
+Vintage, man. A chrome switch on the side to turn it on and off, and a big
+fifties dial on the front. It's lit up from inside ... are those freakin' vacuum
+tubes?
+
+> break radio
+You kick the radio off the table and it clatters to the ground, but still keeps
+laughing with hisses and whines.
+
+> l
+Break Room
+Shadows and grime linger in dark corners of this dismal room with just one tiny
+frosted window. Some rotting picnic tables strewn with layers of sand and
+crumbling trash are pushed against one wall. On the opposite wall is a closed
+flimsy-looking wire mesh cage, in which is an emergency blanket. The emergency
+radio has been kicked over on its side.
+
+Open doorways lead west and north.
+
+> x radio
+You've kicked over the radio, but the voices keep coming.
+
+The air is frigid, and turns your breath into clouds.
+
+> n
+You walk north.
+
+Storage Room
+The walls are lined with bare metal shelves, rusting away. Mounted to the wall
+is a control panel for the building's emergency lights. They are switched on. On
+the shelving are hundreds of cans of food, the labels long since aged away. The
+break room lies back to the south and a utility ladder climbs through a broken
+skylight to the roof.
+
+> s
+You walk south.
+
+Break Room
+Shadows and grime linger in dark corners of this dismal room with just one tiny
+frosted window. Some rotting picnic tables strewn with layers of sand and
+crumbling trash are pushed against one wall. On the opposite wall is a closed
+flimsy-looking wire mesh cage, in which is an emergency blanket. The emergency
+radio has been kicked over on its side.
+
+Open doorways lead west and north.
+
+The static on the radio resolves into overlapping whispers. "It makes for a nice
+story," the whispers say, "but you're remembering your shit job all wrong.
+That's not really how it happened, was it?"
+
+> break radio
+You smash the radio over and over again, until it lies in pieces on the ground,
+but the static still continues, and more and more it sounds like sand.
+
+> l
+Break Room
+Shadows and grime linger in dark corners of this dismal room with just one tiny
+frosted window. Some rotting picnic tables strewn with layers of sand and
+crumbling trash are pushed against one wall. On the opposite wall is a closed
+flimsy-looking wire mesh cage, in which is an emergency blanket. The remains of
+the smashed emergency radio are scattered across the floor.
+
+Open doorways lead west and north.
+
+> x radio
+The radio has been reduced to broken fragments and the static and voices
+continue.
+
+> w
+You walk west.
+
+Staging Area
+It's obvious this place has been abandoned for years. Cold night air breathes
+through holes in the roof and everything is strewn with sand and patches of
+mold. An imposing metal desk extends out from one wall. The floor has half-
+collapsed near one corner, revealing a hole criss-crossed with cobwebs.
+
+The boarded-up door is southwest, alongside the empty window frame leading
+outside; other rooms lie north and east.
+
+> e
+You walk east.
+
+Break Room
+Shadows and grime linger in dark corners of this dismal room with just one tiny
+frosted window. Some rotting picnic tables strewn with layers of sand and
+crumbling trash are pushed against one wall. On the opposite wall is a closed
+flimsy-looking wire mesh cage, in which is an emergency blanket. The remains of
+the smashed emergency radio are scattered across the floor.
+
+Open doorways lead west and north.
+
+"You think just because you've got strength now you're going to be anything
+other than a pathetic failure?" the radio squawks angrily, before dissolving
+into harsh buzzing distortions.
+
+> break radio
+The radio is destroyed, but the sound still plays, echoing and reverberating
+through the room.
+
+> x radio
+The radio has been reduced to broken fragments and the static and voices
+continue.
+
+> l
+Break Room
+Shadows and grime linger in dark corners of this dismal room with just one tiny
+frosted window. Some rotting picnic tables strewn with layers of sand and
+crumbling trash are pushed against one wall. On the opposite wall is a closed
+flimsy-looking wire mesh cage, in which is an emergency blanket. The remains of
+the smashed emergency radio are scattered across the floor.
+
+Open doorways lead west and north.
+
+> n
+You walk north.
+
+Storage Room
+The walls are lined with bare metal shelves, rusting away. Mounted to the wall
+is a control panel for the building's emergency lights. They are switched on. On
+the shelving are hundreds of cans of food, the labels long since aged away. The
+break room lies back to the south and a utility ladder climbs through a broken
+skylight to the roof.
+
+> s
+You walk south.
+
+Break Room
+Shadows and grime linger in dark corners of this dismal room with just one tiny
+frosted window. Some rotting picnic tables strewn with layers of sand and
+crumbling trash are pushed against one wall. On the opposite wall is a closed
+flimsy-looking wire mesh cage, in which is an emergency blanket. The remains of
+the smashed emergency radio are scattered across the floor.
+
+Open doorways lead west and north.
+
+"You're nothing," the radio spews, "your strength and scent are worthless.
+You'll never amount to anything, and neither will your kid, just another half-
+breed loser destined to die in poverty and live in debt, isn't that right,
+Knock?" and with a sudden shock you realize why the voice sounds so familiar.
+It's your voice. It's your own god-damned voice.
+
+> w
+You walk west.
+
+Staging Area
+It's obvious this place has been abandoned for years. Cold night air breathes
+through holes in the roof and everything is strewn with sand and patches of
+mold. An imposing metal desk extends out from one wall. The floor has half-
+collapsed near one corner, revealing a hole criss-crossed with cobwebs.
+
+The boarded-up door is southwest, alongside the empty window frame leading
+outside; other rooms lie north and east.
+
+> e
+You walk east.
+
+Break Room
+Shadows and grime linger in dark corners of this dismal room with just one tiny
+frosted window. Some rotting picnic tables strewn with layers of sand and
+crumbling trash are pushed against one wall. On the opposite wall is a closed
+flimsy-looking wire mesh cage, in which is an emergency blanket. The remains of
+the smashed emergency radio are scattered across the floor.
+
+Open doorways lead west and north.
+
+The radio fizzles and growls through weird twists of distortion.
+
+> 
