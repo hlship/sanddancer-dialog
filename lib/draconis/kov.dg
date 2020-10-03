@@ -19,6 +19,12 @@
 %% These three predicates are modifications to the standard library's parsing routines - specifically replacing calls to (nonempty $) with (obj-list $)
 
 (try-complex $ComplexAction)
+%% Added by HLS due to "sticky verb" problem
+	(if) ~(action $ComplexAction preserves the question) (then)
+		(now) ~(implicit action is $)
+		(now) ~(implicit action wants direction)
+	(endif)
+%% End added by HLS	
 	(if) ~(allowed action $ComplexAction) (then)
 		(report disallowed action $ComplexAction)
 		(stop)
