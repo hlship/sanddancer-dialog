@@ -17,6 +17,10 @@ Currently tested against Dialog `0m/01`.
 
 ## History
 
+### v7 - UNRELEASED
+
+- Fix the "sticky implicit verb" bug
+- Shorten time lost in desert waiting for shadow to re-appear
 
 ### v6 - 2 Oct 2020
 

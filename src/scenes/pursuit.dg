@@ -107,13 +107,8 @@
 (ready for shadow to appear)
     (current room #open-desert)
     (turns in current room $Turns)
-    { 
         ($Turns >= 3)
-        (fixed pursuit path)
-    (or)
-        ($Turns >= 6)
-        (random chance of 1 in 4)
-    }
+        { (fixed pursuit path) (or) (random chance of 1 in 3) }
 
 (ready for shadow to appear)
     (current room #roof)
