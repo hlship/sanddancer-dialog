@@ -1,12 +1,5 @@
+(grab [#pack #strength])
 (setup coyotes offer)
-(now) (knock holds #strength)
-open glove compartment
-take pack
-exit
-w
-(now) (turns in current room 6)
-w
-attack coyotes
 no
 advice
 ask who
@@ -15,6 +8,6 @@ trading
 luck
 scent
 trade stories for scent
-trade karl for scent
+trade job for scent
 i
 n

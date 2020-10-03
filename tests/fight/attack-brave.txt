@@ -1,8 +1,5 @@
-(setup coyotes offer)
-(now) (knock holds #courage)
-take jade
-exit
-w
-(now) (turns in current room 6)
-w
+(grab #courage)
+(setup fight)
+teleport desert
+(tick)
 attack coyotes

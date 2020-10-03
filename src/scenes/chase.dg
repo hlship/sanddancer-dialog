@@ -7,8 +7,11 @@
     (now) (#snarling-shadows is #in #open-desert)
     Something snarls off in the distance, a warning growl.
 (complete *)
-    (turns in current room 6)
+    (caught by shadows)
     (now) (#snarling-shadows is nowhere)
+    (par)
+    It's over. They've caught you. They surround you, circling, growling, looking
+    for weakness, moving in for the kill.
 (on every tick during *)
     (par)
     (select)
@@ -23,6 +26,7 @@
         The pack's at your heels, snapping, growling, and you've never in your life been this terrified.
     (or)
         Snarls and teeth and mangy fur on every side.
+        (now) (caught by shadows)
     (stopping)
 (narrate leaving $ $)
     (* in progress)

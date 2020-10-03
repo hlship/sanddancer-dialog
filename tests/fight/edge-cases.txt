@@ -1,9 +1,12 @@
-(setup coyotes offer)
 take jade
-w
-(now) (turns in current room 6)
-w
-brood stories
+(setup fight)
+teleport desert
+(tick)
 x coyotes
-s
-throw jade at coyotes
+brood stories
+
+
+
+
+
+

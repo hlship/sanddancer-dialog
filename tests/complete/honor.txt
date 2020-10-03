@@ -78,8 +78,6 @@ e
 e
 e
 e
-e
-e
 attack coyotes
 yes
 ask about trading

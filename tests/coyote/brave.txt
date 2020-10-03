@@ -1,11 +1,5 @@
+(grab [#pack #courage])
 (setup coyotes offer)
-(now) (knock holds #courage)
-open glove compartment
-take pack
-exit
-w
-(now) (turns in current room 6)
-w
-attack coyotes
 say yes
 
+ 

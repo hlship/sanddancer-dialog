@@ -24,6 +24,7 @@ Currently tested against Dialog `0m/01`.
 - Beef up text and actions related to getting the gas can
 - Model the radio better if attacked during sinister voices
 - Customize `listen to radio` during sinister voices
+- Streamline pacing in chase and fight scenes
 
 ### v5 - 30 Sep 2020
 

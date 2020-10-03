@@ -44,9 +44,18 @@
     (now) (#rainstorm has completed)
     (grab [#your-shit-job #meeting-ocean])
 
-(setup coyotes offer)
+(setup fight)
     (setup chase)
-    %% (now) (#chase has completed)
+    (now) (#temptation is complete)
+    (now) (#chase is complete)
+    (now) (#chase has completed)
+
+(setup coyotes offer)
+    (setup fight)
+    (now) (#fight in progress)
+    %% Fight immediately ends because no coyotes
+    (enter #open-desert)
+    (tick)
 
 (setup sand-dancers offer)
     (setup lighting)

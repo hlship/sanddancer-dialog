@@ -1,23 +1,11 @@
-(global variable (fight duration $))
-
 #fight
 (scene *) 
 (dramatic *)
 (start *)
     (#chase has completed)
-    (par)
-    It's over.
-    They've caught you.
-    They surround you, circling, growling, looking for weakness, moving in for the kill.
     (now) (#coyotes is #in #open-desert)
-    (now) (fight duration 0)
 (complete *)
-    %% Note: timing for this is slightly off when ending cowardly; to be handled with coyote's offer
     (#coyotes is nowhere)
-(on every tick during *)
-    (fight duration $X)
-    ($X incremented into $Y)
-    (now) (fight duration $Y)
 (prevent [brood $])
     (* in progress)
     No time for that now.
@@ -43,6 +31,7 @@
         The circle of snarling coyotes tightens.
     (or)
         The coyotes growl, pulling closer, snapping at your heels.
+        (now) (player acts cowardly)
     (at random)
 (instead of [attack *])
     It's over.
@@ -70,7 +59,7 @@
     (now) (#coyotes is nowhere)
 (on every tick)
     (#fight in progress)
-    (fight duration 6)
+    (player acts cowardly)
     (par)
     It's over.
     The coyotes dive in for the kill, jaws snapping, and you cower in fear.

@@ -1,8 +1,3 @@
+(grab #strength)
 (setup coyotes offer)
-(now) (knock holds #strength)
-w
-(now) (turns in current room 6)
-w
-attack coyotes
 say yes
-

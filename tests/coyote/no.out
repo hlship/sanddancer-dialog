@@ -18,74 +18,16 @@ Saguaro.
 Something about the piece of jade makes you want to brood about your grandma's
 stories.
 
+> (grab [#pack #strength])
+Query succeeded: (grab [#pack #strength])
 > (setup coyotes offer)
-Query succeeded: (setup coyotes offer)
-> (now) (knock holds #strength)
-> open glove compartment
-You open the glove compartment, revealing a pack of cigarettes.
-
-The cold night air swirls around you, and you pull your jacket closer.
-
-Something about the sage makes you want to brood about watching Family Guy with
-Karl.
-
-You stop in mid-stride as your eyes flick to the horizon. Way out in the desert,
-silhouetted on a rise, a distant figure stands. As you watch he raises a hand
-and waves.
-
-> take pack
-You take the pack of cigarettes out of the glove compartment.
-
-> exit
-The door creaks open with difficulty, rusted joints straining. You get out of
-the pickup truck.
-
-> w
-You walk west for a long time, thoughts turning over like the sand under your
-sneakers. You think about watching Family Guy with Karl. You think about Ocean
-and how pissed she's gonna be that you're not home. Like you tell her not to
-wait up for you but she always does anyway.
-
-Some wind kicks up and chucks sand in your face. You blink it out and kinda
-realize while you're doing it that you haven't really been paying attention to
-where you've been going. Another gust whines through the sagebrush and you
-realize with a kind of heavy feeling that with all the dust this wind is kicking
-up you can't see a damn thing. You can't see your pickup, you can't see the
-electrical tower. Not even your damn footprints. You're lost. Well, shit.
 
 Open Desert
-The dust storm rages around you, and you wish you could see more than twenty
-feet in front of you.
+Your tracks are swallowed up in moments by the billowing sand, and you shiver in
+the chill night air.
 
-Nearby: a dead cow, some dry bones, and a dry stream-bed. Nothing to write home
-about.
-
-Something snarls off in the distance, a warning growl.
-
-> (now) (turns in current room 6)
-> w
-You move nervously forward.
-
-Open Desert
-Clouds of dust swirl through the air, and every inch of sand looks just like
-every other.
-
-You can sort of see a low bluff, a dry stream-bed, and some clumps of sagebrush.
-
-It's over. They've caught you. They surround you, circling, growling, looking
-for weakness, moving in for the kill.
-
-> attack coyotes
-It's over. The coyotes dive in for the kill, jaws snapping, and without hardly
-realizing what you're doing you make a fist and slam it into the one that's
-closest.
-
-The coyote squeals, flung sideways by the strength of your punch, blood dripping
-from its nose, and the rest of the pack pulls back in sudden caution. Another
-coyote makes to lunge and you whirl towards it in fury, pulling back for another
-blow, but the pack breaks in some collective decision and scatters, mangy
-shadows slinking away into the desert. Except for one last coyote who stands his
-ground.
+All you can make out in the darkness are a looming cactus, a stand of cactus,
+and some dry bones.
 
 And then you blink, and realize he's not a coyote after all. Just... just a guy.
 
@@ -100,7 +42,7 @@ the red glow of the cigarette.
 from behind his ear and offers it to you. "Smoke?"
 
 You could say yes or say no.
-
+Query succeeded: (setup coyotes offer)
 > no
 "Nah, I'm trying to kick 'em" you say.
 
@@ -129,16 +71,16 @@ they'll never happen to you. I could tell you some stories and you'll yawn and
 think you know them already. I could tell you some stories and you'll think
 they're wise and not realize you don't understand them until you make the same
 mistakes yourself and try to turn your failure into advice and fail at that,
-too. I could tell you some stories." He looks off towards the horizon,
-scratching his stubble with the hand that holds the cigarette. "But it's not my
-stories that will help you."
+too. I could tell you some stories." He looks off towards the horizon, the red
+tip of the cigarette glowing as he takes another drag. "But it's not my stories
+that will help you."
 
 You could ask who he is, ask about the rabbit, or ask about trading.
 
 > ask who
 "No, really, who are you?" you ask.
 
-"You know who I am," he says, itching underneath his jacket, slowly. "I'm the
+"You know who I am," he says, smoke gusting from his lungs in clouds. "I'm the
 one who runs on both sides of the fence. I'm the one who scouts ahead. I'm the
 one with songs in my blood and dirt under my nails and people owe me money in
 every trailer park town from here to Yuma, or maybe I owe them money but anyway
@@ -150,8 +92,8 @@ You could ask about the rabbit or ask about trading.
 "Are you like the rabbit?" you ask.
 
 He grins, not unkindly but not exactly kindly either. "That cute little
-jackalope?" he says, scratching his stubble with the hand that holds the
-cigarette. "He's got his upsides, I guess. Strength has its place. But if you're
+jackalope?" he says, the red tip of the cigarette glowing as he takes another
+drag. "He's got his upsides, I guess. Strength has its place. But if you're
 always in the spotlight, you'll never learn how to live in the shadows. And most
 of us spend a lot of time in the shadows."
 
@@ -200,13 +142,13 @@ it's not enough to complete the trade."
 
 Somewhere inside you, things are shifting, moving, growing.
 
-> trade karl for scent
+> trade job for scent
 The Coyote nods. "Yes," he says, "a fair trade." And something happens inside
-you as he says it. The memory of watching Family Guy with Karl shifts and
-wriggles and fades away and it's still there, but now it's shifted, become
-something else. And, yeah, it kinda does feel like you could call it scent.
-Cool. He tucks the other talent back in his jacket, and without its faint glow,
-it seems darker than ever, the pulsing red tip of his cigarette all you can see.
+you as he says it. The memory of your shit job shifts and wriggles and fades
+away and it's still there, but now it's shifted, become something else. And,
+yeah, it kinda does feel like you could call it scent. Cool. He tucks the other
+talent back in his jacket, and without its faint glow, it seems darker than
+ever, the pulsing red tip of his cigarette all you can see.
 
 "The last of us is coming," Coyote's voice says out of the black, "last and most
 powerful, and most dangerous, and most afraid. Sand-dancer. Be careful of him,
@@ -226,11 +168,11 @@ The desert stretches in all directions except back south towards the glow of the
 building.
 
 > i
-You have a pack of cigarettes, a flashlight, your lighter, your wallet, and your
+You have a flashlight, a pack of cigarettes, your lighter, your wallet, and your
 emotional baggage. You're wearing your denim jacket. You've gained the talents
 strength and scent.
 
-In your emotional baggage are the memories of meeting Ocean and your shit job.
+In your emotional baggage is the memory of meeting Ocean.
 
 Something about the tumbleweed makes you want to brood about your last day of
 high school.
@@ -238,6 +180,9 @@ high school.
 > n
 (first attempting to switch the flashlight on)
 Your surroundings spring into brightness around you.
+
+Something about the sage makes you want to brood about watching Family Guy with
+Karl.
 
 You have a feeling that when the last spirit animal decides to make an
 appearance, it will find you.

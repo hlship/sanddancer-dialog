@@ -1,18 +1,13 @@
-(setup coyotes offer)
-(now) (knock holds #courage)
+(grab #courage)
 take jade
-n
-w
-w
-(now) (turns in current room 6)
-w
-n
+(setup fight)
+teleport desert
+(tick)
+throw jade at coyotes
 e
-s
-w
-n
-e
-%% That removes the coyotes, one more tick to end the scene:
-z
+
+
+
+
 
 
