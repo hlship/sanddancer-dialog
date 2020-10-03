@@ -62,3 +62,6 @@
 (instead of [smell])
     (player can see *)
     (try [smell *])
+
+%% Needed for some tests, compilation failure without it
+~(force rainstorm complete)
