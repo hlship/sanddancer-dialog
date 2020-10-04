@@ -7,7 +7,6 @@ rabbit
 trading
 luck
 scent
-trade stories for scent
-trade job for scent
+trade stories and job for scent
 i
 n

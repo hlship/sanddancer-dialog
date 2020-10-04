@@ -40,6 +40,8 @@ Currently tested against Dialog `0m/01`.
 - Require five brooded memories before opening the photo
 - Note that the sand is like mud during rainstorm
 - Better hint text that Rabbit wants memories
+- Support trading more than one memory at a time
+
 
 ### v6 - 2 Oct 2020
 
