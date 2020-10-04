@@ -36,6 +36,7 @@ Currently tested against Dialog `0m/01`.
 - Disambiguate `open can` when rusty tin can is present
 - Make room names proper, for `look <dir>`
 - Have the figure, in temptation, be south-east (to encourage player to go there)
+- Make the burrow inherently dark
 
 ### v6 - 2 Oct 2020
 
