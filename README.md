@@ -26,6 +26,8 @@ Currently tested against Dialog `0m/01`.
 - Describe the roots in the burrow
 - Prevent `climb roots` in burrow with a reasonable message
 - Tweak text during chase if Knock holds courage
+- Describe the huge barrel as a hint on what to do
+- Add and fix a number of hints
 
 ### v6 - 2 Oct 2020
 

@@ -5,8 +5,10 @@ n
 u
 climb barrel
 push barrel
+x barrel
 (now) (knock holds #strength)
 push barrel
+x barrel
 l
 push barrel
 climb barrel

@@ -96,7 +96,7 @@
     (then)
         "Yo, you started smokin' again?" Buster asks, sniffing
         disdainfully, except he's not Buster any more, more like Eminem.
-        "I though you quit that shit, dawg.  It's cool, I won't tell your grandma,
+        "I thought you quit that shit, dawg.  It's cool, I won't tell your grandma,
         but it makes Thumper cry a little, you know what I'm sayin'?"
     (elseif)
         (collect $Window)

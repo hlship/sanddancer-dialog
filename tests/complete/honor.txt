@@ -8,6 +8,7 @@ exit
 n
 n
 s
+smoke pack
 throw jade at window
 in
 feel desk
@@ -23,6 +24,7 @@ x hole
 take tape
 e
 n
+smoke pack
 turn on lights
 s
 turn on radio
@@ -37,9 +39,11 @@ s
 w
 out
 s
-w
+z
 e
-s
+w
+se
+nw
 n
 insane
 ask who
@@ -54,8 +58,10 @@ n
 n
 in
 x hole
+smoke pack
 take duct tape
 e
+smoke pack
 n
 u
 u
@@ -86,6 +92,7 @@ trade karl for scent
 trade night for scent
 s
 in
+smoke pack
 e
 n
 open can

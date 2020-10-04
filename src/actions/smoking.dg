@@ -73,7 +73,7 @@
     (into $Talents)
     (nonempty $Talents)
     (par)
-    Some wierd shit went down in the desert, but you
+    Some weird shit went down in the desert, but you
     do feel like you have more
     %% Talents are proper named, so the `the` is not printed,
     %% e.g. "courage and luck".

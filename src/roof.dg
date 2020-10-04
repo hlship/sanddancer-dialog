@@ -7,7 +7,7 @@
     the lowest ones are well above your head.
     You'd have to jump out into space to grab the bottom rung.
     A huge metal barrel stands upright and intact nearby,
-    (if) (#huge-barrel is placed)
+    (if) (barrel is placed)
     (then)
         directly underneath the the bottom rungs
     (else)
@@ -27,7 +27,7 @@
 
 (prevent [leave * #up])
     ~(knock holds #courage)
-    ~(#huge-barrel is placed)
+    ~(barrel is placed)
     The metal rungs have rusted away and crumbled; the lowest are well above your head.
     You don't have the courage to make the jump.
 
@@ -43,7 +43,7 @@
         Hey, it wasn't that hard after all.
 
 (narrate leaving * #up)
-    (#huge-barrel is placed)
+    (barrel is placed)
     You climb the barrel, reach, grab the bottom rungs, and pull yourself up.
 
 (instead of $Action)
@@ -60,30 +60,36 @@
 
 #huge-barrel
 (name *) huge metal barrel
+(descr *)
+    (barrel is placed)
+   You've pushed the barrel under the rungs leading up into the tower.
+(descr *)
+    The barrel is towards the middle of the roof, not far from the ladder leading
+    down.
 (prevent [push *])
     ~(knock holds #strength)
     You push against the side, but you're not strong enough to move the barrel.
 
 (prevent [push *])
-    (* is placed)
+    (barrel is placed)
     Push it any more and it'll fall off the roof.
     Keep it here and you can get to the rungs.
 
 (perform [push *])
-    ~(* is placed)
-    (now) (* is placed)
+    ~(barrel is placed)
+    (now) (barrel is placed)
     Heaving, you push against the barrel, and with a horrible grating noise, it slides
     across the roof till it rests under the metal rungs.
 
 (instead of [enter *])
-    (* is placed)
+    (barrel is placed)
     (try [go #up])
 (instead of [climb *])
-    (* is placed)
+    (barrel is placed)
     (try [go #up])
 (prevent $Action)
     (current room #roof)
-    ~(* is placed)
+    ~(barrel is placed)
     ($Action is one of [[enter *]
                         [climb *]])
     Yeah, you could get on top of it, but while it's over here, you couldn't reach a whole lot.
