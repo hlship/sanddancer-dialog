@@ -30,6 +30,7 @@ Currently tested against Dialog `0m/01`.
 - Add and fix a number of hints
 - Prevent hint about opening cage from repeating after the cage is opened
 - Add a little segue before the Coyote reveals his talents
+- Add explanation for `wear blanket`
 
 ### v6 - 2 Oct 2020
 

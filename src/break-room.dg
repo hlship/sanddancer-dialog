@@ -93,6 +93,9 @@
     (* is pristine)
     (#cage is closed)
     You can reach through the bars of the cage and just barely touch (the *), but that's it.
+(prevent [wear *])
+    You've still got some exploring to do before you settle down for the night.
+    Best to keep that blanket dry for now.
 
 #tiny-frosted-window
 (window *)

@@ -18,6 +18,7 @@ look up
 teleport break room
 attack cage
 take blanket
+wear it
 teleport control center
 teleport crumbling concrete
 (end rainstorm)
