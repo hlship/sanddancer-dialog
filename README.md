@@ -25,6 +25,7 @@ Currently tested against Dialog `0m/01`.
 - Describe smell in burrow, and smell of rabbit
 - Describe the roots in the burrow
 - Prevent `climb roots` in burrow with a reasonable message
+- Tweak text during chase if Knock holds courage
 
 ### v6 - 2 Oct 2020
 

@@ -23,7 +23,14 @@
         You can smell them now, wild, feral.
         Shifting shadows whirl around you, panting, whining with the thrill of the chase.
     (or)
-        The pack's at your heels, snapping, growling, and you've never in your life been this terrified.
+        The pack's at your heels, snapping, growling, and 
+        (if) (knock holds #courage)
+        (then) 
+            you scan the terrain looking for some advantage in making your stand
+        (else)
+            you've never in your life been this terrified
+        (endif)
+        .
     (or)
         Snarls and teeth and mangy fur on every side.
         (now) (caught by shadows)
