@@ -2,11 +2,15 @@ brood stories
 open wallet
 brood job
 n
+x photo
 drop photo
 n
 purloin key
 brood last day
 brood ocean
+(now) (#sage is #in #base-of-tower)
+z
+brood karl
 s
 unfold photo
 fold photo

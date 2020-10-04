@@ -37,6 +37,7 @@ Currently tested against Dialog `0m/01`.
 - Make room names proper, for `look <dir>`
 - Have the figure, in temptation, be south-east (to encourage player to go there)
 - Make the burrow inherently dark
+- Require five brooded memories before opening the photo
 
 ### v6 - 2 Oct 2020
 

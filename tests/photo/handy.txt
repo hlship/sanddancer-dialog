@@ -8,5 +8,8 @@ brood last day
 purloin key
 x photo
 brood ocean
+(now) (#sage is #in #base-of-tower)
+z
+brood karl
 x ultrasound
 take ultrasound

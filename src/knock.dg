@@ -155,7 +155,7 @@
     ~(photo has been opened)
     (photo is nearby)
     (count of retrieved memories into $Count)
-    ($Count >= 4)
+    ($Count >= 5)
     (par)
     (try [open *])
 (photo is nearby)
