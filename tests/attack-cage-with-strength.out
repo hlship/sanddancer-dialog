@@ -20,6 +20,8 @@ stories.
 
 > (setup lighting)
 Query succeeded: (setup lighting)
+> (grab #strength)
+Query succeeded: (grab #strength)
 > purloin key
 
 > teleport break room
@@ -33,12 +35,40 @@ radio sits on a table.
 
 Open doorways lead west and north.
 
-> open cage with key
-You sling the key into the lock, but as you turn it, the rusted metal snaps off
-inside. The crumbling fragments fall to the ground as you slam your fist against
-the wire mesh in frustration. This is not your day.
+> attack cage
+You grip the mesh in one hand and pull, and realize it's so rusted you can
+easily peel it back. The door rips free and you drop it to the floor.
+
+Something about the rusted key makes you want to brood about meeting Ocean.
 
 Hey, that emergency blanket might be useful if you decide on spending the night
 here.
+
+> l
+Break Room
+Shadows and grime linger in dark corners of this dismal room with just one tiny
+frosted window. Some rotting picnic tables strewn with layers of sand and
+crumbling trash are pushed against one wall. On the opposite wall is a wire cage
+that has been ripped open. In the cage is an emergency blanket. A clunky old-
+fashioned emergency radio sits on a table.
+
+Open doorways lead west and north.
+
+> x cage
+Inside the cage, you see an emergency blanket.
+
+> x door
+It's barely recognizable as a door now, just junk.
+
+> open cage with key
+There isn't enough of the wire cage left to try that, or any particular reason
+to try.
+
+> attack cage
+You've vented your frustration on the cage, and won your reward. There isn't
+much of it left, anyway.
+
+> take door
+You can't take the twisted metal door.
 
 > 

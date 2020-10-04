@@ -1,0 +1,11 @@
+(setup lighting)
+(grab #strength)
+purloin key
+teleport break room
+attack cage
+l
+x cage
+x door
+open cage with key
+attack cage
+take door
