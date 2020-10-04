@@ -46,6 +46,8 @@
 #rusty-can
 (item *)
 (name *) rusty tin can
+(unlikely $Action)
+    (* is one of $Action)
 
 #girder
 (name *) steel girder

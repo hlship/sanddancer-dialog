@@ -32,6 +32,8 @@ Currently tested against Dialog `0m/01`.
 - Add a little segue before the Coyote reveals his talents
 - Add explanation for `wear blanket`
 - Tweak some text during sand-dancers arrival
+- Model the door after opening the cage
+- Disambiguate `open can` when rusty tin can is present
 
 ### v6 - 2 Oct 2020
 

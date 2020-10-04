@@ -32,6 +32,7 @@
 
 #tower
 (name *) huge electrical tower
+(dict *) metal
 (descr *)
     You can barely see it in the gloom but it's huge, like a metal
     spider web weaving into space.
