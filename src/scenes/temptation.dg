@@ -9,13 +9,13 @@
     (now) (#distant-figure is #in $Room)
     (par)
     You stop in mid-stride as your eyes flick to the horizon.
-    Way out in the desert, silhouetted on a rise, a distant figure
+    South-east of you, out in the desert, silhouetted on a rise, a distant figure
     stands.  As you watch he raises a hand and waves.
 (on every tick during scene *)
     (random chance of 1 in 4)
     (current room $Room)
     ~(office interior $Room)
-    The distant figure waves again, out in the deep desert.
+    The distant figure waves again, out in the deep desert to the south-east.
 (complete *)
     (current room #open-desert)
     (now) (#distant-figure is nowhere)
