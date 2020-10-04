@@ -10,6 +10,10 @@ ask who
 real
 ask much
 no
+trade jade for courage
+trade jade for strength
+trade lighter for strength
+trade lighter for rabbit
 trade stories for strength
 i
 x roots

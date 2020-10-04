@@ -20,6 +20,21 @@
     (par)
 (perform [smell *])
     He smells of muddy fur.
+(refuse [trade ~(memory $Obj) for $])
+    (conversation partner *)
+    (select)
+        "No, no, I don't want that," says the Rabbit, twitching its nose indignantly.
+        "For a talent like this, you ought to put up something real.
+        Something you care about."
+    (or)
+        "What would I do with (a $Obj)?" the Rabbit asks.
+        "I need something of yours, something personal, something I can change
+        and give back to you."
+    (or)
+        (fail)
+    (stopping)
+
+
 
 #bow-tie
 (name *) bunny's bow tie

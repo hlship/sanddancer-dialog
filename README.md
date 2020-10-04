@@ -38,6 +38,8 @@ Currently tested against Dialog `0m/01`.
 - Have the figure, in temptation, be south-east (to encourage player to go there)
 - Make the burrow inherently dark
 - Require five brooded memories before opening the photo
+- Note that the sand is like mud during rainstorm
+- Better hint text that Rabbit wants memories
 
 ### v6 - 2 Oct 2020
 
