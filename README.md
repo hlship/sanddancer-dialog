@@ -17,7 +17,7 @@ Currently tested against Dialog `0m/01`.
 
 ## History
 
-### v7 - UNRELEASED
+### v7 - 4 Oct 2020
 
 - Fix the "sticky implicit verb" bug
 - Shorten time lost in desert waiting for shadow to re-appear
@@ -41,7 +41,7 @@ Currently tested against Dialog `0m/01`.
 - Note that the sand is like mud during rainstorm
 - Better hint text that Rabbit wants memories
 - Support trading more than one memory at a time
-
+- Prevent heap error in aamachine when trading more than one memory at a time
 
 ### v6 - 2 Oct 2020
 
