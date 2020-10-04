@@ -2,7 +2,9 @@
 take jade
 brood stories
 teleport burrow
-x rabbit
+smell
+smell fur
+x hare
 go insane
 ask who
 real
@@ -10,4 +12,6 @@ ask much
 no
 trade stories for strength
 i
+x roots
+climb them
 look up

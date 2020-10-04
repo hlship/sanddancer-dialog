@@ -25,8 +25,18 @@
 (prevent [drop $])
     (current room *)
     Anything dropped here would be lost in the roots, dirt, and darkness.
+(perform [smell])
+    (current room *)
+    The burrow smells of damp, and mud, and fur.
 
 #roots
 (name *) roots
 (plural *)
+(descr *)
+    A tangle of roots, mud, and little tufts of rabbit fur. 
+    It's densely interwoven, you can't even find where you rolled through it.
+(prevent [climb *])
+    You find a couple of hand-holds and unsteadily climb a few feet, but the low ceiling is solid, packed
+    dirt.
+
  

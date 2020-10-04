@@ -22,6 +22,9 @@ Currently tested against Dialog `0m/01`.
 - Fix the "sticky implicit verb" bug
 - Shorten time lost in desert waiting for shadow to re-appear
 - Identity boarded up door as reason can't go NE from Crumbling Concrete
+- Describe smell in burrow, and smell of rabbit
+- Describe the roots in the burrow
+- Prevent `climb roots` in burrow with a reasonable message
 
 ### v6 - 2 Oct 2020
 

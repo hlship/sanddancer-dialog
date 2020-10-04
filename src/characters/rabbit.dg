@@ -3,6 +3,7 @@
 (spirit animal *)
 (topic *)
 (name *) Rabbit
+(dict *) hare fur
 (descr *)
     The closer you look the weirder it gets, like it doesn't start or end in any one place or
     something all new-agey like that.
@@ -17,6 +18,8 @@
         The rabbit stares intently at you, as if expecting something.
     (at random)
     (par)
+(perform [smell *])
+    He smells of muddy fur.
 
 #bow-tie
 (name *) bunny's bow tie
