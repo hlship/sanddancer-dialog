@@ -10,5 +10,7 @@
                     :version "v0.5"
                     :path "lib/tc.dg"}
                    "/usr/local/share/dialog-if/stdlib.dg"]
+ ;; Heap only really needed for aastory, but dgt doesn't support that yet
+ :extra-args ["--heap" "2000"]
  :cover "src/cover.png"
  :cover-alt "Sand-dancer Logo"}
