@@ -28,6 +28,7 @@ Currently tested against Dialog `0m/01`.
 - Tweak text during chase if Knock holds courage
 - Describe the huge barrel as a hint on what to do
 - Add and fix a number of hints
+- Prevent hint about opening cage from repeating after the cage is opened
 
 ### v6 - 2 Oct 2020
 

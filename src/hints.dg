@@ -39,7 +39,7 @@
 
 (hint)
     (knock holds #strength)
-    (#emergency-blanket is pristine)
+    (#cage is closed)
     You're strong enough to bust open that mesh cage with the blanket inside.
 
 (hint)
