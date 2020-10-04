@@ -34,6 +34,7 @@ Currently tested against Dialog `0m/01`.
 - Tweak some text during sand-dancers arrival
 - Model the door after opening the cage
 - Disambiguate `open can` when rusty tin can is present
+- Make room names proper, for `look <dir>`
 
 ### v6 - 2 Oct 2020
 

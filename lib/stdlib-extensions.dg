@@ -102,3 +102,6 @@
 
 %% Playtester kept trying this
 (grammar [open [single] with [single]] for [unlock $ with $])
+
+%% All room are proper named; for "look <direction>"
+(proper $Room) (room $Room)
