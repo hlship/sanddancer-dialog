@@ -31,6 +31,7 @@ Currently tested against Dialog `0m/01`.
 - Prevent hint about opening cage from repeating after the cage is opened
 - Add a little segue before the Coyote reveals his talents
 - Add explanation for `wear blanket`
+- Tweak some text during sand-dancers arrival
 
 ### v6 - 2 Oct 2020
 

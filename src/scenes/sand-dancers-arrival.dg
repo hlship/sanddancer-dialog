@@ -32,6 +32,8 @@
 (prevent $Action)
     (* in progress)
     ~{
+        (command $Action)
+        (or)
         ($Action = [go $])
         (or)
         ($Action = [leave $ $])
@@ -104,6 +106,6 @@
     (or)
         struggle (name $Direction)-ward against a wall of sand
     (or)
-        crawl (name $Direction) in the narrow space between the sand and the roof
+        crawl (name $Direction) in the narrow space between the rising sand and the ceiling
     (stopping)
     .
