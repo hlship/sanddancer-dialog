@@ -56,6 +56,8 @@ look up
 brood graduation night
 n
 n
+x sand
+take sand
 in
 x hole
 smoke pack

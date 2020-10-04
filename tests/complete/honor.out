@@ -644,6 +644,16 @@ around to the east or head south back to your truck.
 
 Rain batters down on the desert.
 
+> x sand
+The pounding rain has turned the sand to mud.
+
+Rain batters down on the desert.
+
+> take sand
+More like mud right now.
+
+Rain batters down on the desert.
+
 > in
 Gratefully, you slip inside the building, out of the storm.
 
@@ -660,6 +670,8 @@ outside; other rooms lie north and east.
 Through a mass of hardly noticeable cobwebs, you can see a roll of duct-tape
 down in the hole.
 
+The air is frigid, and turns your breath into clouds.
+
 > smoke pack
 You pull out a cigarette and flick it into life. Thoughts tumble through your
 head.
@@ -673,11 +685,11 @@ floor now.
 And you're starting to get low on cigarettes. You crush the butt under your heel
 and wonder what to do next.
 
-The air is frigid, and turns your breath into clouds.
-
 > take duct tape
 You reach down into the hole, brushing cobwebs away impatiently, and pull out
 the duct tape.
+
+The building groans as wind and rain lash it from outside.
 
 > e
 You walk east.
@@ -700,8 +712,6 @@ akaibito... very..."
 
 Uh. You're pretty sure you never told that dude your name. Maybe you're just
 hearing things.
-
-The building groans as wind and rain lash it from outside.
 
 > smoke pack
 You pull out a cigarette and flick it into life. Thoughts tumble through your
@@ -754,13 +764,13 @@ You catch a faint whiff of gasoline coming from somewhere.
 
 Back down is the only place to go.
 
+The rain's dying down, the sounds of the storm fading, water sinking into the
+thirsty sand leaving only the smell of sage behind.
+
 > (end rainstorm)
 Query succeeded: (end rainstorm)
 > take opener
 You take the rusty can opener.
-
-The rain's dying down, the sounds of the storm fading, water sinking into the
-thirsty sand leaving only the smell of sage behind.
 
 > d
 You climb down.
