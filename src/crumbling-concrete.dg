@@ -16,6 +16,8 @@
     you could also walk around to the east or head south back to your truck.
 (place #base-of-tower north of *)
 (place #weed-strewn-rust east of *)
+(narrate failing to leave * #northeast)
+    You'll have to find a way through that boarded up door, first.
 
 #pane-of-cracked-glass
 (window *)
