@@ -2,7 +2,7 @@
 (scene *)
 (dramatic *)
 (start *)
-    (#sand-dancers-arrival is complete)
+    (#sand-dancers-arrival has completed)
     (now) (#lizards is #in #roof)
     (now) (#sand-dancer is #in #roof)
     (now) (conversation partner #sand-dancer)

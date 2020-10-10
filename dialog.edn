@@ -3,11 +3,14 @@
                  "src/*.dg"
                  "src/actions/*.dg"]
  :debug-sources ["lib/debug/*.dg"
+                                 {:github "hlship/threaded-conversation"
+                                    :version "v0.6"
+                                    :path "lib/tcdebug.dg"}
                  "/usr/local/share/dialog-if/stddebug.dg"]
  :library-sources ["lib/*.dg"
                    "lib/draconis/*.dg"
                    {:github "hlship/threaded-conversation"
-                    :version "v0.5"
+                    :version "v0.6"
                     :path "lib/tc.dg"}
                    "/usr/local/share/dialog-if/stdlib.dg"]
  ;; Heap only really needed for aastory, but dgt doesn't support that yet

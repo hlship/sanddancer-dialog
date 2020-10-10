@@ -44,56 +44,6 @@
     (random from 1 to $X into $Z)
     ($Z <= $Y)
 
-%% Like @tree, but rooted in current room, and shows relations and other details
-%% about the room and items.
-(tree)
-    (current room $Room)
-    (log) {
-        $Room 
-        (annotate [{ (inherently dark $Room) dark }
-                   { (office interior $Room) office interior }
-                   { (around the tower $Room) around the tower } 
-                   { (in range of headlights $Room) in range of headlights }])
-        (line)
-        (exhaust) {
-            *($Obj has parent $Room)
-            (tree $Obj 4)
-        }
-    }
-
-(tree $Obj $Indent)
-    ($Obj has relation $Rel)
-    (space $Indent)
-    $Obj $Rel
-    (annotate [{ ($Obj is handled) handled }
-               { (animate $Obj) animate }
-               { ($Obj is hidden) hidden }
-               { ($Obj is closed) closed }
-               { ($Obj is locked ) locked }
-               { ($Obj is off) off }
-               { ($Obj is broken) broken }
-               { ($Obj provides light) lit}])
-    (line)
-    ($Indent plus 4 into $ChildIndent)
-    (exhaust) {
-        *($Child has parent $Obj)
-        (tree $Child $ChildIndent)
-    }
-
-%% So much of the trace output is understanding the players input, it obscures
-%% the game-specific rules, so these predicates make it easy to start tracing
-%% right at the point the action is processed via (try $) or (instead of $).
-
-(trace $Action)
-    (trace on)
-    (stoppable) { (try $Action ) }
-    (trace off)
-
-(trace instead $Action)
-    (trace on)
-    (stoppable) { (instead of $Action) }
-    (trace off)
-
 ($X incremented into $Z)
     ($X plus 1 into $Z)
 

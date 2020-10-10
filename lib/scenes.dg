@@ -11,13 +11,13 @@
 %% Started scenes will receive the flag ($ in progress) and ($ has started).
 
 %% Scenes must supply the (complete $) predicate, the counterpart to (start $); 
-%% when this succeeds, the ($ in progress) flag is cleared, and the ($ is complete) flag
+%% when this succeeds, the ($ in progress) flag is cleared, and the ($ has completed) flag
 %% is set.
 
 %% On each tick, scenes complete before new scenes start; this allows scenes to start triggered
 %% by other scenes being just completed.
 
-%% By default, scenes execute once (once a scene has completed, no further checks
+%% By default, scenes execute once (once a scene has completed, there are no further checks
 %% to see if it should start).
 %% Scenes with the (recurring $) trait can start again even once completed.
 
@@ -53,8 +53,6 @@
         (now) ~($Scene in progress)
         %% The scene has completed, at least once
         (now) ($Scene has completed)
-        %% Important for recurring scenes
-        (now) ($Scene is complete)
     }
 
 (tick happening scenes)
@@ -85,18 +83,4 @@
 
 (ready to start scene $Scene)
     ~($Scene in progress)
-    { ~($Scene is complete) (or) (recurring $Scene) }
-
-(scenes)
-    (exhaust) {
-        *(scene $Scene)
-        $Scene
-
-        (annotate [{ (recurring $Scene) recurring}
-                   { (dramatic $Scene) dramatic }
-                   { ($Scene has started) started }
-                   { ($Scene in progress) in progress }
-                   { ($Scene is complete) complete }
-                   { ($Scene has completed) has completed }])
-        (line)
-    }
+    { ~($Scene has completed) (or) (recurring $Scene) }

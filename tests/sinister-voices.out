@@ -38,6 +38,9 @@ The cold night air swirls around you, and you pull your jacket closer.
 Hey, that emergency blanket might be useful if you decide on spending the night
 here.
 
+Rain starts to come down, pattering on the desert sand. Soon it's gonna be a
+muddy deathtrap out here.
+
 > n
 You walk north.
 
@@ -47,6 +50,8 @@ is a control panel for the building's emergency lights. They are switched on. On
 the shelving are hundreds of cans of food, the labels long since aged away. The
 break room lies back to the south and a utility ladder climbs through a broken
 skylight to the roof.
+
+Rain beats constantly on the roof, loud and furious.
 
 > s
 You walk south.
@@ -123,6 +128,8 @@ radio hums and crackles on a table.
 
 Open doorways lead west and north.
 
+Water from the storm trickles down from unseen cracks and holes.
+
 > x radio
 Vintage, man. A chrome switch on the side to turn it on and off, and a big
 fifties dial on the front. It's lit up from inside ... are those freakin' vacuum
@@ -142,10 +149,12 @@ kicked over on its side.
 
 Open doorways lead west and north.
 
+Rain beats constantly on the roof, loud and furious.
+
 > x radio
 You've kicked over the radio, but the voices keep coming.
 
-The air is frigid, and turns your breath into clouds.
+The building groans as wind and rain lash it from outside.
 
 > listen to radio
 You hear sounds like sand shifting, and eerie whispers.
@@ -173,12 +182,16 @@ kicked over on its side.
 Open doorways lead west and north.
 
 The static on the radio resolves into overlapping whispers. "It makes for a nice
-story," the whispers say, "but you're remembering your last day of high school
-all wrong. That's not really how it happened, was it?"
+story," the whispers say, "but you're remembering your grandma's stories all
+wrong. That's not really how it happened, was it?"
 
 > break radio
 You smash the radio over and over again, until it lies in pieces on the ground,
 but the static still continues, and more and more it sounds like sand.
+
+You shiver in the cold.
+
+Water from the storm trickles down from unseen cracks and holes.
 
 > l
 Break Room
@@ -190,9 +203,13 @@ emergency radio are scattered across the floor.
 
 Open doorways lead west and north.
 
+Rain beats constantly on the roof, loud and furious.
+
 > x radio
 The radio has been reduced to broken fragments and the static and voices
 continue.
+
+The building groans as wind and rain lash it from outside.
 
 > w
 You walk west.
@@ -205,6 +222,8 @@ collapsed near one corner, revealing a hole criss-crossed with cobwebs.
 
 The boarded-up door is southwest, alongside the empty window frame leading
 outside; other rooms lie north and east.
+
+Water from the storm trickles down from unseen cracks and holes.
 
 > e
 You walk east.
@@ -240,6 +259,8 @@ emergency radio are scattered across the floor.
 
 Open doorways lead west and north.
 
+The building groans as wind and rain lash it from outside.
+
 > n
 You walk north.
 
@@ -249,6 +270,8 @@ is a control panel for the building's emergency lights. They are switched on. On
 the shelving are hundreds of cans of food, the labels long since aged away. The
 break room lies back to the south and a utility ladder climbs through a broken
 skylight to the roof.
+
+Rain beats constantly on the roof, loud and furious.
 
 > s
 You walk south.
@@ -267,6 +290,8 @@ You'll never amount to anything, and neither will your kid, just another half-
 breed loser destined to die in poverty and live in debt, isn't that right,
 Knock?" and with a sudden shock you realize why the voice sounds so familiar.
 It's your voice. It's your own god-damned voice.
+
+The building groans as wind and rain lash it from outside.
 
 > w
 You walk west.

@@ -46,8 +46,8 @@
 
 (setup fight)
     (setup chase)
-    (now) (#temptation is complete)
-    (now) (#chase is complete)
+    (now) (#temptation has completed)
+    (now) (#chase has completed)
     (now) (#chase has completed)
 
 (setup coyotes offer)
@@ -75,3 +75,14 @@
     (grab [#strength #scent #your-shit-job #last-day-of-high-school])
     (now) (#rabbits-offer has completed)
     (enter #break-room)
+
+%% Object annotations:
+
+(annotate ($ is retrieved) with @retrieved)
+
+%% Room annotations:
+
+(annotate (office interior $) with [office interior])
+(annotate (around the tower $) with [around the tower])
+(annotate (in range of headlights $) with [in range of headlights])
+

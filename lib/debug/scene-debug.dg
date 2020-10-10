@@ -7,3 +7,24 @@
 (understand command [debug scenes off])
 (perform [debug scenes off])
     (now) ~(scene debugging enabled)
+
+(understand command [sceneinfo])
+
+(perform [sceneinfo])
+    (scene info)
+
+(scene info)
+    (exhaust) {
+        *(scene $Scene)
+        $Scene
+        (output annotations for $Scene)
+
+        (line)
+    }
+
+(annotate (dramatic $) with @dramatic)
+
+(annotate (recurring $) with @recurring)
+(annotate ($ has started) with [has started])
+(annotate ($ in progress) with [in progress])
+(annotate ($ has completed) with [has completed])
