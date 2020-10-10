@@ -17,6 +17,10 @@ Currently tested against Dialog `0m/01`.
 
 ## History
 
+### v8 - UNRELEASED
+
+- Switch to v0.6 of Threaded Conversation library
+
 ### v7 - 4 Oct 2020
 
 - Fix the "sticky implicit verb" bug
