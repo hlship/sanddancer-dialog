@@ -47,7 +47,7 @@
     The building shakes and groans as sand continues to pour in, rising higher and higher.
 
 (narrate leaving $ $)
-    (* is happening)
+    (* in progress)
     You wade through the sand, which is rising all the time.
     (par)
     (fail) %% Continue to default

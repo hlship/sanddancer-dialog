@@ -38,7 +38,7 @@
 
 (on every tick)
     (identify completed scenes)
-    (tick happening scenes)
+    (tick scenes in progress)
     (identify starting scenes)
      
 (identify completed scenes)
@@ -55,7 +55,7 @@
         (now) ($Scene has completed)
     }
 
-(tick happening scenes)
+(tick scenes in progress)
     (exhaust) {
         *(scene $Scene)
         ($Scene in progress)
