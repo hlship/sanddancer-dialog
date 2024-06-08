@@ -47,8 +47,7 @@
             A brown-colored lizard clings to the cactus.
         (endif)
     (endif)
-(#knock/
-    #pickup-truck/
+(#pickup-truck/
     #whiffs-of-gasoline/
     #saguaro/
     #lizard

@@ -1,0 +1,17 @@
+%% Because we're using the latest Dialog compiler - 0m03
+%% with a slightly earlier version of the standard library
+%% (from 0m01), we have to define a couple of interfaces
+%% to prevent warnings.
+%%
+%% This is necessary because
+%% a) we rely on the original darkness rules for one puzzle
+%% b) the kinds-of-value library is tied closely to 0m01 and
+%% doesn't work w/ 0m03
+
+(interface (scope))
+(interface (actions on))
+(interface (actions off))
+(interface (A full $))
+(interface (Its $))
+(interface (list of objects $ $))
+(interface (any key))

@@ -6,13 +6,13 @@
                                  {:github "hlship/threaded-conversation"
                                     :version "v0.7.1"
                                     :path "lib/tcdebug.dg"}
-                 "/opt/homebrew/share/dialog-if/stddebug.dg"]
+                 "lib/dialog/stddebug.dg"]
  :library-sources ["lib/*.dg"
                    "lib/draconis/*.dg"
                    {:github "hlship/threaded-conversation"
                     :version "v0.7.1"
                     :path "lib/tc.dg"}
-                   "/opt/homebrew/share/dialog-if/stdlib.dg"]
+                   "lib/dialog/stdlib.dg"]
  ;; Heap only really needed for aastory, but dgt doesn't support that yet
  :extra-args ["--heap" "2000"]
  :cover "src/cover.png"
