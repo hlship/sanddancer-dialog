@@ -11,7 +11,8 @@ Virtually all of the [Aaron Reed's Final Version of Sand-dancer](http://inform7.
 for example, new comment dialog was needed for Knock's side of conversations with the spirit animals, and I hope I've mimicked Aaron's style sufficiently.
 I also chose not to override the default narration.
 
-Special thanks to Daniel Stelzer for [working out how to handle some complex parsing needed to tune the radio](https://intfiction.org/t/understanding-complicated-numbers/46769/2).
+Special thanks to Daniel Stelzer for [working out how to handle some complex parsing needed to tune the radio](https://intfiction.org/t/understanding-complicated-numbers/46769/2), using his
+[kinds of value](https://bitbucket.org/dstelzer/dialog-extensions/src/master/kov.dg) extension.
 
 Currently tested against Dialog `0m/01`.
 
