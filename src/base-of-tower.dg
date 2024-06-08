@@ -58,7 +58,7 @@
 
 #bits-of-trash
 (name *) bits of trash
-(some *)
+(plural *)
 (descr *)
     Bits of dirty paper and cardboard, tiny scraps of wire, broken bits of plastic, and other indistinguishable and useless things.
 

@@ -126,7 +126,7 @@
 
 #crumbling-trash
 (name *) crumbling trash
-(some *)
+(plural *)
 
 #radio
 (switchable *)

@@ -11,6 +11,12 @@
 	($Struct = [#kovmarker $Tag | $Contents])
 (struct $Struct has tag $Tag and single value $Value)
 	($Struct = [#kovmarker $Tag $Value])
+
+%% Added by HLS to omit warnings
+(interface (kov $Kov has tag $Tag and contents $Contents))
+(interface (kov $Kov has tag $Tag and single value $Value))
+%% End added by HLS
+
 (kov $Kov has tag $Tag and contents $Contents)
 	(struct $Kov has tag $Tag and contents $Contents)
 (kov $Kov has tag $Tag and single value $Value)

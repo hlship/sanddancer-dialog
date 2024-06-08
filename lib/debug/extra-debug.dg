@@ -28,6 +28,14 @@
     (now) (#flashlight is on)
     (now) (#emergency-lights is on)
 
+%% Only intended for use from test scripts, needs an interface or warnings will be emitted    
+(interface (setup pursuit))
+(interface (setup radio chat))
+(interface (setup coyotes offer))
+(interface (setup sand-dancers offer))
+(interface (end rainstorm))
+(interface (setup sinister voices))
+
 (setup pursuit)
     (now) (fixed pursuit path)
     (setup lighting)

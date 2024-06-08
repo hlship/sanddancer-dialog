@@ -11,7 +11,7 @@
     You stop in mid-stride as your eyes flick to the horizon.
     South-east of you, out in the desert, silhouetted on a rise, a distant figure
     stands.  As you watch he raises a hand and waves.
-(on every tick during scene *)
+(on every tick during *)
     (random chance of 1 in 4)
     (current room $Room)
     ~(office interior $Room)

@@ -124,6 +124,8 @@
     %% No need to check number of memories, the player needs only one, and gets that almost from
     %% the start.
 
+(interface (force pursuit start))
+
 (force pursuit start)
     (now) (force shadow)
     (now) (#emergency-lights is on)

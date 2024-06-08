@@ -34,7 +34,7 @@
 
 %% Each scene that is in progress at the start of the tick and not completed during the tick
 %% is notified via this predicate.  It doesn't matter whether this predicate succeeds or fails.
-(on every tick during scene $) (fail)
+(on every tick during $) (fail)
 
 (on every tick)
     (identify completed scenes)

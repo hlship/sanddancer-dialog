@@ -102,7 +102,7 @@
 #about-sand-dancer
 (asking quip *)
 (name *) who he is
-(mentions #sand-dancer)
+(* mentions #sand-dancer)
 (* supplies #sand-dancer)
 (* follows #greet-sd)
 (comment *)
@@ -340,7 +340,7 @@
 (asking quip *)
 (name *) the lizards
 (about *)
-(* references #lizards)
+(* mentions #lizards)
 (* follows #greet-sd)
 (off limits * after #path-selection)
 (off limits *)
@@ -366,7 +366,7 @@
     (cycling)
 
 #lizards
-(actor *)
+(animate *)
 (name *) thousands of lizards
 (descr *)
     They crawl over and under and around each other, restless,

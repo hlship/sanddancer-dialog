@@ -2,7 +2,7 @@
 (scene *)
 (start *)
     (#rabbits-offer has completed)
-(stop *)
+(complete *)
     (#sand-dancers-arrival in progress)
 (perform [listen to #radio])
     (* in progress)
