@@ -902,11 +902,10 @@ Desert stretches in all directions; back west is the front of the building.
 You walk east.
 
 Open Desert
-Your tracks are swallowed up in moments by the billowing sand, and you wish you
-could see more than twenty feet in front of you.
+The dust storm rages around you, and you shiver in the chill night air.
 
-Half-lost in the shadows, you see a dull grey boulder, some dry bones, and a
-looming cactus and that's about it.
+Half-lost in the shadows, you see a dead cow, a looming cactus, and a stand of
+cactus and that's about it.
 
 Something snarls off in the distance, a warning growl.
 
@@ -914,11 +913,10 @@ Something snarls off in the distance, a warning growl.
 You move nervously forward.
 
 Open Desert
-The desert stretches around you in all directions, and every inch of sand looks
-just like every other.
+Your tracks are swallowed up in moments by the billowing sand, and you wish you
+could see more than twenty feet in front of you.
 
-Nearby: some clumps of sagebrush, a dry stream-bed, and a stand of cactus.
-Nothing to write home about.
+You can sort of see a dry stream-bed, a looming cactus, and a dead cow.
 
 A howl from behind you, and an answer from somewhere ahead. Coyotes. Hungry,
 sounds like.
@@ -927,10 +925,10 @@ sounds like.
 You jog forward, eyes snapping left and right at the moving shadows around you.
 
 Open Desert
-The dust storm rages around you, and god damn it's dark.
+Clouds of dust swirl through the air, and god damn it's dark.
 
-You can sort of see a looming cactus, a dry stream-bed, and some clumps of
-sagebrush.
+All you can make out in the darkness are some dry bones, a dry stream-bed, and a
+stand of cactus.
 
 Coyotes call all around you now, circling in the dark, unseen, but coming
 closer, closer.
@@ -940,11 +938,11 @@ You're running now, jumping over sagebrush and stumbling on rocks, as snarling
 animal forms close in around you.
 
 Open Desert
-Clouds of dust swirl through the air, and you wish you could see more than
-twenty feet in front of you.
+Your tracks are swallowed up in moments by the billowing sand, and you wish you
+could see more than twenty feet in front of you.
 
-Nearby: a dead cow, some dry bones, and a stand of cactus. Nothing to write home
-about.
+Half-lost in the shadows, you see some clumps of sagebrush, a stand of cactus,
+and a dead cow and that's about it.
 
 You can smell them now, wild, feral. Shifting shadows whirl around you, panting,
 whining with the thrill of the chase.
@@ -953,11 +951,10 @@ whining with the thrill of the chase.
 You run.
 
 Open Desert
-Your tracks are swallowed up in moments by the billowing sand, and every inch of
-sand looks just like every other.
+Clouds of dust swirl through the air, and you plod wearily through the sand.
 
-Half-lost in the shadows, you see a dead cow, a stand of cactus, and a dry
-stream-bed and that's about it.
+Nearby: a looming cactus, a dead cow, and some dry bones. Nothing to write home
+about.
 
 The pack's at your heels, snapping, growling, and you scan the terrain looking
 for some advantage in making your stand.
@@ -966,11 +963,9 @@ for some advantage in making your stand.
 You run.
 
 Open Desert
-The desert stretches around you in all directions, and you shiver in the chill
-night air.
+The dust storm rages around you, and you shiver in the chill night air.
 
-Nearby: a low bluff, a dull grey boulder, and a dead cow. Nothing to write home
-about.
+You can sort of see a looming cactus, a low bluff, and a dull grey boulder.
 
 Snarls and teeth and mangy fur on every side.
 
@@ -978,10 +973,10 @@ Snarls and teeth and mangy fur on every side.
 You run.
 
 Open Desert
-The dust storm rages around you, and every inch of sand looks just like every
-other.
+Clouds of dust swirl through the air, and you plod wearily through the sand.
 
-You can sort of see a dry stream-bed, a dead cow, and a dull grey boulder.
+All you can make out in the darkness are a stand of cactus, some clumps of
+sagebrush, and some dry bones.
 
 It's over. They've caught you. They surround you, circling, growling, looking
 for weakness, moving in for the kill.
@@ -1165,7 +1160,7 @@ skylight to the roof.
 
 > open can
 You pull down a can from the shelf, grip it with the rusty can opener, and peel
-open the lid. Yuck: black and mold-covered mushrooms. Not your lucky day.
+open the lid. Yuck: moldy peas. Some of these should still be good, right?
 
 > i
 You have a rusty can opener, a roll of duct-tape, a rusted key, a piece of jade,
@@ -1271,8 +1266,8 @@ radio hums and crackles on a table.
 Open doorways lead west and north.
 
 The static on the radio resolves into overlapping whispers. "It makes for a nice
-story," the whispers say, "but you're remembering road trips through the desert
-all wrong. That's not really how it happened, was it?"
+story," the whispers say, "but you're remembering your shit job all wrong.
+That's not really how it happened, was it?"
 
 > w
 You walk west.
@@ -1298,6 +1293,8 @@ through the window and every crack, jets of sand, and already it's shin-deep and
 holy christ you've got to get out of here.
 
 > e
+You wade through the sand, which is rising all the time.
+
 You climb east over the drifts of sand.
 
 Break Room
@@ -1312,6 +1309,8 @@ The building shakes and groans as sand continues to pour in, rising higher and
 higher.
 
 > n
+You wade through the sand, which is rising all the time.
+
 You wade exhaustedly through rivers of sand, all but swimming north.
 
 Storage Room
@@ -1322,6 +1321,8 @@ The building shakes and groans as sand continues to pour in, rising higher and
 higher.
 
 > u
+You wade through the sand, which is rising all the time.
+
 Barely able to reach the ladder through sand up to your waist, you haul yourself
 up the rungs and pull free just in time.
 
@@ -1421,13 +1422,13 @@ You could ask about honor or ask about freedom.
 
 > trade trips for honor
 He flicks out his tongue and pulls the memory of road trips through the desert
-from your head, swallowing it whole. "A good start," he says, "but you must
+from your heart, swallowing it whole. "A good start," he says, "but you must
 trade more."
 
 You could ask about honor or ask about freedom.
 
 > trade shit job for honor
-He flicks out his tongue and pulls the memory of your shit job from your core,
+He flicks out his tongue and pulls the memory of your shit job from your gut,
 swallowing it whole. "Yes," he says, "but more."
 
 You could ask about honor or ask about freedom.
