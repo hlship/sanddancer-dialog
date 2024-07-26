@@ -20,7 +20,9 @@ Currently tested against Dialog `0m/01`.
 
 ### v8 - UNRELEASED
 
-- Switch to v0.6 of Threaded Conversation library
+- Switch to v0.7.1 of Threaded Conversation library
+- Add the Dialog 0m/01 versions of stdlib.dg and stddebug.dg.
+- Avoid warnings from the 0m/03 compiler (even though using the standard library from 0m/01)
 
 ### v7 - 4 Oct 2020
 

@@ -1,18 +1,15 @@
-{:story-sources ["src/scenes/*.dg"
-                 "src/characters/*.dg"
-                 "src/*.dg"
-                 "src/actions/*.dg"]
- :debug-sources ["lib/debug/*.dg"
-                                 {:github "hlship/threaded-conversation"
-                                    :version "v0.7.1"
-                                    :path "lib/tcdebug.dg"}
-                 "lib/dialog/stddebug.dg"]
- :library-sources ["lib/*.dg"
-                   "lib/draconis/*.dg"
-                   {:github "hlship/threaded-conversation"
-                    :version "v0.7.1"
-                    :path "lib/tc.dg"}
-                   "lib/dialog/stdlib.dg"]
+{:sources 
+ {:story  ["src/scenes/*.dg"
+           "src/characters/*.dg"
+           "src/*.dg"
+           "src/actions/*.dg"]
+  :debug ["lib/debug/*.dg"
+          "lib/tc/tcdebug.dg"
+          "lib/dialog/stddebug.dg"]
+  :library ["lib/*.dg"
+            "lib/draconis/*.dg"
+            "lib/tc/tc.dg"
+            "lib/dialog/stdlib.dg"]}
  ;; Heap only really needed for aastory, but dgt doesn't support that yet
  :extra-args ["--heap" "2000"]
  :cover "src/cover.png"
