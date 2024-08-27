@@ -1,4 +1,0 @@
-(setup lighting)
-purloin key
-teleport break room
-open cage with key

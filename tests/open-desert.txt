@@ -1,9 +1,0 @@
-exit
-e
-purloin flashlight
-turn it on
-e
-open wallet
-(force pursuit start)
-e
-w

@@ -1,9 +1,0 @@
-%% Roof to control center via courage
-(setup lighting)
-teleport roof
-u
-(now) (knock holds #courage)
-u
-d
-u
-

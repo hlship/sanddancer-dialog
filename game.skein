@@ -2448,6 +2448,7 @@ command: (setup lighting)
 Query succeeded: (setup lighting)
 --------------------------------------------------------------------------------
 id: 1724440104553
+label: Base of Tower Lighting
 parent-id: 1724440104552
 command: l
 --------------------------------------------------------------------------------
@@ -2466,7 +2467,6 @@ id: 1724440104554
 parent-id: 1723218892801
 command: brood 
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > brood 
 What do you want brood about?
 
@@ -2475,7 +2475,6 @@ id: 1724440104555
 parent-id: 1724440104554
 command: stories
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > stories
 There are dark spirits who roam the earth, little Knock. Grandma used to say
 that, holding you tight and stroking your hair. There are dark spirits who roam
@@ -2500,7 +2499,6 @@ id: 1724440104556
 parent-id: 1724440104555
 command: open wallet
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > open wallet
 You open your wallet, revealing your driver's license, a receipt from Big
 Jimmy's, and a folded photo.
@@ -2513,7 +2511,6 @@ id: 1724440104557
 parent-id: 1724440104556
 command: (setup lighting)
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > (setup lighting)
 Query succeeded: (setup lighting)
 --------------------------------------------------------------------------------
@@ -2521,28 +2518,24 @@ id: 1724440104558
 parent-id: 1724440104557
 command: (now) (#pursuit has completed)
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > (now) (#pursuit has completed)
 --------------------------------------------------------------------------------
 id: 1724440104559
 parent-id: 1724440104558
 command: (now) (#rainstorm has completed)
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > (now) (#rainstorm has completed)
 --------------------------------------------------------------------------------
 id: 1724440104560
 parent-id: 1724440104559
 command: (now) (#burrow is visited)
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > (now) (#burrow is visited)
 --------------------------------------------------------------------------------
 id: 1724440104561
 parent-id: 1724440104560
 command: e
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > e
 (first attempting to get out of the pickup truck)
 The door creaks open with difficulty, rusted joints straining. You get out of
@@ -2581,7 +2574,6 @@ id: 1724440104562
 parent-id: 1724440104561
 command: n
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > n
 You move nervously forward.
 
@@ -2599,7 +2591,6 @@ id: 1724440104563
 parent-id: 1724440104562
 command: n
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > n
 You jog forward, eyes snapping left and right at the moving shadows around you.
 
@@ -2617,7 +2608,6 @@ id: 1724440104564
 parent-id: 1724440104563
 command: n
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > n
 You're running now, jumping over sagebrush and stumbling on rocks, as snarling
 animal forms close in around you.
@@ -2636,7 +2626,6 @@ id: 1724440104565
 parent-id: 1724440104564
 command: x shadows
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > x shadows
 All you can do is run.
 
@@ -2648,7 +2637,6 @@ id: 1724440104566
 parent-id: 1724440104565
 command: n
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > n
 You run.
 
@@ -2665,7 +2653,6 @@ id: 1724440104567
 parent-id: 1724440104566
 command: s
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > s
 You run.
 
@@ -2684,7 +2671,6 @@ id: 1724440104568
 parent-id: 1724440104567
 command: s
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > s
 You try to flee and instantly teeth and claws block your path; you pull back to
 the center of the circle, terrified.
@@ -2808,6 +2794,7 @@ You take the roll of duct-tape out of the hole.
 
 --------------------------------------------------------------------------------
 id: 1724440104581
+label: Duct Tape w/ Courage
 parent-id: 1724440104580
 command: x hole
 --------------------------------------------------------------------------------
@@ -2882,6 +2869,7 @@ down.
 
 --------------------------------------------------------------------------------
 id: 1724440104587
+label: Control Center via Courage
 parent-id: 1724440104586
 command: u
 --------------------------------------------------------------------------------
@@ -2903,7 +2891,6 @@ id: 1724440104588
 parent-id: 1724440104582
 command: n
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > n
 It's a drop off on all sides.
 
@@ -2912,7 +2899,6 @@ id: 1724440104589
 parent-id: 1724440104588
 command: u
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > u
 The metal rungs have rusted away and crumbled; the lowest are well above your
 head. You don't have the courage to make the jump.
@@ -2922,7 +2908,6 @@ id: 1724440104590
 parent-id: 1724440104589
 command: climb barrel
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > climb barrel
 Yeah, you could get on top of it, but while it's over here, you couldn't reach a
 whole lot.
@@ -2932,7 +2917,6 @@ id: 1724440104591
 parent-id: 1724440104590
 command: push barrel
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > push barrel
 You push against the side, but you're not strong enough to move the barrel.
 
@@ -2941,7 +2925,6 @@ id: 1724440104592
 parent-id: 1724440104591
 command: x barrel
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > x barrel
 The barrel is towards the middle of the roof, not far from the ladder leading
 down.
@@ -2951,14 +2934,12 @@ id: 1724440104593
 parent-id: 1724440104592
 command: (now) (knock holds #strength)
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > (now) (knock holds #strength)
 --------------------------------------------------------------------------------
 id: 1724440104594
 parent-id: 1724440104593
 command: push barrel
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > push barrel
 Heaving, you push against the barrel, and with a horrible grating noise, it
 slides across the roof till it rests under the metal rungs.
@@ -2968,7 +2949,6 @@ id: 1724440104595
 parent-id: 1724440104594
 command: x barrel
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > x barrel
 You've pushed the barrel under the rungs leading up into the tower.
 
@@ -2977,7 +2957,6 @@ id: 1724440104596
 parent-id: 1724440104595
 command: l
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > l
 Roof
 From the roof of the building, you can see the huge electrical tower rising up
@@ -2992,7 +2971,6 @@ id: 1724440104597
 parent-id: 1724440104596
 command: push barrel
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > push barrel
 Push it any more and it'll fall off the roof. Keep it here and you can get to
 the rungs.
@@ -3002,7 +2980,6 @@ id: 1724440104598
 parent-id: 1724440104597
 command: climb barrel
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > climb barrel
 You climb the barrel, reach, grab the bottom rungs, and pull yourself up.
 
@@ -3020,7 +2997,6 @@ id: 1724440104599
 parent-id: 1724440104598
 command: d
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > d
 You climb down.
 
@@ -3034,10 +3010,10 @@ down.
 
 --------------------------------------------------------------------------------
 id: 1724440104600
+label: Control Center via Strength
 parent-id: 1724440104599
 command: u
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > u
 You climb the barrel, reach, grab the bottom rungs, and pull yourself up.
 
@@ -3303,6 +3279,7 @@ You see your wallet here.
 
 --------------------------------------------------------------------------------
 id: 1724440104625
+label: Get Flashlight
 parent-id: 1724440104624
 command: x hole
 --------------------------------------------------------------------------------
@@ -3412,6 +3389,7 @@ that.
 
 --------------------------------------------------------------------------------
 id: 1724440104634
+label: Consult Book
 parent-id: 1724440104633
 command: consult book about coyotes
 --------------------------------------------------------------------------------
@@ -3453,6 +3431,7 @@ You get into the pickup truck.
 
 --------------------------------------------------------------------------------
 id: 1724440104639
+label: Leave Truck
 parent-id: 1724440104638
 command: get out
 --------------------------------------------------------------------------------
@@ -3536,6 +3515,7 @@ It's not the piece of jade you want to brood about, it's your grandma's stories.
 
 --------------------------------------------------------------------------------
 id: 1724440104646
+label: Memories
 parent-id: 1724440104645
 command: brood on lighter
 --------------------------------------------------------------------------------
@@ -3617,6 +3597,7 @@ Middle of Nowhere (in the pickup truck)
 
 --------------------------------------------------------------------------------
 id: 1724440104654
+label: Can't Undo Smoking
 parent-id: 1724440104653
 command: i
 --------------------------------------------------------------------------------
@@ -3631,7 +3612,6 @@ id: 1724440104655
 parent-id: 1724440104547
 command: e
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > e
 Better not. Outside the wavering glow of your headlights, it's black. Pitch.
 Storm must have rolled in; there's no stars above, no anything but blackness
@@ -3642,7 +3622,6 @@ id: 1724440104656
 parent-id: 1724440104655
 command: purloin flashlight
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > purloin flashlight
 
 --------------------------------------------------------------------------------
@@ -3650,7 +3629,6 @@ id: 1724440104657
 parent-id: 1724440104656
 command: turn it on
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > turn it on
 Your surroundings spring into brightness around you.
 
@@ -3669,7 +3647,6 @@ id: 1724440104658
 parent-id: 1724440104657
 command: e
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > e
 You heft your flashlight nervously, licking your lips, but decide not to head
 out into the desert just yet. Your truck lights are already starting to dim, and
@@ -3680,7 +3657,6 @@ id: 1724440104659
 parent-id: 1724440104658
 command: open wallet
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > open wallet
 You open your wallet, revealing your driver's license, a receipt from Big
 Jimmy's, and a folded photo.
@@ -3693,7 +3669,6 @@ id: 1724440104660
 parent-id: 1724440104659
 command: (force pursuit start)
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > (force pursuit start)
 Query succeeded: (force pursuit start)
 --------------------------------------------------------------------------------
@@ -3701,7 +3676,6 @@ id: 1724440104661
 parent-id: 1724440104660
 command: e
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > e
 On a night as freakishly dark as this, that's insane.
 
@@ -3713,7 +3687,6 @@ id: 1724440104663
 parent-id: 1724440104536
 command: purloin key
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > purloin key
 
 --------------------------------------------------------------------------------
@@ -3721,7 +3694,6 @@ id: 1724440104664
 parent-id: 1724440104663
 command: teleport break room
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > teleport break room
 
 Break Room
@@ -3735,10 +3707,10 @@ Open doorways lead west and north.
 
 --------------------------------------------------------------------------------
 id: 1724440104665
+label: Open Cage with Key
 parent-id: 1724440104664
 command: open cage with key
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > open cage with key
 You sling the key into the lock, but as you turn it, the rusted metal snaps off
 inside. The crumbling fragments fall to the ground as you slam your fist against
@@ -3752,7 +3724,6 @@ id: 1724440104666
 parent-id: 1724440104536
 command: take jade
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > take jade
 You take the piece of jade.
 
@@ -3761,7 +3732,6 @@ id: 1724440104667
 parent-id: 1724440104666
 command: brood stories
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > brood stories
 There are dark spirits who roam the earth, little Knock. Grandma used to say
 that, holding you tight and stroking your hair. There are dark spirits who roam
@@ -3786,7 +3756,6 @@ id: 1724440104668
 parent-id: 1724440104667
 command: teleport burrow
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > teleport burrow
 
 Burrow
@@ -3806,7 +3775,6 @@ id: 1724440104669
 parent-id: 1724440104668
 command: smell
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > smell
 The burrow smells of damp, and mud, and fur.
 
@@ -3825,7 +3793,6 @@ id: 1724440104670
 parent-id: 1724440104669
 command: smell fur
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > smell fur
 He smells of muddy fur.
 
@@ -3836,7 +3803,6 @@ id: 1724440104671
 parent-id: 1724440104670
 command: x hare
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > x hare
 The closer you look the weirder it gets, like it doesn't start or end in any one
 place or something all new-agey like that.
@@ -3848,7 +3814,6 @@ id: 1724440104672
 parent-id: 1724440104671
 command: go insane
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > go insane
 I know, right? Looks like it's too late though.
 
@@ -3859,7 +3824,6 @@ id: 1724440104673
 parent-id: 1724440104672
 command: ask who
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > ask who
 "Who, uh, what are you?" you ask.
 
@@ -3875,7 +3839,6 @@ id: 1724440104674
 parent-id: 1724440104673
 command: real
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > real
 "But, you're not, like, real."
 
@@ -3896,7 +3859,6 @@ id: 1724440104675
 parent-id: 1724440104674
 command: ask much
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > ask much
 "I don't understand," you ask "how you know so much about me. Grandma.
 Everything."
@@ -3917,7 +3879,6 @@ id: 1724440104676
 parent-id: 1724440104675
 command: no
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > no
 "I tell her I love her," you begin, "because I know she needs me to say it. But
 really, deep down, I know it shouldn't be because of her. It should be because
@@ -3949,7 +3910,6 @@ id: 1724440104677
 parent-id: 1724440104676
 command: trade jade for courage
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > trade jade for courage
 "No, no, I don't want that," says the Rabbit, twitching its nose indignantly.
 "For a talent like this, you ought to put up something real. Something you care
@@ -3960,7 +3920,6 @@ id: 1724440104678
 parent-id: 1724440104677
 command: trade jade for strength
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > trade jade for strength
 "What would I do with a piece of jade?" the Rabbit asks. "I need something of
 yours, something personal, something I can change and give back to you."
@@ -3970,7 +3929,6 @@ id: 1724440104679
 parent-id: 1724440104678
 command: trade lighter for strength
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > trade lighter for strength
 "I'm only interested in trading memories," the Rabbit says.
 
@@ -3979,7 +3937,6 @@ id: 1724440104680
 parent-id: 1724440104679
 command: trade lighter for rabbit
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > trade lighter for rabbit
 "I'm only interested in trading memories," the Rabbit says.
 
@@ -3988,7 +3945,6 @@ id: 1724440104681
 parent-id: 1724440104680
 command: trade stories for strength
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > trade stories for strength
 The Rabbit nods. "Yes," he says, "a fair trade." And something happens inside
 you as he says it. The memory of your grandma's stories shifts and wriggles and
@@ -4009,7 +3965,6 @@ id: 1724440104682
 parent-id: 1724440104681
 command: i
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > i
 You have a piece of jade, a flashlight, your lighter, your wallet, and your
 emotional baggage. You're wearing your denim jacket. You've gained the talent of
@@ -4022,7 +3977,6 @@ id: 1724440104683
 parent-id: 1724440104682
 command: x roots
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > x roots
 A tangle of roots, mud, and little tufts of rabbit fur. It's densely interwoven,
 you can't even find where you rolled through it.
@@ -4032,17 +3986,16 @@ id: 1724440104684
 parent-id: 1724440104683
 command: climb them
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > climb them
 You find a couple of hand-holds and unsteadily climb a few feet, but the low
 ceiling is solid, packed dirt.
 
 --------------------------------------------------------------------------------
 id: 1724440104685
+label: Rabbit's Offer
 parent-id: 1724440104684
 command: look up
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > look up
 Stupidly, you tilt your head back and stare up at the dirt ceiling, and all you
 can see is blackness.
@@ -4245,6 +4198,7 @@ You switch the emergency radio off.
 
 --------------------------------------------------------------------------------
 id: 1724440104700
+label: Radio Chat
 parent-id: 1724440104699
 command: n
 --------------------------------------------------------------------------------
@@ -4678,6 +4632,7 @@ outside; other rooms lie north and east.
 
 --------------------------------------------------------------------------------
 id: 1724440104728
+label: Sinister Voices
 parent-id: 1724440104727
 command: e
 --------------------------------------------------------------------------------
@@ -5104,6 +5059,7 @@ Something snarls off in the distance, a warning growl.
 
 --------------------------------------------------------------------------------
 id: 1724440104756
+label: Temptation (start Coyote Chase)
 parent-id: 1724440104755
 command: z
 --------------------------------------------------------------------------------
@@ -5167,6 +5123,7 @@ stories.
 
 --------------------------------------------------------------------------------
 id: 1724440104761
+label: Waiting
 parent-id: 1724440104760
 command: z
 --------------------------------------------------------------------------------
@@ -5176,10 +5133,10 @@ stories.
 
 --------------------------------------------------------------------------------
 id: 1724440104762
+label: Open Desert
 parent-id: 1724440104661
 command: e
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > e
 You head off in the direction of movement, scanning with your flashlight over
 the skittering shadows.
@@ -5202,4 +5159,50 @@ The desert stretches around you in all directions, and god damn it's dark.
 You can sort of see a dead cow, some dry bones, and a dull grey boulder.
 
 Yeah, you're sure you saw it--a darting shadow to the west.
+
+--------------------------------------------------------------------------------
+id: 1724606254635
+parent-id: 1724440104568
+command: s
+--------------------------------------------------------------------------------
+> s
+You try to flee and instantly teeth and claws block your path; you pull back to
+the center of the circle, terrified.
+
+The circle of snarling coyotes tightens.
+
+--------------------------------------------------------------------------------
+id: 1724606254636
+label: Coyote Chase
+parent-id: 1724606254635
+command: s
+--------------------------------------------------------------------------------
+> s
+You try to flee and instantly teeth and claws block your path; you pull back to
+the center of the circle, terrified.
+
+The coyotes growl, pulling closer, snapping at your heels.
+
+It's over. The coyotes dive in for the kill, jaws snapping, and you cower in
+fear.
+
+But then one of them flicks his head and bares his teeth, and the others pull
+back. He's not bigger or stronger or anything, but there's something about him
+that's different. He takes the littlest step forward and the others scatter,
+mangy shadows slinking away into the desert and then you're left alone with the
+leader, the alpha coyote.
+
+And then you blink, and realize he's not a coyote after all. Just... just a guy.
+
+He wears a couple of days of stubble, a scuffed and faded denim jacket, and,
+ridiculously in the darkness, a pair of cheap sunglasses. He lights a cigarette,
+then holds up a hand in annoyance to block your flashlight beam. "Turn that
+thing off," he says, and either you do it or it goes off by itself, because the
+next thing you know, it's darker and he's closer and the only light comes from
+the red glow of the cigarette.
+
+"That's better," he says. He takes a drag on the cigarette, then pulls another
+from behind his ear and offers it to you. "Smoke?"
+
+You could say yes or say no.
 
