@@ -1,9 +1,4 @@
 
-%% Turn off the banner as that makes tests a bit more fragile
-%% (don't want to break all tests just because we changed versions of stdlib).
-(banner)
-    (just)
-
 %% Setup for tests
 
 (grab (memory $Memory))

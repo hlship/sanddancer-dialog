@@ -17,7 +17,7 @@
     (par)
     (banner)
     (try [look])
-    %% There's no tick on the first turn and so the jade is not identiified until the second turn, otherwise.
+    %% There's no tick on the first turn and so the jade is not identified until the second turn, otherwise.
     (identify recalled memories)
 
 %% Regions
