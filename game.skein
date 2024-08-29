@@ -5206,3 +5206,347 @@ from behind his ear and offers it to you. "Smoke?"
 
 You could say yes or say no.
 
+--------------------------------------------------------------------------------
+id: 1724606254637
+parent-id: 0
+command: (grab [#pack #courage])
+--------------------------------------------------------------------------------
+> (grab [#pack #courage])
+Query succeeded: (grab [#pack #courage])
+--------------------------------------------------------------------------------
+id: 1724606254638
+parent-id: 1724606254637
+command: (setup coyotes offer)
+--------------------------------------------------------------------------------
+> (setup coyotes offer)
+
+Open Desert
+Clouds of dust swirl through the air, and god damn it's dark.
+
+You can sort of see a dull grey boulder, a low bluff, and some clumps of
+sagebrush.
+
+And then you blink, and realize he's not a coyote after all. Just... just a guy.
+
+He wears a couple of days of stubble, a scuffed and faded denim jacket, and,
+ridiculously in the darkness, a pair of cheap sunglasses. He lights a cigarette,
+then holds up a hand in annoyance to block your flashlight beam. "Turn that
+thing off," he says, and either you do it or it goes off by itself, because the
+next thing you know, it's darker and he's closer and the only light comes from
+the red glow of the cigarette.
+
+"That's better," he says. He takes a drag on the cigarette, then pulls another
+from behind his ear and offers it to you. "Smoke?"
+
+You could say yes or say no.
+Query succeeded: (setup coyotes offer)
+--------------------------------------------------------------------------------
+id: 1724606254639
+label: Start Coyote Scene w/ Courage
+parent-id: 1724606254638
+command: say yes
+--------------------------------------------------------------------------------
+> say yes
+It's freezing out and your nerves are jangled. "Sure, I could use a smoke" you
+say.
+
+You pull out your pack and he grins, like he knew you'd say yes, and leans
+forward for you to light up off him. His sunglasses reflect back nothing but
+your own face weirdly lit by the glow from the cig, and for a moment it's like
+the blackness behind them is deep, deeper than the sky, deeper than the
+universe...
+
+The coyote stares at you momentarily before gazing out at the horizon.
+"Gotta keep an eye on the horizon," he says in a scratchy, slow voice. "Always
+someone hunting. Border Patrol, National Guard, INS, ICE, Minutemen. You want to
+help people get where they're going out here, you need more than courage. You
+need to learn how to hide."
+
+"I'm the Coyote," he says, "And we've been hiding from each other for a long
+time."
+
+You could ask for advice, ask who he is, ask about the rabbit, or ask about
+trading.
+
+--------------------------------------------------------------------------------
+id: 1724606254640
+parent-id: 1724606254638
+command: no
+--------------------------------------------------------------------------------
+> no
+"Nah, I'm trying to kick 'em" you say.
+
+He shugs, takes a puff on his, and exhales the smoke into the desert night. Wind
+whips it away and he stares towards the horizon, forehead wrinkling in something
+(annoyance, maybe contemplation) you can't read through the sunglasses.
+
+The coyote stares at you momentarily before gazing out at the horizon.
+"Gotta keep an eye on the horizon," he says in a scratchy, slow voice. "Always
+someone hunting. Border Patrol, National Guard, INS, ICE, Minutemen. You want to
+help people get where they're going out here, you need more than courage. You
+need to learn how to hide."
+
+"I'm the Coyote," he says, "And we've been hiding from each other for a long
+time."
+
+You could ask for advice, ask who he is, ask about the rabbit, or ask about
+trading.
+
+--------------------------------------------------------------------------------
+id: 1724606254641
+parent-id: 1724606254640
+command: advice
+--------------------------------------------------------------------------------
+> advice
+"Ok, sure," you say, "I'll take some advice if you got it."
+
+He laughs, the red tip of the cigarette glowing as he takes another drag. "Kid,"
+he says, "you don't want my advice. I could tell you some stories and you'll
+smile and be sure they'll never happen to you. I could tell you some stories and
+you'll yawn and think you know them already. I could tell you some stories and
+you'll think they're wise and not realize you don't understand them until you
+make the same mistakes yourself and try to turn your failure into advice and
+fail at that, too. I could tell you some stories." He looks off towards the
+horizon, smoke gusting from his lungs in clouds. "But it's not my stories that
+will help you."
+
+You could ask who he is, ask about the rabbit, or ask about trading.
+
+--------------------------------------------------------------------------------
+id: 1724606254642
+parent-id: 1724606254641
+command: ask who
+--------------------------------------------------------------------------------
+> ask who
+"No, really, who are you?" you ask.
+
+"You know who I am," he says, the red tip of the cigarette glowing as he takes
+another drag. "I'm the one who runs on both sides of the fence. I'm the one who
+scouts ahead. I'm the one with songs in my blood and dirt under my nails and
+people owe me money in every trailer park town from here to Yuma, or maybe I owe
+them money but anyway they don't want to see me. You know who I am, Knock."
+
+You could ask about the rabbit or ask about trading.
+
+--------------------------------------------------------------------------------
+id: 1724606254643
+parent-id: 1724606254642
+command: rabbit
+--------------------------------------------------------------------------------
+> rabbit
+"Are you like the rabbit?" you ask.
+
+He grins, not unkindly but not exactly kindly either. "That cute little
+jackalope?" he says, itching underneath his jacket, slowly. "He's got his
+upsides, I guess. has its place. But if you're always in the spotlight, you'll
+never learn how to live in the shadows. And most of us spend a lot of time in
+the shadows."
+
+You could ask about trading.
+
+--------------------------------------------------------------------------------
+id: 1724606254644
+parent-id: 1724606254643
+command: trading
+--------------------------------------------------------------------------------
+> trading
+You nervously ask, "Rabbit did a trade. What about you?"
+
+"Just getting to that," he replies. He then presses his hands together, still
+clutching the cigarette with thumb and index finger, and smoke rises past his
+hidden eyes as he slowly rubs his palms together. He mutters something rhythmic
+to himself and you realize it's a song, and you can't quite make out the lyrics,
+but the melody is simple and makes you think of Johnny Cash and the end of the
+world. And then he stops, and pulls his hands apart, and in each he holds a
+talent.
+
+"Here we have luck," he says, bobbing the left, "and scent. And look, I'll be
+straight with you. These are precious things and I can't afford whatever blue
+light special deal the bunny gave you. I need double his price. I need two
+memories to part with one of these. Oh, and they're worth it, believe me. Both
+have saved my ass more times than you'd believe. Both could save yours. But it's
+up to you. Which'll it be?"
+
+You could ask about luck or ask about scent.
+
+--------------------------------------------------------------------------------
+id: 1724606254646
+parent-id: 1724606254644
+command: luck
+--------------------------------------------------------------------------------
+> luck
+"What's happened tonight", you say, "what's happened before tonight. Maybe I
+could use some luck."
+
+"You found some cojones, kid," he says, looking you over appraisingly, "which'll
+be good for fixing your truck and getting back to your girl. I don't know if
+luck'll help you out much there, though."
+
+You could ask about scent.
+
+--------------------------------------------------------------------------------
+id: 1724606254647
+parent-id: 1724606254646
+command: scent
+--------------------------------------------------------------------------------
+> scent
+"What's scent going to do for me?" you ask.
+
+"You found some cojones, kid," he says, "If you can just sniff out the right
+finds, you can probably get back to that little lady you're so fond of, if
+that's what you want."
+
+--------------------------------------------------------------------------------
+id: 1724606254648
+parent-id: 1724606254647
+command: trade stories and job for scent
+--------------------------------------------------------------------------------
+> trade stories and job for scent
+Your grandma's stories: The Coyote touches your fingertips and pulls the memory
+of your grandma's stories through your nerve endings. "Good," he says, "I'll
+take that, although it's not enough to complete the trade."
+
+Somewhere inside you, things are shifting, moving, growing.
+
+Your shit job: The Coyote nods. "Yes," he says, "a fair trade." And something
+happens inside you as he says it. The memory of your shit job shifts and
+wriggles and fades away and it's still there, but now it's shifted, become
+something else. And, yeah, it kinda does feel like you could call it scent.
+Cool. He tucks the other talent back in his jacket, and without its faint glow,
+it seems darker than ever, the pulsing red tip of his cigarette all you can see.
+
+"The last of us is coming," Coyote's voice says out of the black, "last and most
+powerful, and most dangerous, and most afraid. Sand-dancer. Be careful of him,
+Knock. Stay brave. Keep your nose to the wind. Remember the shadows."
+
+And it seems like he's growing, larger and larger, the red tip of his cigarette
+pulsing and glowing now high up in the sky, and you stumble back, shivering, and
+suddenly remember your flashlight in your hand and switch it on...
+
+Base of the Tower
+Behind the concrete building a steel girder rises from the sand; far above you,
+a red warning light blinks on and off. A tumbleweed drifts lazily against the
+rusted metal among scrawny weeds and bits of trash. Someone left a tin can here
+years ago: ridged ripples run down its rusty side.
+
+The desert stretches in all directions except back south towards the glow of the
+building.
+
+--------------------------------------------------------------------------------
+id: 1724606254649
+parent-id: 1724606254648
+command: i
+--------------------------------------------------------------------------------
+> i
+You have a flashlight, a pack of cigarettes, your lighter, your wallet, and your
+emotional baggage. You're wearing your denim jacket. You've gained the talents
+courage and scent.
+
+In your emotional baggage is the memory of meeting Ocean.
+
+Something about the tumbleweed makes you want to brood about your last day of
+high school.
+
+--------------------------------------------------------------------------------
+id: 1724606254650
+label: Coyote Scene w/ Strength
+parent-id: 1724606254649
+command: n
+--------------------------------------------------------------------------------
+> n
+(first attempting to switch the flashlight on)
+Your surroundings spring into brightness around you.
+
+Something about the sage makes you want to brood about watching Family Guy with
+Karl.
+
+You have a feeling that when the last spirit animal decides to make an
+appearance, it will find you.
+
+--------------------------------------------------------------------------------
+id: 1724606254651
+parent-id: 1724606254638
+command: x coyote
+--------------------------------------------------------------------------------
+> x coyote
+You can barely see him in the darkness, can't tell whether he's old or how old,
+what color his faded denim jacket is, and with those sunglasses on, you can't
+even tell whether he's smirking at you or just twitching his mouth. There's a
+weird smell coming off him, sweat and dirt and a little wet dog and something
+deeper, earth, desert, rain, all mixed with cigarette smoke.
+
+You could say yes or say no.
+
+--------------------------------------------------------------------------------
+id: 1724606254652
+label: Coyote Likes It Dark
+parent-id: 1724606254651
+command: turn flashlight on
+--------------------------------------------------------------------------------
+> turn flashlight on
+You think you'd rather keep him on your side.
+
+You could say yes or say no.
+
+--------------------------------------------------------------------------------
+id: 1724606254653
+parent-id: 0
+command: (grab #strength)
+--------------------------------------------------------------------------------
+> (grab #strength)
+Query succeeded: (grab #strength)
+--------------------------------------------------------------------------------
+id: 1724606254654
+parent-id: 1724606254653
+command: (setup coyotes offer)
+--------------------------------------------------------------------------------
+> (setup coyotes offer)
+
+Open Desert
+Clouds of dust swirl through the air, and god damn it's dark.
+
+You can sort of see a dull grey boulder, a low bluff, and some clumps of
+sagebrush.
+
+And then you blink, and realize he's not a coyote after all. Just... just a guy.
+
+He wears a couple of days of stubble, a scuffed and faded denim jacket, and,
+ridiculously in the darkness, a pair of cheap sunglasses. He lights a cigarette,
+then holds up a hand in annoyance to block your flashlight beam. "Turn that
+thing off," he says, and either you do it or it goes off by itself, because the
+next thing you know, it's darker and he's closer and the only light comes from
+the red glow of the cigarette.
+
+"That's better," he says. He takes a drag on the cigarette, then pulls another
+from behind his ear and offers it to you. "Smoke?"
+
+You could say yes or say no.
+Query succeeded: (setup coyotes offer)
+--------------------------------------------------------------------------------
+id: 1724606254655
+label: Start Coyote without pack of cigarettes
+parent-id: 1724606254654
+command: say yes
+--------------------------------------------------------------------------------
+> say yes
+It's freezing out and your nerves are jangled. "Sure, I could use a smoke" you
+say.
+
+"Out of smokes, eh?" he says, and hands you his last cigarette, and leans
+forward for you to light up off him. His sunglasses reflect back nothing but
+your own face weirdly lit by the glow from the cig, and for a moment it's like
+the blackness behind them is deep, deeper than the sky, deeper than the
+universe...
+
+The coyote stares at you momentarily before gazing out at the horizon.
+"Gotta keep an eye on the horizon," he says in a scratchy, slow voice. "Always
+someone hunting. Border Patrol, National Guard, INS, ICE, Minutemen. You want to
+help people get where they're going out here, you need more than strength. You
+need to learn how to hide."
+
+"I'm the Coyote," he says, "And we've been hiding from each other for a long
+time."
+
+You could ask for advice, ask who he is, ask about the rabbit, or ask about
+trading.
+

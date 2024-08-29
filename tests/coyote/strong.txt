@@ -1,4 +1,0 @@
-(grab [#pack #strength])
-(setup coyotes offer)
-say yes
-
