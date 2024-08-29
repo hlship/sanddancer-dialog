@@ -5550,3 +5550,457 @@ time."
 You could ask for advice, ask who he is, ask about the rabbit, or ask about
 trading.
 
+--------------------------------------------------------------------------------
+id: 1724606254656
+parent-id: 1724440104648
+command: x pack
+--------------------------------------------------------------------------------
+> x pack
+You're trying to quit, but man, you could really go for one right now. It looks
+like you've only got six left.
+
+--------------------------------------------------------------------------------
+id: 1724606254657
+parent-id: 1724606254656
+command: smoke pack
+--------------------------------------------------------------------------------
+> smoke pack
+You pull out a cigarette and flick it into life. Thoughts tumble through your
+head.
+
+Well, you're stuck here. It's dark outside the beam of your headlights. Well,
+you could start by getting out of this truck.
+
+And you still haven't quit smoking. You toss the the butt out the window of the
+truck and wonder what to do next.
+
+--------------------------------------------------------------------------------
+id: 1724606254658
+parent-id: 1724606254657
+command: x pack
+--------------------------------------------------------------------------------
+> x pack
+You're trying to quit, but man, you could really go for one right now. It looks
+like you've only got five left.
+
+--------------------------------------------------------------------------------
+id: 1724606254659
+parent-id: 1724606254658
+command: exit
+--------------------------------------------------------------------------------
+> exit
+The door creaks open with difficulty, rusted joints straining. You get out of
+the pickup truck.
+
+--------------------------------------------------------------------------------
+id: 1724606254660
+parent-id: 1724606254659
+command: light cigs
+--------------------------------------------------------------------------------
+> light cigs
+You pull out a cigarette and flick it into life. Thoughts tumble through your
+head.
+
+Well, you're stuck here. It's dark outside the beam of your headlights. Maybe
+you could start by looking around, see if there's a phone or something.
+
+And you still haven't quit smoking. You crush the butt under your heel and
+wonder what to do next.
+
+--------------------------------------------------------------------------------
+id: 1724606254661
+parent-id: 1724606254660
+command: x pack
+--------------------------------------------------------------------------------
+> x pack
+You're trying to quit, but man, you could really go for one right now. It looks
+like you've only got four left.
+
+--------------------------------------------------------------------------------
+id: 1724606254662
+parent-id: 1724606254661
+command: light up cigs
+--------------------------------------------------------------------------------
+> light up cigs
+You pull out a cigarette and flick it into life. Thoughts tumble through your
+head.
+
+Well, you're stuck here. It's dark outside the beam of your headlights. Maybe
+you could start by looking around, see if there's a phone or something.
+
+And you're starting to get low on cigarettes. You crush the butt under your heel
+and wonder what to do next.
+
+--------------------------------------------------------------------------------
+id: 1724606254663
+parent-id: 1724606254662
+command: x pack
+--------------------------------------------------------------------------------
+> x pack
+You're trying to quit, but man, you could really go for one right now. It looks
+like you've only got three left.
+
+--------------------------------------------------------------------------------
+id: 1724606254664
+parent-id: 1724606254663
+command: smoke
+--------------------------------------------------------------------------------
+> smoke
+What do you want to smoke?
+
+--------------------------------------------------------------------------------
+id: 1724606254665
+parent-id: 1724606254664
+command: pack
+--------------------------------------------------------------------------------
+> pack
+You pull out a cigarette and flick it into life. Thoughts tumble through your
+head.
+
+Well, you're stuck here. It's dark outside the beam of your headlights. Maybe
+you could start by looking around, see if there's a phone or something.
+
+And you're starting to get low on cigarettes. You crush the butt under your heel
+and wonder what to do next.
+
+--------------------------------------------------------------------------------
+id: 1724606254666
+parent-id: 1724606254665
+command: light up
+--------------------------------------------------------------------------------
+> light up
+What do you want to smoke?
+
+--------------------------------------------------------------------------------
+id: 1724606254667
+label: Smoke Verb
+parent-id: 1724606254666
+command: wallet
+--------------------------------------------------------------------------------
+> wallet
+Sounds like something your high school buddies would try.
+
+--------------------------------------------------------------------------------
+id: 1724606254668
+parent-id: 0
+command: open glove 
+--------------------------------------------------------------------------------
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+> open glove 
+You open the glove compartment, revealing a pack of cigarettes.
+
+--------------------------------------------------------------------------------
+id: 1724606254669
+parent-id: 1724606254668
+command: smoke pack
+--------------------------------------------------------------------------------
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+> smoke pack
+(first attempting to take the pack of cigarettes)
+You take the pack of cigarettes out of the glove compartment.
+
+You pull out a cigarette and flick it into life. Thoughts tumble through your
+head.
+
+Well, you're stuck here. It's dark outside the beam of your headlights. Well,
+you could start by getting out of this truck.
+
+And you still haven't quit smoking. You toss the the butt out the window of the
+truck and wonder what to do next.
+
+--------------------------------------------------------------------------------
+id: 1724606254670
+parent-id: 1724606254669
+command: x pack
+--------------------------------------------------------------------------------
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+> x pack
+You're trying to quit, but man, you could really go for one right now. It looks
+like you've only got five left.
+
+--------------------------------------------------------------------------------
+id: 1724606254671
+parent-id: 1724606254670
+command: exit
+--------------------------------------------------------------------------------
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+> exit
+The door creaks open with difficulty, rusted joints straining. You get out of
+the pickup truck.
+
+--------------------------------------------------------------------------------
+id: 1724606254672
+parent-id: 1724606254671
+command: smoke pack
+--------------------------------------------------------------------------------
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+> smoke pack
+You pull out a cigarette and flick it into life. Thoughts tumble through your
+head.
+
+Well, you're stuck here. It's dark outside the beam of your headlights. Maybe
+you could start by looking around, see if there's a phone or something.
+
+And you still haven't quit smoking. You crush the butt under your heel and
+wonder what to do next.
+
+--------------------------------------------------------------------------------
+id: 1724606254673
+parent-id: 1724606254672
+command: n
+--------------------------------------------------------------------------------
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+> n
+You walk north.
+
+Crumbling Concrete
+This concrete building must've been some sort of utility structure for the huge
+electrical tower to the north, now abandoned: a pane of cracked glass sparkles
+faintly in the beam of your headlights. Tendrils of desert sand drift against a
+boarded-up door to the northeast leading inside; you could also walk around to
+the east or head south back to your truck.
+
+--------------------------------------------------------------------------------
+id: 1724606254674
+parent-id: 1724606254673
+command: smoke pack
+--------------------------------------------------------------------------------
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+> smoke pack
+You pull out a cigarette and flick it into life. Thoughts tumble through your
+head.
+
+Well, you're stuck here. It's dark outside the beam of your headlights. So, you
+could break open a window to get inside that building.
+
+And you're starting to get low on cigarettes. You crush the butt under your heel
+and wonder what to do next.
+
+--------------------------------------------------------------------------------
+id: 1724606254675
+parent-id: 1724606254674
+command: smoke pack
+--------------------------------------------------------------------------------
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+> smoke pack
+You pull out a cigarette and flick it into life. Thoughts tumble through your
+head.
+
+Well, you're stuck here. It's dark outside the beam of your headlights. So, you
+could break open a window to get inside that building.
+
+And you're starting to get low on cigarettes. You crush the butt under your heel
+and wonder what to do next.
+
+--------------------------------------------------------------------------------
+id: 1724606254676
+parent-id: 1724606254675
+command: x pack
+--------------------------------------------------------------------------------
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+> x pack
+You're trying to quit, but man, you could really go for one right now. It looks
+like you've only got two left.
+
+--------------------------------------------------------------------------------
+id: 1724606254677
+parent-id: 1724606254676
+command: smoke pack
+--------------------------------------------------------------------------------
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+> smoke pack
+You pull out a cigarette and flick it into life. Thoughts tumble through your
+head.
+
+Well, you're stuck here. It's dark outside the beam of your headlights. So, you
+could break open a window to get inside that building.
+
+And you're down to your last cigarette. You crush the butt under your heel and
+wonder what to do next.
+
+--------------------------------------------------------------------------------
+id: 1724606254678
+parent-id: 1724606254677
+command: smoke pack
+--------------------------------------------------------------------------------
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+> smoke pack
+You pull out a cigarette and flick it into life. Thoughts tumble through your
+head.
+
+Well, you're stuck here. It's dark outside the beam of your headlights. So, you
+could break open a window to get inside that building.
+
+And that was your last cigarette. You crush the butt under your heel and wonder
+what to do next.
+
+--------------------------------------------------------------------------------
+id: 1724606254679
+parent-id: 1724606254678
+command: x pack
+--------------------------------------------------------------------------------
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+> x pack
+You're trying to quit, but man, you're totally out.
+
+--------------------------------------------------------------------------------
+id: 1724606254680
+parent-id: 1724606254679
+command: smoke pack
+--------------------------------------------------------------------------------
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+> smoke pack
+Your pack of cigarettes is empty.
+
+--------------------------------------------------------------------------------
+id: 1724606254681
+parent-id: 1724440104647
+command: smoke pack
+--------------------------------------------------------------------------------
+> smoke pack
+(first attempting to take the pack of cigarettes)
+You take the pack of cigarettes out of the glove compartment.
+
+You pull out a cigarette and flick it into life. Thoughts tumble through your
+head.
+
+Well, you're stuck here. It's dark outside the beam of your headlights. Well,
+you could start by getting out of this truck.
+
+And you still haven't quit smoking. You toss the the butt out the window of the
+truck and wonder what to do next.
+
+--------------------------------------------------------------------------------
+id: 1724606254682
+parent-id: 1724606254681
+command: x pack
+--------------------------------------------------------------------------------
+> x pack
+You're trying to quit, but man, you could really go for one right now. It looks
+like you've only got five left.
+
+--------------------------------------------------------------------------------
+id: 1724606254683
+parent-id: 1724606254682
+command: exit
+--------------------------------------------------------------------------------
+> exit
+The door creaks open with difficulty, rusted joints straining. You get out of
+the pickup truck.
+
+--------------------------------------------------------------------------------
+id: 1724606254684
+parent-id: 1724606254683
+command: smoke pack
+--------------------------------------------------------------------------------
+> smoke pack
+You pull out a cigarette and flick it into life. Thoughts tumble through your
+head.
+
+Well, you're stuck here. It's dark outside the beam of your headlights. Maybe
+you could start by looking around, see if there's a phone or something.
+
+And you still haven't quit smoking. You crush the butt under your heel and
+wonder what to do next.
+
+--------------------------------------------------------------------------------
+id: 1724606254685
+parent-id: 1724606254684
+command: n
+--------------------------------------------------------------------------------
+> n
+You walk north.
+
+Crumbling Concrete
+This concrete building must've been some sort of utility structure for the huge
+electrical tower to the north, now abandoned: a pane of cracked glass sparkles
+faintly in the beam of your headlights. Tendrils of desert sand drift against a
+boarded-up door to the northeast leading inside; you could also walk around to
+the east or head south back to your truck.
+
+--------------------------------------------------------------------------------
+id: 1724606254686
+parent-id: 1724606254685
+command: smoke pack
+--------------------------------------------------------------------------------
+> smoke pack
+You pull out a cigarette and flick it into life. Thoughts tumble through your
+head.
+
+Well, you're stuck here. It's dark outside the beam of your headlights. So, you
+could break open a window to get inside that building.
+
+And you're starting to get low on cigarettes. You crush the butt under your heel
+and wonder what to do next.
+
+--------------------------------------------------------------------------------
+id: 1724606254687
+parent-id: 1724606254686
+command: smoke pack
+--------------------------------------------------------------------------------
+> smoke pack
+You pull out a cigarette and flick it into life. Thoughts tumble through your
+head.
+
+Well, you're stuck here. It's dark outside the beam of your headlights. So, you
+could break open a window to get inside that building.
+
+And you're starting to get low on cigarettes. You crush the butt under your heel
+and wonder what to do next.
+
+--------------------------------------------------------------------------------
+id: 1724606254688
+parent-id: 1724606254687
+command: x  pack
+--------------------------------------------------------------------------------
+> x  pack
+You're trying to quit, but man, you could really go for one right now. It looks
+like you've only got two left.
+
+--------------------------------------------------------------------------------
+id: 1724606254689
+parent-id: 1724606254688
+command: smoke pack
+--------------------------------------------------------------------------------
+> smoke pack
+You pull out a cigarette and flick it into life. Thoughts tumble through your
+head.
+
+Well, you're stuck here. It's dark outside the beam of your headlights. So, you
+could break open a window to get inside that building.
+
+And you're down to your last cigarette. You crush the butt under your heel and
+wonder what to do next.
+
+--------------------------------------------------------------------------------
+id: 1724606254690
+parent-id: 1724606254689
+command: smoke pack
+--------------------------------------------------------------------------------
+> smoke pack
+You pull out a cigarette and flick it into life. Thoughts tumble through your
+head.
+
+Well, you're stuck here. It's dark outside the beam of your headlights. So, you
+could break open a window to get inside that building.
+
+And that was your last cigarette. You crush the butt under your heel and wonder
+what to do next.
+
+--------------------------------------------------------------------------------
+id: 1724606254691
+parent-id: 1724606254690
+command: x pack
+--------------------------------------------------------------------------------
+> x pack
+You're trying to quit, but man, you're totally out.
+
+--------------------------------------------------------------------------------
+id: 1724606254692
+label: Smoke Until Out
+parent-id: 1724606254691
+command: smoke pack
+--------------------------------------------------------------------------------
+> smoke pack
+Your pack of cigarettes is empty.
+
