@@ -91,7 +91,7 @@
 
 (unlikely [consult * about (object $)])
 
-(topic keyword @coyotes implies @coyote)
+(topic keyword @coyotes/@coyote implies @coyote)
 (guide entry @coyote)
     Weird, it looks like somebody's ripped out the page.
 
