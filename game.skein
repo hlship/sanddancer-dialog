@@ -2145,7 +2145,6 @@ id: 1723218892928
 parent-id: 1723218892801
 command: s
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > s
 (first attempting to get out of the pickup truck)
 The door creaks open with difficulty, rusted joints straining. You get out of
@@ -2171,7 +2170,6 @@ id: 1723218892930
 parent-id: 1723218892801
 command: eat lizard
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > eat lizard
 You can't reach the brown lizard.
 
@@ -2188,7 +2186,6 @@ id: 1723218892933
 parent-id: 1723218892801
 command: eat wallet
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > eat wallet
 Your wallet isn't edible.
 
@@ -2197,7 +2194,6 @@ id: 1723218892934
 parent-id: 1723218892801
 command: x dash
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > x dash
 You can't tell what the damage is from here.
 
@@ -2208,20 +2204,10 @@ id: 1723218892935
 parent-id: 1723218892801
 command: x truck
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > x truck
 You can't tell what the damage is from here.
 
 The glove compartment is closed.
-
---------------------------------------------------------------------------------
-id: 1723218892940
-parent-id: 1723218892801
-command: open pack 
---------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-> open pack 
-(I only understood you as far as wanting to open something.)
 
 --------------------------------------------------------------------------------
 id: 1723218892948
@@ -2251,17 +2237,6 @@ command: close wallet
 --------------------------------------------------------------------------------
 > close wallet
 You close your wallet.
-
---------------------------------------------------------------------------------
-id: 1723218892957
-parent-id: 1723218892801
-command: teleport
---------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-> teleport
-Did you want to teleport to Open Desert, Burrow, Backtracking, Roof, Crumbling
-Concrete, Base of the Tower, this location, Weed Strewn Rust, Storage Room,
-Break Room, Staging Area, Control Center, or Foreman's Office?
 
 --------------------------------------------------------------------------------
 id: 1724440104536
@@ -3373,7 +3348,7 @@ command: consult book about rabbit
 --------------------------------------------------------------------------------
 > consult book about rabbit 
 You look up the hare in the guidebook. "Common desert rabbit," is says,
-"frequently mistakent for a hare. Lives in underground burrows which it uses to
+"frequently mistaken for a hare. Lives in underground burrows which it uses to
 keep warm through the chill desert nights. Trusted by native peoples as a guide
 and symbol of rebirth."
 
@@ -3382,7 +3357,6 @@ id: 1724440104633
 parent-id: 1724440104632
 command: look up coyote in book
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > look up coyote in book
 You flip though the weathered guidebook but, unsurprisingly, find nothing about
 that.
@@ -5711,7 +5685,6 @@ id: 1724606254670
 parent-id: 1724606254669
 command: x pack
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > x pack
 You're trying to quit, but man, you could really go for one right now. It looks
 like you've only got five left.
@@ -5721,7 +5694,6 @@ id: 1724606254671
 parent-id: 1724606254670
 command: exit
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > exit
 The door creaks open with difficulty, rusted joints straining. You get out of
 the pickup truck.
@@ -5731,7 +5703,6 @@ id: 1724606254672
 parent-id: 1724606254671
 command: smoke pack
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > smoke pack
 You pull out a cigarette and flick it into life. Thoughts tumble through your
 head.
@@ -5747,7 +5718,6 @@ id: 1724606254673
 parent-id: 1724606254672
 command: n
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > n
 You walk north.
 
@@ -5763,7 +5733,6 @@ id: 1724606254674
 parent-id: 1724606254673
 command: smoke pack
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > smoke pack
 You pull out a cigarette and flick it into life. Thoughts tumble through your
 head.
@@ -5779,7 +5748,6 @@ id: 1724606254675
 parent-id: 1724606254674
 command: smoke pack
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > smoke pack
 You pull out a cigarette and flick it into life. Thoughts tumble through your
 head.
@@ -5795,7 +5763,6 @@ id: 1724606254676
 parent-id: 1724606254675
 command: x pack
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > x pack
 You're trying to quit, but man, you could really go for one right now. It looks
 like you've only got two left.
@@ -5805,7 +5772,6 @@ id: 1724606254677
 parent-id: 1724606254676
 command: smoke pack
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > smoke pack
 You pull out a cigarette and flick it into life. Thoughts tumble through your
 head.
@@ -5821,7 +5787,6 @@ id: 1724606254678
 parent-id: 1724606254677
 command: smoke pack
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > smoke pack
 You pull out a cigarette and flick it into life. Thoughts tumble through your
 head.
@@ -5837,16 +5802,15 @@ id: 1724606254679
 parent-id: 1724606254678
 command: x pack
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > x pack
 You're trying to quit, but man, you're totally out.
 
 --------------------------------------------------------------------------------
 id: 1724606254680
+label: Smoke Entire Pack
 parent-id: 1724606254679
 command: smoke pack
 --------------------------------------------------------------------------------
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 > smoke pack
 Your pack of cigarettes is empty.
 
@@ -6598,4 +6562,22 @@ command: x photo
 --------------------------------------------------------------------------------
 > x photo
 It's an ultrasound of Ocean's baby.
+
+--------------------------------------------------------------------------------
+id: 1724606254733
+parent-id: 1723218892928
+command: n
+--------------------------------------------------------------------------------
+> n
+You walk north.
+
+Middle of Nowhere
+The tire tracks from the south stop abruptly here, but where the hell are you?
+The desert sand and clumps of pale sagebrush are all your dimming headlights
+pick out before barely reaching the concrete building to the north.
+
+Your poor old pickup truck ticks and groans, smashed gracelessly against a tall
+Saguaro; whiffs of evaporating gasoline linger in the chill air.
+
+A brown-colored lizard clings to the cactus.
 
