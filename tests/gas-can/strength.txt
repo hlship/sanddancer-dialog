@@ -1,6 +1,0 @@
-(setup lighting)
-(grab #strength)
-teleport control
-smell
-(grab #scent)
-search equipment

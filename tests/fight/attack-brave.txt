@@ -1,5 +1,0 @@
-(grab #courage)
-(setup fight)
-teleport desert
-(tick)
-attack coyotes
