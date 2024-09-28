@@ -1,4 +1,6 @@
-{:sources 
+{:name "sanddancer"
+ :format :zblorb
+ :sources 
  {:story  ["src/scenes/*.dg"
            "src/characters/*.dg"
            "src/*.dg"
@@ -10,7 +12,8 @@
             "lib/draconis/*.dg"
             "lib/tc/tc.dg"
             "lib/dialog/stdlib.dg"]}
- ;; Heap only really needed for aastory, but dgt doesn't support that yet
- :extra-args ["--heap" "2000"]
- :cover "src/cover.png"
- :cover-alt "Sand-dancer Logo"}
+ :build 
+ {:zblorb
+  {:options ["--cover-alt" "Sand-dancer Logo"]}
+  :aa
+  {:options ["--heap" "2000"]}}}
