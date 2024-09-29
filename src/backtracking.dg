@@ -7,7 +7,8 @@
     Your tire tracks are hardly visible in the desert sand, and you can barely make
     out the way north back to your truck.
 (#withered-cactus is #in *)
-(prevent [leave * #south])
+(instead of [go #south])
+    (current room *)
     %% Don't break the pursuit scene because game randomly chose south from here for the chase
     ~(#pursuit in progress)
     (select)

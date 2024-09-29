@@ -23,6 +23,7 @@ Currently tested against Dialog `0m/01`.
 - Switch to v0.7.1 of Threaded Conversation library
 - Add the Dialog 0m/01 versions of stdlib.dg and stddebug.dg.
 - Avoid warnings from the 0m/03 compiler (even though using the standard library from 0m/01)
+- Fix not getting correct responses when going south from Backtracking
 
 ### v7 - 4 Oct 2020
 
