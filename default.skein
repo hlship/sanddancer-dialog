@@ -9,7 +9,7 @@ but it's too late, you're crashing, you crash...
 
 Sand-dancer
 A Desert Fable by Aaron Reed, Alexei Othenin-Girard, and Howard M. Lewis Ship.
-Release 7. Serial number DEBUG.
+Release 8. Serial number DEBUG.
 Dialog Interactive Debugger (dgdebug) version 0m/03. Library version 0.44.
 Debugging extension 1.1.
 Preprocessing version 0.1 by Daniel Stelzer
@@ -7971,3 +7971,45 @@ Would you like to:
      RESTORE a saved position,
      QUIT the program,
      or RESTART from the beginning?
+
+
+--------------------------------------------------------------------------------
+id: 1727738438635
+parent-id: 0
+command: s
+--------------------------------------------------------------------------------
+> s
+(first attempting to get out of the pickup truck)
+The door creaks open with difficulty, rusted joints straining. You get out of
+the pickup truck.
+
+You walk south.
+
+Backtracking
+It's quieter and darker over here, the black desert night bleeding in. Your tire
+tracks are hardly visible in the desert sand, and you can barely make out the
+way north back to your truck.
+
+--------------------------------------------------------------------------------
+id: 1727738438636
+parent-id: 1727738438635
+command: s
+--------------------------------------------------------------------------------
+> s
+You stare back down the pickup's path uneasily. The tracks are swallowed by
+darkness, quickly melding, blending, and vanishing into a maze of ATV tracks,
+coyote trails, rocky outcrops, and shadows. You squint at the horizon. There's
+no distant sweep of headlights, no sound of trucks shifting through lonely
+gears. Nothing. Nothing at all. You're way off the road, and there's no chance
+at all of finding it again in this demon dark.
+
+--------------------------------------------------------------------------------
+id: 1727738438637
+label: Can't go south  from Backtracking
+parent-id: 1727738438636
+command: s
+--------------------------------------------------------------------------------
+> s
+You're way off the road, and there's no chance at all of finding it again in
+this demon dark.
+
