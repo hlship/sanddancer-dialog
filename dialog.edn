@@ -1,7 +1,7 @@
 {:name "sanddancer"
  :format :zblorb
  :sources 
- {:story  ["src/scenes/*.dg"
+ {:main   ["src/scenes/*.dg"
            "src/characters/*.dg"
            "src/*.dg"
            "src/actions/*.dg"]
