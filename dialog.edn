@@ -6,8 +6,8 @@
            "src/*.dg"
            "src/actions/*.dg"]
   :debug ["lib/debug/*.dg"
-          "lib/tc/tcdebug.dg"
-          "lib/dialog/stddebug.dg"]
+          "lib/tc/debug/*.dg"
+          "lib/dialog/*.dg"]
   :library ["lib/*.dg"
             "lib/draconis/*.dg"
             "lib/tc/tc.dg"
