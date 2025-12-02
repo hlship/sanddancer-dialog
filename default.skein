@@ -12,10 +12,11 @@ A Desert Fable by Aaron Reed, Alexei Othenin-Girard, and Howard M. Lewis Ship.
 Release 8. Serial number DEBUG.
 Dialog Interactive Debugger (dgdebug) version 0m/03. Library version 0.44.
 Debugging extension 1.1.
-Preprocessing version 0.1 by Daniel Stelzer
-Pattern-Matching version 0.1 by Daniel Stelzer
 Kinds-of-Value version 0.1 by Daniel Stelzer
-Threaded Conversation 0.7.1 by Howard Lewis Ship
+Pattern-Matching version 0.1 by Daniel Stelzer
+Preprocessing version 0.1 by Daniel Stelzer
+Scenes 0.8 by Howard Lewis Ship
+Threaded Conversation 0.8 by Howard Lewis Ship
 
 Middle of Nowhere (in the pickup truck)
 You've smashed up against a tall Saguaro, which is all you can see out the
@@ -1879,7 +1880,7 @@ You climb east over the drifts of sand.
 
 Break Room
 Waves of sand flow like water through the room, filling it higher and higher.
-You glance wildly at the exits west, north, and out.
+You glance wildly at the exits north, out, and west.
 
 "You think just because you've got scent now you're going to be anything other
 than a pathetic failure?" the radio squawks angrily, before dissolving into

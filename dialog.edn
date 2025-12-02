@@ -1,17 +1,17 @@
 {:name "sanddancer"
  :format :zblorb
  :sources 
- {:main   ["src/scenes/*.dg"
-           "src/characters/*.dg"
-           "src/*.dg"
-           "src/actions/*.dg"]
-  :debug ["lib/debug/*.dg"
-          "lib/tc/debug/*.dg"
-          "lib/dialog/*.dg"]
-  :library ["lib/*.dg"
-            "lib/draconis/*.dg"
-            "lib/tc/tc.dg"
-            "lib/dialog/stdlib.dg"]}
+ {:main   ["src/scenes"
+           "src/characters"
+           "src"
+           "src/actions"]
+  :debug ["lib/debug"
+          "lib/tc/debug"
+          "lib/dialog/debug"]
+  :library ["lib"
+            "lib/draconis"
+            "lib/tc"
+            "lib/dialog"]}
  :build 
  {:zblorb
   {:options ["--cover-alt" "Sand-dancer Logo"]}

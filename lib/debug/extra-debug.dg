@@ -89,3 +89,6 @@
 (annotate (around the tower $) with [around the tower])
 (annotate (in range of headlights $) with [in range of headlights])
 
+%% Scene annotations:
+
+(annotate (dramatic $) with @dramatic)
