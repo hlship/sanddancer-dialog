@@ -1,5 +1,0 @@
-(grab [#pack #courage])
-(setup coyotes offer)
-say yes
-
- 

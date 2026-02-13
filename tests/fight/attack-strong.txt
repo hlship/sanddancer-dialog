@@ -1,5 +1,0 @@
-(grab #strength)
-(setup fight)
-teleport desert
-(tick)
-attack coyotes

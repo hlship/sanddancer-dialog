@@ -1,7 +1,0 @@
-exit
-n
-n
-purloin flashlight
-turn flashlight on
-(setup lighting)
-l

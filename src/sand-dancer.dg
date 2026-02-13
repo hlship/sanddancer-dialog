@@ -6,7 +6,7 @@
     It figures that your pickup would die on a night like this and leave you stranded in the dark New Mexico desert.
     But nothing else figures about this night, man. 
     Nothing at all.
-(story release 7)
+(story release 8)
 
 (intro)
     (exhaust) {
@@ -17,7 +17,7 @@
     (par)
     (banner)
     (try [look])
-    %% There's no tick on the first turn and so the jade is not identiified until the second turn, otherwise.
+    %% There's no tick on the first turn and so the jade is not identified until the second turn, otherwise.
     (identify recalled memories)
 
 %% Regions

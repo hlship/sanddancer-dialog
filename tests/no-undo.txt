@@ -1,9 +1,0 @@
-open glove
-get pack
-smoke pack
-undo
-i
-open wallet
-undo
-i
-

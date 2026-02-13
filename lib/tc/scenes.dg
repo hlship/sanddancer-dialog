@@ -2,6 +2,10 @@
 %% Scenes are triggered by an initial condition, and end with another condition.
 %% Scenes can be linked such that one scene starts when another begins.
 
+(extension version)
+    (line)
+    Scenes 0.8 by Howard Lewis Ship
+
 %% Scenes have the (scene $) trait.
 
 %% Scenes supply the (start $) predicate, which succeeds when the scene begins;
@@ -23,14 +27,13 @@
 
 %% The predicate (scene debugging enabled) will enable debug output as scenes are started, completed, or 'ticked'.
 
+(scene debugging enabled)
+    (fail)
+
 (start $) (fail)
 (scene $) (fail)
 (complete $) (fail)
 (recurring $) (fail)
-(dramatic $) (fail)
-
-(scene debugging enabled)
-    (fail)
 
 %% Each scene that is in progress at the start of the tick and not completed during the tick
 %% is notified via this predicate.  It doesn't matter whether this predicate succeeds or fails.

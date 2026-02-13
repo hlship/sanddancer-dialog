@@ -14,13 +14,16 @@ I also chose not to override the default narration.
 Special thanks to Daniel Stelzer for [working out how to handle some complex parsing needed to tune the radio](https://intfiction.org/t/understanding-complicated-numbers/46769/2), using his
 [kinds of value](https://bitbucket.org/dstelzer/dialog-extensions/src/master/kov.dg) extension.
 
-Currently tested against Dialog `0m/01`.
+Currently tested against Dialog `1a/01`.
 
 ## History
 
 ### v8 - UNRELEASED
 
-- Switch to v0.6 of Threaded Conversation library
+- Switch to v0.8 of Threaded Conversation library
+- Add the Dialog 1a/01 versions of stdlib.dg and stddebug.dg.
+- Fix not getting correct responses when going south from Backtracking
+- Fix a broken rule that affects some of Coyote's speech
 
 ### v7 - 4 Oct 2020
 
