@@ -1,5 +1,12 @@
 %% Based on Threaded Conversation by Emily Short, Chris Connelly, et al.
 
+%% Declare topics
+
+#immediate-obligatory
+#postponed-optional
+#immediate-optional
+
+
 %% I7 refers to the baseline implementation in Inform7
 
 (extension version)

@@ -1,6 +1,8 @@
 (extension version)
 	(line)Kinds-of-Value version 0.1 by Daniel Stelzer
 
+#kovmarker
+
 (interface (obj-list $<List))
 (obj-list [#kovmarker|$])
 	(just)(fail) %% A list starting with #kovmarker is not an object list

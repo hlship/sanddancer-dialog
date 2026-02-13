@@ -102,7 +102,7 @@
 (reply *)
     (line)
     "Gotta keep an eye on the horizon," he says in a scratchy, slow voice
-    (if) (#player recollects #yes-to-coyote)
+    (if) (#knock recollects #yes-to-coyote)
     (then)
         as you step back, inhaling the dry smoke
     (endif)

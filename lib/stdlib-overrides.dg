@@ -48,3 +48,12 @@
 (perform [smell])
     The desert smells of dust.
 
+%% Make sure these objects are topics (for 1a/01 compiler)
+
+#on
+#bravery
+#heldby
+#wornby
+#partof
+#behind
+#under
