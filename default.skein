@@ -3,12 +3,14 @@ seed: 7363521
 id: 0
 label: START
 --------------------------------------------------------------------------------
-
+[1m[36mDialog Interactive Debugger (dgdebug) version 1a/01.[0m[36m
+Type @help at the game prompt for a brief introduction.
+[0m
 
 but it's too late, you're crashing, you crash...
 
-Sand-dancer
-A Desert Fable by Aaron Reed, Alexei Othenin-Girard, and Howard M. Lewis Ship.
+[0m[1mSand-dancer
+[0mA Desert Fable by Aaron Reed, Alexei Othenin-Girard, and Howard M. Lewis Ship.
 Release 8. Serial number DEBUG.
 Dialog Interactive Debugger (dgdebug) version 1a/01. Library version 0.44.
 Debugging extension 1.1.
@@ -18,7 +20,7 @@ Preprocessing version 0.1 by Daniel Stelzer
 Scenes 0.8 by Howard Lewis Ship
 Threaded Conversation 0.8 by Howard Lewis Ship
 
-Middle of Nowhere (in the pickup truck)
+[0m[1mMiddle of Nowhere[0m (in the pickup truck)
 You've smashed up against a tall Saguaro, which is all you can see out the
 windshield except a few feet of desert sand, then blackness. Hell, you must have
 driven off the road and crashed. Ocean keeps telling you this night commute on
@@ -132,7 +134,7 @@ command: n
 > n
 You walk north.
 
-Crumbling Concrete
+[0m[1mCrumbling Concrete[0m
 This concrete building must've been some sort of utility structure for the huge
 electrical tower to the north, now abandoned: a pane of cracked glass sparkles
 faintly in the beam of your headlights. Tendrils of desert sand drift against a
@@ -147,7 +149,7 @@ command: n
 > n
 You walk north.
 
-Base of the Tower
+[0m[1mBase of the Tower[0m
 Behind the concrete building a steel girder rises from the sand, one of three
 legs of the huge electrical tower looming like some gargantuan spider into
 blackness above you. A tumbleweed drifts lazily against the rusted metal among
@@ -167,7 +169,7 @@ command: s
 > s
 You walk south.
 
-Crumbling Concrete
+[0m[1mCrumbling Concrete[0m
 This concrete building must've been some sort of utility structure for the huge
 electrical tower to the north, now abandoned: a pane of cracked glass sparkles
 faintly in the beam of your headlights. Tendrils of desert sand drift against a
@@ -205,7 +207,7 @@ command: in
 > in
 You brush away remnants of broken glass and wriggle through the window.
 
-Staging Area
+[0m[1mStaging Area[0m
 Faint shafts of light from your dimming headlights seep through the empty window
 frame leading outside, but you can barely make out anything of the interior.
 
@@ -243,7 +245,7 @@ command: turn it on
 > turn it on
 Your surroundings spring into brightness around you.
 
-Staging Area
+[0m[1mStaging Area[0m
 It's obvious this place has been abandoned for years. Cold night air breathes
 through holes in the roof and everything is strewn with sand and patches of
 mold. An imposing metal desk extends out from one wall. The floor has half-
@@ -270,7 +272,7 @@ command: n
 > n
 You walk north.
 
-Foreman's Office
+[0m[1mForeman's Office[0m
 You sweep the beam of your flashlight around this tiny office, probably once
 where the boss sat under a dust covered window. A half collapsed desk sits
 against a wall. On the half-collapsed desk is a rusted key. Tacked to the wall
@@ -322,7 +324,7 @@ command: s
 > s
 You walk south.
 
-Staging Area
+[0m[1mStaging Area[0m
 It's obvious this place has been abandoned for years. Cold night air breathes
 through holes in the roof and everything is strewn with sand and patches of
 mold. An imposing metal desk extends out from one wall. The floor has half-
@@ -360,7 +362,7 @@ command: e
 > e
 You walk east.
 
-Break Room
+[0m[1mBreak Room[0m
 Shadows and grime linger in dark corners of this dismal room with just one tiny
 frosted window. Some rotting picnic tables strewn with layers of sand and
 crumbling trash are pushed against one wall. On the opposite wall is a locked
@@ -380,7 +382,7 @@ command: n
 > n
 You walk north.
 
-Storage Room
+[0m[1mStorage Room[0m
 The walls are lined with bare metal shelves, casting strange patterns of shadow
 as you sweep your flashlight beam around. Mounted to the wall is a control panel
 for the building's emergency lights. They are switched off. On the shelving are
@@ -421,7 +423,7 @@ command: s
 > s
 You walk south.
 
-Break Room
+[0m[1mBreak Room[0m
 Shadows and grime linger in dark corners of this dismal room with just one tiny
 frosted window. Some rotting picnic tables strewn with layers of sand and
 crumbling trash are pushed against one wall. On the opposite wall is a locked
@@ -468,7 +470,7 @@ the road and aren't sure really exactly where you are.
 "Copy that," the voice says briskly after a moment. "You're at tower station
 nineteen, son, about thirty-two miles southwest of Oro Oeste, fifteen miles or
 so from the state highway." And if the mike wasn't attached to the radio you'd
-drop it on the floor. Fifteen miles? How in the hell could you have driven
+drop it on the floor. Fifteen miles? How in the [0m[4mhell[0m could you have driven
 fifteen miles off the road and not remember? How is that even possible?
 
 "Hello?" the radio says. "Hello son, do you copy?"
@@ -515,7 +517,7 @@ command: n
 > n
 You walk north.
 
-Storage Room
+[0m[1mStorage Room[0m
 The walls are lined with bare metal shelves, rusting away. Mounted to the wall
 is a control panel for the building's emergency lights. They are switched on. On
 the shelving are hundreds of cans of food, the labels long since aged away. The
@@ -530,7 +532,7 @@ command: u
 > u
 You climb up.
 
-Roof
+[0m[1mRoof[0m
 From the roof of the building, you can see the huge electrical tower rising up
 in front of you. Some metal rungs once led to a control room higher up the
 tower, but the lowest ones are well above your head. You'd have to jump out into
@@ -546,7 +548,7 @@ command: d
 > d
 You climb down.
 
-Storage Room
+[0m[1mStorage Room[0m
 The walls are lined with bare metal shelves, rusting away. Mounted to the wall
 is a control panel for the building's emergency lights. They are switched on. On
 the shelving are hundreds of cans of food, the labels long since aged away. The
@@ -561,7 +563,7 @@ command: s
 > s
 You walk south.
 
-Break Room
+[0m[1mBreak Room[0m
 Shadows and grime linger in dark corners of this dismal room with just one tiny
 frosted window. Some rotting picnic tables strewn with layers of sand and
 crumbling trash are pushed against one wall. On the opposite wall is a locked
@@ -578,7 +580,7 @@ command: w
 > w
 You walk west.
 
-Staging Area
+[0m[1mStaging Area[0m
 It's obvious this place has been abandoned for years. Cold night air breathes
 through holes in the roof and everything is strewn with sand and patches of
 mold. An imposing metal desk extends out from one wall. The floor has half-
@@ -597,7 +599,7 @@ command: out
 > out
 You wriggle through the window.
 
-Crumbling Concrete
+[0m[1mCrumbling Concrete[0m
 This concrete building must've been some sort of utility structure for the huge
 electrical tower to the north, now abandoned. Tendrils of desert sand drift
 against a boarded-up door to the northeast leading inside; you could also walk
@@ -611,7 +613,7 @@ command: s
 > s
 You walk south.
 
-Middle of Nowhere
+[0m[1mMiddle of Nowhere[0m
 The tire tracks from the south stop abruptly here, but where the hell are you?
 The desert sand and clumps of pale sagebrush are all you can see in the glow of
 the concrete building to the north.
@@ -653,7 +655,7 @@ realize with a kind of heavy feeling that with all the dust this wind is kicking
 up you can't see a damn thing. You can't see your pickup, you can't see the
 electrical tower. Not even your damn footprints. You're lost. Well, shit.
 
-Open Desert
+[0m[1mOpen Desert[0m
 Clouds of dust swirl through the air, and you plod wearily through the sand.
 
 Half-lost in the shadows, you see a dull grey boulder, a stand of cactus, and a
@@ -669,7 +671,7 @@ command: w
 > w
 You chase after the shadow, faster and faster, breath misting in the cold air.
 
-Open Desert
+[0m[1mOpen Desert[0m
 The dust storm rages around you, and you shiver in the chill night air.
 
 Nearby: some dry bones, a dull grey boulder, and a dry stream-bed. Nothing to
@@ -684,10 +686,10 @@ command: se
 --------------------------------------------------------------------------------
 > se
 Some crazy thrill comes over you. You feel like a hunter. You can almost smell
-the thing you're chasing in the air. You can smell it, fur and terror. You race
+the thing you're chasing in the air. You [0m[4mcan[0m smell it, fur and terror. You race
 after it.
 
-Open Desert
+[0m[1mOpen Desert[0m
 The desert stretches around you in all directions, and every inch of sand looks
 just like every other.
 
@@ -708,7 +710,7 @@ a hole, rolling down some crazy underground tunnel clutching at mud and roots,
 till finally you slide into some damp, fetid place, and come up a stop against
 something soft, huge, warm. And furry.
 
-Burrow
+[0m[1mBurrow[0m
 Roots push through the earthen roof, casting weird shadows in the beam of your
 flashlight. It's round and small and underground in here and filled with hot
 sweat and animal stench. But mostly filled with something big and alive.
@@ -885,7 +887,7 @@ and miles away. Like clouds. And then a drop of water falls on your face, and
 then another, and you realize suddenly you're outside, and it's starting to
 rain...
 
-Backtracking
+[0m[1mBacktracking[0m
 It's quieter and darker over here, the black desert night bleeding in. Your tire
 tracks are hardly visible in the desert sand, and you can barely make out the
 way north back to your truck.
@@ -923,7 +925,7 @@ command: n
 > n
 You walk north.
 
-Middle of Nowhere
+[0m[1mMiddle of Nowhere[0m
 The tire tracks from the south stop abruptly here, but where the hell are you?
 The desert sand and clumps of pale sagebrush are all you can see in the glow of
 the concrete building to the north.
@@ -943,7 +945,7 @@ command: n
 > n
 You walk north.
 
-Crumbling Concrete
+[0m[1mCrumbling Concrete[0m
 This concrete building must've been some sort of utility structure for the huge
 electrical tower to the north, now abandoned. Tendrils of desert sand drift
 against a boarded-up door to the northeast leading inside; you could also walk
@@ -979,7 +981,7 @@ command: in
 > in
 Gratefully, you slip inside the building, out of the storm.
 
-Staging Area
+[0m[1mStaging Area[0m
 It's obvious this place has been abandoned for years. Cold night air breathes
 through holes in the roof and everything is strewn with sand and patches of
 mold. An imposing metal desk extends out from one wall. The floor has half-
@@ -1036,7 +1038,7 @@ command: e
 > e
 You walk east.
 
-Break Room
+[0m[1mBreak Room[0m
 Shadows and grime linger in dark corners of this dismal room with just one tiny
 frosted window. Some rotting picnic tables strewn with layers of sand and
 crumbling trash are pushed against one wall. On the opposite wall is a locked
@@ -1081,7 +1083,7 @@ command: n
 > n
 You walk north.
 
-Storage Room
+[0m[1mStorage Room[0m
 The walls are lined with bare metal shelves, rusting away. Mounted to the wall
 is a control panel for the building's emergency lights. They are switched on. On
 the shelving are hundreds of cans of food, the labels long since aged away. The
@@ -1096,7 +1098,7 @@ command: u
 > u
 You climb up.
 
-Roof
+[0m[1mRoof[0m
 From the roof of the building, you can see the huge electrical tower rising up
 in front of you. Some metal rungs once led to a control room higher up the
 tower, but the lowest ones are well above your head. You'd have to jump out into
@@ -1117,7 +1119,7 @@ metal of the bottom-most rung, scraping and sliding, but holding. You pull
 yourself up the rungs into the control center. Hey, it wasn't that hard after
 all.
 
-Control Center
+[0m[1mControl Center[0m
 Some kind of electrical control stuff must have happened here once, but it's
 totally trashed now. Like, piles of trash, broken equipment, and junk are
 everywhere. But hey, on one pile there's a somewhat serviceable can opener.
@@ -1152,7 +1154,7 @@ command: d
 > d
 You climb down.
 
-Roof
+[0m[1mRoof[0m
 From the roof of the building, you can see the huge electrical tower rising up
 in front of you. Some metal rungs once led to a control room higher up the
 tower, but the lowest ones are well above your head. You'd have to jump out into
@@ -1171,7 +1173,7 @@ command: d
 > d
 You climb down.
 
-Storage Room
+[0m[1mStorage Room[0m
 The walls are lined with bare metal shelves, rusting away. Mounted to the wall
 is a control panel for the building's emergency lights. They are switched on. On
 the shelving are hundreds of cans of food, the labels long since aged away. The
@@ -1224,7 +1226,7 @@ command: s
 > s
 You walk south.
 
-Break Room
+[0m[1mBreak Room[0m
 Shadows and grime linger in dark corners of this dismal room with just one tiny
 frosted window. Some rotting picnic tables strewn with layers of sand and
 crumbling trash are pushed against one wall. On the opposite wall is a locked
@@ -1259,7 +1261,7 @@ parent-id: 1723218892877
 command: l
 --------------------------------------------------------------------------------
 > l
-Break Room
+[0m[1mBreak Room[0m
 Shadows and grime linger in dark corners of this dismal room with just one tiny
 frosted window. Some rotting picnic tables strewn with layers of sand and
 crumbling trash are pushed against one wall. On the opposite wall is a locked
@@ -1276,7 +1278,7 @@ command: w
 > w
 You walk west.
 
-Staging Area
+[0m[1mStaging Area[0m
 It's obvious this place has been abandoned for years. Cold night air breathes
 through holes in the roof and everything is strewn with sand and patches of
 mold. An imposing metal desk extends out from one wall. The floor has half-
@@ -1293,7 +1295,7 @@ command: out
 > out
 You wriggle through the window.
 
-Crumbling Concrete
+[0m[1mCrumbling Concrete[0m
 This concrete building must've been some sort of utility structure for the huge
 electrical tower to the north, now abandoned. Tendrils of desert sand drift
 against a boarded-up door to the northeast leading inside; you could also walk
@@ -1311,7 +1313,7 @@ command: e
 > e
 You walk east.
 
-Weed Strewn Rust
+[0m[1mWeed Strewn Rust[0m
 Behind the rather small building is nothing but a scraggly patch of yellowing
 weeds and dirt near a leaking pipe, littered by a collection of rusted barrels
 and some scattered newspapers. Atop one overturned barrel is a weathered
@@ -1327,7 +1329,7 @@ command: e
 > e
 You walk east.
 
-Open Desert
+[0m[1mOpen Desert[0m
 The dust storm rages around you, and you shiver in the chill night air.
 
 Half-lost in the shadows, you see a dead cow, a looming cactus, and a stand of
@@ -1343,7 +1345,7 @@ command: e
 > e
 You move nervously forward.
 
-Open Desert
+[0m[1mOpen Desert[0m
 Your tracks are swallowed up in moments by the billowing sand, and you wish you
 could see more than twenty feet in front of you.
 
@@ -1360,7 +1362,7 @@ command: e
 > e
 You jog forward, eyes snapping left and right at the moving shadows around you.
 
-Open Desert
+[0m[1mOpen Desert[0m
 Clouds of dust swirl through the air, and god damn it's dark.
 
 All you can make out in the darkness are some dry bones, a dry stream-bed, and a
@@ -1378,7 +1380,7 @@ command: e
 You're running now, jumping over sagebrush and stumbling on rocks, as snarling
 animal forms close in around you.
 
-Open Desert
+[0m[1mOpen Desert[0m
 Your tracks are swallowed up in moments by the billowing sand, and you wish you
 could see more than twenty feet in front of you.
 
@@ -1396,7 +1398,7 @@ command: e
 > e
 You run.
 
-Open Desert
+[0m[1mOpen Desert[0m
 Clouds of dust swirl through the air, and you plod wearily through the sand.
 
 Nearby: a looming cactus, a dead cow, and some dry bones. Nothing to write home
@@ -1413,7 +1415,7 @@ command: e
 > e
 You run.
 
-Open Desert
+[0m[1mOpen Desert[0m
 The dust storm rages around you, and you shiver in the chill night air.
 
 You can sort of see a looming cactus, a low bluff, and a dull grey boulder.
@@ -1428,7 +1430,7 @@ command: e
 > e
 You run.
 
-Open Desert
+[0m[1mOpen Desert[0m
 Clouds of dust swirl through the air, and you plod wearily through the sand.
 
 All you can make out in the darkness are a stand of cactus, some clumps of
@@ -1571,7 +1573,7 @@ And it seems like he's growing, larger and larger, the red tip of his cigarette
 pulsing and glowing now high up in the sky, and you stumble back, shivering, and
 suddenly remember your flashlight in your hand and switch it on...
 
-Base of the Tower
+[0m[1mBase of the Tower[0m
 Behind the concrete building a steel girder rises from the sand; far above you,
 a red warning light blinks on and off. A tumbleweed drifts lazily against the
 rusted metal among scrawny weeds and bits of trash. Someone left a tin can here
@@ -1588,7 +1590,7 @@ command: s
 > s
 You walk south.
 
-Crumbling Concrete
+[0m[1mCrumbling Concrete[0m
 This concrete building must've been some sort of utility structure for the huge
 electrical tower to the north, now abandoned. Tendrils of desert sand drift
 against a boarded-up door to the northeast leading inside; you could also walk
@@ -1602,7 +1604,7 @@ command: in
 > in
 You wriggle through the window.
 
-Staging Area
+[0m[1mStaging Area[0m
 It's obvious this place has been abandoned for years. Cold night air breathes
 through holes in the roof and everything is strewn with sand and patches of
 mold. An imposing metal desk extends out from one wall. The floor has half-
@@ -1640,7 +1642,7 @@ command: e
 > e
 You walk east.
 
-Break Room
+[0m[1mBreak Room[0m
 Shadows and grime linger in dark corners of this dismal room with just one tiny
 frosted window. Some rotting picnic tables strewn with layers of sand and
 crumbling trash are pushed against one wall. On the opposite wall is a locked
@@ -1662,7 +1664,7 @@ command: n
 > n
 You walk north.
 
-Storage Room
+[0m[1mStorage Room[0m
 The walls are lined with bare metal shelves, rusting away. Mounted to the wall
 is a control panel for the building's emergency lights. They are switched on. On
 the shelving are hundreds of cans of food, the labels long since aged away. The
@@ -1700,7 +1702,7 @@ command: u
 > u
 You climb up.
 
-Roof
+[0m[1mRoof[0m
 From the roof of the building, you can see the huge electrical tower rising up
 in front of you. Some metal rungs once led to a control room higher up the
 tower, but the lowest ones are well above your head. You'd have to jump out into
@@ -1717,7 +1719,7 @@ command: u
 You pull yourself up the rungs into the control center. Hey, it wasn't that hard
 after all.
 
-Control Center
+[0m[1mControl Center[0m
 Some kind of electrical control stuff must have happened here once, but it's
 totally trashed now. Like, piles of trash, broken equipment, and junk are
 everywhere.
@@ -1791,7 +1793,7 @@ command: d
 > d
 You climb down.
 
-Roof
+[0m[1mRoof[0m
 From the roof of the building, you can see the huge electrical tower rising up
 in front of you. Some metal rungs once led to a control room higher up the
 tower, but the lowest ones are well above your head. You'd have to jump out into
@@ -1807,7 +1809,7 @@ command: d
 > d
 You climb down.
 
-Storage Room
+[0m[1mStorage Room[0m
 The walls are lined with bare metal shelves, rusting away. Mounted to the wall
 is a control panel for the building's emergency lights. They are switched on. On
 the shelving are hundreds of cans of food, the labels long since aged away. The
@@ -1822,7 +1824,7 @@ command: s
 > s
 You walk south.
 
-Break Room
+[0m[1mBreak Room[0m
 Shadows and grime linger in dark corners of this dismal room with just one tiny
 frosted window. Some rotting picnic tables strewn with layers of sand and
 crumbling trash are pushed against one wall. On the opposite wall is a locked
@@ -1843,7 +1845,7 @@ command: w
 > w
 You walk west.
 
-Staging Area
+[0m[1mStaging Area[0m
 It's obvious this place has been abandoned for years. Cold night air breathes
 through holes in the roof and everything is strewn with sand and patches of
 mold. An imposing metal desk extends out from one wall. The floor has half-
@@ -1878,7 +1880,7 @@ You wade through the sand, which is rising all the time.
 
 You climb east over the drifts of sand.
 
-Break Room
+[0m[1mBreak Room[0m
 Waves of sand flow like water through the room, filling it higher and higher.
 You glance wildly at the exits north, out, and west.
 
@@ -1899,7 +1901,7 @@ You wade through the sand, which is rising all the time.
 
 You wade exhaustedly through rivers of sand, all but swimming north.
 
-Storage Room
+[0m[1mStorage Room[0m
 Knee-deep sand fills the room, rising at a terrifying rate. You glance wildly at
 the exits south and up.
 
@@ -1917,7 +1919,7 @@ You wade through the sand, which is rising all the time.
 Barely able to reach the ladder through sand up to your waist, you haul yourself
 up the rungs and pull free just in time.
 
-Roof
+[0m[1mRoof[0m
 Except it's more like a foundation now, the building's sunk almost entirely into
 the sand.
 
@@ -2071,7 +2073,7 @@ And then, just as quiet settles, another huge rumble shakes the ground, and,
 almost like an afterthought, the building breaches the sand and rises to the
 surface.
 
-Crumbling Concrete
+[0m[1mCrumbling Concrete[0m
 This concrete building must've been some sort of utility structure for the huge
 electrical tower to the north, now abandoned. Tendrils of desert sand drift
 against a boarded-up door to the northeast leading inside; you could also walk
@@ -2099,7 +2101,7 @@ blankets but you're so tired all you can do is push your face against her neck
 and slip an arm around her warm skin, and she starts to ask you something but
 it's too late, you're crashing, you're crashing, you crash...
 
-     *** You have honor. ***
+     [0m[1m*** You have honor. ***[0m
 
 Would you like to:
      UNDO the last move,
@@ -2112,7 +2114,7 @@ parent-id: 1723218892801
 command: l
 --------------------------------------------------------------------------------
 > l
-Middle of Nowhere (in the pickup truck)
+[0m[1mMiddle of Nowhere[0m (in the pickup truck)
 You've smashed up against a tall Saguaro, which is all you can see out the
 windshield except a few feet of desert sand, then blackness.
 
@@ -2153,7 +2155,7 @@ the pickup truck.
 
 You walk south.
 
-Backtracking
+[0m[1mBacktracking[0m
 It's quieter and darker over here, the black desert night bleeding in. Your tire
 tracks are hardly visible in the desert sand, and you can barely make out the
 way north back to your truck.
@@ -2267,7 +2269,7 @@ command: teleport break room
 --------------------------------------------------------------------------------
 > teleport break room
 
-Break Room
+[0m[1mBreak Room[0m
 Shadows and grime linger in dark corners of this dismal room with just one tiny
 frosted window. Some rotting picnic tables strewn with layers of sand and
 crumbling trash are pushed against one wall. On the opposite wall is a locked
@@ -2296,7 +2298,7 @@ parent-id: 1724440104540
 command: l
 --------------------------------------------------------------------------------
 > l
-Break Room
+[0m[1mBreak Room[0m
 Shadows and grime linger in dark corners of this dismal room with just one tiny
 frosted window. Some rotting picnic tables strewn with layers of sand and
 crumbling trash are pushed against one wall. On the opposite wall is a wire cage
@@ -2365,7 +2367,7 @@ command: n
 > n
 You walk north.
 
-Crumbling Concrete
+[0m[1mCrumbling Concrete[0m
 This concrete building must've been some sort of utility structure for the huge
 electrical tower to the north, now abandoned: a pane of cracked glass sparkles
 faintly in the beam of your headlights. Tendrils of desert sand drift against a
@@ -2380,7 +2382,7 @@ command: n
 > n
 You walk north.
 
-Base of the Tower
+[0m[1mBase of the Tower[0m
 Behind the concrete building a steel girder rises from the sand, one of three
 legs of the huge electrical tower looming like some gargantuan spider into
 blackness above you. A tumbleweed drifts lazily against the rusted metal among
@@ -2407,7 +2409,7 @@ command: turn flashlight on
 > turn flashlight on
 Your surroundings spring into brightness around you.
 
-Base of the Tower
+[0m[1mBase of the Tower[0m
 Behind the concrete building a steel girder rises from the sand; you shine your
 flashlight up towards the tower looming above you. A tumbleweed drifts lazily
 against the rusted metal among scrawny weeds and bits of trash. Someone left a
@@ -2429,7 +2431,7 @@ parent-id: 1724440104552
 command: l
 --------------------------------------------------------------------------------
 > l
-Base of the Tower
+[0m[1mBase of the Tower[0m
 Behind the concrete building a steel girder rises from the sand; far above you,
 a red warning light blinks on and off. A tumbleweed drifts lazily against the
 rusted metal among scrawny weeds and bits of trash. Someone left a tin can here
@@ -2536,7 +2538,7 @@ realize with a kind of heavy feeling that with all the dust this wind is kicking
 up you can't see a damn thing. You can't see your pickup, you can't see the
 electrical tower. Not even your damn footprints. You're lost. Well, shit.
 
-Open Desert
+[0m[1mOpen Desert[0m
 The desert stretches around you in all directions, and you wish you could see
 more than twenty feet in front of you.
 
@@ -2553,7 +2555,7 @@ command: n
 > n
 You move nervously forward.
 
-Open Desert
+[0m[1mOpen Desert[0m
 The dust storm rages around you, and god damn it's dark.
 
 All you can make out in the darkness are a dull grey boulder, a looming cactus,
@@ -2570,7 +2572,7 @@ command: n
 > n
 You jog forward, eyes snapping left and right at the moving shadows around you.
 
-Open Desert
+[0m[1mOpen Desert[0m
 Clouds of dust swirl through the air, and you plod wearily through the sand.
 
 Nearby: a looming cactus, a dry stream-bed, and a stand of cactus. Nothing to
@@ -2588,7 +2590,7 @@ command: n
 You're running now, jumping over sagebrush and stumbling on rocks, as snarling
 animal forms close in around you.
 
-Open Desert
+[0m[1mOpen Desert[0m
 The desert stretches around you in all directions, and god damn it's dark.
 
 All you can make out in the darkness are a looming cactus, some clumps of
@@ -2616,7 +2618,7 @@ command: n
 > n
 You run.
 
-Open Desert
+[0m[1mOpen Desert[0m
 Clouds of dust swirl through the air, and you plod wearily through the sand.
 
 Half-lost in the shadows, you see a dull grey boulder, a stand of cactus, and a
@@ -2632,7 +2634,7 @@ command: s
 > s
 You run.
 
-Open Desert
+[0m[1mOpen Desert[0m
 The desert stretches around you in all directions, and you shiver in the chill
 night air.
 
@@ -2660,7 +2662,7 @@ command: teleport staging
 --------------------------------------------------------------------------------
 > teleport staging
 
-Staging Area
+[0m[1mStaging Area[0m
 It's obvious this place has been abandoned for years. Cold night air breathes
 through holes in the roof and everything is strewn with sand and patches of
 mold. An imposing metal desk extends out from one wall. The floor has half-
@@ -2784,7 +2786,7 @@ command: teleport roof
 --------------------------------------------------------------------------------
 > teleport roof
 
-Roof
+[0m[1mRoof[0m
 From the roof of the building, you can see the huge electrical tower rising up
 in front of you. Some metal rungs once led to a control room higher up the
 tower, but the lowest ones are well above your head. You'd have to jump out into
@@ -2818,7 +2820,7 @@ metal of the bottom-most rung, scraping and sliding, but holding. You pull
 yourself up the rungs into the control center. Hey, it wasn't that hard after
 all.
 
-Control Center
+[0m[1mControl Center[0m
 Some kind of electrical control stuff must have happened here once, but it's
 totally trashed now. Like, piles of trash, broken equipment, and junk are
 everywhere. But hey, on one pile there's a somewhat serviceable can opener.
@@ -2835,7 +2837,7 @@ command: d
 > d
 You climb down.
 
-Roof
+[0m[1mRoof[0m
 From the roof of the building, you can see the huge electrical tower rising up
 in front of you. Some metal rungs once led to a control room higher up the
 tower, but the lowest ones are well above your head. You'd have to jump out into
@@ -2853,7 +2855,7 @@ command: u
 You pull yourself up the rungs into the control center. Hey, it wasn't that hard
 after all.
 
-Control Center
+[0m[1mControl Center[0m
 Some kind of electrical control stuff must have happened here once, but it's
 totally trashed now. Like, piles of trash, broken equipment, and junk are
 everywhere. But hey, on one pile there's a somewhat serviceable can opener.
@@ -2934,7 +2936,7 @@ parent-id: 1724440104595
 command: l
 --------------------------------------------------------------------------------
 > l
-Roof
+[0m[1mRoof[0m
 From the roof of the building, you can see the huge electrical tower rising up
 in front of you. Some metal rungs once led to a control room higher up the
 tower, but the lowest ones are well above your head. You'd have to jump out into
@@ -2959,7 +2961,7 @@ command: climb barrel
 > climb barrel
 You climb the barrel, reach, grab the bottom rungs, and pull yourself up.
 
-Control Center
+[0m[1mControl Center[0m
 Some kind of electrical control stuff must have happened here once, but it's
 totally trashed now. Like, piles of trash, broken equipment, and junk are
 everywhere. But hey, on one pile there's a somewhat serviceable can opener.
@@ -2976,7 +2978,7 @@ command: d
 > d
 You climb down.
 
-Roof
+[0m[1mRoof[0m
 From the roof of the building, you can see the huge electrical tower rising up
 in front of you. Some metal rungs once led to a control room higher up the
 tower, but the lowest ones are well above your head. You'd have to jump out into
@@ -2993,7 +2995,7 @@ command: u
 > u
 You climb the barrel, reach, grab the bottom rungs, and pull yourself up.
 
-Control Center
+[0m[1mControl Center[0m
 Some kind of electrical control stuff must have happened here once, but it's
 totally trashed now. Like, piles of trash, broken equipment, and junk are
 everywhere. But hey, on one pile there's a somewhat serviceable can opener.
@@ -3014,7 +3016,7 @@ the pickup truck.
 
 You walk north.
 
-Crumbling Concrete
+[0m[1mCrumbling Concrete[0m
 This concrete building must've been some sort of utility structure for the huge
 electrical tower to the north, now abandoned: a pane of cracked glass sparkles
 faintly in the beam of your headlights. Tendrils of desert sand drift against a
@@ -3115,7 +3117,7 @@ command: in
 > in
 You brush away remnants of broken glass and wriggle through the window.
 
-Staging Area
+[0m[1mStaging Area[0m
 Faint shafts of light from your dimming headlights seep through the empty window
 frame leading outside, but you can barely make out anything of the interior.
 
@@ -3127,7 +3129,7 @@ command: out
 > out
 You wriggle through the window.
 
-Crumbling Concrete
+[0m[1mCrumbling Concrete[0m
 This concrete building must've been some sort of utility structure for the huge
 electrical tower to the north, now abandoned: a pane of cracked glass sparkles
 faintly in the beam of your headlights. Tendrils of desert sand drift against a
@@ -3142,7 +3144,7 @@ command: in
 > in
 You wriggle through the window.
 
-Staging Area
+[0m[1mStaging Area[0m
 Faint shafts of light from your dimming headlights seep through the empty window
 frame leading outside, but you can barely make out anything of the interior.
 
@@ -3196,7 +3198,7 @@ command: turn it on
 > turn it on
 Your surroundings spring into brightness around you.
 
-Staging Area
+[0m[1mStaging Area[0m
 It's obvious this place has been abandoned for years. Cold night air breathes
 through holes in the roof and everything is strewn with sand and patches of
 mold. An imposing metal desk extends out from one wall. The floor has half-
@@ -3219,7 +3221,7 @@ parent-id: 1724440104621
 command: l
 --------------------------------------------------------------------------------
 > l
-Staging Area
+[0m[1mStaging Area[0m
 It's obvious this place has been abandoned for years. Cold night air breathes
 through holes in the roof and everything is strewn with sand and patches of
 mold. An imposing metal desk extends out from one wall. The floor has half-
@@ -3242,7 +3244,7 @@ parent-id: 1724440104623
 command: l
 --------------------------------------------------------------------------------
 > l
-Staging Area
+[0m[1mStaging Area[0m
 It's obvious this place has been abandoned for years. Cold night air breathes
 through holes in the roof and everything is strewn with sand and patches of
 mold. An imposing metal desk extends out from one wall. The floor has half-
@@ -3277,7 +3279,7 @@ the pickup truck.
 
 You walk north.
 
-Crumbling Concrete
+[0m[1mCrumbling Concrete[0m
 This concrete building must've been some sort of utility structure for the huge
 electrical tower to the north, now abandoned. Tendrils of desert sand drift
 against a boarded-up door to the northeast leading inside; you could also walk
@@ -3291,7 +3293,7 @@ command: e
 > e
 You walk east.
 
-Weed Strewn Rust
+[0m[1mWeed Strewn Rust[0m
 Behind the rather small building is nothing but a scraggly patch of yellowing
 weeds and dirt near a leaking pipe, littered by a collection of rusted barrels
 and some scattered newspapers. Atop one overturned barrel is a weathered
@@ -3316,7 +3318,7 @@ command: consult book about sand-dancer
 You look up the brown-colored lizard in the guidebook and quickly identify it:
 those eyes are a dead giveaway. The entry says it's a "rare subspecies of the
 common desert lizard found only in the deep desert near Oro Oeste, and known to
-native peoples as a sand-dancer. In legends, the sand-dancer was a clever
+native peoples as a [0m[4msand-dancer[0m. In legends, the sand-dancer was a clever
 trickster and twister of words, who created night by tricking the sun into
 spending half the day underground." Huh.
 
@@ -3329,7 +3331,7 @@ command: consult book about lizards
 You look up the brown-colored lizard in the guidebook and quickly identify it:
 those eyes are a dead giveaway. The entry says it's a "rare subspecies of the
 common desert lizard found only in the deep desert near Oro Oeste, and known to
-native peoples as a sand-dancer. In legends, the sand-dancer was a clever
+native peoples as a [0m[4msand-dancer[0m. In legends, the sand-dancer was a clever
 trickster and twister of words, who created night by tricking the sun into
 spending half the day underground." Huh.
 
@@ -3567,7 +3569,7 @@ command: undo
 --------------------------------------------------------------------------------
 > undo
 Undoing the last turn (open wallet).
-Middle of Nowhere (in the pickup truck)
+[0m[1mMiddle of Nowhere[0m (in the pickup truck)
 
 --------------------------------------------------------------------------------
 id: 1724440104654
@@ -3606,7 +3608,7 @@ command: turn it on
 > turn it on
 Your surroundings spring into brightness around you.
 
-Middle of Nowhere
+[0m[1mMiddle of Nowhere[0m
 The tire tracks from the south stop abruptly here, but where the hell are you?
 The desert sand and clumps of pale sagebrush are all your dimming headlights
 pick out before barely reaching the concrete building to the north.
@@ -3670,7 +3672,7 @@ command: teleport break room
 --------------------------------------------------------------------------------
 > teleport break room
 
-Break Room
+[0m[1mBreak Room[0m
 Shadows and grime linger in dark corners of this dismal room with just one tiny
 frosted window. Some rotting picnic tables strewn with layers of sand and
 crumbling trash are pushed against one wall. On the opposite wall is a locked
@@ -3732,7 +3734,7 @@ command: teleport burrow
 --------------------------------------------------------------------------------
 > teleport burrow
 
-Burrow
+[0m[1mBurrow[0m
 Roots push through the earthen roof, casting weird shadows in the beam of your
 flashlight. It's round and small and underground in here and filled with hot
 sweat and animal stench. But mostly filled with something big and alive.
@@ -3979,7 +3981,7 @@ and miles away. Like clouds. And then a drop of water falls on your face, and
 then another, and you realize suddenly you're outside, and it's starting to
 rain...
 
-Backtracking
+[0m[1mBacktracking[0m
 It's quieter and darker over here, the black desert night bleeding in. Your tire
 tracks are hardly visible in the desert sand, and you can barely make out the
 way north back to your truck.
@@ -3994,7 +3996,7 @@ command: (setup radio chat)
 --------------------------------------------------------------------------------
 > (setup radio chat)
 
-Foreman's Office
+[0m[1mForeman's Office[0m
 The stark emergency lights illume this tiny office, probably once where the boss
 sat under a dust covered window. A half collapsed desk sits against a wall. On
 the half-collapsed desk is a rusted key. Tacked to the wall is a peeling safety
@@ -4011,7 +4013,7 @@ command: s
 > s
 You walk south.
 
-Staging Area
+[0m[1mStaging Area[0m
 It's obvious this place has been abandoned for years. Cold night air breathes
 through holes in the roof and everything is strewn with sand and patches of
 mold. An imposing metal desk extends out from one wall. The floor has half-
@@ -4028,7 +4030,7 @@ command: e
 > e
 You walk east.
 
-Break Room
+[0m[1mBreak Room[0m
 Shadows and grime linger in dark corners of this dismal room with just one tiny
 frosted window. Some rotting picnic tables strewn with layers of sand and
 crumbling trash are pushed against one wall. On the opposite wall is a locked
@@ -4131,7 +4133,7 @@ the road and aren't sure really exactly where you are.
 "Copy that," the voice says briskly after a moment. "You're at tower station
 nineteen, son, about thirty-two miles southwest of Oro Oeste, fifteen miles or
 so from the state highway." And if the mike wasn't attached to the radio you'd
-drop it on the floor. Fifteen miles? How in the hell could you have driven
+drop it on the floor. Fifteen miles? How in the [0m[4mhell[0m could you have driven
 fifteen miles off the road and not remember? How is that even possible?
 
 "Hello?" the radio says. "Hello son, do you copy?"
@@ -4179,7 +4181,7 @@ command: n
 > n
 You walk north.
 
-Storage Room
+[0m[1mStorage Room[0m
 The walls are lined with bare metal shelves, rusting away. Mounted to the wall
 is a control panel for the building's emergency lights. They are switched on. On
 the shelving are hundreds of cans of food, the labels long since aged away. The
@@ -4193,7 +4195,7 @@ command: (setup sinister voices)
 --------------------------------------------------------------------------------
 > (setup sinister voices)
 
-Break Room
+[0m[1mBreak Room[0m
 Shadows and grime linger in dark corners of this dismal room with just one tiny
 frosted window. Some rotting picnic tables strewn with layers of sand and
 crumbling trash are pushed against one wall. On the opposite wall is a locked
@@ -4225,7 +4227,7 @@ command: n
 > n
 You walk north.
 
-Storage Room
+[0m[1mStorage Room[0m
 The walls are lined with bare metal shelves, rusting away. Mounted to the wall
 is a control panel for the building's emergency lights. They are switched on. On
 the shelving are hundreds of cans of food, the labels long since aged away. The
@@ -4242,7 +4244,7 @@ command: s
 > s
 You walk south.
 
-Break Room
+[0m[1mBreak Room[0m
 Shadows and grime linger in dark corners of this dismal room with just one tiny
 frosted window. Some rotting picnic tables strewn with layers of sand and
 crumbling trash are pushed against one wall. On the opposite wall is a locked
@@ -4269,7 +4271,7 @@ command: w
 > w
 You walk west.
 
-Staging Area
+[0m[1mStaging Area[0m
 It's obvious this place has been abandoned for years. Cold night air breathes
 through holes in the roof and everything is strewn with sand and patches of
 mold. An imposing metal desk extends out from one wall. The floor has half-
@@ -4286,7 +4288,7 @@ command: e
 > e
 You walk east.
 
-Break Room
+[0m[1mBreak Room[0m
 Shadows and grime linger in dark corners of this dismal room with just one tiny
 frosted window. Some rotting picnic tables strewn with layers of sand and
 crumbling trash are pushed against one wall. On the opposite wall is a locked
@@ -4312,8 +4314,8 @@ command: x radio
 --------------------------------------------------------------------------------
 > x radio
 Vintage, man. A chrome switch on the side to turn it on and off, and a big
-fifties dial on the front. It's lit up from inside ... are those freakin' vacuum
-tubes?
+fifties dial on the front. It's lit up from inside ... are those freakin' [0m[4mvacuum
+tubes[0m?
 
 --------------------------------------------------------------------------------
 id: 1724440104708
@@ -4330,7 +4332,7 @@ parent-id: 1724440104708
 command: l
 --------------------------------------------------------------------------------
 > l
-Break Room
+[0m[1mBreak Room[0m
 Shadows and grime linger in dark corners of this dismal room with just one tiny
 frosted window. Some rotting picnic tables strewn with layers of sand and
 crumbling trash are pushed against one wall. On the opposite wall is a locked
@@ -4348,8 +4350,8 @@ command: x radio
 --------------------------------------------------------------------------------
 > x radio
 Vintage, man. A chrome switch on the side to turn it on and off, and a big
-fifties dial on the front. It's lit up from inside ... are those freakin' vacuum
-tubes?
+fifties dial on the front. It's lit up from inside ... are those freakin' [0m[4mvacuum
+tubes[0m?
 
 --------------------------------------------------------------------------------
 id: 1724440104711
@@ -4368,7 +4370,7 @@ parent-id: 1724440104711
 command: l
 --------------------------------------------------------------------------------
 > l
-Break Room
+[0m[1mBreak Room[0m
 Shadows and grime linger in dark corners of this dismal room with just one tiny
 frosted window. Some rotting picnic tables strewn with layers of sand and
 crumbling trash are pushed against one wall. On the opposite wall is a locked
@@ -4405,7 +4407,7 @@ command: n
 > n
 You walk north.
 
-Storage Room
+[0m[1mStorage Room[0m
 The walls are lined with bare metal shelves, rusting away. Mounted to the wall
 is a control panel for the building's emergency lights. They are switched on. On
 the shelving are hundreds of cans of food, the labels long since aged away. The
@@ -4422,7 +4424,7 @@ command: s
 > s
 You walk south.
 
-Break Room
+[0m[1mBreak Room[0m
 Shadows and grime linger in dark corners of this dismal room with just one tiny
 frosted window. Some rotting picnic tables strewn with layers of sand and
 crumbling trash are pushed against one wall. On the opposite wall is a locked
@@ -4452,7 +4454,7 @@ parent-id: 1724440104717
 command: l
 --------------------------------------------------------------------------------
 > l
-Break Room
+[0m[1mBreak Room[0m
 Shadows and grime linger in dark corners of this dismal room with just one tiny
 frosted window. Some rotting picnic tables strewn with layers of sand and
 crumbling trash are pushed against one wall. On the opposite wall is a locked
@@ -4480,7 +4482,7 @@ command: w
 > w
 You walk west.
 
-Staging Area
+[0m[1mStaging Area[0m
 It's obvious this place has been abandoned for years. Cold night air breathes
 through holes in the roof and everything is strewn with sand and patches of
 mold. An imposing metal desk extends out from one wall. The floor has half-
@@ -4497,7 +4499,7 @@ command: e
 > e
 You walk east.
 
-Break Room
+[0m[1mBreak Room[0m
 Shadows and grime linger in dark corners of this dismal room with just one tiny
 frosted window. Some rotting picnic tables strewn with layers of sand and
 crumbling trash are pushed against one wall. On the opposite wall is a locked
@@ -4538,7 +4540,7 @@ parent-id: 1724440104723
 command: l
 --------------------------------------------------------------------------------
 > l
-Break Room
+[0m[1mBreak Room[0m
 Shadows and grime linger in dark corners of this dismal room with just one tiny
 frosted window. Some rotting picnic tables strewn with layers of sand and
 crumbling trash are pushed against one wall. On the opposite wall is a locked
@@ -4557,7 +4559,7 @@ command: n
 > n
 You walk north.
 
-Storage Room
+[0m[1mStorage Room[0m
 The walls are lined with bare metal shelves, rusting away. Mounted to the wall
 is a control panel for the building's emergency lights. They are switched on. On
 the shelving are hundreds of cans of food, the labels long since aged away. The
@@ -4572,7 +4574,7 @@ command: s
 > s
 You walk south.
 
-Break Room
+[0m[1mBreak Room[0m
 Shadows and grime linger in dark corners of this dismal room with just one tiny
 frosted window. Some rotting picnic tables strewn with layers of sand and
 crumbling trash are pushed against one wall. On the opposite wall is a locked
@@ -4595,7 +4597,7 @@ command: w
 > w
 You walk west.
 
-Staging Area
+[0m[1mStaging Area[0m
 It's obvious this place has been abandoned for years. Cold night air breathes
 through holes in the roof and everything is strewn with sand and patches of
 mold. An imposing metal desk extends out from one wall. The floor has half-
@@ -4613,7 +4615,7 @@ command: e
 > e
 You walk east.
 
-Break Room
+[0m[1mBreak Room[0m
 Shadows and grime linger in dark corners of this dismal room with just one tiny
 frosted window. Some rotting picnic tables strewn with layers of sand and
 crumbling trash are pushed against one wall. On the opposite wall is a locked
@@ -4677,7 +4679,7 @@ command: teleport burrow
 --------------------------------------------------------------------------------
 > teleport burrow
 
-Burrow
+[0m[1mBurrow[0m
 Roots push through the earthen roof, casting weird shadows in the beam of your
 flashlight. It's round and small and underground in here and filled with hot
 sweat and animal stench. But mostly filled with something big and alive.
@@ -4859,7 +4861,7 @@ and miles away. Like clouds. And then a drop of water falls on your face, and
 then another, and you realize suddenly you're outside, and it's starting to
 rain...
 
-Backtracking
+[0m[1mBacktracking[0m
 It's quieter and darker over here, the black desert night bleeding in. Your tire
 tracks are hardly visible in the desert sand, and you can barely make out the
 way north back to your truck.
@@ -4874,7 +4876,7 @@ command: teleport break room
 --------------------------------------------------------------------------------
 > teleport break room
 
-Break Room
+[0m[1mBreak Room[0m
 Shadows and grime linger in dark corners of this dismal room with just one tiny
 frosted window. Some rotting picnic tables strewn with layers of sand and
 crumbling trash are pushed against one wall. On the opposite wall is a locked
@@ -4933,7 +4935,7 @@ command: teleport control center
 --------------------------------------------------------------------------------
 > teleport control center
 
-Control Center
+[0m[1mControl Center[0m
 Some kind of electrical control stuff must have happened here once, but it's
 totally trashed now. Like, piles of trash, broken equipment, and junk are
 everywhere. But hey, on one pile there's a somewhat serviceable can opener.
@@ -4949,7 +4951,7 @@ command: teleport crumbling concrete
 --------------------------------------------------------------------------------
 > teleport crumbling concrete
 
-Crumbling Concrete
+[0m[1mCrumbling Concrete[0m
 This concrete building must've been some sort of utility structure for the huge
 electrical tower to the north, now abandoned. Tendrils of desert sand drift
 against a boarded-up door to the northeast leading inside; you could also walk
@@ -5024,7 +5026,7 @@ realize with a kind of heavy feeling that with all the dust this wind is kicking
 up you can't see a damn thing. You can't see your pickup, you can't see the
 electrical tower. Not even your damn footprints. You're lost. Well, shit.
 
-Open Desert
+[0m[1mOpen Desert[0m
 Clouds of dust swirl through the air, and you plod wearily through the sand.
 
 You can sort of see a dead cow, a low bluff, and some clumps of sagebrush.
@@ -5127,7 +5129,7 @@ realize with a kind of heavy feeling that with all the dust this wind is kicking
 up you can't see a damn thing. You can't see your pickup, you can't see the
 electrical tower. Not even your damn footprints. You're lost. Well, shit.
 
-Open Desert
+[0m[1mOpen Desert[0m
 The desert stretches around you in all directions, and god damn it's dark.
 
 You can sort of see a dead cow, some dry bones, and a dull grey boulder.
@@ -5194,7 +5196,7 @@ command: (setup coyotes offer)
 --------------------------------------------------------------------------------
 > (setup coyotes offer)
 
-Open Desert
+[0m[1mOpen Desert[0m
 Clouds of dust swirl through the air, and god damn it's dark.
 
 You can sort of see a dull grey boulder, a low bluff, and some clumps of
@@ -5397,7 +5399,7 @@ And it seems like he's growing, larger and larger, the red tip of his cigarette
 pulsing and glowing now high up in the sky, and you stumble back, shivering, and
 suddenly remember your flashlight in your hand and switch it on...
 
-Base of the Tower
+[0m[1mBase of the Tower[0m
 Behind the concrete building a steel girder rises from the sand; far above you,
 a red warning light blinks on and off. A tumbleweed drifts lazily against the
 rusted metal among scrawny weeds and bits of trash. Someone left a tin can here
@@ -5476,7 +5478,7 @@ command: (setup coyotes offer)
 --------------------------------------------------------------------------------
 > (setup coyotes offer)
 
-Open Desert
+[0m[1mOpen Desert[0m
 Clouds of dust swirl through the air, and god damn it's dark.
 
 You can sort of see a dull grey boulder, a low bluff, and some clumps of
@@ -5721,7 +5723,7 @@ command: n
 > n
 You walk north.
 
-Crumbling Concrete
+[0m[1mCrumbling Concrete[0m
 This concrete building must've been some sort of utility structure for the huge
 electrical tower to the north, now abandoned: a pane of cracked glass sparkles
 faintly in the beam of your headlights. Tendrils of desert sand drift against a
@@ -5873,7 +5875,7 @@ command: n
 > n
 You walk north.
 
-Crumbling Concrete
+[0m[1mCrumbling Concrete[0m
 This concrete building must've been some sort of utility structure for the huge
 electrical tower to the north, now abandoned: a pane of cracked glass sparkles
 faintly in the beam of your headlights. Tendrils of desert sand drift against a
@@ -6035,7 +6037,7 @@ the pickup truck.
 
 You walk north.
 
-Crumbling Concrete
+[0m[1mCrumbling Concrete[0m
 This concrete building must've been some sort of utility structure for the huge
 electrical tower to the north, now abandoned: a pane of cracked glass sparkles
 faintly in the beam of your headlights. Tendrils of desert sand drift against a
@@ -6069,7 +6071,7 @@ command: n
 > n
 You walk north.
 
-Base of the Tower
+[0m[1mBase of the Tower[0m
 Behind the concrete building a steel girder rises from the sand, one of three
 legs of the huge electrical tower looming like some gargantuan spider into
 blackness above you. A tumbleweed drifts lazily against the rusted metal among
@@ -6195,7 +6197,7 @@ command: s
 > s
 You walk south.
 
-Crumbling Concrete
+[0m[1mCrumbling Concrete[0m
 This concrete building must've been some sort of utility structure for the huge
 electrical tower to the north, now abandoned: a pane of cracked glass sparkles
 faintly in the beam of your headlights. Tendrils of desert sand drift against a
@@ -6274,7 +6276,7 @@ the pickup truck.
 
 You walk north.
 
-Crumbling Concrete
+[0m[1mCrumbling Concrete[0m
 This concrete building must've been some sort of utility structure for the huge
 electrical tower to the north, now abandoned: a pane of cracked glass sparkles
 faintly in the beam of your headlights. Tendrils of desert sand drift against a
@@ -6289,7 +6291,7 @@ command: n
 > n
 You walk north.
 
-Base of the Tower
+[0m[1mBase of the Tower[0m
 Behind the concrete building a steel girder rises from the sand, one of three
 legs of the huge electrical tower looming like some gargantuan spider into
 blackness above you. A tumbleweed drifts lazily against the rusted metal among
@@ -6543,7 +6545,7 @@ parent-id: 1724606254728
 command: l
 --------------------------------------------------------------------------------
 > l
-Base of the Tower
+[0m[1mBase of the Tower[0m
 Behind the concrete building a steel girder rises from the sand, one of three
 legs of the huge electrical tower looming like some gargantuan spider into
 blackness above you. A tumbleweed drifts lazily against the rusted metal among
@@ -6571,7 +6573,7 @@ command: n
 > n
 You walk north.
 
-Middle of Nowhere
+[0m[1mMiddle of Nowhere[0m
 The tire tracks from the south stop abruptly here, but where the hell are you?
 The desert sand and clumps of pale sagebrush are all your dimming headlights
 pick out before barely reaching the concrete building to the north.
@@ -6602,7 +6604,7 @@ command: teleport desert
 --------------------------------------------------------------------------------
 > teleport desert
 
-Open Desert
+[0m[1mOpen Desert[0m
 Clouds of dust swirl through the air, and god damn it's dark.
 
 You can sort of see a dull grey boulder, a low bluff, and some clumps of
@@ -6659,7 +6661,7 @@ command: teleport desert
 --------------------------------------------------------------------------------
 > teleport desert
 
-Open Desert
+[0m[1mOpen Desert[0m
 Clouds of dust swirl through the air, and god damn it's dark.
 
 You can sort of see a dull grey boulder, a low bluff, and some clumps of
@@ -6725,7 +6727,7 @@ command: teleport desert
 --------------------------------------------------------------------------------
 > teleport desert
 
-Open Desert
+[0m[1mOpen Desert[0m
 The dust storm rages around you, and god damn it's dark.
 
 Nearby: a dry stream-bed, a dead cow, and a low bluff. Nothing to write home
@@ -6796,7 +6798,7 @@ command: teleport desert
 --------------------------------------------------------------------------------
 > teleport desert
 
-Open Desert
+[0m[1mOpen Desert[0m
 The dust storm rages around you, and god damn it's dark.
 
 Nearby: a dry stream-bed, a dead cow, and a low bluff. Nothing to write home
@@ -6866,7 +6868,7 @@ command: teleport control
 --------------------------------------------------------------------------------
 > teleport control
 
-Control Center
+[0m[1mControl Center[0m
 Some kind of electrical control stuff must have happened here once, but it's
 totally trashed now. Like, piles of trash, broken equipment, and junk are
 everywhere. But hey, on one pile there's a somewhat serviceable can opener.
@@ -6931,7 +6933,7 @@ parent-id: 1725254972169
 command: l
 --------------------------------------------------------------------------------
 > l
-Control Center
+[0m[1mControl Center[0m
 Some kind of electrical control stuff must have happened here once, but it's
 totally trashed now. Like, piles of trash, broken equipment, and junk are
 everywhere. But hey, on one pile there's a somewhat serviceable can opener.
@@ -6979,7 +6981,7 @@ command: teleport control
 --------------------------------------------------------------------------------
 > teleport control
 
-Control Center
+[0m[1mControl Center[0m
 Some kind of electrical control stuff must have happened here once, but it's
 totally trashed now. Like, piles of trash, broken equipment, and junk are
 everywhere. But hey, on one pile there's a somewhat serviceable can opener.
@@ -7039,7 +7041,7 @@ command: (setup sand-dancers offer)
 --------------------------------------------------------------------------------
 > (setup sand-dancers offer)
 
-Storage Room
+[0m[1mStorage Room[0m
 Waves of sand flow like water through the room, filling it higher and higher.
 You glance wildly at the exits south and up.
 
@@ -7055,7 +7057,7 @@ You wade through the sand, which is rising all the time.
 Barely able to reach the ladder through sand up to your waist, you haul yourself
 up the rungs and pull free just in time.
 
-Roof
+[0m[1mRoof[0m
 Except it's more like a foundation now, the building's sunk almost entirely into
 the sand.
 
@@ -7305,7 +7307,7 @@ And then, just as quiet settles, another huge rumble shakes the ground, and,
 almost like an afterthought, the building breaches the sand and rises to the
 surface.
 
-Crumbling Concrete
+[0m[1mCrumbling Concrete[0m
 This concrete building must've been some sort of utility structure for the huge
 electrical tower to the north, now abandoned. Tendrils of desert sand drift
 against a boarded-up door to the northeast leading inside; you could also walk
@@ -7347,7 +7349,7 @@ right this time (or mebbe not at all, it's too hot anyway ya know babe?) and
 this time you'll make everything perfecto.
 
 But you don't turn around. You try, but it's kinda like trying to stop falling,
-and you suddenly get that you are falling, plummeting back faster and faster
+and you suddenly get that you [0m[4mare[0m falling, plummeting back faster and faster
 like you got pushed off the cliff of now. You're unmeeting Ocean and unditching
 school and unsmoking for the first time behind the dumpsters, faster and faster,
 stomach in your throat, memories blowing back your hair as they rocket past.
@@ -7359,7 +7361,7 @@ and uncrying and then some brilliant moment of light and noise and chaos comes
 shrieking towards you hella fast, fast, faster than anything and it's too late,
 you're crashing, you're crashing, you crash...
 
-     *** You have freedom. ***
+     [0m[1m*** You have freedom. ***[0m
 
 Would you like to:
      UNDO the last move,
@@ -7380,7 +7382,7 @@ command: (setup sand-dancers offer)
 --------------------------------------------------------------------------------
 > (setup sand-dancers offer)
 
-Storage Room
+[0m[1mStorage Room[0m
 Waves of sand flow like water through the room, filling it higher and higher.
 You glance wildly at the exits south and up.
 
@@ -7396,7 +7398,7 @@ You wade through the sand, which is rising all the time.
 Barely able to reach the ladder through sand up to your waist, you haul yourself
 up the rungs and pull free just in time.
 
-Roof
+[0m[1mRoof[0m
 Except it's more like a foundation now, the building's sunk almost entirely into
 the sand.
 
@@ -7472,7 +7474,7 @@ parent-id: 1725254972204
 command: l
 --------------------------------------------------------------------------------
 > l
-Roof
+[0m[1mRoof[0m
 Except it's more like a foundation now, the building's sunk almost entirely into
 the sand.
 
@@ -7589,7 +7591,7 @@ And then, just as quiet settles, another huge rumble shakes the ground, and,
 almost like an afterthought, the building breaches the sand and rises to the
 surface.
 
-Crumbling Concrete
+[0m[1mCrumbling Concrete[0m
 This concrete building must've been some sort of utility structure for the huge
 electrical tower to the north, now abandoned. Tendrils of desert sand drift
 against a boarded-up door to the northeast leading inside; you could also walk
@@ -7630,7 +7632,7 @@ blankets but you're so tired all you can do is push your face against her neck
 and slip an arm around her warm skin, and she starts to ask you something but
 it's too late, you're crashing, you're crashing, you crash...
 
-     *** You have honor. ***
+     [0m[1m*** You have honor. ***[0m
 
 Would you like to:
      UNDO the last move,
@@ -7651,7 +7653,7 @@ command: (setup sand-dancers offer)
 --------------------------------------------------------------------------------
 > (setup sand-dancers offer)
 
-Storage Room
+[0m[1mStorage Room[0m
 Waves of sand flow like water through the room, filling it higher and higher.
 You glance wildly at the exits south and up.
 
@@ -7667,7 +7669,7 @@ You wade through the sand, which is rising all the time.
 Barely able to reach the ladder through sand up to your waist, you haul yourself
 up the rungs and pull free just in time.
 
-Roof
+[0m[1mRoof[0m
 Except it's more like a foundation now, the building's sunk almost entirely into
 the sand.
 
@@ -7704,7 +7706,7 @@ parent-id: 1725254972217
 command: l
 --------------------------------------------------------------------------------
 > l
-Roof
+[0m[1mRoof[0m
 Except it's more like a foundation now, the building's sunk almost entirely into
 the sand.
 
@@ -7749,7 +7751,7 @@ parent-id: 1725254972220
 command: l
 --------------------------------------------------------------------------------
 > l
-Roof
+[0m[1mRoof[0m
 Except it's more like a foundation now, the building's sunk almost entirely into
 the sand.
 
@@ -7795,7 +7797,7 @@ parent-id: 1725254972223
 command: l
 --------------------------------------------------------------------------------
 > l
-Roof
+[0m[1mRoof[0m
 Except it's more like a foundation now, the building's sunk almost entirely into
 the sand.
 
@@ -7919,7 +7921,7 @@ And then, just as quiet settles, another huge rumble shakes the ground, and,
 almost like an afterthought, the building breaches the sand and rises to the
 surface.
 
-Crumbling Concrete
+[0m[1mCrumbling Concrete[0m
 This concrete building must've been some sort of utility structure for the huge
 electrical tower to the north, now abandoned. Tendrils of desert sand drift
 against a boarded-up door to the northeast leading inside; you could also walk
@@ -7965,7 +7967,7 @@ feel strong, strong as it crests and smashes into you with the force of all the
 water in the world, and you laugh and try to stay on your feet but it's too
 late, you're crashing, you're crashing, you crash...
 
-     *** You have spirit. ***
+     [0m[1m*** You have spirit. ***[0m
 
 Would you like to:
      UNDO the last move,
@@ -7984,7 +7986,7 @@ the pickup truck.
 
 You walk south.
 
-Backtracking
+[0m[1mBacktracking[0m
 It's quieter and darker over here, the black desert night bleeding in. Your tire
 tracks are hardly visible in the desert sand, and you can barely make out the
 way north back to your truck.
