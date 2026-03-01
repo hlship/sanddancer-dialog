@@ -1162,9 +1162,6 @@ space to grab the bottom rung. A huge metal barrel stands upright and intact
 nearby, large enough that you could climb up on it. At your feet is the way back
 down.
 
-Something about the sage makes you want to brood about watching Family Guy with
-Karl.
-
 --------------------------------------------------------------------------------
 id: 1723218892873
 parent-id: 1723218892872
@@ -1181,42 +1178,14 @@ break room lies back to the south and a utility ladder climbs through a broken
 skylight to the roof.
 
 --------------------------------------------------------------------------------
-id: 1723218892874
-parent-id: 1723218892873
-command: brood karl
---------------------------------------------------------------------------------
-> brood karl
-Whatcha watchin, Knock? he asked, lurching out of mom's room smelling of sage
-incense and holding a beer and crashing into the lazyboy, and you said Nothing
-Mr Morales (and god damn it kid, can't you at least call me Karl if you won't
-call me dad? but that conversation's been buried a year now at least out loud)
-and he squinted and said is this that Family Guy crap? I thought your mother
-said she didn't want you watching this crap (because it's always mother who
-wants you to do things or be things or say things, never Mr Morales) I thought
-your mother said you ought to start learning about your culture.
-
-So while Peter is trying to start a rock band or something Karl starts spouting
-some story about Mexican myths with eagles and feathered serpent gods, and he
-must be so into the stepdad thing he's forgotten that's his culture, not yours
-(well, sort of). Not that your real dad or Peter Griffin ever helped you figure
-out what your culture's supposed to be either. It hits you that your culture
-must be somewhere in the middle, between Family Guy and Quetzalcoatl, and you
-start laughing and get grounded because you can't even imagine what the middle
-between those two could possibly look like.
-
-You unfold the photo revealing the ultrasound of Ocean's baby. Your baby.
-
-Something about the ultrasound makes you want to brood about when you heard the
-news.
-
---------------------------------------------------------------------------------
 id: 1723218892875
-parent-id: 1723218892874
+parent-id: 1723218892873
 command: open can
 --------------------------------------------------------------------------------
 > open can
 You pull down a can from the shelf, grip it with the rusty can opener, and peel
-open the lid. Yuck: rotten condensed milk. Just your luck.
+open the lid. Yuck: something nasty-smelling and green. Some of these should
+still be good, right?
 
 --------------------------------------------------------------------------------
 id: 1723218892876
@@ -1245,8 +1214,6 @@ The voice sounds different than before. I mean it still kind of sounds like the
 first guy you talked to but it sounds like someone else now too, someone you
 know, you've known for a long time. Someone you're afraid of.
 
-You shiver in the cold.
-
 --------------------------------------------------------------------------------
 id: 1723218892877
 parent-id: 1723218892876
@@ -1254,6 +1221,8 @@ command: turn off radio
 --------------------------------------------------------------------------------
 > turn off radio
 You switch the emergency radio off.
+
+You shiver in the cold.
 
 --------------------------------------------------------------------------------
 id: 1723218892878
@@ -1321,6 +1290,8 @@ guidebook.
 
 Desert stretches in all directions; back west is the front of the building.
 
+The distant figure waves again, out in the deep desert to the south-east.
+
 --------------------------------------------------------------------------------
 id: 1723218892882
 parent-id: 1723218892881
@@ -1330,10 +1301,11 @@ command: e
 You walk east.
 
 [0m[1mOpen Desert[0m
-The dust storm rages around you, and you shiver in the chill night air.
+Your tracks are swallowed up in moments by the billowing sand, and you wish you
+could see more than twenty feet in front of you.
 
-Half-lost in the shadows, you see a dead cow, a looming cactus, and a stand of
-cactus and that's about it.
+Half-lost in the shadows, you see a dull grey boulder, some dry bones, and a
+looming cactus and that's about it.
 
 Something snarls off in the distance, a warning growl.
 
@@ -1346,10 +1318,11 @@ command: e
 You move nervously forward.
 
 [0m[1mOpen Desert[0m
-Your tracks are swallowed up in moments by the billowing sand, and you wish you
-could see more than twenty feet in front of you.
+The desert stretches around you in all directions, and every inch of sand looks
+just like every other.
 
-You can sort of see a dry stream-bed, a looming cactus, and a dead cow.
+Nearby: some clumps of sagebrush, a dry stream-bed, and a stand of cactus.
+Nothing to write home about.
 
 A howl from behind you, and an answer from somewhere ahead. Coyotes. Hungry,
 sounds like.
@@ -1363,10 +1336,10 @@ command: e
 You jog forward, eyes snapping left and right at the moving shadows around you.
 
 [0m[1mOpen Desert[0m
-Clouds of dust swirl through the air, and god damn it's dark.
+The dust storm rages around you, and god damn it's dark.
 
-All you can make out in the darkness are some dry bones, a dry stream-bed, and a
-stand of cactus.
+You can sort of see a looming cactus, a dry stream-bed, and some clumps of
+sagebrush.
 
 Coyotes call all around you now, circling in the dark, unseen, but coming
 closer, closer.
@@ -1381,11 +1354,11 @@ You're running now, jumping over sagebrush and stumbling on rocks, as snarling
 animal forms close in around you.
 
 [0m[1mOpen Desert[0m
-Your tracks are swallowed up in moments by the billowing sand, and you wish you
-could see more than twenty feet in front of you.
+Clouds of dust swirl through the air, and you wish you could see more than
+twenty feet in front of you.
 
-Half-lost in the shadows, you see some clumps of sagebrush, a stand of cactus,
-and a dead cow and that's about it.
+Nearby: a dead cow, some dry bones, and a stand of cactus. Nothing to write home
+about.
 
 You can smell them now, wild, feral. Shifting shadows whirl around you, panting,
 whining with the thrill of the chase.
@@ -1399,10 +1372,11 @@ command: e
 You run.
 
 [0m[1mOpen Desert[0m
-Clouds of dust swirl through the air, and you plod wearily through the sand.
+Your tracks are swallowed up in moments by the billowing sand, and every inch of
+sand looks just like every other.
 
-Nearby: a looming cactus, a dead cow, and some dry bones. Nothing to write home
-about.
+Half-lost in the shadows, you see a dead cow, a stand of cactus, and a dry
+stream-bed and that's about it.
 
 The pack's at your heels, snapping, growling, and you scan the terrain looking
 for some advantage in making your stand.
@@ -1416,9 +1390,11 @@ command: e
 You run.
 
 [0m[1mOpen Desert[0m
-The dust storm rages around you, and you shiver in the chill night air.
+The desert stretches around you in all directions, and you shiver in the chill
+night air.
 
-You can sort of see a looming cactus, a low bluff, and a dull grey boulder.
+Nearby: a low bluff, a dull grey boulder, and a dead cow. Nothing to write home
+about.
 
 Snarls and teeth and mangy fur on every side.
 
@@ -1431,10 +1407,10 @@ command: e
 You run.
 
 [0m[1mOpen Desert[0m
-Clouds of dust swirl through the air, and you plod wearily through the sand.
+The dust storm rages around you, and every inch of sand looks just like every
+other.
 
-All you can make out in the darkness are a stand of cactus, some clumps of
-sagebrush, and some dry bones.
+You can sort of see a dry stream-bed, a dead cow, and a dull grey boulder.
 
 It's over. They've caught you. They surround you, circling, growling, looking
 for weakness, moving in for the kill.
@@ -1532,21 +1508,20 @@ a flashlight, a pack of cigarettes, your lighter, your wallet, and your
 emotional baggage. You're wearing your denim jacket. You've gained the talent of
 courage.
 
-In your emotional baggage are the memories of when you heard the news, watching
-Family Guy with Karl, her graduation night, meeting Ocean, your shit job, and
-your grandma's stories.
+In your emotional baggage are the memories of her graduation night, meeting
+Ocean, your shit job, and your grandma's stories.
 
 You could ask about luck or ask about scent.
 
 --------------------------------------------------------------------------------
 id: 1723218892893
 parent-id: 1723218892892
-command: trade karl for scent
+command: trade graduation for scent
 --------------------------------------------------------------------------------
-> trade karl for scent
-The Coyote touches your fingertips and pulls the memory of watching Family Guy
-with Karl through your nerve endings. "Good," he says, "I'll take that, although
-it's not enough to complete the trade."
+> trade graduation for scent
+The Coyote touches your fingertips and pulls the memory of her graduation night
+through your nerve endings. "Good," he says, "I'll take that, although it's not
+enough to complete the trade."
 
 Somewhere inside you, things are shifting, moving, growing.
 
@@ -1555,15 +1530,15 @@ You could ask about luck or ask about scent.
 --------------------------------------------------------------------------------
 id: 1723218892894
 parent-id: 1723218892893
-command: trade night for scent
+command: trade ocean for scent
 --------------------------------------------------------------------------------
-> trade night for scent
+> trade ocean for scent
 The Coyote nods. "Yes," he says, "a fair trade." And something happens inside
-you as he says it. The memory of her graduation night shifts and wriggles and
-fades away and it's still there, but now it's shifted, become something else.
-And, yeah, it kinda does feel like you could call it scent. Cool. He tucks the
-other talent back in his jacket, and without its faint glow, it seems darker
-than ever, the pulsing red tip of his cigarette all you can see.
+you as he says it. The memory of meeting Ocean shifts and wriggles and fades
+away and it's still there, but now it's shifted, become something else. And,
+yeah, it kinda does feel like you could call it scent. Cool. He tucks the other
+talent back in his jacket, and without its faint glow, it seems darker than
+ever, the pulsing red tip of his cigarette all you can see.
 
 "The last of us is coming," Coyote's voice says out of the black, "last and most
 powerful, and most dangerous, and most afraid. Sand-dancer. Be careful of him,
@@ -1678,7 +1653,7 @@ command: open can
 --------------------------------------------------------------------------------
 > open can
 You pull down a can from the shelf, grip it with the rusty can opener, and peel
-open the lid. Yuck: moldy peas. Some of these should still be good, right?
+open the lid. Yuck: rotten condensed milk. Just your luck.
 
 --------------------------------------------------------------------------------
 id: 1723218892901
@@ -1691,8 +1666,8 @@ a flashlight, a pack of cigarettes, your lighter, your wallet, and your
 emotional baggage. You're wearing your denim jacket. You've gained the talents
 courage and scent.
 
-In your emotional baggage are the memories of when you heard the news, meeting
-Ocean, your shit job, and your grandma's stories.
+In your emotional baggage are the memories of your shit job and your grandma's
+stories.
 
 --------------------------------------------------------------------------------
 id: 1723218892902
@@ -1785,6 +1760,11 @@ spark, that's Ocean. That's your girl. And maybe you should have done it because
 now maybe your days of crazy gambling road trips are over, and maybe you'll
 never find out what's in Nakaibito or anywhere else.
 
+You unfold the photo revealing the ultrasound of Ocean's baby. Your baby.
+
+Something about the ultrasound makes you want to brood about when you heard the
+news.
+
 --------------------------------------------------------------------------------
 id: 1723218892908
 parent-id: 1723218892907
@@ -1834,8 +1814,8 @@ radio hums and crackles on a table.
 Open doorways lead west and north.
 
 The static on the radio resolves into overlapping whispers. "It makes for a nice
-story," the whispers say, "but you're remembering your shit job all wrong.
-That's not really how it happened, was it?"
+story," the whispers say, "but you're remembering your grandma's stories all
+wrong. That's not really how it happened, was it?"
 
 --------------------------------------------------------------------------------
 id: 1723218892911
@@ -2027,9 +2007,8 @@ piece of jade, a flashlight, a pack of cigarettes, your lighter, your wallet,
 and your emotional baggage. You're wearing your denim jacket. You've gained the
 talents courage and scent.
 
-In your emotional baggage are the memories of road trips through the desert,
-when you heard the news, meeting Ocean, your shit job, and your grandma's
-stories.
+In your emotional baggage are the memories of when you heard the news, road
+trips through the desert, your shit job, and your grandma's stories.
 
 You could ask about honor or ask about freedom.
 
@@ -2040,7 +2019,7 @@ command: trade trips for honor
 --------------------------------------------------------------------------------
 > trade trips for honor
 He flicks out his tongue and pulls the memory of road trips through the desert
-from your heart, swallowing it whole. "A good start," he says, "but you must
+from your head, swallowing it whole. "A good start," he says, "but you must
 trade more."
 
 You could ask about honor or ask about freedom.
@@ -2051,7 +2030,7 @@ parent-id: 1723218892920
 command: trade shit job for honor
 --------------------------------------------------------------------------------
 > trade shit job for honor
-He flicks out his tongue and pulls the memory of your shit job from your gut,
+He flicks out his tongue and pulls the memory of your shit job from your core,
 swallowing it whole. "Yes," he says, "but more."
 
 You could ask about honor or ask about freedom.
@@ -2518,9 +2497,6 @@ command: e
 (first attempting to get out of the pickup truck)
 The door creaks open with difficulty, rusted joints straining. You get out of
 the pickup truck.
-
-Something about the sage makes you want to brood about watching Family Guy with
-Karl.
 
 You stop in mid-stride as your eyes flick to the horizon. South-east of you, out
 in the desert, silhouetted on a rise, a distant figure stands. As you watch he
@@ -5150,6 +5126,7 @@ The circle of snarling coyotes tightens.
 --------------------------------------------------------------------------------
 id: 1724606254636
 label: Coyote Chase
+locked: true
 parent-id: 1724606254635
 command: s
 --------------------------------------------------------------------------------
@@ -5430,12 +5407,6 @@ parent-id: 1724606254649
 command: n
 --------------------------------------------------------------------------------
 > n
-(first attempting to switch the flashlight on)
-Your surroundings spring into brightness around you.
-
-Something about the sage makes you want to brood about watching Family Guy with
-Karl.
-
 You have a feeling that when the last spirit animal decides to make an
 appearance, it will find you.
 
@@ -6156,11 +6127,12 @@ command: (now) (#sage is #in #base-of-tower)
 --------------------------------------------------------------------------------
 id: 1724606254704
 parent-id: 1724606254703
-command: z
+command: smell
 --------------------------------------------------------------------------------
-> z
-Nah, man, better keep busy or else it's back to brooding about your last day of
-high school.
+> smell
+The soaking rain has brought out the smell of sage throughout the desert. When
+you were a kid, it smelt like camping and adventure. Now it just smells like
+desert and confusion.
 
 Something about the sage makes you want to brood about watching Family Guy with
 Karl.
@@ -6389,12 +6361,9 @@ command: z
 > z
 Nah, man, better keep busy or else it's back to brooding about your shit job.
 
-Something about the sage makes you want to brood about watching Family Guy with
-Karl.
-
 --------------------------------------------------------------------------------
 id: 1724606254720
-parent-id: 1724606254719
+parent-id: 1772405859629
 command: brood karl
 --------------------------------------------------------------------------------
 > brood karl
@@ -6487,11 +6456,12 @@ command: (now) (#sage is #in #base-of-tower)
 --------------------------------------------------------------------------------
 id: 1724606254726
 parent-id: 1724606254725
-command: z
+command: smell
 --------------------------------------------------------------------------------
-> z
-Nah, man, better keep busy or else it's back to brooding about your last day of
-high school.
+> smell
+The soaking rain has brought out the smell of sage throughout the desert. When
+you were a kid, it smelt like camping and adventure. Now it just smells like
+desert and confusion.
 
 Something about the sage makes you want to brood about watching Family Guy with
 Karl.
@@ -8013,4 +7983,30 @@ command: s
 > s
 You're way off the road, and there's no chance at all of finding it again in
 this demon dark.
+
+--------------------------------------------------------------------------------
+id: 1772405859628
+parent-id: 1724606254650
+command: smell
+--------------------------------------------------------------------------------
+> smell
+The soaking rain has brought out the smell of sage throughout the desert. When
+you were a kid, it smelt like camping and adventure. Now it just smells like
+desert and confusion.
+
+Something about the sage makes you want to brood about watching Family Guy with
+Karl.
+
+--------------------------------------------------------------------------------
+id: 1772405859629
+parent-id: 1724606254719
+command: smell
+--------------------------------------------------------------------------------
+> smell
+The soaking rain has brought out the smell of sage throughout the desert. When
+you were a kid, it smelt like camping and adventure. Now it just smells like
+desert and confusion.
+
+Something about the sage makes you want to brood about watching Family Guy with
+Karl.
 

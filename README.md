@@ -24,6 +24,8 @@ Currently tested against Dialog `1a/01`.
 - Add the Dialog 1a/01 versions of stdlib.dg and stddebug.dg.
 - Fix not getting correct responses when going south from Backtracking
 - Fix a broken rule that affects some of Coyote's speech
+- Fix broken logic concerning the flashlight during Coyote's meeting
+- Must smell after rainstorm before the sage prompts you to brood about karl
 
 ### v7 - 4 Oct 2020
 

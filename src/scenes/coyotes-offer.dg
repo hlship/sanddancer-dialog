@@ -36,7 +36,7 @@
     And it seems like he's growing, larger and larger, the red tip of his cigarette pulsing and glowing now high up in
     the sky, and you stumble back, shivering, and suddenly remember your flashlight in your hand and switch it on...
     (reset conversation partner)
-    (now) (#flashlight is #on)
+    (now) (#flashlight is on)
     (enter #base-of-tower)
 (prevent [switch on #flashlight])
     (* in progress)

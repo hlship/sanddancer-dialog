@@ -60,6 +60,7 @@
     The soaking rain has brought out the smell of sage throughout the desert.
     When you were a kid, it smelt like camping and adventure.
     Now it just smells like desert and confusion.
+    (now) (sage has been smelled)
 (instead of [smell])
     (player can see *)
     (try [smell *])
