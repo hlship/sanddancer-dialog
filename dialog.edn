@@ -1,5 +1,5 @@
 {:name "sanddancer"
- :format :zblorb
+ :format [:zblorb :z8 :aa]
  :sources 
  {:main   ["src/scenes"
            "src/characters"
@@ -14,6 +14,7 @@
             "lib/dialog"]}
  :build 
  {:zblorb
-  {:options ["--cover-alt" "Sand-dancer Logo"]}
+  {:options ["--cover" "cover.png"
+             "--cover-alt" "Sand-dancer Logo"]}
   :aa
   {:options ["--heap" "2000"]}}}
