@@ -294,7 +294,7 @@
     ~(memory $Obj)
     Eh. You couldn't really get into a good brood about that when it's this damn cold.
 
-(prevent [$Verb | $Nouns])
+(refuse [$Verb | $Nouns])
     ~($Verb is one of [brood trade])
     *($Noun is one of $Nouns)
     (memory $Noun)
