@@ -3,14 +3,12 @@ seed: 7363521
 id: 0
 label: START
 --------------------------------------------------------------------------------
-
-
 but it's too late, you're crashing, you crash...
 
 [0m[1mSand-dancer
 [0mA Desert Fable by Aaron Reed, Alexei Othenin-Girard, and Howard M. Lewis Ship.
 Release 8. Serial number DEBUG.
-Dialog Interactive Debugger (dgdebug) version 1b/02. Library version 0.44. Debugging extension 1.1.
+Dialog Interactive Debugger (dgdebug) version 1c/02. Library version 0.44. Debugging extension 1.1.
 Kinds-of-Value version 0.1 by Daniel Stelzer
 Pattern-Matching version 0.1 by Daniel Stelzer
 Preprocessing version 0.1 by Daniel Stelzer
@@ -6158,26 +6156,6 @@ You have some canned oranges, a flashlight, a gas can, an emergency blanket, you
 In your emotional baggage are the memories of watching Family Guy with Karl, meeting Ocean, and your grandma's stories.
 
 --------------------------------------------------------------------------------
-id: 1725254972233
-label: Sand Dancer - Complete - Strength, Spirit
-parent-id: 1725254972232
-command: s
---------------------------------------------------------------------------------
-> s
-You go, and the night collapses in on you so hard you barely remember curling up in a corner with the blanket, strong enough now to wait out the night.
-
-In the morning some highway patrol dude shakes you awake with a lecture and a ride back to town. Oro Oeste? he asks but you tell him no, take a left instead, and you end up on a street corner in Pobre Vista and keep going. Seven Sticks and then Gallup and then Flagstaff, hitching west. The cash in your wallet runs out but a trucker buys you a value meal and you seem to have a knack for sniffing out enough to stay fed and your blanket keeps you warm and you keep going.
-
-When you hit the Pacific you roll up your jeans and wade into the surf for the first time in your life. And it's warm on the top and cool underneath and this is all you want, this moment, this here and now. You'll find work and you'll find love but you'll never find home and that's okay. It's okay. You wade deeper and the waves lap higher and then a big one rolls in, blue and white, and you feel strong, strong as it crests and smashes into you with the force of all the water in the world, and you laugh and try to stay on your feet but it's too late, you're crashing, you're crashing, you crash...
-
-     [0m[1m*** You have spirit. ***[0m
-
-Would you like to:
-     UNDO the last move,
-     RESTORE a saved position,
-     QUIT the program,
-     or RESTART from the beginning?
---------------------------------------------------------------------------------
 id: 1727738438635
 parent-id: 0
 command: s
@@ -6228,3 +6206,22 @@ The soaking rain has brought out the smell of sage throughout the desert. When y
 
 Something about the sage makes you want to brood about watching Family Guy with Karl.
 
+--------------------------------------------------------------------------------
+id: 1781807508598
+parent-id: 1725254972232
+command: s
+--------------------------------------------------------------------------------
+> s
+You go, and the night collapses in on you so hard you barely remember curling up in a corner with the blanket, strong enough now to wait out the night.
+
+In the morning some highway patrol dude shakes you awake with a lecture and a ride back to town. Oro Oeste? he asks but you tell him no, take a left instead, and you end up on a street corner in Pobre Vista and keep going. Seven Sticks and then Gallup and then Flagstaff, hitching west. The cash in your wallet runs out but a trucker buys you a value meal and you seem to have a knack for sniffing out enough to stay fed and your blanket keeps you warm and you keep going.
+
+When you hit the Pacific you roll up your jeans and wade into the surf for the first time in your life. And it's warm on the top and cool underneath and this is all you want, this moment, this here and now. You'll find work and you'll find love but you'll never find home and that's okay. It's okay. You wade deeper and the waves lap higher and then a big one rolls in, blue and white, and you feel strong, strong as it crests and smashes into you with the force of all the water in the world, and you laugh and try to stay on your feet but it's too late, you're crashing, you're crashing, you crash...
+
+     [0m[1m*** You have spirit. ***[0m
+
+Would you like to:
+     UNDO the last move,
+     RESTORE a saved position,
+     QUIT the program,
+     or RESTART from the beginning?
